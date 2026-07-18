@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC CGL Exam Vocab Platform</title>
+    <!-- FIX: Link tag ko sahi se close kiya -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <!-- 1. QUIZ SCREEN -->
+        <div id="quiz-box">
+            <div class="header">
+                <h2 id="q-type">SSC CGL Vocabulary Practice</h2>
+                <span class="badge" id="q-progress">Question 1/5</span>
+            </div>
+
+            <div class="question-box">
+                <div class="question-text" id="q-text">Loading question...</div>
+                <div class="options-list" id="options-container"></div>
+            </div>
+
+            <div class="explanation-box" id="explanation-container">
+                <strong>Explanation:</strong> <span id="explanation-text"></span>
+            </div>
+
+            <div class="footer">
+                <button id="skip-button" class="quiz-btn" onclick="skipQuestion()">skip Question</button>
+                <button class="next-button" id="next-button" onclick="loadNextQuestion()" style="display: none;">Next Question</button>
+                <button id="prev-button" onclick="prevQuestion()" style="display: none;">Previous</button>
+            </div>
+        </div>
+
+        <!-- 2. RESULT SCREEN -->
+        <div id="result-box" class="result-screen" style="display: none;">
+            <h2>Performance Report Card</h2>
+            <hr>
+            <div class="score-big" id="final-score">0 / 5</div>
+            <p id="accuracy-text">Accuracy: 0%</p>
+            <p id="feedback-text" style="font-weight: 600; color: #555;"></p>
+
+            <!-- Performance Analytics Dashboard -->
+            <div class="analysis-container">
+                <div class="stat-card total">
+                    <span class="stat-label">TOTAL QUESTIONS</span>
+                    <span id="stat-total" class="stat-value">0</span>
+                </div>
+                <div class="stat-card attempted">
+                    <span class="stat-label">ATTEMPTED</span>
+                    <span id="stat-attempted" class="stat-value">0</span>
+                </div>
+                <div class="stat-card correct">
+                    <span class="stat-label">CORRECT</span>
+                    <span id="stat-correct" class="stat-value">0</span>
+                </div>
+                <div class="stat-card wrong">
+                    <span class="stat-label">WRONG</span>
+                    <span id="stat-wrong" class="stat-value">0</span>
+                </div>
+            </div> <!-- FIX: Extra '>' hata diya -->
+
+            <!-- Dynamic Review Section -->
+            <div id="review-section" class="review-container">
+                <!-- JavaScript iske andar color-coded cards load karega -->
+            </div>
+
+            <button class="restart-btn" onclick="restartQuiz()">Attempt Again</button>
+        </div>
+    </div> <!-- FIX: Main quiz-container ka missing div yahan close kiya -->
+
+    <!-- Scripts Loading -->
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
