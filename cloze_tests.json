@@ -1,0 +1,379 @@
+[
+  {
+    "id": "cloze_passage_1",
+    "passage": "The local politician, once widely respected, fell into disgrace after his (1)_____ activities were leaked to the media. The public was shocked by his total lack of ethics, viewing his actions as utterly (2)_____. Instead of apologizing, he tried to (3)_____ the claims made against him. His legal team attempted to (4)_____ his innocent image, but the prosecutor managed to (5)_____ his involvement with clear evidence.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) honorable", "B) louche", "C) commendable", "D) spiritual"],
+        "correct": "B",
+        "explanation": "'Louche' refers to disreputable or questionable activities."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) despicable", "B) admirable", "C) decent", "D) triumphant"],
+        "correct": "A",
+        "explanation": "'Despicable' means deserving hatred or intense dislike."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) espouse", "B) repudiate", "C) avow", "D) adorn"],
+        "correct": "B",
+        "explanation": "'Repudiate' means to reject or deny the truth or validity of something."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) deface", "B) blemish", "C) embellish", "D) belittle"],
+        "correct": "C",
+        "explanation": "'Embellish' means to make something sound or look better than it is."
+      },
+      {
+        "blankNo": 5,
+        "options": ["A) corroborate", "B) recant", "C) disavow", "D) abdicate"],
+        "correct": "A",
+        "explanation": "'Corroborate' means to confirm or support with evidence."
+      }
+    ]
+  },
+  {
+    "id": "cloze_passage_2",
+    "passage": "The former minister attempted to (1)_____ his lavish achievements in public speeches, attempting to portray himself as a savior of the city. However, investigative reporting revealed that he was a (2)_____ leader who squandered public wealth on personal luxuries. When confronted, he tried to (3)_____ all allegations of corruption, calling them baseless. His legal team attempted to (4)_____ his claims with false documents, but the audit reports served to (5)_____ his guilt beyond doubt.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) embellish", "B) deface", "C) belittle", "D) recant"],
+        "correct": "A",
+        "explanation": "'Embellish' fits here as it means to make something seem more exaggerated."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) frugal", "B) profligate", "C) thrifty", "D) parsimonious"],
+        "correct": "B",
+        "explanation": "'Profligate' fits the context of someone who wastefully squanders money."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) espouse", "B) avow", "C) repudiate", "D) caparison"],
+        "correct": "C",
+        "explanation": "'Repudiate' means to deny or reject allegations."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) corroborate", "B) disavow", "C) blemish", "D) abdicate"],
+        "correct": "A",
+        "explanation": "'Corroborate' means to support or confirm a claim with evidence."
+      },
+      {
+        "blankNo": 5,
+        "options": ["A) negate", "B) affirm", "C) recant", "D) disclaim"],
+        "correct": "B",
+        "explanation": "'Affirm' means to establish or prove something as true and valid."
+      }
+    ]
+  },
+  {
+    "id": "cloze_passage_3",
+    "passage": "Instead of focusing on the critical project deadline, the team members began to (1)_____ around, wasting precious work hours. Their manager had to strictly (2)_____ them for their lack of discipline. She warned that such careless behavior would (3)_____ serious doubts regarding their commitment. To meet the target, everyone was required to (4)_____ maximum effort, rather than behaving in an (5)_____ manner.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) dawdle", "B) hasten", "C) barrel", "D) rush"],
+        "correct": "A",
+        "explanation": "'Dawdle' means to waste time or delay moving."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) extol", "B) reprove", "C) laud", "D) revere"],
+        "correct": "B",
+        "explanation": "'Reprove' means to reprimand or express disapproval."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) engender", "B) quell", "C) stifle", "D) repress"],
+        "correct": "A",
+        "explanation": "'Engender' means to cause or give rise to a feeling or situation."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) exert", "B) trifle", "C) amble", "D) stagger"],
+        "correct": "A",
+        "explanation": "'Exert' means to apply or put in effort."
+      },
+      {
+        "blankNo": 5,
+        "options": ["A) aloof", "B) gregarious", "C) companionable", "D) cordial"],
+        "correct": "A",
+        "explanation": "'Aloof' refers to being cool, distant, or unconcerned."
+      }
+    ]
+  },
+  {
+    "id": "cloze_passage_4",
+    "passage": "The community leader was widely known for his (1)_____ nature, making everyone feel welcome at social gatherings. People across generations continue to (2)_____ his lifelong dedication to public service. Local newspapers frequently (3)_____ his noble actions in their front-page stories. However, a few critics attempted to (4)_____ sacred traditions in order to undermine his work, but the public managed to (5)_____ all efforts to disrupt the peace.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) gregarious", "B) taciturn", "C) reclusive", "D) reticent"],
+        "correct": "A",
+        "explanation": "'Gregarious' means fond of company and sociable."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) venerate", "B) desecrate", "C) defame", "D) scorn"],
+        "correct": "A",
+        "explanation": "'Venerate' means to regard with great respect or revere."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) extol", "B) castigate", "C) reproach", "D) chide"],
+        "correct": "A",
+        "explanation": "'Extol' means to praise enthusiastically and publicly."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) desecrate", "B) deify", "C) exalt", "D) glorify"],
+        "correct": "A",
+        "explanation": "'Desecrate' means to treat something sacred with disrespect."
+      },
+      {
+        "blankNo": 5,
+        "options": ["A) quell", "B) induce", "C) invoke", "D) generate"],
+        "correct": "A",
+        "explanation": "'Quell' means to put an end to or suppress something."
+      }
+    ]
+  },
+  {
+    "id": "cloze_passage_5",
+    "passage": "The young monarch was known for his (1)_____ lifestyle, spending vast fortunes on extravagant feasts and lavish decorations to (2)_____ his palace. While his advisers would (3)_____ his wasteful spending, the king continued to (4)_____ time in idle pursuits rather than addressing governance. His tendency to (5)_____ critical advice from wise elders eventually led to widespread discontent.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) prodigal", "B) reticent", "C) frugality", "D) taciturn"],
+        "correct": "A",
+        "explanation": "'Prodigal' describes a wasteful and spending-heavy lifestyle."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) deface", "B) embellish", "C) belittle", "D) blemish"],
+        "correct": "B",
+        "explanation": "'Embellish' means to decorate or beautify the palace."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) reprove", "B) extol", "C) deify", "D) sanction"],
+        "correct": "A",
+        "explanation": "'Reprove' means to reprimand or express disapproval."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) hasten", "B) dawdle", "C) exert", "D) barrel"],
+        "correct": "B",
+        "explanation": "'Dawdle' means to waste time aimlessly."
+      },
+      {
+        "blankNo": 5,
+        "options": ["A) repudiate", "B) corroborate", "C) avow", "D) espouse"],
+        "correct": "A",
+        "explanation": "'Repudiate' means to reject or refuse to acknowledge advice."
+      }
+    ]
+  },
+  {
+    "id": "cloze_passage_6",
+    "passage": "Unlike his brother who was naturally (1)_____ and enjoyed large social gatherings, Rohit was an introvert who preferred solitary hobbies. His soft-spoken nature was often mistaken for being aloof, but he was actually quite (2)_____ once you got to know him. When a rumor threatened to ruin his project, his team members stepped forward to (3)_____ his claims with solid evidence, which served to (4)_____ deep trust and respect among his colleagues.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) gregarious", "B) reclusive", "C) taciturn", "D) reticent"],
+        "correct": "A",
+        "explanation": "'Gregarious' describes someone fond of company and social gatherings."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) affable", "B) sinister", "C) baleful", "D) ominous"],
+        "correct": "A",
+        "explanation": "'Affable' means friendly and easy to talk to."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) refute", "B) corroborate", "C) disown", "D) disclaim"],
+        "correct": "B",
+        "explanation": "'Corroborate' means to support or confirm claims with evidence."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) engender", "B) quell", "C) crush", "D) impede"],
+        "correct": "A",
+        "explanation": "'Engender' means to produce, cause, or give rise to trust."
+      }
+    ]
+  },
+  {
+    "id": "cloze_passage_7",
+    "passage": "The ancient philosopher was deeply (1)_____ by scholars across the continent for his profound wisdom. However, orthodox critics attempted to (2)_____ his teachings, claiming they were sacrilegious. Despite their attempts to (3)_____ his reputation with false accusations, his followers continued to (4)_____ his core ideas of virtue and justice.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["A) venerated", "B) castigated", "C) defaced", "D) reproached"],
+        "correct": "A",
+        "explanation": "'Venerated' means held in deep respect or revered."
+      },
+      {
+        "blankNo": 2,
+        "options": ["A) blaspheme", "B) revere", "C) laud", "D) exalt"],
+        "correct": "A",
+        "explanation": "'Blaspheme' fits the context of critics attacking sacred/philosophical work."
+      },
+      {
+        "blankNo": 3,
+        "options": ["A) defame", "B) embellish", "C) amplify", "D) caparison"],
+        "correct": "A",
+        "explanation": "'Defame' means to damage someone's good reputation."
+      },
+      {
+        "blankNo": 4,
+        "options": ["A) espouse", "B) repudiate", "C) disavow", "D) recant"],
+        "correct": "A",
+        "explanation": "'Espouse' means to support or adopt a belief/idea."
+      }
+    ]
+  },
+  {
+    "id": "cloze_8",
+    "title": "SSC CGL Practice Passage 8 (Environmental Conservation)",
+    "passage": "The ongoing degradation of natural ecosystems poses a serious threat to global biodiversity. Human activities, such as deforestation and industrial expansion, have ____(1)____ natural habitats, forcing many species to the brink of extinction. Environmentalists argue that urgent measures must be taken to ____(2)____ the damage before it becomes irreversible. Governments across the world need to implement stricter regulations to ____(3)____ industrial pollution and promote sustainable practices. Without a ____(4)____ effort from both policymakers and citizens, the delicate balance of our planet's ecosystem will be permanently ____(5)____.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["A) depleted", "B) augmented", "C) fostered", "D) cherished"],
+        "correct": "A",
+        "explanation": "'Depleted' means reduced in quantity or damaged, which fits the destruction of natural habitats."
+      },
+      {
+        "number": 2,
+        "options": ["A) mitigate", "B) aggravate", "C) intensify", "D) escalate"],
+        "correct": "A",
+        "explanation": "'Mitigate' means to make less severe or serious, appropriate for controlling environmental damage."
+      },
+      {
+        "number": 3,
+        "options": ["A) curb", "B) foster", "C) promote", "D) incite"],
+        "correct": "A",
+        "explanation": "'Curb' means to restrain or keep in check, which fits restricting industrial pollution."
+      },
+      {
+        "number": 4,
+        "options": ["A) concerted", "B) sporadic", "C) half-hearted", "D) passive"],
+        "correct": "A",
+        "explanation": "'Concerted' means jointly arranged or carried out with determination."
+      },
+      {
+        "number": 5,
+        "options": ["A) disrupted", "B) restored", "C) preserved", "D) stabilized"],
+        "correct": "A",
+        "explanation": "'Disrupted' means interrupted or thrown into disorder, matching the impact on ecosystems."
+      }
+    ]
+  },
+  {
+    "id": "cloze_9",
+    "title": "SSC CGL Practice Passage 9 (Economic Resilience)",
+    "passage": "In the face of global economic uncertainty, developing nations must focus on building internal economic resilience. A stable financial system requires policies that ____(1)____ innovation while maintaining fiscal discipline. High inflation rates can ____(2)____ the purchasing power of the average citizen, leading to widespread dissatisfaction. Therefore, central banks must act ____(3)____ to regulate interest rates and control currency valuation. Furthermore, investing in infrastructure and education can ____(4)____ long-term economic growth, ensuring that the nation remains ____(5)____ against external market shocks.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["A) foster", "B) hinder", "C) impede", "D) suppress"],
+        "correct": "A",
+        "explanation": "'Foster' means to encourage or promote the development of something positive like innovation."
+      },
+      {
+        "number": 2,
+        "options": ["A) erode", "B) elevate", "C) enhance", "D) bolster"],
+        "correct": "A",
+        "explanation": "'Erode' means to gradually wear away or destroy purchasing power."
+      },
+      {
+        "number": 3,
+        "options": ["A) prudently", "B) recklessly", "C) hastily", "D) carelessly"],
+        "correct": "A",
+        "explanation": "'Prudently' means acting with or showing care and thought for the future."
+      },
+      {
+        "number": 4,
+        "options": ["A) stimulate", "B) stymie", "C) obstruct", "D) curtail"],
+        "correct": "A",
+        "explanation": "'Stimulate' means to raise levels of physiological or nervous activity in the economy / encourage growth."
+      },
+      {
+        "number": 5,
+        "options": ["A) resilient", "B) vulnerable", "C) fragile", "D) susceptible"],
+        "correct": "A",
+        "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions."
+      }
+    ]
+  },
+  {
+  "id": "cloze_10",
+  "title": "SSC CGL Practice Passage 10 (Vocabulary & Persuasion)",
+  "passage": "To (1)__________ someone into accepting a proposal often requires subtle persuasion rather than force. However, when individuals resort to (2)__________ actions or public character assassination, it damages trust severely. Maintaining (3)__________ during difficult times shows true strength of character. While some topics may seem too (4)__________ for a general audience to grasp, presenting them in a clear and structured manner helps bridge the gap.",
+  "questions": [
+    {
+      "number": 1,
+      "options": ["A) cajole", "B) coerce", "C) compel", "D) intimidate"],
+      "correct": "A",
+      "explanation": "'Cajole' means to persuade someone gently using flattery or sweet talk."
+    },
+    {
+      "number": 2,
+      "options": ["A) laudable", "B) defamatory", "C) decisive", "D) empathetic"],
+      "correct": "B",
+      "explanation": "'Defamatory' refers to actions or statements that harm someone's reputation."
+    },
+    {
+      "number": 3,
+      "options": ["A) impatience", "B) hostility", "C) forbearance", "D) arrogance"],
+      "correct": "C",
+      "explanation": "'Forbearance' means showing patience, self-control, and restraint."
+    },
+    {
+      "number": 4,
+      "options": ["A) abstruse", "B) lucid", "C) apparent", "D) evident"],
+      "correct": "A",
+      "explanation": "'Abstruse' means obscure or difficult to understand."
+    }
+  ]
+},
+{
+  "id": "cloze_11",
+  "title": "SSC CGL Practice Passage 11 (Nature & Reputation)",
+  "passage": "The artist captured the (1)__________ beauty of the morning mist in his painting, making it look almost heavenly. However, his personal life was marred by controversies, rendering his reputation quite (2)__________. Despite the harsh criticism, his artwork retained its (3)__________ detail, leaving viewers mesmerized. Over the years, constant stress threatened to (4)__________ his creative energy, but he continued to paint until his final days.",
+  "questions": [
+    {
+      "number": 1,
+      "options": ["A) ethereal", "B) corporeal", "C) ponderous", "D) substantial"],
+      "correct": "A",
+      "explanation": "'Ethereal' means extremely delicate, light, and airy in a way that seems heavenly."
+    },
+    {
+      "number": 2,
+      "options": ["A) reputable", "B) infamous", "C) honorable", "D) commendable"],
+      "correct": "B",
+      "explanation": "'Infamous' refers to being well known for something bad or negative."
+    },
+    {
+      "number": 3,
+      "options": ["A) vague", "B) obscure", "C) vivid", "D) hazy"],
+      "correct": "C",
+      "explanation": "'Vivid' means producing clear, detailed, and intense images."
+    },
+    {
+      "number": 4,
+      "options": ["A) augment", "B) renew", "C) strengthen", "D) deplete"],
+      "correct": "D",
+      "explanation": "'Deplete' means to reduce or exhaust resources to a low level."
+    }
+  ]
+}
+  
+]

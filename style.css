@@ -12,7 +12,7 @@ body {
 .quiz-container {
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 700px;
     padding: 30px;
@@ -41,6 +41,25 @@ body {
     border-radius: 20px;
     font-size: 14px;
     font-weight: bold;
+}
+
+/* Dynamic Cloze Passage Card Styling */
+.cloze-passage-container {
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #2d3748;
+    border: 1px solid #e9ecef;
+    border-left-width: 5px;
+}
+
+.cloze-passage-container p {
+    margin: 8px 0 0 0;
+    color: #4a5568;
 }
 
 .question-box {
@@ -82,29 +101,21 @@ body {
     color: #007bff;
 }
 
-/* FIX: Footer ko flex kiya taaki buttons ek line mein space ke sath dikhein */
+/* Footer Layout & Control Buttons */
 .footer {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     gap: 12px;
 }
 
-/* Navigation aur Action Buttons ka premium style */
-#skip-button, #prev-button, #next-button, .restart-btn {
-    padding: 12px 24px;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    outline: none;
-    font-family: inherit;
+.footer button {
+    display: inline-block;
 }
 
-/* Previous Button style */
 #prev-button {
+    margin-right: auto;
     background-color: #f1f3f5;
     border: 1px solid #ced4da;
     color: #495057;
@@ -115,7 +126,20 @@ body {
     color: #212529;
 }
 
-/* Skip Button style */
+#skip-button,
+#prev-button,
+#next-button,
+.restart-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    font-family: inherit;
+}
+
 #skip-button {
     background-color: transparent;
     border: 1px solid #6c757d;
@@ -127,7 +151,6 @@ body {
     color: #212529;
 }
 
-/* Next Button style */
 #next-button {
     background-color: #28a745;
     border: 1px solid #28a745;
@@ -139,7 +162,10 @@ body {
     border-color: #1e7e34;
 }
 
-#skip-button:active, #prev-button:active, #next-button:active, .restart-btn:active {
+#skip-button:active,
+#prev-button:active,
+#next-button:active,
+.restart-btn:active {
     transform: scale(0.98);
 }
 
@@ -148,7 +174,6 @@ body {
     padding: 15px;
     border-left: 5px solid #ffc107;
     border-radius: 4px;
-    display: none;
     background-color: #fff9db;
     color: #664d03;
     font-size: 15px;
@@ -179,7 +204,7 @@ body {
     background-color: #0069d9;
 }
 
-/* Performance Analytics Dashboard Grid */
+/* Dashboard Analytics Grid */
 .analysis-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -213,15 +238,31 @@ body {
     color: #212529;
 }
 
-.stat-card.total { border-left: 4px solid #6c757d; }
-.stat-card.attempted { border-left: 4px solid #007bff; }
-.stat-card.correct { border-left: 4px solid #28a745; }
-.stat-card.wrong { border-left: 4px solid #dc3545; }
+.stat-card.total {
+    border-left: 4px solid #6c757d;
+}
 
-#stat-correct { color: #28a745; }
-#stat-wrong { color: #dc3545; }
+.stat-card.attempted {
+    border-left: 4px solid #007bff;
+}
 
-/* Review Section Container with Scrollbar Styling */
+.stat-card.correct {
+    border-left: 4px solid #28a745;
+}
+
+.stat-card.wrong {
+    border-left: 4px solid #dc3545;
+}
+
+#stat-correct {
+    color: #28a745;
+}
+
+#stat-wrong {
+    color: #dc3545;
+}
+
+/* Review Section */
 .review-container {
     max-height: 380px;
     overflow-y: auto;
@@ -231,34 +272,76 @@ body {
     text-align: left;
 }
 
-/* Custom Scrollbar */
 .review-container::-webkit-scrollbar {
     width: 6px;
 }
+
 .review-container::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 4px;
 }
+
 .review-container::-webkit-scrollbar-thumb {
     background: #ccc;
     border-radius: 4px;
 }
+
 .review-container::-webkit-scrollbar-thumb:hover {
     background: #aaa;
 }
 
-/* FIX: Review Cards ke backgrounds ko sahi color tint diya */
 .review-card.review-correct {
-    border-left-color: #28a745 !important;
-    background-color: #d4edda !important; /* Light Green */
+    border-left: 6px solid #28a745 !important;
+    background-color: #edf7ed !important;
+    color: #1e4620 !important;
 }
 
 .review-card.review-wrong {
-    border-left-color: #dc3545 !important;
-    background-color: #f8d7da !important; /* Light Red */
+    border-left: 6px solid #dc3545 !important;
+    background-color: #fdeaea !important;
+    color: #611a15 !important;
 }
 
 .review-card.review-skipped {
-    border-left-color: #6c757d !important;
-    background-color: #e2e3e5 !important; /* Light Gray */
+    border-left: 6px solid #6c757d !important;
+    background-color: #f4f5f7 !important;
+    color: #3f444e !important;
+}
+
+/* Mobile Responsiveness & Touch Optimization */
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    .quiz-container {
+        padding: 15px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    .cloze-passage-container {
+        font-size: 0.95rem;
+        padding: 12px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    #prev-button,
+    #skip-button,
+    #next-button {
+        margin-right: 0;
+        width: 100%;
+        padding: 14px 0;
+        text-align: center;
+    }
+
+    .analysis-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
