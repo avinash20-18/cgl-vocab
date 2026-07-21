@@ -374,6 +374,154 @@
       "explanation": "'Deplete' means to reduce or exhaust resources to a low level."
     }
   ]
-}
+},
+{
+    "id": "cloze_12",
+    "title": "SSC CGL Practice Passage 12 (Levity & Gravity)",
+    "passage": "During the formal meeting, introducing any (1)______ was considered completely inappropriate. However, the manager tried to ease the tension with a bit of (2)______, though it was met with cold silence. Everyone expected complete (3)______ given the critical nature of the discussion. Instead, his constant (4)______ annoyed the senior board members, who emphasized the true (5)______ of the matter.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) flippancy", "(B) gravity", "(C) solemnity", "(D) seriousness"],
+        "correct": "A",
+        "explanation": "'Flippancy' means lack of seriousness or respect, which fits the context of inappropriate behavior in a formal setup."
+      },
+      {
+        "number": 2,
+        "options": ["(A) gravity", "(B) levity", "(C) soberness", "(D) solemnness"],
+        "correct": "B",
+        "explanation": "'Levity' means light-heartedness or humor, used here to attempt easing tension."
+      },
+      {
+        "number": 3,
+        "options": ["(A) silliness", "(B) flightiness", "(C) frivolity", "(D) solemnity"],
+        "correct": "D",
+        "explanation": "'Solemnity' means being formal, serious, or dignified, which was expected in a critical discussion."
+      },
+      {
+        "number": 4,
+        "options": ["(A) frivolity", "(B) soberness", "(C) earnestness", "(D) dignity"],
+        "correct": "A",
+        "explanation": "'Frivolity' means behavior lacking seriousness (तुच्छता), which annoyed the members."
+      },
+      {
+        "number": 5,
+        "options": ["(A) gravity", "(B) frothiness", "(C) gaiety", "(D) festivity"],
+        "correct": "A",
+        "explanation": "'Gravity' refers to the seriousness or immense importance of the situation."
+      }
+    ]
+  },
+  {
+    "id": "cloze_13",
+    "title": "SSC CGL Practice Passage 13 (Amiable & Duplicity)",
+    "passage": "The new manager had an extremely (1)______ personality, making everyone feel comfortable and welcome. However, behind his (2)______ demeanor lay a hidden motive of (3)______. While he appeared to be honest, his constant (4)______ was eventually exposed by senior partners who demanded complete (5)______ in all business dealings.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) amiable", "(B) hostile", "(C) disagreeable", "(D) ungenial"],
+        "correct": "A",
+        "explanation": "'Amiable' means friendly and pleasant, fitting the context of making people feel comfortable."
+      },
+      {
+        "number": 2,
+        "options": ["(A) genial", "(B) harsh", "(C) ill-tempered", "(D) severe"],
+        "correct": "A",
+        "explanation": "'Genial' means cheerful, warm, and friendly in manner."
+      },
+      {
+        "number": 3,
+        "options": ["(A) duplicity", "(B) good faith", "(C) sincerity", "(D) reliability"],
+        "correct": "A",
+        "explanation": "'Duplicity' refers to deceitfulness or double-dealing."
+      },
+      {
+        "number": 4,
+        "options": ["(A) deceitfulness", "(B) virtuousness", "(C) guilelessness", "(D) openness"],
+        "correct": "A",
+        "explanation": "'Deceitfulness' means intentionally misleading others."
+      },
+      {
+        "number": 5,
+        "options": ["(A) sincerity", "(B) cozenage", "(C) craftiness", "(D) guile"],
+        "correct": "A",
+        "explanation": "'Sincerity' means being genuine, truthful, and honest."
+      }
+    ]
+  },
+  {
+    "id": "cloze_14",
+    "title": "SSC CGL Practice Passage 14 (Discursive & Oblivion)",
+    "passage": "The professor's lecture was so (1)______ that students struggled to follow his main point as he kept moving between topics. His (2)______ style of speaking distracted the audience, causing many to fall into a state of total (3)______. Despite his complete (4)______ of the time limit, the supervisor stepped in to demand a more (5)______ and focused presentation.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) discursive", "(B) logical", "(C) coherent", "(D) concise"],
+        "correct": "A",
+        "explanation": "'Discursive' means moving from subject to subject without clear focus."
+      },
+      {
+        "number": 2,
+        "options": ["(A) rambling", "(B) straightforward", "(C) focused", "(D) consistent"],
+        "correct": "A",
+        "explanation": "'Rambling' means lengthily wandering in speech or writing."
+      },
+      {
+        "number": 3,
+        "options": ["(A) oblivion", "(B) alertness", "(C) cognizance", "(D) remembrance"],
+        "correct": "A",
+        "explanation": "'Oblivion' refers to the state of being unaware or forgotten."
+      },
+      {
+        "number": 4,
+        "options": ["(A) ignorance", "(B) consciousness", "(C) recall", "(D) alertness"],
+        "correct": "A",
+        "explanation": "'Ignorance' means lack of knowledge or awareness."
+      },
+      {
+        "number": 5,
+        "options": ["(A) coherent", "(B) desultory", "(C) excursive", "(D) maundering"],
+        "correct": "A",
+        "explanation": "'Coherent' means logical, well-organized, and easy to understand."
+      }
+    ]
+  },
+  {
+    "id": "cloze_15",
+    "title": "SSC CGL Practice Passage 15 (Homogeneous & Disparate)",
+    "passage": "The population of the isolated island remained remarkably (1)______ for centuries, as all residents shared identical customs. However, modern trade brought (2)______ cultural groups with completely distinct traditions. Although their backgrounds were originally (3)______, the community maintained a (4)______ environment through mutual trust and (5)______ agreements.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) homogeneous", "(B) disparate", "(C) diverse", "(D) distinct"],
+        "correct": "A",
+        "explanation": "'Homogeneous' means composed of parts or elements of the same kind."
+      },
+      {
+        "number": 2,
+        "options": ["(A) diverse", "(B) unchanging", "(C) resemblant", "(D) connate"],
+        "correct": "A",
+        "explanation": "'Diverse' means showing a great deal of variety or difference."
+      },
+      {
+        "number": 3,
+        "options": ["(A) disparate", "(B) cognate", "(C) congeneric", "(D) uniform"],
+        "correct": "A",
+        "explanation": "'Disparate' means essentially different or dissimilar."
+      },
+      {
+        "number": 4,
+        "options": ["(A) cordial", "(B) unamiable", "(C) ill-tempered", "(D) unpleasant"],
+        "correct": "A",
+        "explanation": "'Cordial' means warm, friendly, and polite."
+      },
+      {
+        "number": 5,
+        "options": ["(A) amicable", "(B) hostile", "(C) contentious", "(D) bitter"],
+        "correct": "A",
+        "explanation": "'Amicable' means characterized by friendliness and absence of discord."
+      }
+    ]
+  }
   
 ]

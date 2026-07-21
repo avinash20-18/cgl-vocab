@@ -1513,5 +1513,646 @@ const questions = [
         options: ["A) Drain", "B) Debilitate", "C) Augment", "D) Consume"],
         correct: "C",
         explanation: "'Deplete' means to reduce or use up resources, whereas 'Augment' means to increase, enlarge, or make something greater."
-    }
+    },
+   {
+        id: "vocab_levity_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nLEVITY",
+        options: ["(A) Light-heartedness", "(B) Gravity", "(C) Soberness", "(D) Solemnity"],
+        correct: "A",
+        explanation: "'Levity' means treatment of a serious matter with humor; light-heartedness."
+    },
+    {
+        id: "vocab_silliness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nSILLINESS",
+        options: ["(A) Playful behavior", "(B) Gravity", "(C) Seriousness", "(D) Wisdom"],
+        correct: "A",
+        explanation: "'Silliness' means lacking in seriousness or engaging in playful behavior."
+    },
+    {
+        id: "vocab_flightiness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nFLIGHTINESS",
+        options: ["(A) Stability", "(B) Fickleness", "(C) Seriousness", "(D) Focus"],
+        correct: "B",
+        explanation: "'Flightiness' refers to the quality of being easily distracted or excited (चंचलता)."
+    },
+    {
+        id: "vocab_flippancy_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nFLIPPANCY",
+        options: ["(A) Levity", "(B) Respect", "(C) Solemnity", "(D) Earnestness"],
+        correct: "A",
+        explanation: "'Flippancy' refers to a lack of seriousness or respect (हलकापन)."
+    },
+    {
+        id: "vocab_frivolity_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nFRIVOLITY",
+        options: ["(A) Triviality", "(B) Gravity", "(C) Soberness", "(D) Importance"],
+        correct: "A",
+        explanation: "'Frivolity' means behavior or speech that lacks seriousness or depth (तुच्छता)."
+    },
+    {
+        id: "vocab_frothiness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nFROTHINESS",
+        options: ["(A) Depth", "(B) Lack of depth", "(C) Seriousness", "(D) Wisdom"],
+        correct: "B",
+        explanation: "'Frothiness' implies a lack of depth, substance, or seriousness."
+    },
+    {
+        id: "vocab_festivity_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nFESTIVITY",
+        options: ["(A) Celebration", "(B) Mourning", "(C) Sadness", "(D) Gravity"],
+        correct: "A",
+        explanation: "'Festivity' refers to being cheerful, celebratory, or associated with a holiday."
+    },
+    {
+        id: "vocab_gaiety_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nGAIETY",
+        options: ["(A) Cheerfulness", "(B) Gloom", "(C) Soberness", "(D) Sorrow"],
+        correct: "A",
+        explanation: "'Gaiety' means the state of being cheerful and full of happiness (हर्षोल्लास)."
+    },
+    {
+        id: "vocab_seriousness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nSERIOUSNESS",
+        options: ["(A) Levity", "(B) Gravity", "(C) Solemnity", "(D) Soberness"],
+        correct: "A",
+        explanation: "'Seriousness' means being thoughtful/serious. Antonym is 'Levity'."
+    },
+    {
+        id: "vocab_gravity_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nGRAVITY",
+        options: ["(A) Frivolity", "(B) Importance", "(C) Seriousness", "(D) Solemnity"],
+        correct: "A",
+        explanation: "'Gravity' refers to seriousness or importance. Antonym is 'Frivolity'."
+    },
+    {
+        id: "vocab_solemnness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nSOLEMNITY",
+        options: ["(A) Silliness", "(B) Dignity", "(C) Seriousness", "(D) Gravity"],
+        correct: "A",
+        explanation: "'Solemnity' means being formal and serious. Antonym is 'Silliness'."
+    },
+    {
+        id: "vocab_soberness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nSOBERNESS",
+        options: ["(A) Flippancy", "(B) Restraint", "(C) Earnestness", "(D) Gravity"],
+        correct: "A",
+        explanation: "'Soberness' means being serious or restrained. Antonym is 'Flippancy'."
+    },
+    // --- 1. AMIABLE & ITS SYNONYMS/ANTONYMS ---
+    {
+        id: "vocab_amiable_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nAMIABLE",
+        options: ["(A) Unfriendly", "(B) Friendly", "(C) Hostile", "(D) Rude"],
+        correct: "B",
+        explanation: "'Amiable' means friendly and pleasant."
+    },
+    {
+        id: "vocab_affable_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nAFFABLE",
+        options: ["(A) Approachable", "(B) Reserved", "(C) Strict", "(D) Proud"],
+        correct: "A",
+        explanation: "'Affable' means friendly and easy to talk to."
+    },
+    {
+        id: "vocab_agreeable_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nAGREEABLE",
+        options: ["(A) Unpleasant", "(B) Pleasant", "(C) Stubborn", "(D) Harsh"],
+        correct: "B",
+        explanation: "'Agreeable' means pleasant and easy to get along with."
+    },
+    {
+        id: "vocab_genial_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nGENIAL",
+        options: ["(A) Cheerful", "(B) Gloomy", "(C) Cold", "(D) Distant"],
+        correct: "A",
+        explanation: "'Genial' means cheerful, friendly, and warm."
+    },
+    {
+        id: "vocab_gracious_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nGRACIOUS",
+        options: ["(A) Courteous", "(B) Impolite", "(C) Arrogant", "(D) Cruel"],
+        correct: "A",
+        explanation: "'Gracious' means kind, courteous, and pleasant."
+    },
+    {
+        id: "vocab_mellow_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nMELLOW",
+        options: ["(A) Harsh", "(B) Relaxed", "(C) Aggressive", "(D) Loud"],
+        correct: "B",
+        explanation: "'Mellow' means calm, soft, and relaxed."
+    },
+    {
+        id: "vocab_amicable_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nAMICABLE",
+        options: ["(A) Contentious", "(B) Peaceful", "(C) Hostile", "(D) Bitter"],
+        correct: "B",
+        explanation: "'Amicable' means friendly and peaceful."
+    },
+    {
+        id: "vocab_cordial_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCORDIAL",
+        options: ["(A) Warm", "(B) Cold", "(C) Distant", "(D) Rude"],
+        correct: "A",
+        explanation: "'Cordial' means warm, friendly, and polite."
+    },
+    {
+        id: "vocab_benign_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nBENIGN",
+        options: ["(A) Harmful", "(B) Gentle", "(C) Severe", "(D) Malicious"],
+        correct: "B",
+        explanation: "'Benign' means gentle, kind, and not harmful."
+    },
+    {
+        id: "vocab_sociable_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nSOCIABLE",
+        options: ["(A) Outgoing", "(B) Reclusive", "(C) Shy", "(D) Unfriendly"],
+        correct: "A",
+        explanation: "'Sociable' means friendly and enjoying company."
+    },
+    {
+        id: "vocab_amenable_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nAMENABLE",
+        options: ["(A) Cooperative", "(B) Defiant", "(C) Unwilling", "(D) Rigid"],
+        correct: "A",
+        explanation: "'Amenable' means willing to agree or cooperate."
+    },
+    {
+        id: "vocab_disagreeable_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nDISAGREEABLE",
+        options: ["(A) Pleasant", "(B) Unpleasant", "(C) Rude", "(D) Harsh"],
+        correct: "A",
+        explanation: "'Disagreeable' means unpleasant; its antonym is Pleasant."
+    },
+    {
+        id: "vocab_unamiable_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nUNAMIABLE",
+        options: ["(A) Unfriendly", "(B) Amiable", "(C) Hostile", "(D) Cold"],
+        correct: "B",
+        explanation: "'Unamiable' means unfriendly; its antonym is Amiable."
+    },
+    {
+        id: "vocab_ungenial_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nUNGENIAL",
+        options: ["(A) Harsh", "(B) Genial", "(C) Cold", "(D) Severe"],
+        correct: "B",
+        explanation: "'Ungenial' means unwelcoming or harsh; its antonym is Genial."
+    },
+    {
+        id: "vocab_unpleasant_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nUNPLEASANT",
+        options: ["(A) Agreeable", "(B) Disgusting", "(C) Bitter", "(D) Harsh"],
+        correct: "A",
+        explanation: "'Unpleasant' means causing discomfort; its antonym is Agreeable."
+    },
+    {
+        id: "vocab_illtempered_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nILL-TEMPERED",
+        options: ["(A) Irritable", "(B) Good-natured", "(C) Angry", "(D) Sullen"],
+        correct: "B",
+        explanation: "'Ill-tempered' means easily angered; its antonym is Good-natured."
+    },
+
+    // --- 2. HOMOGENEOUS & ITS SYNONYMS/ANTONYMS ---
+    {
+        id: "vocab_homogeneous_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nHOMOGENEOUS",
+        options: ["(A) Uniform", "(B) Diverse", "(C) Varied", "(D) Mixed"],
+        correct: "A",
+        explanation: "'Homogeneous' means composed of parts of the same kind."
+    },
+    {
+        id: "vocab_unchanging_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nUNCHANGING",
+        options: ["(A) Constant", "(B) Variable", "(C) Fickle", "(D) Unstable"],
+        correct: "A",
+        explanation: "'Unchanging' means remaining the same."
+    },
+    {
+        id: "vocab_cognate_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCOGNATE",
+        options: ["(A) Related", "(B) Unrelated", "(C) Foreign", "(D) Opposite"],
+        correct: "A",
+        explanation: "'Cognate' means having a common origin or similar nature."
+    },
+    {
+        id: "vocab_connate_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCONNATE",
+        options: ["(A) Innate", "(B) Acquired", "(C) External", "(D) Foreign"],
+        correct: "A",
+        explanation: "'Connate' means existing from birth or inborn."
+    },
+    {
+        id: "vocab_resemblant_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nRESEMBLANT",
+        options: ["(A) Similar", "(B) Different", "(C) Opposite", "(D) Distinct"],
+        correct: "A",
+        explanation: "'Resemblant' means similar in appearance or nature."
+    },
+    {
+        id: "vocab_commensurate_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCOMMENSURATE",
+        options: ["(A) Proportionate", "(B) Inadequate", "(C) Unequal", "(D) Irrelevant"],
+        correct: "A",
+        explanation: "'Commensurate' means corresponding in size or degree."
+    },
+    {
+        id: "vocab_congenial_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCONGENIAL",
+        options: ["(A) Compatible", "(B) Unfavorable", "(C) Hostile", "(D) Mismatched"],
+        correct: "A",
+        explanation: "'Congenial' means pleasant and suitable."
+    },
+    {
+        id: "vocab_congeneric_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCONGENERIC",
+        options: ["(A) Similar", "(B) Diverse", "(C) Separate", "(D) Alien"],
+        correct: "A",
+        explanation: "'Congeneric' means belonging to the same genus or kind."
+    },
+    {
+        id: "vocab_disparate_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nDISPARATE",
+        options: ["(A) Similar", "(B) Different", "(C) Dissimilar", "(D) Varied"],
+        correct: "A",
+        explanation: "'Disparate' means essentially different; its antonym is Similar."
+    },
+    {
+        id: "vocab_distinct_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nDISTINCT",
+        options: ["(A) Indistinct", "(B) Clear", "(C) Separate", "(D) Obvious"],
+        correct: "A",
+        explanation: "'Distinct' means clearly different; its antonym is Indistinct."
+    },
+    {
+        id: "vocab_imprecise_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nIMPRECISE",
+        options: ["(A) Exact", "(B) Vague", "(C) Rough", "(D) Careless"],
+        correct: "A",
+        explanation: "'Imprecise' means lacking exactness; its antonym is Exact."
+    },
+    {
+        id: "vocab_diverse_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nDIVERSE",
+        options: ["(A) Identical", "(B) Varied", "(C) Mixed", "(D) Broad"],
+        correct: "A",
+        explanation: "'Diverse' means showing variety; its antonym is Identical."
+    },
+    {
+        id: "vocab_unlike_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nUNLIKE",
+        options: ["(A) Similar", "(B) Different", "(C) Distant", "(D) Separate"],
+        correct: "A",
+        explanation: "'Unlike' means different from; its antonym is Similar."
+    },
+
+    // --- 3. OBLIVION & ITS SYNONYMS/ANTONYMS ---
+    {
+        id: "vocab_oblivion_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nOBLIVION",
+        options: ["(A) Forgetfulness", "(B) Memory", "(C) Awareness", "(D) Fame"],
+        correct: "A",
+        explanation: "'Oblivion' means the state of being forgotten or unaware."
+    },
+    {
+        id: "vocab_forgetfulness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nFORGETFULNESS",
+        options: ["(A) Inattention", "(B) Recollection", "(C) Remembrance", "(D) Retention"],
+        correct: "A",
+        explanation: "'Forgetfulness' refers to the state of forgetting things."
+    },
+    {
+        id: "vocab_innocence_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nINNOCENCE",
+        options: ["(A) Guiltlessness", "(B) Guilt", "(C) Sin", "(D) Blame"],
+        correct: "A",
+        explanation: "'Innocence' means freedom from guilt or unawareness of evil."
+    },
+    {
+        id: "vocab_ignorance_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nIGNORANCE",
+        options: ["(A) Unawareness", "(B) Knowledge", "(C) Wisdom", "(D) Insight"],
+        correct: "A",
+        explanation: "'Ignorance' means lack of knowledge or awareness."
+    },
+    {
+        id: "vocab_insensibility_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nINSENSIBILITY",
+        options: ["(A) Unconsciousness", "(B) Alertness", "(C) Sensitivity", "(D) Feeling"],
+        correct: "A",
+        explanation: "'Insensibility' means being unaware or unconscious."
+    },
+    {
+        id: "vocab_unfamiliarity_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nUNFAMILIARITY",
+        options: ["(A) Novelty", "(B) Acquaintance", "(C) Knowledge", "(D) Expertise"],
+        correct: "A",
+        explanation: "'Unfamiliarity' means the state of being unknown or unusual."
+    },
+    {
+        id: "vocab_preoccupation_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nPREOCCUPATION",
+        options: ["(A) Absorption", "(B) Indifference", "(C) Neglect", "(D) Apathy"],
+        correct: "A",
+        explanation: "'Preoccupation' means being engrossed or distracted by something."
+    },
+    {
+        id: "vocab_recall_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nRECALL",
+        options: ["(A) Forget", "(B) Remember", "(C) Retain", "(D) Mind"],
+        correct: "A",
+        explanation: "'Recall' means to remember; its antonym is Forget."
+    },
+    {
+        id: "vocab_remembrance_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nREMEMBRANCE",
+        options: ["(A) Oblivion", "(B) Memory", "(C) Tribute", "(D) Respect"],
+        correct: "A",
+        explanation: "'Remembrance' means memory or honoring; its antonym is Oblivion."
+    },
+    {
+        id: "vocab_alertness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nALERTNESS",
+        options: ["(A) Inattention", "(B) Readiness", "(C) Vigilance", "(D) Quickness"],
+        correct: "A",
+        explanation: "'Alertness' means being attentive; its antonym is Inattention."
+    },
+    {
+        id: "vocab_cognizance_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nCOGNIZANCE",
+        options: ["(A) Ignorance", "(B) Awareness", "(C) Notice", "(D) Understanding"],
+        correct: "A",
+        explanation: "'Cognizance' means knowledge or awareness; its antonym is Ignorance."
+    },
+    {
+        id: "vocab_consciousness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nCONSCIOUSNESS",
+        options: ["(A) Unconsciousness", "(B) Awareness", "(C) Mind", "(D) Perception"],
+        correct: "A",
+        explanation: "'Consciousness' means state of being aware; its antonym is Unconsciousness."
+    },
+
+    // --- 4. DISCURSIVE & ITS SYNONYMS/ANTONYMS ---
+    {
+        id: "vocab_discursive_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDISCURSIVE",
+        options: ["(A) Wandering", "(B) Direct", "(C) Concise", "(D) Focused"],
+        correct: "A",
+        explanation: "'Discursive' means rambling or moving from topic to topic."
+    },
+    {
+        id: "vocab_desultory_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDESULTORY",
+        options: ["(A) Aimless", "(B) Systematic", "(C) Methodical", "(D) Planned"],
+        correct: "A",
+        explanation: "'Desultory' means lacking a clear plan or purpose."
+    },
+    {
+        id: "vocab_rambling_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nRAMBLING",
+        options: ["(A) Digressive", "(B) Short", "(C) Coherent", "(D) Compact"],
+        correct: "A",
+        explanation: "'Rambling' means lengthy and wandering in discourse."
+    },
+    {
+        id: "vocab_excursive_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nEXCURSIVE",
+        options: ["(A) Off-topic", "(B) Direct", "(C) Brief", "(D) Precise"],
+        correct: "A",
+        explanation: "'Excursive' means straying from the main subject."
+    },
+    {
+        id: "vocab_digressional_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDIGRESSIONAL",
+        options: ["(A) Wandering", "(B) Direct", "(C) Relevant", "(D) Focused"],
+        correct: "A",
+        explanation: "'Digressional' means straying from the main point."
+    },
+    {
+        id: "vocab_leaping_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nLEAPING",
+        options: ["(A) Jumping", "(B) Steady", "(C) Fixed", "(D) Constant"],
+        correct: "A",
+        explanation: "'Leaping' means jumping rapidly from topic to topic."
+    },
+    {
+        id: "vocab_maundering_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nMAUNDERING",
+        options: ["(A) Babbling", "(B) Clear", "(C) Purposeful", "(D) Precise"],
+        correct: "A",
+        explanation: "'Maundering' means talking in a rambling or aimless way."
+    },
+    {
+        id: "vocab_deviating_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDEVIATING",
+        options: ["(A) Straying", "(B) Conforming", "(C) Direct", "(D) Continuing"],
+        correct: "A",
+        explanation: "'Deviating' means departing from an intended course."
+    },
+    {
+        id: "vocab_logical_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nLOGICAL",
+        options: ["(A) Irrational", "(B) Rational", "(C) Sound", "(D) Valid"],
+        correct: "A",
+        explanation: "'Logical' means clear and reasoned; its antonym is Irrational."
+    },
+    {
+        id: "vocab_coherent_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nCOHERENT",
+        options: ["(A) Incoherent", "(B) Clear", "(C) Logical", "(D) Organized"],
+        correct: "A",
+        explanation: "'Coherent' means logical and consistent; its antonym is Incoherent."
+    },
+    {
+        id: "vocab_consistent_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nCONSISTENT",
+        options: ["(A) Inconsistent", "(B) Steady", "(C) Constant", "(D) Uniform"],
+        correct: "A",
+        explanation: "'Consistent' means remaining unchanged; its antonym is Inconsistent."
+    },
+    {
+        id: "vocab_focused_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nFOCUSED",
+        options: ["(A) Distracted", "(B) Attentive", "(C) Sharp", "(D) Direct"],
+        correct: "A",
+        explanation: "'Focused' means concentrated; its antonym is Distracted."
+    },
+    {
+        id: "vocab_straightforward_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nSTRAIGHTFORWARD",
+        options: ["(A) Complicated", "(B) Simple", "(C) Direct", "(D) Clear"],
+        correct: "A",
+        explanation: "'Straightforward' means direct and simple; its antonym is Complicated."
+    },
+
+    // --- 5. DUPLICITY & ITS SYNONYMS/ANTONYMS ---
+    {
+        id: "vocab_duplicity_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDUPLICITY",
+        options: ["(A) Deceit", "(B) Honesty", "(C) Sincerity", "(D) Truth"],
+        correct: "A",
+        explanation: "'Duplicity' means deceitfulness or double-dealing."
+    },
+    {
+        id: "vocab_deceitfulness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDECEITFULNESS",
+        options: ["(A) Dishonesty", "(B) Truthfulness", "(C) Candor", "(D) Trust"],
+        correct: "A",
+        explanation: "'Deceitfulness' refers to misleading someone intentionally."
+    },
+    {
+        id: "vocab_cunning_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCUNNING",
+        options: ["(A) Craftiness", "(B) Naivety", "(C) Innocence", "(D) Honesty"],
+        correct: "A",
+        explanation: "'Cunning' means skill in achieving one's ends by deceit."
+    },
+    {
+        id: "vocab_deceptiveness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDECEPTIVENESS",
+        options: ["(A) Trickery", "(B) Openness", "(C) Frankness", "(D) Sincerity"],
+        correct: "A",
+        explanation: "'Deceptiveness' means quality of being misleading or dishonest."
+    },
+    {
+        id: "vocab_dissembling_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nDISSEMBLING",
+        options: ["(A) Feigning", "(B) Revealing", "(C) Exposing", "(D) Unmasking"],
+        correct: "A",
+        explanation: "'Dissembling' means concealing one's true motives or feelings."
+    },
+    {
+        id: "vocab_guile_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nGUILE",
+        options: ["(A) Slyness", "(B) Guilelessness", "(C) Honesty", "(D) Frankness"],
+        correct: "A",
+        explanation: "'Guile' means sly or cunning intelligence."
+    },
+    {
+        id: "vocab_craftiness_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCRAFTINESS",
+        options: ["(A) Trickery", "(B) Simplicity", "(C) Honesty", "(D) Candor"],
+        correct: "A",
+        explanation: "'Craftiness' means cleverness used in a deceptive way."
+    },
+    {
+        id: "vocab_cozenage_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCOZENAGE",
+        options: ["(A) Deception", "(B) Fairness", "(C) Truth", "(D) Sincerity"],
+        correct: "A",
+        explanation: "'Cozenage' means trickery or deception intended to cheat."
+    },
+    {
+        id: "vocab_goodfaith_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nGOOD FAITH",
+        options: ["(A) Fraud", "(B) Sincerity", "(C) Honesty", "(D) Trust"],
+        correct: "A",
+        explanation: "'Good faith' means honesty of intention; its antonym is Fraud."
+    },
+    {
+        id: "vocab_guilelessness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nGUILELESSNESS",
+        options: ["(A) Deceit", "(B) Innocence", "(C) Sincerity", "(D) Honesty"],
+        correct: "A",
+        explanation: "'Guilelessness' means innocence; its antonym is Deceit."
+    },
+    {
+        id: "vocab_sincerity_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nSINCERITY",
+        options: ["(A) Hypocrisy", "(B) Honesty", "(C) Candor", "(D) Truthfulness"],
+        correct: "A",
+        explanation: "'Sincerity' means being genuine; its antonym is Hypocrisy."
+    },
+    {
+        id: "vocab_reliability_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nRELIABILITY",
+        options: ["(A) Unreliability", "(B) Trustworthiness", "(C) Dependability", "(D) Loyalty"],
+        correct: "A",
+        explanation: "'Reliability' means dependability; its antonym is Unreliability."
+    },
+    {
+        id: "vocab_virtuousness_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nVIRTUOUSNESS",
+        options: ["(A) Wickedness", "(B) Morality", "(C) Goodness", "(D) Integrity"],
+        correct: "A",
+        explanation: "'Virtuousness' means high moral standards; its antonym is Wickedness."
+    },
 ];
