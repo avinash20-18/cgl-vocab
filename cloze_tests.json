@@ -11,26 +11,26 @@
       },
       {
         "blankNo": 2,
-        "options": ["A) despicable", "B) admirable", "C) decent", "D) triumphant"],
-        "correct": "A",
+        "options": ["A) admirable", "B) decent", "C) despicable", "D) triumphant"],
+        "correct": "C",
         "explanation": "'Despicable' means deserving hatred or intense dislike."
       },
       {
         "blankNo": 3,
-        "options": ["A) espouse", "B) repudiate", "C) avow", "D) adorn"],
-        "correct": "B",
+        "options": ["A) espouse", "B) avow", "C) adorn", "D) repudiate"],
+        "correct": "D",
         "explanation": "'Repudiate' means to reject or deny the truth or validity of something."
       },
       {
         "blankNo": 4,
-        "options": ["A) deface", "B) blemish", "C) embellish", "D) belittle"],
-        "correct": "C",
+        "options": ["A) embellish", "B) deface", "C) blemish", "D) belittle"],
+        "correct": "A",
         "explanation": "'Embellish' means to make something sound or look better than it is."
       },
       {
         "blankNo": 5,
-        "options": ["A) corroborate", "B) recant", "C) disavow", "D) abdicate"],
-        "correct": "A",
+        "options": ["A) recant", "B) corroborate", "C) disavow", "D) abdicate"],
+        "correct": "B",
         "explanation": "'Corroborate' means to confirm or support with evidence."
       }
     ]
@@ -41,32 +41,32 @@
     "questions": [
       {
         "blankNo": 1,
-        "options": ["A) embellish", "B) deface", "C) belittle", "D) recant"],
-        "correct": "A",
+        "options": ["A) deface", "B) belittle", "C) embellish", "D) recant"],
+        "correct": "C",
         "explanation": "'Embellish' fits here as it means to make something seem more exaggerated."
       },
       {
         "blankNo": 2,
-        "options": ["A) frugal", "B) profligate", "C) thrifty", "D) parsimonious"],
-        "correct": "B",
+        "options": ["A) frugal", "B) thrifty", "C) parsimonious", "D) profligate"],
+        "correct": "D",
         "explanation": "'Profligate' fits the context of someone who wastefully squanders money."
       },
       {
         "blankNo": 3,
-        "options": ["A) espouse", "B) avow", "C) repudiate", "D) caparison"],
-        "correct": "C",
+        "options": ["A) repudiate", "B) espouse", "C) avow", "D) caparison"],
+        "correct": "A",
         "explanation": "'Repudiate' means to deny or reject allegations."
       },
       {
         "blankNo": 4,
-        "options": ["A) corroborate", "B) disavow", "C) blemish", "D) abdicate"],
-        "correct": "A",
+        "options": ["A) disavow", "B) corroborate", "C) blemish", "D) abdicate"],
+        "correct": "B",
         "explanation": "'Corroborate' means to support or confirm a claim with evidence."
       },
       {
         "blankNo": 5,
-        "options": ["A) negate", "B) affirm", "C) recant", "D) disclaim"],
-        "correct": "B",
+        "options": ["A) negate", "B) recant", "C) affirm", "D) disclaim"],
+        "correct": "C",
         "explanation": "'Affirm' means to establish or prove something as true and valid."
       }
     ]
@@ -77,32 +77,32 @@
     "questions": [
       {
         "blankNo": 1,
-        "options": ["A) dawdle", "B) hasten", "C) barrel", "D) rush"],
-        "correct": "A",
+        "options": ["A) hasten", "B) barrel", "C) rush", "D) dawdle"],
+        "correct": "D",
         "explanation": "'Dawdle' means to waste time or delay moving."
       },
       {
         "blankNo": 2,
-        "options": ["A) extol", "B) reprove", "C) laud", "D) revere"],
-        "correct": "B",
+        "options": ["A) reprove", "B) extol", "C) laud", "D) revere"],
+        "correct": "A",
         "explanation": "'Reprove' means to reprimand or express disapproval."
       },
       {
         "blankNo": 3,
-        "options": ["A) engender", "B) quell", "C) stifle", "D) repress"],
-        "correct": "A",
+        "options": ["A) quell", "B) engender", "C) stifle", "D) repress"],
+        "correct": "B",
         "explanation": "'Engender' means to cause or give rise to a feeling or situation."
       },
       {
         "blankNo": 4,
-        "options": ["A) exert", "B) trifle", "C) amble", "D) stagger"],
-        "correct": "A",
+        "options": ["A) trifle", "B) amble", "C) exert", "D) stagger"],
+        "correct": "C",
         "explanation": "'Exert' means to apply or put in effort."
       },
       {
         "blankNo": 5,
-        "options": ["A) aloof", "B) gregarious", "C) companionable", "D) cordial"],
-        "correct": "A",
+        "options": ["A) gregarious", "B) companionable", "C) cordial", "D) aloof"],
+        "correct": "D",
         "explanation": "'Aloof' refers to being cool, distant, or unconcerned."
       }
     ]
@@ -119,20 +119,20 @@
       },
       {
         "blankNo": 2,
-        "options": ["A) venerate", "B) desecrate", "C) defame", "D) scorn"],
-        "correct": "A",
+        "options": ["A) desecrate", "B) venerate", "C) defame", "D) scorn"],
+        "correct": "B",
         "explanation": "'Venerate' means to regard with great respect or revere."
       },
       {
         "blankNo": 3,
-        "options": ["A) extol", "B) castigate", "C) reproach", "D) chide"],
-        "correct": "A",
+        "options": ["A) castigate", "B) reproach", "C) extol", "D) chide"],
+        "correct": "C",
         "explanation": "'Extol' means to praise enthusiastically and publicly."
       },
       {
         "blankNo": 4,
-        "options": ["A) desecrate", "B) deify", "C) exalt", "D) glorify"],
-        "correct": "A",
+        "options": ["A) deify", "B) exalt", "C) glorify", "D) desecrate"],
+        "correct": "D",
         "explanation": "'Desecrate' means to treat something sacred with disrespect."
       },
       {
@@ -149,32 +149,32 @@
     "questions": [
       {
         "blankNo": 1,
-        "options": ["A) prodigal", "B) reticent", "C) frugality", "D) taciturn"],
-        "correct": "A",
+        "options": ["A) reticent", "B) prodigal", "C) frugality", "D) taciturn"],
+        "correct": "B",
         "explanation": "'Prodigal' describes a wasteful and spending-heavy lifestyle."
       },
       {
         "blankNo": 2,
-        "options": ["A) deface", "B) embellish", "C) belittle", "D) blemish"],
-        "correct": "B",
+        "options": ["A) deface", "B) belittle", "C) embellish", "D) blemish"],
+        "correct": "C",
         "explanation": "'Embellish' means to decorate or beautify the palace."
       },
       {
         "blankNo": 3,
-        "options": ["A) reprove", "B) extol", "C) deify", "D) sanction"],
-        "correct": "A",
+        "options": ["A) extol", "B) deify", "C) sanction", "D) reprove"],
+        "correct": "D",
         "explanation": "'Reprove' means to reprimand or express disapproval."
       },
       {
         "blankNo": 4,
-        "options": ["A) hasten", "B) dawdle", "C) exert", "D) barrel"],
-        "correct": "B",
+        "options": ["A) dawdle", "B) hasten", "C) exert", "D) barrel"],
+        "correct": "A",
         "explanation": "'Dawdle' means to waste time aimlessly."
       },
       {
         "blankNo": 5,
-        "options": ["A) repudiate", "B) corroborate", "C) avow", "D) espouse"],
-        "correct": "A",
+        "options": ["A) corroborate", "B) repudiate", "C) avow", "D) espouse"],
+        "correct": "B",
         "explanation": "'Repudiate' means to reject or refuse to acknowledge advice."
       }
     ]
@@ -185,26 +185,26 @@
     "questions": [
       {
         "blankNo": 1,
-        "options": ["A) gregarious", "B) reclusive", "C) taciturn", "D) reticent"],
-        "correct": "A",
+        "options": ["A) reclusive", "B) taciturn", "C) gregarious", "D) reticent"],
+        "correct": "C",
         "explanation": "'Gregarious' describes someone fond of company and social gatherings."
       },
       {
         "blankNo": 2,
-        "options": ["A) affable", "B) sinister", "C) baleful", "D) ominous"],
-        "correct": "A",
+        "options": ["A) sinister", "B) baleful", "C) ominous", "D) affable"],
+        "correct": "D",
         "explanation": "'Affable' means friendly and easy to talk to."
       },
       {
         "blankNo": 3,
-        "options": ["A) refute", "B) corroborate", "C) disown", "D) disclaim"],
-        "correct": "B",
+        "options": ["A) corroborate", "B) refute", "C) disown", "D) disclaim"],
+        "correct": "A",
         "explanation": "'Corroborate' means to support or confirm claims with evidence."
       },
       {
         "blankNo": 4,
-        "options": ["A) engender", "B) quell", "C) crush", "D) impede"],
-        "correct": "A",
+        "options": ["A) quell", "B) engender", "C) crush", "D) impede"],
+        "correct": "B",
         "explanation": "'Engender' means to produce, cause, or give rise to trust."
       }
     ]
@@ -215,14 +215,14 @@
     "questions": [
       {
         "blankNo": 1,
-        "options": ["A) venerated", "B) castigated", "C) defaced", "D) reproached"],
-        "correct": "A",
+        "options": ["A) castigated", "B) defaced", "C) venerated", "D) reproached"],
+        "correct": "C",
         "explanation": "'Venerated' means held in deep respect or revered."
       },
       {
         "blankNo": 2,
-        "options": ["A) blaspheme", "B) revere", "C) laud", "D) exalt"],
-        "correct": "A",
+        "options": ["A) revere", "B) laud", "C) exalt", "D) blaspheme"],
+        "correct": "D",
         "explanation": "'Blaspheme' fits the context of critics attacking sacred/philosophical work."
       },
       {
@@ -233,8 +233,8 @@
       },
       {
         "blankNo": 4,
-        "options": ["A) espouse", "B) repudiate", "C) disavow", "D) recant"],
-        "correct": "A",
+        "options": ["A) repudiate", "B) espouse", "C) disavow", "D) recant"],
+        "correct": "B",
         "explanation": "'Espouse' means to support or adopt a belief/idea."
       }
     ]
@@ -246,20 +246,20 @@
     "questions": [
       {
         "number": 1,
-        "options": ["A) depleted", "B) augmented", "C) fostered", "D) cherished"],
-        "correct": "A",
+        "options": ["A) augmented", "B) depleted", "C) fostered", "D) cherished"],
+        "correct": "B",
         "explanation": "'Depleted' means reduced in quantity or damaged, which fits the destruction of natural habitats."
       },
       {
         "number": 2,
-        "options": ["A) mitigate", "B) aggravate", "C) intensify", "D) escalate"],
-        "correct": "A",
+        "options": ["A) aggravate", "B) intensify", "C) mitigate", "D) escalate"],
+        "correct": "C",
         "explanation": "'Mitigate' means to make less severe or serious, appropriate for controlling environmental damage."
       },
       {
         "number": 3,
-        "options": ["A) curb", "B) foster", "C) promote", "D) incite"],
-        "correct": "A",
+        "options": ["A) foster", "B) promote", "C) incite", "D) curb"],
+        "correct": "D",
         "explanation": "'Curb' means to restrain or keep in check, which fits restricting industrial pollution."
       },
       {
@@ -270,8 +270,8 @@
       },
       {
         "number": 5,
-        "options": ["A) disrupted", "B) restored", "C) preserved", "D) stabilized"],
-        "correct": "A",
+        "options": ["A) restored", "B) disrupted", "C) preserved", "D) stabilized"],
+        "correct": "B",
         "explanation": "'Disrupted' means interrupted or thrown into disorder, matching the impact on ecosystems."
       }
     ]
@@ -283,20 +283,20 @@
     "questions": [
       {
         "number": 1,
-        "options": ["A) foster", "B) hinder", "C) impede", "D) suppress"],
-        "correct": "A",
+        "options": ["A) hinder", "B) foster", "C) impede", "D) suppress"],
+        "correct": "B",
         "explanation": "'Foster' means to encourage or promote the development of something positive like innovation."
       },
       {
         "number": 2,
-        "options": ["A) erode", "B) elevate", "C) enhance", "D) bolster"],
-        "correct": "A",
+        "options": ["A) elevate", "B) enhance", "C) erode", "D) bolster"],
+        "correct": "C",
         "explanation": "'Erode' means to gradually wear away or destroy purchasing power."
       },
       {
         "number": 3,
-        "options": ["A) prudently", "B) recklessly", "C) hastily", "D) carelessly"],
-        "correct": "A",
+        "options": ["A) recklessly", "B) hastily", "C) carelessly", "D) prudently"],
+        "correct": "D",
         "explanation": "'Prudently' means acting with or showing care and thought for the future."
       },
       {
@@ -307,89 +307,89 @@
       },
       {
         "number": 5,
-        "options": ["A) resilient", "B) vulnerable", "C) fragile", "D) susceptible"],
-        "correct": "A",
+        "options": ["A) vulnerable", "B) resilient", "C) fragile", "D) susceptible"],
+        "correct": "B",
         "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions."
       }
     ]
   },
   {
-  "id": "cloze_10",
-  "title": "SSC CGL Practice Passage 10 (Vocabulary & Persuasion)",
-  "passage": "To (1)__________ someone into accepting a proposal often requires subtle persuasion rather than force. However, when individuals resort to (2)__________ actions or public character assassination, it damages trust severely. Maintaining (3)__________ during difficult times shows true strength of character. While some topics may seem too (4)__________ for a general audience to grasp, presenting them in a clear and structured manner helps bridge the gap.",
-  "questions": [
-    {
-      "number": 1,
-      "options": ["A) cajole", "B) coerce", "C) compel", "D) intimidate"],
-      "correct": "A",
-      "explanation": "'Cajole' means to persuade someone gently using flattery or sweet talk."
-    },
-    {
-      "number": 2,
-      "options": ["A) laudable", "B) defamatory", "C) decisive", "D) empathetic"],
-      "correct": "B",
-      "explanation": "'Defamatory' refers to actions or statements that harm someone's reputation."
-    },
-    {
-      "number": 3,
-      "options": ["A) impatience", "B) hostility", "C) forbearance", "D) arrogance"],
-      "correct": "C",
-      "explanation": "'Forbearance' means showing patience, self-control, and restraint."
-    },
-    {
-      "number": 4,
-      "options": ["A) abstruse", "B) lucid", "C) apparent", "D) evident"],
-      "correct": "A",
-      "explanation": "'Abstruse' means obscure or difficult to understand."
-    }
-  ]
-},
-{
-  "id": "cloze_11",
-  "title": "SSC CGL Practice Passage 11 (Nature & Reputation)",
-  "passage": "The artist captured the (1)__________ beauty of the morning mist in his painting, making it look almost heavenly. However, his personal life was marred by controversies, rendering his reputation quite (2)__________. Despite the harsh criticism, his artwork retained its (3)__________ detail, leaving viewers mesmerized. Over the years, constant stress threatened to (4)__________ his creative energy, but he continued to paint until his final days.",
-  "questions": [
-    {
-      "number": 1,
-      "options": ["A) ethereal", "B) corporeal", "C) ponderous", "D) substantial"],
-      "correct": "A",
-      "explanation": "'Ethereal' means extremely delicate, light, and airy in a way that seems heavenly."
-    },
-    {
-      "number": 2,
-      "options": ["A) reputable", "B) infamous", "C) honorable", "D) commendable"],
-      "correct": "B",
-      "explanation": "'Infamous' refers to being well known for something bad or negative."
-    },
-    {
-      "number": 3,
-      "options": ["A) vague", "B) obscure", "C) vivid", "D) hazy"],
-      "correct": "C",
-      "explanation": "'Vivid' means producing clear, detailed, and intense images."
-    },
-    {
-      "number": 4,
-      "options": ["A) augment", "B) renew", "C) strengthen", "D) deplete"],
-      "correct": "D",
-      "explanation": "'Deplete' means to reduce or exhaust resources to a low level."
-    }
-  ]
-},
-{
+    "id": "cloze_10",
+    "title": "SSC CGL Practice Passage 10 (Vocabulary & Persuasion)",
+    "passage": "To (1)__________ someone into accepting a proposal often requires subtle persuasion rather than force. However, when individuals resort to (2)__________ actions or public character assassination, it damages trust severely. Maintaining (3)__________ during difficult times shows true strength of character. While some topics may seem too (4)__________ for a general audience to grasp, presenting them in a clear and structured manner helps bridge the gap.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["A) coerce", "B) compel", "C) cajole", "D) intimidate"],
+        "correct": "C",
+        "explanation": "'Cajole' means to persuade someone gently using flattery or sweet talk."
+      },
+      {
+        "number": 2,
+        "options": ["A) laudable", "B) decisive", "C) empathetic", "D) defamatory"],
+        "correct": "D",
+        "explanation": "'Defamatory' refers to actions or statements that harm someone's reputation."
+      },
+      {
+        "number": 3,
+        "options": ["A) forbearance", "B) impatience", "C) hostility", "D) arrogance"],
+        "correct": "A",
+        "explanation": "'Forbearance' means showing patience, self-control, and restraint."
+      },
+      {
+        "number": 4,
+        "options": ["A) lucid", "B) abstruse", "C) apparent", "D) evident"],
+        "correct": "B",
+        "explanation": "'Abstruse' means obscure or difficult to understand."
+      }
+    ]
+  },
+  {
+    "id": "cloze_11",
+    "title": "SSC CGL Practice Passage 11 (Nature & Reputation)",
+    "passage": "The artist captured the (1)__________ beauty of the morning mist in his painting, making it look almost heavenly. However, his personal life was marred by controversies, rendering his reputation quite (2)__________. Despite the harsh criticism, his artwork retained its (3)__________ detail, leaving viewers mesmerized. Over the years, constant stress threatened to (4)__________ his creative energy, but he continued to paint until his final days.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["A) corporeal", "B) ponderous", "C) ethereal", "D) substantial"],
+        "correct": "C",
+        "explanation": "'Ethereal' means extremely delicate, light, and airy in a way that seems heavenly."
+      },
+      {
+        "number": 2,
+        "options": ["A) reputable", "B) honorable", "C) commendable", "D) infamous"],
+        "correct": "D",
+        "explanation": "'Infamous' refers to being well known for something bad or negative."
+      },
+      {
+        "number": 3,
+        "options": ["A) vivid", "B) vague", "C) obscure", "D) hazy"],
+        "correct": "A",
+        "explanation": "'Vivid' means producing clear, detailed, and intense images."
+      },
+      {
+        "number": 4,
+        "options": ["A) augment", "B) deplete", "C) renew", "D) strengthen"],
+        "correct": "B",
+        "explanation": "'Deplete' means to reduce or exhaust resources to a low level."
+      }
+    ]
+  },
+  {
     "id": "cloze_12",
     "title": "SSC CGL Practice Passage 12 (Levity & Gravity)",
     "passage": "During the formal meeting, introducing any (1)______ was considered completely inappropriate. However, the manager tried to ease the tension with a bit of (2)______, though it was met with cold silence. Everyone expected complete (3)______ given the critical nature of the discussion. Instead, his constant (4)______ annoyed the senior board members, who emphasized the true (5)______ of the matter.",
     "questions": [
       {
         "number": 1,
-        "options": ["(A) flippancy", "(B) gravity", "(C) solemnity", "(D) seriousness"],
-        "correct": "A",
+        "options": ["(A) gravity", "(B) flippancy", "(C) solemnity", "(D) seriousness"],
+        "correct": "B",
         "explanation": "'Flippancy' means lack of seriousness or respect, which fits the context of inappropriate behavior in a formal setup."
       },
       {
         "number": 2,
-        "options": ["(A) gravity", "(B) levity", "(C) soberness", "(D) solemnness"],
-        "correct": "B",
+        "options": ["(A) gravity", "(B) soberness", "(C) levity", "(D) solemnness"],
+        "correct": "C",
         "explanation": "'Levity' means light-heartedness or humor, used here to attempt easing tension."
       },
       {
@@ -406,8 +406,8 @@
       },
       {
         "number": 5,
-        "options": ["(A) gravity", "(B) frothiness", "(C) gaiety", "(D) festivity"],
-        "correct": "A",
+        "options": ["(A) frothiness", "(B) gravity", "(C) gaiety", "(D) festivity"],
+        "correct": "B",
         "explanation": "'Gravity' refers to the seriousness or immense importance of the situation."
       }
     ]
@@ -419,14 +419,14 @@
     "questions": [
       {
         "number": 1,
-        "options": ["(A) amiable", "(B) hostile", "(C) disagreeable", "(D) ungenial"],
-        "correct": "A",
+        "options": ["(A) hostile", "(B) disagreeable", "(C) amiable", "(D) ungenial"],
+        "correct": "C",
         "explanation": "'Amiable' means friendly and pleasant, fitting the context of making people feel comfortable."
       },
       {
         "number": 2,
-        "options": ["(A) genial", "(B) harsh", "(C) ill-tempered", "(D) severe"],
-        "correct": "A",
+        "options": ["(A) harsh", "(B) ill-tempered", "(C) severe", "(D) genial"],
+        "correct": "D",
         "explanation": "'Genial' means cheerful, warm, and friendly in manner."
       },
       {
@@ -437,14 +437,14 @@
       },
       {
         "number": 4,
-        "options": ["(A) deceitfulness", "(B) virtuousness", "(C) guilelessness", "(D) openness"],
-        "correct": "A",
+        "options": ["(A) virtuousness", "(B) deceitfulness", "(C) guilelessness", "(D) openness"],
+        "correct": "B",
         "explanation": "'Deceitfulness' means intentionally misleading others."
       },
       {
         "number": 5,
-        "options": ["(A) sincerity", "(B) cozenage", "(C) craftiness", "(D) guile"],
-        "correct": "A",
+        "options": ["(A) cozenage", "(B) craftiness", "(C) sincerity", "(D) guile"],
+        "correct": "C",
         "explanation": "'Sincerity' means being genuine, truthful, and honest."
       }
     ]
@@ -456,8 +456,8 @@
     "questions": [
       {
         "number": 1,
-        "options": ["(A) discursive", "(B) logical", "(C) coherent", "(D) concise"],
-        "correct": "A",
+        "options": ["(A) logical", "(B) coherent", "(C) concise", "(D) discursive"],
+        "correct": "D",
         "explanation": "'Discursive' means moving from subject to subject without clear focus."
       },
       {
@@ -468,20 +468,20 @@
       },
       {
         "number": 3,
-        "options": ["(A) oblivion", "(B) alertness", "(C) cognizance", "(D) remembrance"],
-        "correct": "A",
+        "options": ["(A) alertness", "(B) oblivion", "(C) cognizance", "(D) remembrance"],
+        "correct": "B",
         "explanation": "'Oblivion' refers to the state of being unaware or forgotten."
       },
       {
         "number": 4,
-        "options": ["(A) ignorance", "(B) consciousness", "(C) recall", "(D) alertness"],
-        "correct": "A",
+        "options": ["(A) consciousness", "(B) recall", "(C) ignorance", "(D) alertness"],
+        "correct": "C",
         "explanation": "'Ignorance' means lack of knowledge or awareness."
       },
       {
         "number": 5,
-        "options": ["(A) coherent", "(B) desultory", "(C) excursive", "(D) maundering"],
-        "correct": "A",
+        "options": ["(A) desultory", "(B) excursive", "(C) maundering", "(D) coherent"],
+        "correct": "D",
         "explanation": "'Coherent' means logical, well-organized, and easy to understand."
       }
     ]
@@ -499,20 +499,20 @@
       },
       {
         "number": 2,
-        "options": ["(A) diverse", "(B) unchanging", "(C) resemblant", "(D) connate"],
-        "correct": "A",
+        "options": ["(A) unchanging", "(B) diverse", "(C) resemblant", "(D) connate"],
+        "correct": "B",
         "explanation": "'Diverse' means showing a great deal of variety or difference."
       },
       {
         "number": 3,
-        "options": ["(A) disparate", "(B) cognate", "(C) congeneric", "(D) uniform"],
-        "correct": "A",
+        "options": ["(A) cognate", "(B) congeneric", "(C) disparate", "(D) uniform"],
+        "correct": "C",
         "explanation": "'Disparate' means essentially different or dissimilar."
       },
       {
         "number": 4,
-        "options": ["(A) cordial", "(B) unamiable", "(C) ill-tempered", "(D) unpleasant"],
-        "correct": "A",
+        "options": ["(A) unamiable", "(B) ill-tempered", "(C) unpleasant", "(D) cordial"],
+        "correct": "D",
         "explanation": "'Cordial' means warm, friendly, and polite."
       },
       {
@@ -523,5 +523,4 @@
       }
     ]
   }
-  
 ]
