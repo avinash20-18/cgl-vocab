@@ -101,6 +101,24 @@ body {
     color: #007bff;
 }
 
+/* Option Button Feedback States */
+.option-btn.correct {
+    background-color: #d4edda !important;
+    border-color: #28a745 !important;
+    color: #155724 !important;
+}
+
+.option-btn.wrong {
+    background-color: #f8d7da !important;
+    border-color: #dc3545 !important;
+    color: #721c24 !important;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.95;
+}
+
 /* Footer Layout & Control Buttons */
 .footer {
     margin-top: 30px;

@@ -54,14 +54,14 @@ async function startQuiz() {
     let selectedOld = shuffledSeen.slice(0, targetOldCount);
 
     let combinedVocab = [...selectedNew, ...selectedOld];
-    
+
     // Safety check to ensure we have enough vocab questions
     if (combinedVocab.length < targetVocabCount) {
         let remainingNeeded = targetVocabCount - combinedVocab.length;
         let fallbackPool = processedVocab.filter(q => !combinedVocab.some(item => item.id === q.id));
         combinedVocab.push(...shuffleArray(fallbackPool).slice(0, remainingNeeded));
     }
-    
+
     combinedVocab = shuffleArray(combinedVocab);
 
     // Save IDs
@@ -76,7 +76,7 @@ async function startQuiz() {
             const clozeData = await response.json();
             if (clozeData.length >= 2) {
                 let selectedPassages = shuffleArray(clozeData).slice(0, 2);
-                
+
                 selectedPassages.forEach((p, pIdx) => {
                     if (p.questions && Array.isArray(p.questions)) {
                         p.questions.forEach((cq, qIdx) => {
@@ -148,7 +148,10 @@ function showQuestion() {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.innerText = option;
-        let optionLetter = option.trim().charAt(0).toUpperCase();
+        
+        let match = option.match(/\(?([A-D])\)?/i);
+        let optionLetter = match ? match[1].toUpperCase() : option.trim().charAt(0).toUpperCase();
+        
         btn.onclick = () => selectOption(btn, optionLetter);
         optionsContainer.appendChild(btn);
     });
@@ -161,19 +164,14 @@ function showQuestion() {
 
         const buttons = optionsContainer.getElementsByClassName('option-btn');
         for (let btn of buttons) {
-            btn.style.cursor = 'not-allowed';
-            const currentLetter = btn.innerText.trim().charAt(0).toUpperCase();
-
-            if (currentLetter === savedAnswer) {
-                btn.style.borderColor = (savedAnswer === q.correct.toUpperCase()) ? '#28a745' : '#dc3545';
-                btn.style.backgroundColor = (savedAnswer === q.correct.toUpperCase()) ? '#d4edda' : '#f8d7da';
-                btn.style.color = (savedAnswer === q.correct.toUpperCase()) ? '#155724' : '#721c24';
-            }
+            btn.disabled = true;
+            let match = btn.innerText.match(/\(?([A-D])\)?/i);
+            const currentLetter = match ? match[1].toUpperCase() : btn.innerText.trim().charAt(0).toUpperCase();
 
             if (currentLetter === q.correct.toUpperCase()) {
-                btn.style.borderColor = '#28a745';
-                btn.style.backgroundColor = '#d4edda';
-                btn.style.color = '#155724';
+                btn.classList.add('correct');
+            } else if (currentLetter === savedAnswer && savedAnswer !== q.correct.toUpperCase()) {
+                btn.classList.add('wrong');
             }
         }
         if (document.getElementById('explanation-container')) {
@@ -202,18 +200,18 @@ function selectOption(selectedButton, selectedLetter) {
     const buttons = optionsContainer.getElementsByClassName('option-btn');
 
     for (let btn of buttons) {
-        btn.style.cursor = 'not-allowed';
-        if (btn.innerText.trim().charAt(0).toUpperCase() === q.correct.toUpperCase()) {
-            btn.style.borderColor = '#28a745';
-            btn.style.backgroundColor = '#d4edda';
-            btn.style.color = '#155724';
+        btn.disabled = true;
+        
+        let match = btn.innerText.match(/\(?([A-D])\)?/i);
+        let currentLetter = match ? match[1].toUpperCase() : btn.innerText.trim().charAt(0).toUpperCase();
+
+        if (currentLetter === q.correct.toUpperCase()) {
+            btn.classList.add('correct');
         }
     }
 
     if (selectedLetter !== q.correct.toUpperCase()) {
-        selectedButton.style.borderColor = '#dc3545';
-        selectedButton.style.backgroundColor = '#f8d7da';
-        selectedButton.style.color = '#721c24';
+        selectedButton.classList.add('wrong');
     }
 
     if (document.getElementById('explanation-text')) {
@@ -243,8 +241,7 @@ function showResults() {
 
     let totalQuestions = quizQuestions.length;
     let attempted = 0, correct = 0, wrong = 0;
-    
-    // Dynamic score calculation based on SSC CGL marking pattern (+2 for Correct, -0.5 for Wrong)
+
     score = 0;
     for (let i = 0; i < quizQuestions.length; i++) {
         let userAns = userAnswers[i];
@@ -287,7 +284,9 @@ function showResults() {
             let statusClass = "", userResultText = "", correctOptionText = "", userOptionText = "";
 
             q.options.forEach(optStr => {
-                let letter = optStr.trim().charAt(0).toUpperCase();
+                let match = optStr.match(/\(?([A-D])\)?/i);
+                let letter = match ? match[1].toUpperCase() : optStr.trim().charAt(0).toUpperCase();
+
                 if (letter === q.correct.toUpperCase()) correctOptionText = optStr;
                 if (userAnsLetter && letter === userAnsLetter.toUpperCase()) userOptionText = optStr;
             });
