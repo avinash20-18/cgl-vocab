@@ -2142,5 +2142,629 @@ const questions = [
         options: ["A) Morality", "B) Wickedness", "C) Goodness", "D) Integrity"],
         correct: "B",
         explanation: "'Virtuousness' means high moral standards; its antonym is Wickedness."
-    }
+    },
+    {
+        id: "vocab_emaciate_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nEMACIATE",
+        options: ["(A) Flourish", "(B) Wither", "(C) Expand", "(D) Strengthen"],
+        correct: "B",
+        explanation: "Emaciate means to become abnormally thin or weak, matching 'Wither'."
+    },
+    {
+        id: "vocab_emaciate_error",
+        type: "Spotting the Error",
+        question: "Identify the segment which contains a vocabulary mismatch/error:\nThe famine caused (A) / many villagers to (B) / emaciating completely (C) / during the drought (D)",
+        options: ["(A) Segment A", "(B) Segment B", "(C) Segment C", "(D) Segment D"],
+        correct: "C",
+        explanation: "After infinitive 'to', base verb 'emaciate' is required instead of 'emaciating'."
+    },
+    {
+        id: "vocab_cadaverous_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nCADAVEROUS",
+        options: ["(A) Glowing", "(B) Ashen", "(C) Robust", "(D) Vibrant"],
+        correct: "B",
+        explanation: "Cadaverous means extremely thin and pale like a corpse, matching 'Ashen'."
+    },
+    {
+        id: "vocab_cadaverous_fitb",
+        type: "Fill in the Blank",
+        question: "Select the most appropriate option to fill in the blank:\nHis cadaverous appearance made it clear that he had been:\n(A) cheerful, (B) blooming, (C) muscular, (D) very ill",
+        options: ["(A) cheerful", "(B) blooming", "(C) muscular", "(D) very ill"],
+        correct: "D",
+        explanation: "A cadaverous (pale and deathly thin) appearance indicates severe illness."
+    },
+    {
+        id: "vocab_gaunt_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nGAUNT",
+        options: ["(A) Plump", "(B) Scraggy", "(C) Bony", "(D) Haggard"],
+        correct: "A",
+        explanation: "Gaunt means lean and haggard due to hunger. 'Plump' is its direct antonym."
+    },
+    {
+        id: "vocab_gaunt_fitb",
+        type: "Fill in the Blank",
+        question: "Select the most appropriate option to fill in the blank:\nThe gaunt beggar was sitting on the curb, asking for food in a ________ condition.",
+        options: ["(A) wealthy", "(B) ravenous", "(C) thriving", "(D) robust"],
+        correct: "B",
+        explanation: "A gaunt beggar suffering from hunger would be in a 'ravenous' (extremely hungry) condition."
+    },
+    {
+        id: "vocab_haggard_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nHAGGARD",
+        options: ["(A) Energetic", "(B) Refreshed", "(C) Exhausted", "(D) Joyful"],
+        correct: "C",
+        explanation: "Haggard means looking worn out and unwell, matching 'Exhausted'."
+    },
+    {
+        id: "vocab_haggard_fitb",
+        type: "Fill in the Blank",
+        question: "Select the most appropriate option to fill in the blank:\nAfter working three continuous shifts at the hospital, the doctor looked visibly ________.",
+        options: ["(A) haggard", "(B) buoyant", "(C) ornate", "(D) pristine"],
+        correct: "A",
+        explanation: "Haggard fits the context of someone looking completely exhausted after long shifts."
+    },
+    {
+        id: "vocab_skeletal_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nSKELETAL",
+        options: ["(A) Fleshy", "(B) Stout", "(C) Brawny", "(D) Scrawny"],
+        correct: "D",
+        explanation: "Skeletal means extremely thin resembling bones, matching 'Scrawny'."
+    },
+    {
+        id: "vocab_skeletal_error",
+        type: "Spotting the Error",
+        question: "Identify the segment which contains a vocabulary mismatch/error:\nThe stray dog (A) / appeared skeletally (B) / with its ribs (C) / clearly visible (D)",
+        options: ["(A) Segment A", "(B) Segment B", "(C) Segment C", "(D) Segment D"],
+        correct: "B",
+        explanation: "Adjective 'skeletal' is needed after linking verb 'appeared', not adverb 'skeletally'."
+    },
+    {
+        id: "vocab_wasted_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nWASTED",
+        options: ["(A) Atrophied", "(B) Restored", "(C) Frail", "(D) Shriveled"],
+        correct: "B",
+        explanation: "Wasted refers to a weakened physical body. 'Restored' is its opposite."
+    },
+    {
+        id: "vocab_scraggy_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nSCRAGGY",
+        options: ["(A) Scruffy", "(B) Smooth", "(C) Sleek", "(D) Neat"],
+        correct: "A",
+        explanation: "Scraggy describes a thin, rough, or unkempt appearance, matching 'Scruffy'."
+    },
+    {
+        id: "vocab_underfed_fitb",
+        type: "Fill in the Blank",
+        question: "Select the most appropriate option to fill in the blank:\nThe shelter rescued several ________ animals that were severely suffering from malnutrition.",
+        options: ["(A) pampered", "(B) bloated", "(C) underfed", "(D) overindulged"],
+        correct: "C",
+        explanation: "Underfed means not given enough food, directly causing malnutrition."
+    },
+    {
+        id: "vocab_starving_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nSTARVING",
+        options: ["(A) Famished", "(B) Ravenous", "(C) Destitute", "(D) Satiated"],
+        correct: "D",
+        explanation: "Starving means suffering from extreme hunger. 'Satiated' means fully satisfied."
+    },
+    {
+        id: "vocab_rotund_syn",
+        type: "Synonym",
+        question: "Select the most appropriate SYNONYM of the given word:\nROTUND",
+        options: ["(A) Angular", "(B) Spherical", "(C) Slender", "(D) Flat"],
+        correct: "B",
+        explanation: "Rotund means round or plump in shape, matching 'Spherical'."
+    },
+    {
+        id: "vocab_rotund_error",
+        type: "Spotting the Error",
+        question: "Identify the segment which contains a vocabulary mismatch/error:\nThe rotundness man (A) / struggled to fit (B) / into the narrow seat (C) / at the auditorium (D)",
+        options: ["(A) Segment A", "(B) Segment B", "(C) Segment C", "(D) Segment D"],
+        correct: "A",
+        explanation: "The adjective 'rotund' should modify the noun 'man', not noun 'rotundness'."
+    },
+    {
+        id: "vocab_flabby_ant",
+        type: "Antonym",
+        question: "Select the most appropriate ANTONYM of the given word:\nFLABBY",
+        options: ["(A) Lax", "(B) Drooping", "(C) Firm", "(D) Soft"],
+        correct: "C",
+        explanation: "Flabby means loose and soft flesh. 'Firm' is its exact antonym."
+    },
+    {
+        id: "vocab_obese_fitb",
+        type: "Fill in the Blank",
+        question: "Select the most appropriate option to fill in the blank:\nSedentary lifestyles and high-calorie diets have contributed to a rise in the number of ________ individuals.",
+        options: ["(A) slender", "(B) obese", "(C) lanky", "(D) emaciated"],
+        correct: "B",
+        explanation: "Obese fits the context of extreme weight gain due to high calories and inactivity."
+    },
+    {
+    id: "vocab_disparage_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nDISPARAGE",
+    options: ["(A) Laud", "(B) Exalt", "(C) Belittle", "(D) Glorify"],
+    correct: "C",
+    explanation: "Disparage means to regard or represent as being of little worth."
+  },
+  {
+    id: "vocab_disparage_error",
+    type: "Spotting the Error",
+    question: "Identify the segment which contains a vocabulary mismatch/error:\nHe never missed (A) / an opportunity to (B) / disparaged his competitors (C) / in public (D)",
+    options: ["(A) Segment A", "(B) Segment B", "(C) Segment C", "(D) Segment D"],
+    correct: "C",
+    explanation: "After infinitive 'to', base verb 'disparage' is required instead of 'disparaged'."
+  },
+  {
+    id: "vocab_decry_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nDECRY",
+    options: ["(A) Condemn", "(B) Applaud", "(C) Acclaim", "(D) Endorse"],
+    correct: "A",
+    explanation: "Decry means to publicly denounce or criticize."
+  },
+  {
+    id: "vocab_denigrate_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nIt is wrong to ________ someone's hard work without understanding their struggles.",
+    options: ["(A) magnify", "(B) extol", "(C) denigrate", "(D) ratify"],
+    correct: "C",
+    explanation: "Denigrate means to criticize unfairly or disparage someone's efforts."
+  },
+  {
+    id: "vocab_vilipend_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nVILIPEND",
+    options: ["(A) Praise", "(B) Defame", "(C) Elevate", "(D) Validate"],
+    correct: "B",
+    explanation: "Vilipend means to speak ill of, insult, or defame someone."
+  },
+  {
+    id: "vocab_censure_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nCENSURE",
+    options: ["(A) Rebuke", "(B) Reprimand", "(C) Commend", "(D) Malign"],
+    correct: "C",
+    explanation: "Censure means severe disapproval. 'Commend' (praise) is its direct antonym."
+  },
+  {
+    id: "vocab_defame_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe actor sued the tabloid for publishing false stories to ________ his reputation.",
+    options: ["(A) defame", "(B) elucidate", "(C) exalt", "(D) validate"],
+    correct: "A",
+    explanation: "Defame means to damage the good reputation of someone."
+  },
+  {
+    id: "vocab_malign_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nMALIGN",
+    options: ["(A) Slander", "(B) Honor", "(C) Adore", "(D) Clarify"],
+    correct: "A",
+    explanation: "Malign means to speak about someone in a spitefully critical or slanderous manner."
+  },
+  {
+    id: "vocab_disgrace_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nDISGRACE",
+    options: ["(A) Shame", "(B) Dishonor", "(C) Honor", "(D) Stigma"],
+    correct: "C",
+    explanation: "Disgrace refers to loss of reputation or shame. 'Honor' is its opposite."
+  },
+  {
+    id: "vocab_acclaim_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe scientist won critical ________ worldwide for her groundbreaking discovery.",
+    options: ["(A) censure", "(B) acclaim", "(C) abatement", "(D) depletion"],
+    correct: "B",
+    explanation: "Acclaim means enthusiastic approval or praise."
+  },
+  {
+    id: "vocab_applaud_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nAPPLAUD",
+    options: ["(A) Cheer", "(B) Praise", "(C) Criticize", "(D) Extol"],
+    correct: "C",
+    explanation: "Applaud means to express approval. 'Criticize' is its antonym."
+  },
+  {
+    id: "vocab_exalt_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nEXALT",
+    options: ["(A) Demote", "(B) Elevate", "(C) Abrogate", "(D) Obscure"],
+    correct: "B",
+    explanation: "Exalt means to hold someone in very high regard or elevate in rank."
+  },
+  {
+    id: "vocab_extol_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe mentor loved to ________ the virtues of patience and hard work to his students.",
+    options: ["(A) decry", "(B) vilipend", "(C) extol", "(D) nullify"],
+    correct: "C",
+    explanation: "Extol means to praise highly or enthusiastically."
+  },
+  {
+    id: "vocab_glorify_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nGLORIFY",
+    options: ["(A) Dishonor", "(B) Exalt", "(C) Magnify", "(D) Adorn"],
+    correct: "A",
+    explanation: "Glorify means to bestow honor or praise upon. 'Dishonor' is its antonym."
+  },
+  {
+    id: "vocab_laud_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nLAUD",
+    options: ["(A) Disparage", "(B) Praise", "(C) Condemn", "(D) Befog"],
+    correct: "B",
+    explanation: "Laud means to praise highly, especially in a public context."
+  },
+  {
+    id: "vocab_magnify_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nSensational news channels tend to ________ minor issues to gain higher views.",
+    options: ["(A) abate", "(B) rescinded", "(C) magnify", "(D) expound"],
+    correct: "C",
+    explanation: "Magnify means to make something appear far greater or more important than it is."
+  },
+  {
+    id: "vocab_nullify_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nNULLIFY",
+    options: ["(A) Invalidate", "(B) Enact", "(C) Establish", "(D) Validate"],
+    correct: "A",
+    explanation: "Nullify means to make legally null and void or invalidate."
+  },
+  {
+    id: "vocab_annul_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe court decided to ________ the contract after discovering fraudulent signatures.",
+    options: ["(A) ratify", "(B) annul", "(C) endorse", "(D) foster"],
+    correct: "B",
+    explanation: "Annul means to declare invalid or cancel an agreement/contract."
+  },
+  {
+    id: "vocab_avoid_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nAVOID",
+    options: ["(A) Evade", "(B) Confront", "(C) Seek", "(D) Invite"],
+    correct: "A",
+    explanation: "Avoid means to keep away from or evade."
+  },
+  {
+    id: "vocab_abate_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nABATE",
+    options: ["(A) Moderate", "(B) Subside", "(C) Intensify", "(D) Decrement"],
+    correct: "C",
+    explanation: "Abate means to become less intense or widespread. 'Intensify' is its antonym."
+  },
+  {
+    id: "vocab_abolish_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nABOLISH",
+    options: ["(A) Institute", "(B) Eradicate", "(C) Sanction", "(D) Legislate"],
+    correct: "B",
+    explanation: "Abolish means to formally put an end to a system, practice, or institution."
+  },
+  {
+    id: "vocab_quash_error",
+    type: "Spotting the Error",
+    question: "Identify the segment which contains a vocabulary mismatch/error:\nThe High Court (A) / quashing the verdict (B) / due to lack of (C) / substantial evidence (D)",
+    options: ["(A) Segment A", "(B) Segment B", "(C) Segment C", "(D) Segment D"],
+    correct: "B",
+    explanation: "Main verb 'quashed' is required here instead of participle 'quashing'."
+  },
+  {
+    id: "vocab_rescind_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nRESCIND",
+    options: ["(A) Revoke", "(B) Approve", "(C) Retain", "(D) Endorse"],
+    correct: "A",
+    explanation: "Rescind means to revoke, cancel, or repeal a law, order, or agreement."
+  },
+  {
+    id: "vocab_vacate_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe judge ruled to ________ the eviction order, allowing the tenant to stay.",
+    options: ["(A) ratify", "(B) vacate", "(C) obfuscate", "(D) denigrate"],
+    correct: "B",
+    explanation: "Vacate in legal terms means to cancel or annul a judgment or order."
+  },
+  {
+    id: "vocab_abrogate_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nABROGATE",
+    options: ["(A) Institute", "(B) Repeal", "(C) Sanction", "(D) Enact"],
+    correct: "B",
+    explanation: "Abrogate means to repeal or do away with a law, right, or formal agreement."
+  },
+  {
+    id: "vocab_establish_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nESTABLISH",
+    options: ["(A) Found", "(B) Construct", "(C) Demolish", "(D) Legislate"],
+    correct: "C",
+    explanation: "Establish means to set up or bring into existence. 'Demolish' is its opposite."
+  },
+  {
+    id: "vocab_legislate_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nParliament met to ________ stricter laws regarding environmental pollution.",
+    options: ["(A) abrogate", "(B) legislate", "(C) vilipend", "(D) befog"],
+    correct: "B",
+    explanation: "Legislate means to make or enact laws."
+  },
+  {
+    id: "vocab_enact_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nENACT",
+    options: ["(A) Rescind", "(B) Execute", "(C) Repeal", "(D) Quash"],
+    correct: "B",
+    explanation: "Enact means to make a bill into law or put into practice."
+  },
+  {
+    id: "vocab_legalize_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nLEGALIZE",
+    options: ["(A) Authorize", "(B) Sanction", "(C) Ban", "(D) Validate"],
+    correct: "C",
+    explanation: "Legalize means to make something permissible by law. 'Ban' is its antonym."
+  },
+  {
+    id: "vocab_validate_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nVALIDATE",
+    options: ["(A) Confirm", "(B) Disprove", "(C) Invalidate", "(D) Refute"],
+    correct: "A",
+    explanation: "Validate means to check or prove the validity or accuracy of something."
+  },
+  {
+    id: "vocab_endorse_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nFamous athletes are often paid large sums of money to ________ sports products.",
+    options: ["(A) decry", "(B) endorse", "(C) nullify", "(D) censure"],
+    correct: "B",
+    explanation: "Endorse means to declare one's public approval or support of something."
+  },
+  {
+    id: "vocab_ratify_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nRATIFY",
+    options: ["(A) Reject", "(B) Abrogate", "(C) Confirm", "(D) Nullify"],
+    correct: "C",
+    explanation: "Ratify means to sign or give formal consent to a treaty, contract, or agreement."
+  },
+  {
+    id: "vocab_elucidate_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nELUCIDATE",
+    options: ["(A) Obscure", "(B) Explain", "(C) Confuse", "(D) Befog"],
+    correct: "B",
+    explanation: "Elucidate means to make something clear or explain in detail."
+  },
+  {
+    id: "vocab_clarify_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe teacher had to ________ the instructions so that all students understood the task.",
+    options: ["(A) obfuscate", "(B) clarify", "(C) malign", "(D) quash"],
+    correct: "B",
+    explanation: "Clarify means to make a statement or situation less confused and more comprehensible."
+  },
+  {
+    id: "vocab_explicate_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nEXPLICATE",
+    options: ["(A) Analyze", "(B) Cloud", "(C) Conceal", "(D) Disparage"],
+    correct: "A",
+    explanation: "Explicate means to analyze and develop an idea or principle in detail."
+  },
+  {
+    id: "vocab_expound_error",
+    type: "Spotting the Error",
+    question: "Identify the segment which contains a vocabulary mismatch/error:\nThe speaker expounding (A) / on the complex subject (B) / for over an hour (C) / yesterday evening (D)",
+    options: ["(A) Segment A", "(B) Segment B", "(C) Segment C", "(D) Segment D"],
+    correct: "A",
+    explanation: "Past tense verb 'expounded' is required instead of present participle 'expounding'."
+  },
+  {
+    id: "vocab_illuminate_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nILLUMINATE",
+    options: ["(A) Darken", "(B) Clarify", "(C) Obscure", "(D) Confound"],
+    correct: "B",
+    explanation: "Illuminate means to help to explain or make something clear."
+  },
+  {
+    id: "vocab_illustrate_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe professor used real-world examples to ________ the complex theory.",
+    options: ["(A) illustrate", "(B) obfuscate", "(C) censure", "(D) rescinded"],
+    correct: "A",
+    explanation: "Illustrate means to explain or make something clear using examples or charts."
+  },
+  {
+    id: "vocab_interpret_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nINTERPRET",
+    options: ["(A) Misunderstand", "(B) Decode", "(C) Confuse", "(D) Cloud"],
+    correct: "B",
+    explanation: "Interpret means to explain or understand the meaning of information or actions."
+  },
+  {
+    id: "vocab_unriddle_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe detective managed to ________ the mysterious crime by gathering key clues.",
+    options: ["(A) befog", "(B) unriddle", "(C) denigrate", "(D) abrogate"],
+    correct: "B",
+    explanation: "Unriddle means to solve or explain something puzzling."
+  },
+  {
+    id: "vocab_obscure_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nOBSCURE",
+    options: ["(A) Vague", "(B) Clear", "(C) Ambiguous", "(D) Hidden"],
+    correct: "B",
+    explanation: "Obscure means difficult to understand or unclear. 'Clear' is its antonym."
+  },
+  {
+    id: "vocab_cloud_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nPersonal bias should not be allowed to ________ your professional judgment.",
+    options: ["(A) cloud", "(B) ratify", "(C) extol", "(D) elucidate"],
+    correct: "A",
+    explanation: "Cloud means to make full of judgment, understanding, or reason uncertain or unclear."
+  },
+  {
+    id: "vocab_confound_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nCONFOUND",
+    options: ["(A) Enlighten", "(B) Perplex", "(C) Explicate", "(D) Validate"],
+    correct: "B",
+    explanation: "Confound means to cause surprise or confusion in someone, matching 'Perplex'."
+  },
+  {
+    id: "vocab_confuse_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nCONFUSE",
+    options: ["(A) Clarify", "(B) Muddle", "(C) Baffle", "(D) Obfuscate"],
+    correct: "A",
+    explanation: "Confuse means to make untidy or difficult to understand. 'Clarify' is its antonym."
+  },
+  {
+    id: "vocab_obfuscate_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nOBFUSCATE",
+    options: ["(A) Illuminate", "(B) Simplify", "(C) Confuse", "(D) Explicate"],
+    correct: "C",
+    explanation: "Obfuscate means to deliberately make something obscure or unclear."
+  },
+  {
+    id: "vocab_befog_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nTechnical jargon served only to ________ the audience during the lecture.",
+    options: ["(A) befog", "(B) acclaim", "(C) glorify", "(D) ratify"],
+    correct: "A",
+    explanation: "Befog means to confuse or cause something to become vague."
+  },
+  {
+    id: "vocab_proliferation_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nPROLIFERATION",
+    options: ["(A) Reduction", "(B) Expansion", "(C) Depletion", "(D) Abatement"],
+    correct: "B",
+    explanation: "Proliferation means rapid increase in numbers or widespread growth."
+  },
+  {
+    id: "vocab_accretion_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nACCRETION",
+    options: ["(A) Accumulation", "(B) Decline", "(C) Loss", "(D) Decrement"],
+    correct: "A",
+    explanation: "Accretion means growth or increase by gradual addition."
+  },
+  {
+    id: "vocab_accrual_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nKnowledge comes from the steady ________ of facts and experiences over time.",
+    options: ["(A) accrual", "(B) depletion", "(C) censure", "(D) abatement"],
+    correct: "A",
+    explanation: "Accrual means the process of accumulating or gaining over time."
+  },
+  {
+    id: "vocab_addition_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nADDITION",
+    options: ["(A) Subtraction", "(B) Augmentation", "(C) Increment", "(D) Uptick"],
+    correct: "A",
+    explanation: "Addition means adding extra parts. 'Subtraction' is its antonym."
+  },
+  {
+    id: "vocab_augmentation_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nAUGMENTATION",
+    options: ["(A) Diminution", "(B) Increase", "(C) Abatement", "(D) Decline"],
+    correct: "B",
+    explanation: "Augmentation means the action or process of making something greater in size or amount."
+  },
+  {
+    id: "vocab_expansion_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nEXPANSION",
+    options: ["(A) Growth", "(B) Contraction", "(C) Uptick", "(D) Accrual"],
+    correct: "B",
+    explanation: "Expansion means becoming larger or more extensive. 'Contraction' is its antonym."
+  },
+  {
+    id: "vocab_increment_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nEmployees were thrilled to receive a salary ________ at the end of the year.",
+    options: ["(A) decrement", "(B) increment", "(C) depletion", "(D) abrogate"],
+    correct: "B",
+    explanation: "Increment means an increase or addition, especially on a fixed scale."
+  },
+  {
+    id: "vocab_addendum_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nADDENDUM",
+    options: ["(A) Supplement", "(B) Reduction", "(C) Preamble", "(D) Subtraction"],
+    correct: "A",
+    explanation: "Addendum means an item of additional material added at the end of a book or document."
+  },
+  {
+    id: "vocab_uptick_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe business saw a sharp ________ in sales following the summer promotion.",
+    options: ["(A) decline", "(B) uptick", "(C) abatement", "(D) censure"],
+    correct: "B",
+    explanation: "Uptick means a small increase or slight upward trend."
+  },
+  {
+    id: "vocab_abatement_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nABATEMENT",
+    options: ["(A) Surge", "(B) Decrease", "(C) Reduction", "(D) Decline"],
+    correct: "A",
+    explanation: "Abatement means a reduction or decrease in amount. 'Surge' is its opposite."
+  },
+  {
+    id: "vocab_decline_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nDECLINE",
+    options: ["(A) Increase", "(B) Drop", "(C) Rise", "(D) Growth"],
+    correct: "B",
+    explanation: "Decline means a gradual and continuous loss or drop in strength or quantity."
+  },
+  {
+    id: "vocab_depletion_fitb",
+    type: "Fill in the Blank",
+    question: "Select the most appropriate option to fill in the blank:\nThe rapid ________ of natural resources has alarmed environmental scientists.",
+    options: ["(A) depletion", "(B) augmentation", "(C) exaltation", "(D) ratification"],
+    correct: "A",
+    explanation: "Depletion means reduction in the number or quantity of something."
+  },
+  {
+    id: "vocab_reduction_ant",
+    type: "Antonym",
+    question: "Select the most appropriate ANTONYM of the given word:\nREDUCTION",
+    options: ["(A) Drop", "(B) Cut", "(C) Increase", "(D) Subtraction"],
+    correct: "C",
+    explanation: "Reduction means making something smaller or less. 'Increase' is its antonym."
+  },
+  {
+    id: "vocab_decrement_syn",
+    type: "Synonym",
+    question: "Select the most appropriate SYNONYM of the given word:\nDECREMENT",
+    options: ["(A) Addition", "(B) Diminution", "(C) Augmentation", "(D) Uptick"],
+    correct: "B",
+    explanation: "Decrement means a reduction or diminution in amount, size, or value."
+  }
 ];

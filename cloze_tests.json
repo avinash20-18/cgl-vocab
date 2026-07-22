@@ -522,5 +522,266 @@
         "explanation": "'Amicable' means characterized by friendliness and absence of discord."
       }
     ]
+  },
+  
+  {
+    "id": "cloze_16",
+    "title": "SSC CGL Practice Passage 16 (Health & Famine)",
+    "passage": "The prolonged famine caused thousands of villagers to severely (1)______ over a period of six months. Relief workers were heartbroken to see children looking completely (2)______, with their ribs visibly protruding. The elderly appeared so pale and weak that they had a (3)______ expression on their faces. Many of the (4)______ animals on the farms lacked even the energy to stand. Fortunately, emergency aid arrived in time to help the victims gradually regain a (5)______ weight and recover their vitality.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) flourish", "(B) emaciate", "(C) expand", "(D) strengthen"],
+        "correct": "B",
+        "explanation": "'Emaciate' means to become abnormally thin and weak due to lack of food."
+      },
+      {
+        "number": 2,
+        "options": ["(A) robust", "(B) plump", "(C) skeletal", "(D) energetic"],
+        "correct": "C",
+        "explanation": "'Skeletal' means extremely thin, resembling a skeleton."
+      },
+      {
+        "number": 3,
+        "options": ["(A) cadaverous", "(B) blooming", "(C) radiant", "(D) joyful"],
+        "correct": "A",
+        "explanation": "'Cadaverous' refers to an extremely thin and deathly pale appearance."
+      },
+      {
+        "number": 4,
+        "options": ["(A) pampered", "(B) underfed", "(C) bloated", "(D) thriving"],
+        "correct": "B",
+        "explanation": "'Underfed' means not provided with sufficient food to stay healthy."
+      },
+      {
+        "number": 5,
+        "options": ["(A) wasted", "(B) scraggy", "(C) haggard", "(D) healthy"],
+        "correct": "D",
+        "explanation": "'Healthy' refers to normal weight, strength, and vitality after recovery."
+      }
+    ]
+  },
+  {
+    "id": "cloze_17",
+    "title": "SSC CGL Practice Passage 17 (Lifestyle & Transformation)",
+    "passage": "After months of nonstop travel and restless night shifts, the journalist developed a visibly (1)______ look on his face. Continuous neglect of his diet caused his once muscular frame to become loose and (2)______. Realizing the harmful effects of his sedentary lifestyle, he decided to make drastic changes. He replaced unhygienic meals with a balanced diet and began regular exercise. Over time, his body (3)______ solid muscle mass, eliminating his former (4)______ appearance. Instead of looking frail, he transformed into a (5)______ and energetic individual.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) refreshed", "(B) haggard", "(C) pristine", "(D) buoyant"],
+        "correct": "B",
+        "explanation": "'Haggard' means looking tired, worn out, and thin from fatigue."
+      },
+      {
+        "number": 2,
+        "options": ["(A) flabby", "(B) firm", "(C) robust", "(D) athletic"],
+        "correct": "A",
+        "explanation": "'Flabby' means soft and loose flesh due to lack of exercise."
+      },
+      {
+        "number": 3,
+        "options": ["(A) depleted", "(B) lost", "(C) gained", "(D) wasted"],
+        "correct": "C",
+        "explanation": "'Gained' means increased in weight, size, or muscle strength."
+      },
+      {
+        "number": 4,
+        "options": ["(A) scraggy", "(B) rotund", "(C) obese", "(D) plump"],
+        "correct": "A",
+        "explanation": "'Scraggy' refers to a thin, rough, or unkempt physical appearance."
+      },
+      {
+        "number": 5,
+        "options": ["(A) starved", "(B) emaciated", "(C) gaunt", "(D) healthy"],
+        "correct": "D",
+        "explanation": "'Healthy' means being in good physical condition and well-nourished."
+      }
+    ]
+  }
+  ,
+  {
+    "id": "cloze_18",
+    "title": "SSC CGL Practice Passage 18 (Criticism & Public Image)",
+    "passage": "In the world of politics, rival candidates often try to (1)______ each other's achievements during election campaigns. Instead of presenting constructive plans, they frequently resort to personal attacks to (2)______ their opponents' reputations. Such hostile behavior only serves to bring (3)______ to the democratic process. However, unbiased media outlets refuse to (4)______ candidates unfairly and insist on presenting facts. When leaders act with integrity, citizens gladly (5)______ their efforts to bring real progress.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) extol", "(B) glorify", "(C) disparage", "(D) exalt"],
+        "correct": "C",
+        "explanation": "'Disparage' means to speak about someone or something in a way that shows lack of respect."
+      },
+      {
+        "number": 2,
+        "options": ["(A) defame", "(B) ratify", "(C) applaud", "(D) elucidate"],
+        "correct": "A",
+        "explanation": "'Defame' means to damage someone's reputation by making unfair or false statements."
+      },
+      {
+        "number": 3,
+        "options": ["(A) acclaim", "(B) disgrace", "(C) augmentation", "(D) addendum"],
+        "correct": "B",
+        "explanation": "'Disgrace' refers to bringing shame or dishonor upon something."
+      },
+      {
+        "number": 4,
+        "options": ["(A) laud", "(B) vilipend", "(C) validate", "(D) endorse"],
+        "correct": "B",
+        "explanation": "'Vilipend' means to regard or treat with contempt and disparage."
+      },
+      {
+        "number": 5,
+        "options": ["(A) decry", "(B) malign", "(C) censure", "(D) applaud"],
+        "correct": "D",
+        "explanation": "'Applaud' means to express strong praise or approval."
+      }
+    ]
+  },
+  {
+    "id": "cloze_19",
+    "title": "SSC CGL Practice Passage 19 (Legal Reforms & Legislation)",
+    "passage": "The supreme judicial body stepped in to (1)______ an outdated law that violated constitutional rights. Human rights advocates had long argued that parliament should (2)______ such discriminatory practices entirely. After months of debate, lawmakers voted to (3)______ a comprehensive reform bill that protects individual freedom. Legal experts were quick to (4)______ the new legislation, calling it a landmark decision. This step helped (5)______ public confidence in the judicial process.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) enact", "(B) establish", "(C) nullify", "(D) legislate"],
+        "correct": "C",
+        "explanation": "'Nullify' means to make something legally invalid or cancel it out."
+      },
+      {
+        "number": 2,
+        "options": ["(A) abrogate", "(B) endorse", "(C) ratify", "(D) validate"],
+        "correct": "A",
+        "explanation": "'Abrogate' means to formally repeal or abolish a law or treaty."
+      },
+      {
+        "number": 3,
+        "options": ["(A) rescind", "(B) quash", "(C) vacate", "(D) enact"],
+        "correct": "D",
+        "explanation": "'Enact' means to make a bill into law or make official."
+      },
+      {
+        "number": 4,
+        "options": ["(A) censure", "(B) endorse", "(C) decry", "(D) malign"],
+        "correct": "B",
+        "explanation": "'Endorse' means to formally approve, support, or uphold something."
+      },
+      {
+        "number": 5,
+        "options": ["(A) establish", "(B) abate", "(C) annul", "(D) rescind"],
+        "correct": "A",
+        "explanation": "'Establish' means to set up or firmly bring something into existence."
+      }
+    ]
+  },
+  {
+    "id": "cloze_20",
+    "title": "SSC CGL Practice Passage 20 (Education & Clarity)",
+    "passage": "During the seminar, the professor attempted to (1)______ a complex scientific theory that had baffled students for weeks. Rather than using obscure technical terms that might (2)______ the listeners, she used practical real-world examples to (3)______ her core points. Her structured approach helped to (4)______ the mystery surrounding the topic entirely. By the end of the session, every student could easily (5)______ the practical applications of the theory.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) obfuscate", "(B) elucidate", "(C) cloud", "(D) befog"],
+        "correct": "B",
+        "explanation": "'Elucidate' means to make something clear and easy to understand."
+      },
+      {
+        "number": 2,
+        "options": ["(A) clarify", "(B) illustrate", "(C) confound", "(D) expound"],
+        "correct": "C",
+        "explanation": "'Confound' means to cause surprise or confusion in someone."
+      },
+      {
+        "number": 3,
+        "options": ["(A) illuminate", "(B) obscure", "(C) denigrate", "(D) nullify"],
+        "correct": "A",
+        "explanation": "'Illuminate' means to clarify or help explain an idea clearly."
+      },
+      {
+        "number": 4,
+        "options": ["(A) cloud", "(B) unriddle", "(C) befog", "(D) disparage"],
+        "correct": "B",
+        "explanation": "'Unriddle' means to solve or explain something puzzling."
+      },
+      {
+        "number": 5,
+        "options": ["(A) interpret", "(B) abrogate", "(C) censure", "(D) quash"],
+        "correct": "A",
+        "explanation": "'Interpret' means to explain or properly understand the meaning of something."
+      }
+    ]
+  },
+  {
+    "id": "cloze_21",
+    "title": "SSC CGL Practice Passage 21 (Economic Growth & Resources)",
+    "passage": "The recent decade witnessed a rapid (1)______ of technology companies across urban centers. This sudden market (2)______ generated thousands of employment opportunities for skilled workers. Consequently, financial experts noted a significant (3)______ in consumer spending throughout the region. However, analysts warned that the unbridled consumption could lead to the rapid (4)______ of natural resources. To prevent a severe economic (5)______, green policies must be adopted immediately.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) depletion", "(B) abatement", "(C) proliferation", "(D) decrement"],
+        "correct": "C",
+        "explanation": "'Proliferation' means rapid increase in numbers or widespread growth."
+      },
+      {
+        "number": 2,
+        "options": ["(A) expansion", "(B) decline", "(C) reduction", "(D) abatement"],
+        "correct": "A",
+        "explanation": "'Expansion' refers to the process of becoming larger or growing."
+      },
+      {
+        "number": 3,
+        "options": ["(A) decrement", "(B) uptick", "(C) depletion", "(D) abatement"],
+        "correct": "B",
+        "explanation": "'Uptick' means a small or noticeable increase/upward trend."
+      },
+      {
+        "number": 4,
+        "options": ["(A) augmentation", "(B) accrual", "(C) accretion", "(D) depletion"],
+        "correct": "D",
+        "explanation": "'Depletion' means reduction in the number, quantity, or supply of resources."
+      },
+      {
+        "number": 5,
+        "options": ["(A) increment", "(B) decline", "(C) addition", "(D) augmentation"],
+        "correct": "B",
+        "explanation": "'Decline' refers to a continuous loss or downward trend in stability."
+      }
+    ]
+  },
+  {
+    "id": "cloze_22",
+    "title": "SSC CGL Practice Passage 22 (Corporate Integrity & Audit)",
+    "passage": "The corporate firm came under fire after auditors exposed an attempt to (1)______ official financial reports. Senior executives had tried to (2)______ the audit committee's findings with misleading spreadsheets. Rather than choosing to (3)______ the heroic efforts of honest whistleblowers, management attempted to (4)______ them publicly. In response, regulatory agencies moved quickly to (5)______ the firm's operational license until a thorough investigation was completed.",
+    "questions": [
+      {
+        "number": 1,
+        "options": ["(A) elucidate", "(B) expound", "(C) obfuscate", "(D) clarify"],
+        "correct": "C",
+        "explanation": "'Obfuscate' means to deliberately render something unclear or confusing."
+      },
+      {
+        "number": 2,
+        "options": ["(A) befog", "(B) illuminate", "(C) ratify", "(D) validate"],
+        "correct": "A",
+        "explanation": "'Befog' means to confuse or make obscure and vague."
+      },
+      {
+        "number": 3,
+        "options": ["(A) vilipend", "(B) extol", "(C) malign", "(D) censure"],
+        "correct": "B",
+        "explanation": "'Extol' means to praise highly or enthusiastically."
+      },
+      {
+        "number": 4,
+        "options": ["(A) applaud", "(B) laud", "(C) exalt", "(D) denigrate"],
+        "correct": "D",
+        "explanation": "'Denigrate' means to criticize unfairly or disparage someone's character."
+      },
+      {
+        "number": 5,
+        "options": ["(A) rescind", "(B) ratify", "(C) endorse", "(D) establish"],
+        "correct": "A",
+        "explanation": "'Rescind' means to officially revoke, cancel, or repeal an agreement or license."
+      }
+    ]
   }
 ]
