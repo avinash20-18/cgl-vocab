@@ -13,7 +13,7 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-// Helper: Safely escapes HTML special characters to prevent rendering glitches
+// Helper: Safely escapes HTML special characters
 function escapeHTML(str) {
   if (!str) return "";
   return String(str)
@@ -45,49 +45,113 @@ function formatExplanationText(explanationText) {
   return explanationText.trim();
 }
 
-// Helper: Shuffles options of a question and recalculates the correct option letter (A/B/C/D)
-function shuffleQuestionOptions(question) {
-  if (!question.options || question.options.length === 0) return question;
+// Helper: Smart Word Meaning Finder from Pool
+function getWordMeaning(targetWord, currentWordObj, allWordsPool) {
+  if (!targetWord) return "";
+  let cleanTarget = targetWord.trim().toLowerCase();
 
-  let originalCorrectLetter = (question.correct || "").trim().toUpperCase();
-  let correctOptionText = "";
+  // 1. If target is the main word itself or matches current obj synonym/word
+  if (cleanTarget === currentWordObj.word.toLowerCase()) {
+    return currentWordObj.meaning;
+  }
 
-  let cleanedOptions = question.options.map((optStr) => {
-    let match = optStr.match(/^(?:[A-D][\)\.]|\([A-D]\))\s*(.*)/i);
-    let letter = match ? optStr.trim().charAt(0).toUpperCase() : "";
-    let textOnly = match ? match[1].trim() : optStr.replace(/^[A-D][\)\.]\s*/i, "").trim();
+  // 2. Look for exact match in database where w.word == targetWord
+  let exactMatch = allWordsPool.find(
+    (w) => w.word.toLowerCase() === cleanTarget
+  );
+  if (exactMatch) return exactMatch.meaning;
 
-    if (!match) {
-      let simpleMatch = optStr.match(/([A-D])/i);
-      letter = simpleMatch ? simpleMatch[1].toUpperCase() : "";
+  // 3. Look for entry where targetWord exists as synonym
+  let synMatch = allWordsPool.find(
+    (w) => w.synonym && w.synonym.toLowerCase() === cleanTarget
+  );
+  if (synMatch) return synMatch.meaning;
+
+  // 4. Look for entry where targetWord exists as antonym
+  let antMatch = allWordsPool.find(
+    (w) => w.antonym && w.antonym.toLowerCase() === cleanTarget
+  );
+  if (antMatch) return antMatch.meaning;
+
+  return "Refers to a specific vocabulary term.";
+}
+
+// DYNAMIC GENERATOR FOR VOCABULARY QUESTIONS
+function generateDynamicVocabQuestion(wordObj, allWordsPool) {
+  const isSynonym = wordObj.type === "Synonym";
+
+  // 1. Target Correct Answer & Trap Answer
+  const correctAnswer = isSynonym ? wordObj.synonym : wordObj.antonym;
+  const trapAnswer = isSynonym ? wordObj.antonym : wordObj.synonym;
+
+  // 2. Find 2 Random Distractors from Pool (excluding same word/meanings)
+  let potentialDistractors = allWordsPool.filter(
+    (w) =>
+      w.id !== wordObj.id &&
+      w.synonym !== correctAnswer &&
+      w.antonym !== correctAnswer &&
+      w.word !== wordObj.word
+  );
+
+  let shuffledPool = shuffleArray(potentialDistractors);
+  let distractorObj1 = shuffledPool[0];
+  let distractorObj2 = shuffledPool[1];
+
+  let distractor1Text = distractorObj1 ? distractorObj1.synonym : "Punctilious";
+  let distractor2Text = distractorObj2 ? distractorObj2.synonym : "Ephemeral";
+
+  // 3. Raw options pool
+  let rawOptions = [
+    { text: correctAnswer, type: "correct" },
+    { text: trapAnswer, type: "trap" },
+    { text: distractor1Text, type: "distractor1", obj: distractorObj1 },
+    { text: distractor2Text, type: "distractor2", obj: distractorObj2 }
+  ];
+
+  // Shuffle options
+  let shuffledOptions = shuffleArray(rawOptions);
+
+  // Assign letters A, B, C, D
+  let formattedOptions = [];
+  let correctLetter = "A";
+  const letters = ["A", "B", "C", "D"];
+
+  shuffledOptions.forEach((opt, idx) => {
+    let letter = letters[idx];
+    formattedOptions.push(`${letter}) ${opt.text}`);
+    if (opt.type === "correct") {
+      correctLetter = letter;
     }
-
-    if (letter === originalCorrectLetter || optStr.startsWith(originalCorrectLetter)) {
-      correctOptionText = textOnly;
-    }
-    return textOnly;
   });
 
-  // Shuffle option texts
-  let shuffledTexts = shuffleArray(cleanedOptions);
+  // Get exact meanings for all options
+  let correctMeaning = isSynonym
+    ? wordObj.meaning
+    : getWordMeaning(correctAnswer, wordObj, allWordsPool);
 
-  // Assign new A), B), C), D) prefixes and determine new correct letter
-  let newOptions = [];
-  let newCorrectLetter = "A";
+  let trapMeaning = isSynonym
+    ? getWordMeaning(trapAnswer, wordObj, allWordsPool)
+    : wordObj.meaning;
 
-  shuffledTexts.forEach((text, idx) => {
-    let newLetter = String.fromCharCode(65 + idx); // 'A', 'B', 'C', 'D'
-    newOptions.push(`${newLetter}) ${text}`);
+  // Build Detailed Explanation with Meanings for ALL Options
+  let explanationText = `• Main Word Meaning: '${wordObj.word}' means ${wordObj.meaning}.\n\n` +
+    `• ${correctAnswer} (Correct Answer): Means ${correctMeaning}.\n\n` +
+    `• ${trapAnswer}: Means ${trapMeaning}.\n\n`;
 
-    if (text === correctOptionText) {
-      newCorrectLetter = newLetter;
-    }
-  });
+  if (distractorObj1) {
+    explanationText += `• ${distractorObj1.synonym}: Means ${distractorObj1.meaning}.\n\n`;
+  }
+  if (distractorObj2) {
+    explanationText += `• ${distractorObj2.synonym}: Means ${distractorObj2.meaning}.`;
+  }
 
   return {
-    ...question,
-    options: newOptions,
-    correct: newCorrectLetter
+    id: wordObj.id,
+    type: wordObj.type,
+    question: `Select the most appropriate ${wordObj.type.toUpperCase()} of the given word:\n${wordObj.word}`,
+    options: formattedOptions,
+    correct: correctLetter,
+    explanation: explanationText
   };
 }
 
@@ -102,15 +166,10 @@ async function startQuiz() {
   if (resultBox) resultBox.style.display = "none";
   if (quizBox) quizBox.style.display = "block";
 
-  let processedVocab = questions.map((q, idx) => ({
-    ...q,
-    id: q.id || `vocab_${idx}_${q.question.substring(0, 15).replace(/\s+/g, "")}`,
-  }));
-
   let seenIds = getQuestionHistory();
 
-  let unseenQuestions = processedVocab.filter((q) => !seenIds.includes(q.id));
-  let seenQuestions = processedVocab.filter((q) => seenIds.includes(q.id));
+  let unseenQuestions = questions.filter((q) => !seenIds.includes(q.id));
+  let seenQuestions = questions.filter((q) => seenIds.includes(q.id));
 
   let shuffledUnseen = shuffleArray(unseenQuestions);
   let shuffledSeen = shuffleArray(seenQuestions);
@@ -122,20 +181,25 @@ async function startQuiz() {
   let selectedNew = shuffledUnseen.slice(0, targetNewCount);
   let selectedOld = shuffledSeen.slice(0, targetOldCount);
 
-  let combinedVocab = [...selectedNew, ...selectedOld];
+  let combinedVocabRaw = [...selectedNew, ...selectedOld];
 
   // Safety fallback if pools are short
-  if (combinedVocab.length < targetVocabCount) {
-    let remainingNeeded = targetVocabCount - combinedVocab.length;
-    let fallbackPool = processedVocab.filter(
-      (q) => !combinedVocab.some((item) => item.id === q.id)
+  if (combinedVocabRaw.length < targetVocabCount) {
+    let remainingNeeded = targetVocabCount - combinedVocabRaw.length;
+    let fallbackPool = questions.filter(
+      (q) => !combinedVocabRaw.some((item) => item.id === q.id)
     );
-    combinedVocab.push(
+    combinedVocabRaw.push(
       ...shuffleArray(fallbackPool).slice(0, remainingNeeded)
     );
   }
 
-  combinedVocab = shuffleArray(combinedVocab);
+  combinedVocabRaw = shuffleArray(combinedVocabRaw);
+
+  // Generate dynamic option sets for chosen Vocab questions
+  let combinedVocab = combinedVocabRaw.map((wordObj) =>
+    generateDynamicVocabQuestion(wordObj, questions)
+  );
 
   // Save current vocabulary session IDs to history
   let currentSessionIds = combinedVocab.map((q) => q.id);
@@ -182,15 +246,17 @@ async function startQuiz() {
   // STRICT 30 QUESTION ENFORCER
   if (tempQuestions.length < 30) {
     let needed = 30 - tempQuestions.length;
-    let extraVocab = processedVocab.filter(
+    let extraVocabRaw = questions.filter(
       (q) => !tempQuestions.some((t) => t.id === q.id)
     );
-    tempQuestions.push(...shuffleArray(extraVocab).slice(0, needed));
+    let extraVocab = shuffleArray(extraVocabRaw)
+      .slice(0, needed)
+      .map((wordObj) => generateDynamicVocabQuestion(wordObj, questions));
+    
+    tempQuestions.push(...extraVocab);
   }
 
-  // SHUFFLE OPTIONS FOR ALL SELECTED QUESTIONS
-  let rawQuizQuestions = tempQuestions.slice(0, 30);
-  quizQuestions = rawQuizQuestions.map((q) => shuffleQuestionOptions(q));
+  quizQuestions = tempQuestions.slice(0, 30);
 
   currentQuestionIndex = 0;
   score = 0;
