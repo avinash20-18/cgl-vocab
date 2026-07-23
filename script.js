@@ -24,6 +24,55 @@ function saveToQuestionHistory(newIds) {
   localStorage.setItem("seen_q_ids", JSON.stringify(updatedHistory));
 }
 
+// Helper: Cleans hardcoded A), B), C), D) prefixes from explanation text
+function formatExplanationText(explanationText) {
+  if (!explanationText) return "No explanation provided.";
+  // Replaces patterns like "• A) Advanced" with "• Advanced"
+  return explanationText.replace(/•\s*[A-D]\)\s*/gi, "• ");
+}
+
+// Helper: Shuffles options of a question and recalculates the correct option letter (A/B/C/D)
+function shuffleQuestionOptions(question) {
+  if (!question.options || question.options.length === 0) return question;
+
+  // Find current correct option text before shuffling
+  let originalCorrectLetter = (question.correct || "").trim().toUpperCase();
+  let correctOptionText = "";
+
+  let cleanedOptions = question.options.map((optStr) => {
+    let match = optStr.match(/\(?([A-D])\)?\s*(.*)/i);
+    let letter = match ? match[1].toUpperCase() : optStr.trim().charAt(0).toUpperCase();
+    let textOnly = match && match[2] ? match[2].trim() : optStr.replace(/^[A-D]\)\s*/i, "").trim();
+
+    if (letter === originalCorrectLetter) {
+      correctOptionText = textOnly;
+    }
+    return textOnly;
+  });
+
+  // Shuffle option texts
+  let shuffledTexts = shuffleArray(cleanedOptions);
+
+  // Assign new A), B), C), D) prefixes and determine new correct letter
+  let newOptions = [];
+  let newCorrectLetter = "A";
+
+  shuffledTexts.forEach((text, idx) => {
+    let newLetter = String.fromCharCode(65 + idx); // 'A', 'B', 'C', 'D'
+    newOptions.push(`${newLetter}) ${text}`);
+
+    if (text === correctOptionText) {
+      newCorrectLetter = newLetter;
+    }
+  });
+
+  return {
+    ...question,
+    options: newOptions,
+    correct: newCorrectLetter
+  };
+}
+
 async function startQuiz() {
   if (typeof questions === "undefined" || questions.length === 0) {
     alert("Error: 'questions' array words.js se load nahi ho paayi!");
@@ -123,7 +172,9 @@ async function startQuiz() {
     tempQuestions.push(...shuffleArray(extraVocab).slice(0, needed));
   }
 
-  quizQuestions = tempQuestions.slice(0, 30);
+  // SHUFFLE OPTIONS FOR ALL SELECTED QUESTIONS
+  let rawQuizQuestions = tempQuestions.slice(0, 30);
+  quizQuestions = rawQuizQuestions.map((q) => shuffleQuestionOptions(q));
 
   currentQuestionIndex = 0;
   score = 0;
@@ -210,7 +261,7 @@ function showQuestion() {
       }
     }
     if (expBox && expText) {
-      expText.innerText = q.explanation || "";
+      expText.innerText = formatExplanationText(q.explanation);
       expText.style.whiteSpace = "pre-line";
       expBox.style.display = "block";
     }
@@ -261,7 +312,7 @@ function selectOption(selectedButton, selectedLetter) {
   const expText = document.getElementById("explanation-text");
 
   if (expText) {
-    expText.innerText = q.explanation || "No explanation provided.";
+    expText.innerText = formatExplanationText(q.explanation);
     expText.style.whiteSpace = "pre-line";
   }
   if (expBox) expBox.style.display = "block";
@@ -396,7 +447,8 @@ function showResults() {
         `;
       }
 
-      let formattedExplanation = (q.explanation || "No explanation provided.")
+      let rawExplanation = q.explanation || "No explanation provided.";
+      let formattedExplanation = formatExplanationText(rawExplanation)
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;");
