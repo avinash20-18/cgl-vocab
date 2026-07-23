@@ -24,6 +24,12 @@ function escapeHTML(str) {
     .replace(/'/g, "&#039;");
 }
 
+// Helper: Normalizes text to lowercase standard format so no casing leaks the answer
+function normalizeWordText(str) {
+  if (!str) return "";
+  return str.trim().toLowerCase();
+}
+
 // Local Storage for Question History Management (70% New : 30% Revision)
 function getQuestionHistory() {
   try {
@@ -47,29 +53,25 @@ function formatExplanationText(explanationText) {
 
 // Helper: Smart Word Meaning Finder from Pool
 function getWordMeaning(targetWord, currentWordObj, allWordsPool) {
-  if (!targetWord) return "";
-  let cleanTarget = targetWord.trim().toLowerCase();
+  if (!targetWord) return "Refers to a specific vocabulary term.";
+  let cleanTarget = normalizeWordText(targetWord);
 
-  // 1. If target is the main word itself or matches current obj synonym/word
-  if (cleanTarget === currentWordObj.word.toLowerCase()) {
+  if (currentWordObj && cleanTarget === normalizeWordText(currentWordObj.word)) {
     return currentWordObj.meaning;
   }
 
-  // 2. Look for exact match in database where w.word == targetWord
   let exactMatch = allWordsPool.find(
-    (w) => w.word.toLowerCase() === cleanTarget
+    (w) => normalizeWordText(w.word) === cleanTarget
   );
   if (exactMatch) return exactMatch.meaning;
 
-  // 3. Look for entry where targetWord exists as synonym
   let synMatch = allWordsPool.find(
-    (w) => w.synonym && w.synonym.toLowerCase() === cleanTarget
+    (w) => w.synonym && normalizeWordText(w.synonym) === cleanTarget
   );
   if (synMatch) return synMatch.meaning;
 
-  // 4. Look for entry where targetWord exists as antonym
   let antMatch = allWordsPool.find(
-    (w) => w.antonym && w.antonym.toLowerCase() === cleanTarget
+    (w) => w.antonym && normalizeWordText(w.antonym) === cleanTarget
   );
   if (antMatch) return antMatch.meaning;
 
@@ -80,70 +82,53 @@ function getWordMeaning(targetWord, currentWordObj, allWordsPool) {
 function generateDynamicVocabQuestion(wordObj, allWordsPool) {
   const isSynonym = wordObj.type === "Synonym";
 
-  // 1. Target Correct Answer & Trap Answer
-  const correctAnswer = isSynonym ? wordObj.synonym : wordObj.antonym;
-  const trapAnswer = isSynonym ? wordObj.antonym : wordObj.synonym;
+  const correctAnswer = normalizeWordText(isSynonym ? wordObj.synonym : wordObj.antonym);
+  const trapAnswer = normalizeWordText(isSynonym ? wordObj.antonym : wordObj.synonym);
 
-  // 2. Find 2 Random Distractors from Pool (excluding same word/meanings)
   let potentialDistractors = allWordsPool.filter(
     (w) =>
       w.id !== wordObj.id &&
-      w.synonym !== correctAnswer &&
-      w.antonym !== correctAnswer &&
-      w.word !== wordObj.word
+      normalizeWordText(w.synonym) !== correctAnswer &&
+      normalizeWordText(w.antonym) !== correctAnswer &&
+      normalizeWordText(w.word) !== normalizeWordText(wordObj.word)
   );
 
   let shuffledPool = shuffleArray(potentialDistractors);
   let distractorObj1 = shuffledPool[0];
   let distractorObj2 = shuffledPool[1];
 
-  let distractor1Text = distractorObj1 ? distractorObj1.synonym : "Punctilious";
-  let distractor2Text = distractorObj2 ? distractorObj2.synonym : "Ephemeral";
+  let distractor1Text = distractorObj1 ? normalizeWordText(distractorObj1.synonym) : "punctilious";
+  let distractor2Text = distractorObj2 ? normalizeWordText(distractorObj2.synonym) : "ephemeral";
 
-  // 3. Raw options pool
   let rawOptions = [
-    { text: correctAnswer, type: "correct" },
-    { text: trapAnswer, type: "trap" },
-    { text: distractor1Text, type: "distractor1", obj: distractorObj1 },
-    { text: distractor2Text, type: "distractor2", obj: distractorObj2 }
+    { text: correctAnswer, isCorrect: true, type: "correct" },
+    { text: trapAnswer, isCorrect: false, type: "trap" },
+    { text: distractor1Text, isCorrect: false, type: "distractor1", obj: distractorObj1 },
+    { text: distractor2Text, isCorrect: false, type: "distractor2", obj: distractorObj2 }
   ];
 
-  // Shuffle options
   let shuffledOptions = shuffleArray(rawOptions);
 
-  // Assign letters A, B, C, D
   let formattedOptions = [];
   let correctLetter = "A";
   const letters = ["A", "B", "C", "D"];
 
+  let explanationLines = [];
+
   shuffledOptions.forEach((opt, idx) => {
     let letter = letters[idx];
     formattedOptions.push(`${letter}) ${opt.text}`);
-    if (opt.type === "correct") {
+    
+    let meaningText = getWordMeaning(opt.text, wordObj, allWordsPool);
+    let lineTag = opt.isCorrect ? "Correct. " : "";
+    explanationLines.push(`• ${letter}) ${opt.text}: ${lineTag}${meaningText}`);
+
+    if (opt.isCorrect) {
       correctLetter = letter;
     }
   });
 
-  // Get exact meanings for all options
-  let correctMeaning = isSynonym
-    ? wordObj.meaning
-    : getWordMeaning(correctAnswer, wordObj, allWordsPool);
-
-  let trapMeaning = isSynonym
-    ? getWordMeaning(trapAnswer, wordObj, allWordsPool)
-    : wordObj.meaning;
-
-  // Build Detailed Explanation with Meanings for ALL Options
-  let explanationText = `• Main Word Meaning: '${wordObj.word}' means ${wordObj.meaning}.\n\n` +
-    `• ${correctAnswer} (Correct Answer): Means ${correctMeaning}.\n\n` +
-    `• ${trapAnswer}: Means ${trapMeaning}.\n\n`;
-
-  if (distractorObj1) {
-    explanationText += `• ${distractorObj1.synonym}: Means ${distractorObj1.meaning}.\n\n`;
-  }
-  if (distractorObj2) {
-    explanationText += `• ${distractorObj2.synonym}: Means ${distractorObj2.meaning}.`;
-  }
+  let explanationText = `Main Word: '${wordObj.word}' means ${wordObj.meaning}.\n\n` + explanationLines.join("\n");
 
   return {
     id: wordObj.id,
@@ -152,6 +137,83 @@ function generateDynamicVocabQuestion(wordObj, allWordsPool) {
     options: formattedOptions,
     correct: correctLetter,
     explanation: explanationText
+  };
+}
+
+// DYNAMIC GENERATOR FOR CLOZE TEST QUESTIONS (Case Leakage Fix)
+function generateDynamicClozeQuestion(cq, pIdx, blankVal, passageText, allWordsPool) {
+  let rawCorrectKey = cq.correct ? cq.correct.trim().toUpperCase() : "A";
+  let origCorrectOptObj = cq.options.find((opt) => {
+    let match = opt.match(/\(?([A-D])\)?/i);
+    let key = match ? match[1].toUpperCase() : opt.trim().charAt(0).toUpperCase();
+    return key === rawCorrectKey;
+  });
+
+  let correctWordText = "";
+  if (origCorrectOptObj) {
+    let parts = origCorrectOptObj.split(")");
+    correctWordText = parts.length > 1 ? parts.slice(1).join(")").trim() : origCorrectOptObj.trim();
+  } else {
+    correctWordText = cq.options[0] || "Correct Word";
+  }
+
+  // Normalize correct word text to lowercase
+  correctWordText = normalizeWordText(correctWordText);
+
+  let filteredVocabPool = allWordsPool.filter(
+    (w) => normalizeWordText(w.word) !== correctWordText
+  );
+  let shuffledVocab = shuffleArray(filteredVocabPool);
+
+  let rawDistractorObjs = [];
+  let addedWords = new Set([correctWordText]);
+
+  for (let wObj of shuffledVocab) {
+    if (rawDistractorObjs.length >= 3) break;
+    let candidate = normalizeWordText(wObj.word);
+    if (!addedWords.has(candidate)) {
+      addedWords.add(candidate);
+      rawDistractorObjs.push(candidate);
+    }
+  }
+
+  let rawOptionsList = [
+    { text: correctWordText, isCorrect: true },
+    { text: rawDistractorObjs[0] || "option_1", isCorrect: false },
+    { text: rawDistractorObjs[1] || "option_2", isCorrect: false },
+    { text: rawDistractorObjs[2] || "option_3", isCorrect: false }
+  ];
+
+  let shuffledOptions = shuffleArray(rawOptionsList);
+
+  let formattedOptions = [];
+  let correctLetter = "A";
+  const letters = ["A", "B", "C", "D"];
+  let explanationLines = [];
+
+  shuffledOptions.forEach((opt, idx) => {
+    let letter = letters[idx];
+    formattedOptions.push(`${letter}) ${opt.text}`);
+    
+    let meaningText = getWordMeaning(opt.text, null, allWordsPool);
+    let lineTag = opt.isCorrect ? "Correct answer for the context. " : "";
+    explanationLines.push(`• ${letter}) ${opt.text}: ${lineTag}${meaningText}`);
+
+    if (opt.isCorrect) {
+      correctLetter = letter;
+    }
+  });
+
+  let baseExplanation = explanationLines.join("\n");
+
+  return {
+    id: `cloze_${pIdx}_${blankVal}`,
+    type: `Cloze Test (Passage ${pIdx + 1} - Blank ${blankVal})`,
+    passage: passageText,
+    question: `Select the most appropriate option for Blank (${blankVal}):`,
+    options: formattedOptions,
+    correct: correctLetter,
+    explanation: baseExplanation
   };
 }
 
@@ -183,7 +245,6 @@ async function startQuiz() {
 
   let combinedVocabRaw = [...selectedNew, ...selectedOld];
 
-  // Safety fallback if pools are short
   if (combinedVocabRaw.length < targetVocabCount) {
     let remainingNeeded = targetVocabCount - combinedVocabRaw.length;
     let fallbackPool = questions.filter(
@@ -196,16 +257,13 @@ async function startQuiz() {
 
   combinedVocabRaw = shuffleArray(combinedVocabRaw);
 
-  // Generate dynamic option sets for chosen Vocab questions
   let combinedVocab = combinedVocabRaw.map((wordObj) =>
     generateDynamicVocabQuestion(wordObj, questions)
   );
 
-  // Save current vocabulary session IDs to history
   let currentSessionIds = combinedVocab.map((q) => q.id);
   saveToQuestionHistory(currentSessionIds);
 
-  // Fetch Cloze Tests
   let clozeQuestions = [];
   try {
     const response = await fetch("cloze_tests.json");
@@ -218,15 +276,16 @@ async function startQuiz() {
           if (p.questions && Array.isArray(p.questions)) {
             p.questions.forEach((cq, qIdx) => {
               let blankVal = cq.blank || cq.number || cq.blankNo || qIdx + 1;
-              clozeQuestions.push({
-                id: `cloze_${p.id || pIdx}_${blankVal}`,
-                type: `Cloze Test (Passage ${pIdx + 1} - Blank ${blankVal})`,
-                passage: p.passage,
-                question: `Select the most appropriate option for Blank (${blankVal}):`,
-                options: cq.options,
-                correct: cq.correct,
-                explanation: cq.explanation,
-              });
+              
+              let dynamicClozeObj = generateDynamicClozeQuestion(
+                cq,
+                p.id || pIdx,
+                blankVal,
+                p.passage,
+                questions
+              );
+              
+              clozeQuestions.push(dynamicClozeObj);
             });
           }
         });
@@ -236,14 +295,12 @@ async function startQuiz() {
     console.error("Cloze test load failure:", e);
   }
 
-  // Interleave Cloze questions inside Vocabulary questions
   let tempQuestions = [
     ...combinedVocab.slice(0, 10),
     ...clozeQuestions,
     ...combinedVocab.slice(10),
   ];
 
-  // STRICT 30 QUESTION ENFORCER
   if (tempQuestions.length < 30) {
     let needed = 30 - tempQuestions.length;
     let extraVocabRaw = questions.filter(
@@ -400,9 +457,9 @@ function selectOption(selectedButton, selectedLetter) {
   if (expBox) expBox.style.display = "block";
 
   const nextBtn = document.getElementById("next-button");
+  if (nextBtn) nextBtn.style.display = "block";
   const skipBtn = document.getElementById("skip-button");
   if (skipBtn) skipBtn.style.display = "none";
-  if (nextBtn) nextBtn.style.display = "block";
 }
 
 function loadNextQuestion() {
