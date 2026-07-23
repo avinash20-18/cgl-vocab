@@ -17,10 +17,10 @@
 
 <body>
 
-    <div class="quiz-container">
+    <main class="quiz-container">
         
         <!-- 1. QUIZ SCREEN -->
-        <div id="quiz-box">
+        <section id="quiz-box">
             <div class="header">
                 <h2 id="q-type">SSC CGL Vocabulary Practice</h2>
                 <span class="badge" id="q-progress">Loading...</span>
@@ -46,10 +46,10 @@
                 <button id="skip-button" class="quiz-btn" onclick="skipQuestion()">Skip Question</button>
                 <button id="next-button" class="quiz-btn next-button" onclick="loadNextQuestion()" style="display: none;">Next Question</button>
             </div>
-        </div>
+        </section>
 
         <!-- 2. RESULT SCREEN -->
-        <div id="result-box" class="result-screen" style="display: none;">
+        <section id="result-box" class="result-screen" style="display: none;">
             <h2>Performance Report Card</h2>
             <hr>
             <div class="score-big" id="final-score">0 / 0</div>
@@ -78,13 +78,13 @@
             <!-- Detailed Question-by-Question Review -->
             <div id="review-section" class="review-container"></div>
 
-            <div class="result-actions" style="margin-top: 20px; display: flex; gap: 10px; justify-content: center;">
+            <div class="result-actions" style="margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
                 <button class="restart-btn" onclick="restartQuiz()">Attempt Again</button>
                 <button class="quiz-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆️ Scroll to Top</button>
             </div>
-        </div>
+        </section>
 
-    </div>
+    </main>
 
 </body>
 </html>

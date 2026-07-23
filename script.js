@@ -13,9 +13,24 @@ function shuffleArray(array) {
   return shuffled;
 }
 
+// Helper: Safely escapes HTML special characters to prevent rendering glitches
+function escapeHTML(str) {
+  if (!str) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 // Local Storage for Question History Management (70% New : 30% Revision)
 function getQuestionHistory() {
-  return JSON.parse(localStorage.getItem("seen_q_ids") || "[]");
+  try {
+    return JSON.parse(localStorage.getItem("seen_q_ids") || "[]");
+  } catch (e) {
+    return [];
+  }
 }
 
 function saveToQuestionHistory(newIds) {
@@ -24,27 +39,30 @@ function saveToQuestionHistory(newIds) {
   localStorage.setItem("seen_q_ids", JSON.stringify(updatedHistory));
 }
 
-// Helper: Cleans hardcoded A), B), C), D) prefixes from explanation text
+// Helper: Cleans explanation text safely
 function formatExplanationText(explanationText) {
   if (!explanationText) return "No explanation provided.";
-  // Replaces patterns like "• A) Advanced" with "• Advanced"
-  return explanationText.replace(/•\s*[A-D]\)\s*/gi, "• ");
+  return explanationText.trim();
 }
 
 // Helper: Shuffles options of a question and recalculates the correct option letter (A/B/C/D)
 function shuffleQuestionOptions(question) {
   if (!question.options || question.options.length === 0) return question;
 
-  // Find current correct option text before shuffling
   let originalCorrectLetter = (question.correct || "").trim().toUpperCase();
   let correctOptionText = "";
 
   let cleanedOptions = question.options.map((optStr) => {
-    let match = optStr.match(/\(?([A-D])\)?\s*(.*)/i);
-    let letter = match ? match[1].toUpperCase() : optStr.trim().charAt(0).toUpperCase();
-    let textOnly = match && match[2] ? match[2].trim() : optStr.replace(/^[A-D]\)\s*/i, "").trim();
+    let match = optStr.match(/^(?:[A-D][\)\.]|\([A-D]\))\s*(.*)/i);
+    let letter = match ? optStr.trim().charAt(0).toUpperCase() : "";
+    let textOnly = match ? match[1].trim() : optStr.replace(/^[A-D][\)\.]\s*/i, "").trim();
 
-    if (letter === originalCorrectLetter) {
+    if (!match) {
+      let simpleMatch = optStr.match(/([A-D])/i);
+      letter = simpleMatch ? simpleMatch[1].toUpperCase() : "";
+    }
+
+    if (letter === originalCorrectLetter || optStr.startsWith(originalCorrectLetter)) {
       correctOptionText = textOnly;
     }
     return textOnly;
@@ -74,7 +92,7 @@ function shuffleQuestionOptions(question) {
 }
 
 async function startQuiz() {
-  if (typeof questions === "undefined" || questions.length === 0) {
+  if (typeof questions === "undefined" || !Array.isArray(questions) || questions.length === 0) {
     alert("Error: 'questions' array words.js se load nahi ho paayi!");
     return;
   }
@@ -86,9 +104,7 @@ async function startQuiz() {
 
   let processedVocab = questions.map((q, idx) => ({
     ...q,
-    id:
-      q.id ||
-      `vocab_${idx}_${q.question.substring(0, 15).replace(/\s+/g, "")}`,
+    id: q.id || `vocab_${idx}_${q.question.substring(0, 15).replace(/\s+/g, "")}`,
   }));
 
   let seenIds = getQuestionHistory();
@@ -131,7 +147,7 @@ async function startQuiz() {
     const response = await fetch("cloze_tests.json");
     if (response.ok) {
       const clozeData = await response.json();
-      if (clozeData.length >= 2) {
+      if (Array.isArray(clozeData) && clozeData.length >= 2) {
         let selectedPassages = shuffleArray(clozeData).slice(0, 2);
 
         selectedPassages.forEach((p, pIdx) => {
@@ -406,9 +422,9 @@ function showResults() {
           ? match[1].toUpperCase()
           : optStr.trim().charAt(0).toUpperCase();
 
-        if (letter === q.correct.toUpperCase()) correctOptionText = optStr;
+        if (letter === q.correct.toUpperCase()) correctOptionText = escapeHTML(optStr);
         if (userAnsLetter && letter === userAnsLetter.toUpperCase())
-          userOptionText = optStr;
+          userOptionText = escapeHTML(optStr);
 
         let isCorrectOpt = letter === q.correct.toUpperCase();
         let isUserOpt = userAnsLetter && letter === userAnsLetter.toUpperCase();
@@ -423,7 +439,7 @@ function showResults() {
         if (isCorrectOpt) tag += " ✔️ (Correct Answer)";
         if (isUserOpt && !isCorrectOpt) tag += " ❌ (Your Choice)";
 
-        optionsBreakdownHTML += `<li style="${optStyle}; margin-bottom: 3px;">${optStr}${tag}</li>`;
+        optionsBreakdownHTML += `<li style="${optStyle}; margin-bottom: 3px;">${escapeHTML(optStr)}${tag}</li>`;
       });
       optionsBreakdownHTML += "</ul></div>";
 
@@ -442,26 +458,23 @@ function showResults() {
       if (q.passage) {
         passageHTML = `
           <div style="background: #edf2f7; border-left: 4px solid #3182ce; padding: 10px 12px; margin: 8px 0; border-radius: 4px; font-size: 0.9rem; color: #2d3748; line-height: 1.5; white-space: pre-line;">
-              <strong>📖 Cloze Passage:</strong><br>${q.passage}
+              <strong>📖 Cloze Passage:</strong><br>${escapeHTML(q.passage)}
           </div>
         `;
       }
 
       let rawExplanation = q.explanation || "No explanation provided.";
-      let formattedExplanation = formatExplanationText(rawExplanation)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
+      let formattedExplanation = escapeHTML(formatExplanationText(rawExplanation));
 
       reviewSection.innerHTML += `
         <div class="review-card ${statusClass}" style="text-align: left; margin: 15px 0; padding: 15px; border-radius: 8px; border-left: 6px solid #ccc; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
             <div style="font-size:0.8rem; font-weight:bold; color:#718096; text-transform:uppercase;">${
-              q.type || "Question"
+              escapeHTML(q.type || "Question")
             }</div>
             ${passageHTML}
             <p style="font-weight: 600; margin: 5px 0 8px 0; color: #2d3748; white-space: pre-line;">Q${
               index + 1
-            }. ${q.question}</p>
+            }. ${escapeHTML(q.question)}</p>
             <div style="font-size: 0.95rem; margin-bottom: 5px;">${userResultText}</div>
             <div style="font-size: 0.95rem; color: #2c3e50; font-weight: 600; margin-bottom: 8px;">
                 Correct Answer: <span style="color: #27ae60;">${correctOptionText}</span>

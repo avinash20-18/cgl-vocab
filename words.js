@@ -3,33 +3,33 @@ const questions = [
         id: "vocab_detestable_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDETESTABLE",
-        options: ["A) Repulsive", "B) Commendable", "C) Despicable", "D) Offensive"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DETESTABLE' describes someone or something that provokes intense hatred, disgust, or moral revulsion (घृणास्पद / नफ़रत के क़ाबिल).\n\n• A) Repulsive: Refers to causing strong dislike or physical aversion. While very close, 'despicable' is the more precise moral equivalent required in standard exam keys.\n\n• B) Commendable: Describes something that is highly praiseworthy or worthy of formal approval, directly opposing a hated trait.\n\n• C) Despicable (Correct Answer): Refers to someone or something deserving of intense hatred and moral outrage. It serves as the exact synonym for 'DETESTABLE'.\n\n• D) Offensive: Means causing resentment, anger, or annoyance. It is a broader and milder term compared to the extreme moral disgust of detestable."
+        options: ["A) Despicable", "B) Commendable", "C) Taciturn", "D) Disparate"],
+        correct: "A",
+        explanation: "• Main Word Meaning: 'DETESTABLE' describes someone or something that provokes intense hatred, disgust, or moral revulsion (घृणास्पद / नफ़रत के क़ाबिल).\n\n• Despicable (Correct Answer): Refers to someone or something deserving of intense hatred and moral outrage (घृणास्पद).\n\n• Commendable: Means deserving praise or approval (सराहनीय). This is the exact opposite of DETESTABLE.\n\n• Taciturn: Describes a person who is habitually reserved or says very little (कम बोलने वाला).\n\n• Disparate: Describes things that are essentially different in kind and impossible to compare (भिन्न / असमान)."
     },
     {
         id: "vocab_louche_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nLOUCHE",
-        options: ["A) Eccentric", "B) Disreputable", "C) Mysterious", "D) Admirable"],
+        options: ["A) Admirable", "B) Disreputable", "C) Precocial", "D) Ponderous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'LOUCHE' describes a character, place, or action that is of questionable respectability, shady, or morally dubious (संदिग्ध / चरित्रहीन).\n\n• A) Eccentric: Describes unconventional or slightly strange behavior, which lacks the inherent moral dubiousness of louche.\n\n• B) Disreputable (Correct Answer): Refers to having a bad reputation, being shady, or lacking social respectability, serving as an exact synonym for 'LOUCHE'.\n\n• C) Mysterious: Refers to something difficult or impossible to understand, which does not automatically imply poor character or shady morals.\n\n• D) Admirable: Denotes qualities that inspire approval or affection, contextually opposite to dubious behavior."
+        explanation: "• Main Word Meaning: 'LOUCHE' describes a character, place, or action that is of questionable respectability, shady, or morally dubious (संदिग्ध / चरित्रहीन).\n\n• Disreputable (Correct Answer): Means having a bad reputation, being shady, or lacking social respectability (बदनाम / संदिग्ध).\n\n• Admirable: Means inspiring respect, approval, or affection (प्रशंसनीय). This is the exact opposite of LOUCHE.\n\n• Precocial: Describes showing unusually early development or maturity (समय से पहले विकसित).\n\n• Ponderous: Describes something slow and clumsy because of great weight or dullness (भारी-भरकम / अस्वाभाविक)."
     },
     {
         id: "vocab_ignominious_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nIGNOMINIOUS",
-        options: ["A) Triumphant", "B) Shameful", "C) Honorable", "D) Prestigious"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'IGNOMINIOUS' describes actions or outcomes that cause public disgrace, humiliation, or dishonor (कलंकपूर्ण / अपमानजनक).\n\n• A) Triumphant: Means experiencing a significant victory, focusing on success rather than moral standing or social honor.\n\n• B) Shameful: Refers to bringing dishonor or public disgrace, making it a direct synonym rather than an antonym.\n\n• C) Honorable (Correct Answer): Refers to possessing or bringing high moral respect, integrity, and prestige. It acts as the direct antonym for 'IGNOMINIOUS'.\n\n• D) Prestigious: Denotes having high status or reputation, but focuses more on distinction and success rather than core moral uprightness."
+        options: ["A) Shameful", "B) Honorable", "C) Discursive", "D) Incorporeal"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'IGNOMINIOUS' describes actions or outcomes that cause public disgrace, humiliation, or dishonor (कलंकपूर्ण / अपमानजनक).\n\n• Honorable (Correct Answer): Means possessing or bringing high moral respect, integrity, and prestige (आदरणीय / सम्मानजनक).\n\n• Shameful: Means bringing dishonor or public disgrace (शर्मनाक). This is a synonym of IGNOMINIOUS.\n\n• Discursive: Describes talking or writing that digresses from subject to subject without focus (असंगत / इधर-उधर की बात करने वाला).\n\n• Incorporeal: Means lacking material form, physical body, or substance (अशरीरी / निराकार)."
     },
     {
         id: "vocab_earthly_fitb",
         type: "Fill in the Blank",
         question: "Select the most appropriate option to fill in the blank:\n'His earthly desires often distracted him from __________ pursuits.'",
-        options: ["A) intellectual", "B) mundane", "C) spiritual", "D) academic"],
+        options: ["A) Mundane", "B) Fastidious", "C) Spiritual", "D) Academic"],
         correct: "C",
-        explanation: "• Main Word Meaning: 'EARTHLY' relates to the physical world and material human desires as opposed to heavenly or soul-driven matters (सांसारिक / भौतिक).\n\n• A) intellectual: Pertains to the intellect and logical thinking. While plausible, it does not form the classic philosophical antonym pairing with 'earthly'.\n\n• B) mundane: Means lacking interest or excitement; dull or worldly, making it a near-synonym to earthly rather than a contrast.\n\n• C) spiritual (Correct Answer): Pertains to the human soul or sacred matters, providing the exact thematic contrast needed against 'earthly' desires.\n\n• D) academic: Relates to education and scholarship, which fails to capture the soul-versus-material dichotomy."
+        explanation: "• Main Word Meaning: 'EARTHLY' relates to the physical world, material human desires, and worldly matters (सांसारिक / भौतिक).\n\n• Spiritual (Correct Answer): Pertains to the human soul, sacred matters, or higher consciousness, providing the exact thematic contrast against 'earthly' desires (आध्यात्मिक).\n\n• Mundane: Means lacking interest, dull, or belonging to the ordinary world (सांसारिक / नीरस). This is synonymous with EARTHLY.\n\n• Fastidious: Describes someone who is very attentive to accuracy, cleanliness, and detail (नुकताचीं / बारीकबीन).\n\n• Academic: Relates strictly to education, scholarship, and formal learning (शैक्षणिक)."
     },
     {
         id: "vocab_thief_error",
@@ -37,1338 +37,1278 @@ const questions = [
         question: "Identify the segment which contains a vocabulary mismatch/error:\n'The thief's (A) / commendable actions (B) / made the community (C) / lose trust in him. (D)'",
         options: ["A) Segment A", "B) Segment B", "C) Segment C", "D) Segment D"],
         correct: "B",
-        explanation: "• Main Word Meaning: In vocabulary error spotting, context dictates that adjectives must logically match the subject's behavior and the outcome.\n\n• A) Segment A: 'The thief's' properly sets up the subject in possessive noun form.\n\n• B) Segment B (Correct Answer): Contains a clear vocabulary mismatch. 'Commendable' means praiseworthy. A community loses trust due to 'despicable' or 'disreputable' actions, not commendable ones.\n\n• C) Segment C: 'made the community' is grammatically sound as a causative verb phrase.\n\n• D) Segment D: 'lose trust in him' provides the logical result of negative actions, making it correct."
+        explanation: "• Main Word Meaning: In vocabulary error spotting, the context dictates that adjectives must logically align with the subject's actions and public outcome.\n\n• Segment B (Correct Answer): Contains a clear context mismatch. 'Commendable' means deserving praise or admiration (प्रशंसनीय). A community loses trust due to 'despicable' or 'ignominious' actions, not commendable ones."
     },
     {
         id: "vocab_set1_1",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nEMBELLISH",
-        options: ["A) Exaggerate", "B) Elaborate", "C) Caparison", "D) Modulate"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'EMBELLISH' means to make something more attractive by adding decorative details or ornamentation (सजाना / संवारना).\n\n• A) Exaggerate: Means to represent something as larger or greater than it is, which is a figurative sense of embellishing stories, not literal ornamentation.\n\n• B) Elaborate: Means to develop or present an idea in detail, which is related to explanation rather than decorative enhancement.\n\n• C) Caparison (Correct Answer): Means to deck out in rich, ornamental attire or decorate sumptuously, serving as a high-level synonym for 'EMBELLISH'.\n\n• D) Modulate: Means to exert a modifying or controlling influence on something, contextually unrelated."
+        options: ["A) Deface", "B) Caparison", "C) Soporific", "D) Imperious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'EMBELLISH' means to make something more attractive by adding decorative details or ornamentation (सजाना / संवारना).\n\n• Caparison (Correct Answer): Means to deck out in rich, ornamental attire or decorate sumptuously (सजाना / अलंकृत करना).\n\n• Deface: Means to damage or spoil the external appearance of something (विरूपित करना). This is the exact opposite of EMBELLISH.\n\n• Soporific: Describes something that tends to induce drowsiness or sleep (निद्राजनक).\n\n• Imperious: Describes an arrogant, domineering demeanor that assumes power without justification (शाही / घमंडी)."
     },
     {
         id: "vocab_set1_2",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nEMBELLISH",
-        options: ["A) Simplify", "B) Strip", "C) Disfigure", "D) Deface"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'EMBELLISH' means to decorate, adorn, or enhance visual appeal (सजाना).\n\n• A) Simplify: Means to make something easier or plain, which opposes complex embellishment in design, but lacks the destructive opposition of defacing.\n\n• B) Strip: Means to remove covering or decoration, acting as a contextual antonym, though 'deface' is the exact dictionary match in SSC key sets.\n\n• C) Disfigure: Means to spoil the appearance of, which is very close, but 'deface' specifically denotes spoiling decorative/visible surfaces intentionally.\n\n• D) Deface (Correct Answer): Means to damage, disfigure, or spoil the external appearance of something. It acts as the exact antonym for 'EMBELLISH'."
+        options: ["A) Adorn", "B) Deface", "C) Ephemeral", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'EMBELLISH' means to decorate, adorn, or enhance the visual appeal of something (सजाना).\n\n• Deface (Correct Answer): Means to damage, disfigure, or spoil the external appearance of something (बिगाड़ना / विरूपित करना).\n\n• Adorn: Means to make more beautiful or attractive by adding decoration (अलंकृत करना). This is a synonym of EMBELLISH.\n\n• Ephemeral: Describes something lasting for a very short time (क्षणिक / अल्पकालिक).\n\n• Fastidious: Describes someone who is extremely meticulous and difficult to please (नुकताचीं)."
     },
     {
         id: "vocab_set1_3",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPRODIGAL",
-        options: ["A) Generous", "B) Profligate", "C) Abundant", "D) Imprudent"],
+        options: ["A) Parsimonious", "B) Profligate", "C) Reclusive", "D) Coherent"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'PRODIGAL' describes a person who spends money or resources recklessly and wastefully (फ़िज़ूलख़र्च / अपव्ययी).\n\n• A) Generous: Describes showing a readiness to give more of something than is expected, which carries a noble context unlike wasteful spending.\n\n• B) Profligate (Correct Answer): Refers to an individual recklessly extravagant in financial resources, acting as the precise synonym for 'PRODIGAL'.\n\n• C) Abundant: Refers to existing or available in large quantities, describing supply rather than spending behavior.\n\n• D) Imprudent: Means lacking care or thought for consequences, describing general recklessness rather than strictly wasteful spending."
+        explanation: "• Main Word Meaning: 'PRODIGAL' describes a person who spends money, time, or resources recklessly and extravagantly (फ़िज़ूलख़र्च / अपव्ययी).\n\n• Profligate (Correct Answer): Means recklessly extravagant or wasteful in financial and material resources (फ़िज़ूलख़र्च / व्यभिचारी).\n\n• Parsimonious: Describes someone who is extremely stingy or unwilling to spend money (कंजूस). This is the exact opposite of PRODIGAL.\n\n• Reclusive: Describes someone who avoids the company of other people and lives in solitude (एकांतवासी).\n\n• Coherent: Describes an argument or speech that is logical, well-organized, and consistent (सुसंगत)."
     },
     {
         id: "vocab_set1_4",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nPRODIGAL",
-        options: ["A) Moderate", "B) Prudent", "C) Parsimonious", "D) Cautious"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'PRODIGAL' refers to spendthrift, recklessly wasteful financial behavior (फ़िज़ूलख़र्च).\n\n• A) Moderate: Describes avoiding extremes in behavior or expression, serving as a mild contrast.\n\n• B) Prudent: Describes acting with or showing care and thought for the future, which is a general antonym to recklessness.\n\n• C) Parsimonious (Correct Answer): Describes an extreme reluctance to spend even small amounts of money (miserly). It serves as the direct financial antonym for 'PRODIGAL'.\n\n• D) Cautious: Describes avoiding potential hazards, lacking a direct financial spending focus."
+        options: ["A) Squandering", "B) Parsimonious", "C) Obfuscate", "D) Pernicious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'PRODIGAL' refers to spendthrift, recklessly wasteful financial behavior (फ़िज़ूलख़र्च).\n\n• Parsimonious (Correct Answer): Describes someone showing extreme reluctance to spend even small amounts of money (कंजूस / किफ़ायती).\n\n• Squandering: Means wasting money, time, or opportunities recklessly (गँवाना). This is synonymous with PRODIGAL.\n\n• Obfuscate: Means to deliberately make something obscure, unclear, or confusing (अस्पष्ट करना / उलझाना).\n\n• Pernicious: Describes something having a subtle, gradual, or destructive harmful effect (घातक / हानिकारक)."
     },
     {
         id: "vocab_set1_5",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREPUDIATE",
-        options: ["A) Dismiss", "B) Disavow", "C) Contradict", "D) Renounce"],
-        correct: "B",
-        explanation: "• Main Word Meaning: 'REPUDIATE' means to refuse to accept, acknowledge, or be associated with an idea, claim, or person (अस्वीकार करना / परित्याग करना).\n\n• A) Dismiss: Means to decide that something is not important enough to consider, which is milder than formal repudiation.\n\n• B) Disavow (Correct Answer): Means to deny any responsibility, connection, or support for something, functioning as an exact synonym for 'REPUDIATE'.\n\n• C) Contradict: Means to deny the truth of a statement by asserting the opposite, focusing on truth rather than allegiance.\n\n• D) Renounce: Means to formally give up a claim or right, which is very close but disavow directly matches denying connection or responsibility."
+        options: ["A) Disavow", "B) Corroborate", "C) Loquacious", "D) Exigent"],
+        correct: "A",
+        explanation: "• Main Word Meaning: 'REPUDIATE' means to refuse to accept, acknowledge, or be associated with an idea, claim, or person (अस्वीकार करना / परित्याग करना).\n\n• Disavow (Correct Answer): Means to deny any responsibility, connection, or support for something (अस्वीकार करना / खंडन करना).\n\n• Corroborate: Means to support, validate, or confirm a statement with concrete proof (पुष्टि करना). This is the opposite of REPUDIATE.\n\n• Loquacious: Describes someone who tends to talk a great deal or is excessively talkative (बातूनी).\n\n• Exigent: Describes a situation that is pressing, urgent, or demanding immediate attention (अत्यावश्यक)."
     },
     {
         id: "vocab_set1_6",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nREPUDIATE",
-        options: ["A) Endorse", "B) Sanction", "C) Corroborate", "D) Validate"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'REPUDIATE' means to reject, disown, or deny the truth or validity of something (खंडन करना / त्यागना).\n\n• A) Endorse: Means to declare public approval or support of something, acting as a general antonym.\n\n• B) Sanction: Means to give official permission or approval for an action.\n\n• C) Corroborate (Correct Answer): Means to support, validate, or confirm an assertion with concrete proof. It acts as the precise, high-level antonym for 'REPUDIATE'.\n\n• D) Validate: Means to check or prove the validity or accuracy of something, close but less direct in formal opposition."
+        options: ["A) Disown", "B) Corroborate", "C) Gregarious", "D) Ubiquitous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REPUDIATE' means to reject, disown, or deny the validity of an assertion or claim (खंडन करना / त्यागना).\n\n• Corroborate (Correct Answer): Means to support, validate, or confirm an assertion using clear evidence (प्रमाणित करना / पुष्टि करना).\n\n• Disown: Means refusing to acknowledge connection with or responsibility for something (त्यागना). This is a synonym of REPUDIATE.\n\n• Gregarious: Describes someone who is fond of company and highly sociable (मिलनसार).\n\n• Ubiquitous: Describes something present, appearing, or found everywhere at once (सर्वव्यापी)."
     },
     {
         id: "vocab_set1_7",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSQUANDERER",
-        options: ["A) Hedonist", "B) Libertine", "C) Wastrel", "D) Spendthrift"],
-        correct: "D",
-        explanation: "• Main Word Meaning: A 'SQUANDERER' is a person who wastes money, time, or resources in a reckless and foolish manner (गँवाने वाला / फ़िज़ूलख़र्च आदमी).\n\n• A) Hedonist: Refers to a person who believes that the pursuit of pleasure is the most important thing in life.\n\n• B) Libertine: Describes a person who rejects accepted opinions in matters of religion or morality.\n\n• C) Wastrel: Refers to a wasteful or good-for-nothing person, which is very close, but spendthrift specifically targets financial squandering.\n\n• D) Spendthrift (Correct Answer): Refers to a person who wastes money in an extravagant, irresponsible manner. It serves as the exact noun synonym for 'SQUANDERER'."
+        options: ["A) Frugal", "B) Spendthrift", "C) Sycophant", "D) Audacious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: A 'SQUANDERER' is a person who wastes money, time, or resources carelessly and recklessly (गँवाने वाला / फ़िज़ूलख़र्च आदमी).\n\n• Spendthrift (Correct Answer): Refers to a person who spends money in an extravagant and irresponsible manner (फ़िज़ूलख़र्च).\n\n• Frugal: Describes someone who is economical and careful regarding money or food (मितव्ययी). This is the exact opposite of SQUANDERER.\n\n• Sycophant: Refers to a person who acts obsequiously toward powerful people to gain advantage (चाटुकार).\n\n• Audacious: Describes showing a willingness to take surprisingly bold or reckless risks (साहसी / दुस्साहसी)."
     },
     {
         id: "vocab_set1_8",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPENURIOUS",
-        options: ["A) Stingy", "B) Destitute", "C) Impoverished", "D) Needy"],
+        options: ["A) Opulent", "B) Destitute", "C) Garrulous", "D) Obstinate"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'PENURIOUS' primary meaning describes living in extreme poverty or hardship, as well as being excessively stingy (दरिद्र / कंजूस).\n\n• A) Stingy: Describes being unwilling to give or spend money. While 'penurious' can mean stingy, its primary vocabulary sense in standard testing aligns with extreme poverty.\n\n• B) Destitute (Correct Answer): Refers to being extremely poor, lacking the basic necessities of life. It serves as the precise synonym for 'PENURIOUS'.\n\n• C) Impoverished: Means made poor, which describes a state of poverty but lacks the complete destitution implied by penurious.\n\n• D) Needy: Describes lacking the necessities of life, functioning as a milder term."
+        explanation: "• Main Word Meaning: 'PENURIOUS' primarily describes living in extreme poverty, hardship, or severe lack of resources (दरिद्र / कफ़नचोर).\n\n• Destitute (Correct Answer): Describes being extremely poor and lacking the basic necessities of life (निराश्रित / कंगाल).\n\n• Opulent: Describes ostentatiously rich, luxurious, or lavish surroundings (धनी / संपन्न). This is the exact opposite of PENURIOUS.\n\n• Garrulous: Describes someone who is excessively talkative, especially on trivial matters (बातूनी).\n\n• Obstinate: Describes someone stubbornly refusing to change one's opinion or chosen course of action (हठी / ज़िद्दी)."
     },
     {
         id: "vocab_set1_9",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nBELITTLE",
-        options: ["A) Praise", "B) Amplify", "C) Aggrandize", "D) Overstate"],
+        options: ["A) Disparage", "B) Amplify", "C) Voracious", "D) Lethargic"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'BELITTLE' means to make an action, person, or achievement seem small, dismissible, or unimportant (कम आँकना / नीचा दिखाना).\n\n• A) Praise: Means to express warm approval or admiration of, which is a general antonym.\n\n• B) Amplify (Correct Answer): Means to increase the strength, importance, size, or value of something. It acts as the precise antonym for 'BELITTLE'.\n\n• C) Aggrandize: Means to increase the power, status, or wealth of an individual, focusing on power rather than scope/value.\n\n• D) Overstate: Means to state something too strongly or exaggerate, which is not a direct structural antonym."
+        explanation: "• Main Word Meaning: 'BELITTLE' means to make an action, person, or achievement seem small, trivial, or unimportant (कम आँकना / नीचा दिखाना).\n\n• Amplify (Correct Answer): Means to increase the strength, importance, size, or scope of something (बढ़ाना / विस्तार करना).\n\n• Disparage: Means to belittle or represent something as being of little worth (उपेक्षा करना). This is a synonym of BELITTLE.\n\n• Voracious: Describes wanting or devouring great quantities of food or possessing an insatiable appetite (पेटू / लालायित).\n\n• Lethargic: Describes feeling apathetic, sluggish, and lacking energy (सुस्त / आलसी)."
     },
     {
         id: "vocab_set1_10",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nABDICATE",
-        options: ["A) Relinquish", "B) Renounce", "C) Surrender", "D) Resign"],
+        options: ["A) Usurp", "B) Renounce", "C) Trepidation", "D) Pragmatic"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'ABDICATE' means to formally give up, renounce, or step down from a position of power or responsibility (त्यागना / पद छोड़ना).\n\n• A) Relinquish: Means to voluntarily cease to keep or claim an item or right.\n\n• B) Renounce (Correct Answer): Means to formally declare one's abandonment of a position, claim, or right, serving as the exact synonym for 'ABDICATE'.\n\n• C) Surrender: Means to stop resisting an enemy and submit to authority, implying defeat.\n\n• D) Resign: Means to voluntarily leave a job or office, which applies to general jobs rather than formal high thrones or supreme duties."
+        explanation: "• Main Word Meaning: 'ABDICATE' means to formally give up, renounce, or step down from a throne, power, or responsibility (त्यागना / पद छोड़ना).\n\n• Renounce (Correct Answer): Means to formally declare one's abandonment of a position, claim, or right (त्याग देना).\n\n• Usurp: Means to take a position of power or importance illegally or by force (हड़पना). This is the opposite of ABDICATE.\n\n• Trepidation: Refers to a feeling of fear, alarm, or agitation about something that may happen (घबराहट).\n\n• Pragmatic: Describes dealing with things sensibly and realistically based on practical considerations (व्यावहारिक)."
     },
     {
         id: "vocab_set1_11",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nRECANT",
-        options: ["A) Repudiate", "B) Disown", "C) Retract", "D) Revoke"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'RECANT' means to formally withdraw, disavow, or take back a previously held belief, opinion, or statement (बयान वापस लेना).\n\n• A) Repudiate: Means to refuse to accept or be associated with, focusing on rejection.\n\n• B) Disown: Means to refuse to acknowledge connection with a person or claim.\n\n• C) Retract (Correct Answer): Means to draw back or withdraw a statement, belief, or accusation, functioning as the exact synonym for 'RECANT'.\n\n• D) Revoke: Means to officially cancel an order, decree, or decision."
+        options: ["A) Affirm", "B) Retract", "C) Indefatigable", "D) Superfluous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'RECANT' means to formally withdraw, disavow, or take back a formerly held opinion, belief, or statement (बयान वापस लेना / मुकर जाना).\n\n• Retract (Correct Answer): Means to draw back or withdraw a statement, opinion, or accusation (वापस लेना).\n\n• Affirm: Means to state positively, validate, or confirm the truth of something (पुष्टि करना). This is the opposite of RECANT.\n\n• Indefatigable: Describes a person persisting tirelessly without showing fatigue (अथक).\n\n• Superfluous: Describes something unnecessary through being more than enough (अनावश्यक / ज़रूरत से ज़्यादा)."
     },
     {
         id: "vocab_set1_12",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nIMPRUDENT",
-        options: ["A) Discrete", "B) Cautious", "C) Wise", "D) Sensible"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'IMPRUDENT' describes acting without care, thought, or wisdom regarding future consequences (बेवकूफ़ / लापरवाही).\n\n• A) Discrete: Means individually separate and distinct.\n\n• B) Cautious: Means careful to avoid potential problems or dangers, describing an action style.\n\n• C) Wise (Correct Answer): Describes showing sound judgment, deep understanding, and careful decision-making. It serves as the exact antonym for 'IMPRUDENT'.\n\n• D) Sensible: Describes possessing or showing good sense or judgment, very close but 'Wise' is the direct high-level counterpart."
+        options: ["A) Rash", "B) Wise", "C) Equivocal", "D) Altruistic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'IMPRUDENT' describes acting without due care, thought, or practical wisdom (बेवकूफ़ / लापरवाही से भरा).\n\n• Wise (Correct Answer): Describes showing sound judgment, deep understanding, and careful decision-making (बुद्धिमान / समझदार).\n\n• Rash: Describes acting or done without careful consideration of consequences (उतावला). This is synonymous with IMPRUDENT.\n\n• Equivocal: Describes something open to more than one interpretation or deliberately ambiguous (अस्पष्ट / दोअर्थी).\n\n• Altruistic: Describes showing selfless concern for the well-being of others (परोपकारी)."
     },
     {
         id: "vocab_set1_13",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nNIGGARDLY",
-        options: ["A) Parsimonious", "B) Miserly", "C) Stingy", "D) Frugal"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'NIGGARDLY' describes an ungenerous or miserly approach to spending money or sharing resources (कंजूस / नीच).\n\n• A) Parsimonious: Describes extreme reluctance to spend money, acting as a high-level literary synonym.\n\n• B) Miserly: Describes characteristic of a miser, living poorly to save money.\n\n• C) Stingy (Correct Answer): Refers to being unwilling to give or spend money. It serves as the standard core synonym for 'NIGGARDLY'.\n\n• D) Frugal: Describes being economical and careful with money without the negative connotation of ungenerous greed."
+        options: ["A) Generous", "B) Stingy", "C) Omnipresent", "D) Imperious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'NIGGARDLY' describes an ungenerous, reluctant, or miserly approach to spending money or resources (कंजूस / मक्खीचूस).\n\n• Stingy (Correct Answer): Means unwilling to give or spend money, resources, or praise (कंजूस).\n\n• Generous: Describes showing a readiness to give more of something than is strictly necessary (उदार). This is the exact opposite of NIGGARDLY.\n\n• Omnipresent: Describes widely or constantly encountered entities present everywhere (सर्वव्यापी).\n\n• Imperious: Describes assuming power or authority in an arrogant manner (अहंकारी)."
     },
     {
         id: "vocab_set1_14",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nAVOW",
-        options: ["A) Proclaim", "B) Declare", "C) Confess", "D) Assert"],
+        options: ["A) Deny", "B) Declare", "C) Obfuscate", "D) Soporific"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'AVOW' means to assert, confess, or declare openly and emphatically (स्वीकार करना / दावा करना).\n\n• A) Proclaim: Means to announce officially or publicly.\n\n• B) Declare (Correct Answer): Means to assert, confess, or state openly. It acts as the direct exact synonym for 'AVOW'.\n\n• C) Confess: Means to admit that one has committed a crime or done something wrong.\n\n• D) Assert: Means to state a fact or belief confidently and forcefully."
+        explanation: "• Main Word Meaning: 'AVOW' means to assert, confess, or declare openly and firmly (स्वीकार करना / सार्वजनिक रूप से घोषणा करना).\n\n• Declare (Correct Answer): Means to assert, confess, or state openly and emphatically (घोषणा करना).\n\n• Deny: Means to state that one does not admit the truth or existence of something (इन्कार करना). This is the exact opposite of AVOW.\n\n• Obfuscate: Means to make obscure, unclear, or confusing (उलझाना).\n\n• Soporific: Describes something that tends to cause sleepiness or drowsiness (निद्राजनक)."
     },
     {
         id: "vocab_set1_15",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nPROFUSE",
-        options: ["A) Sparse", "B) Scant", "C) Meager", "D) Deficient"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'PROFUSE' describes something offered or available in extravagant abundance or huge quantities (प्रचुर / अत्यधिक).\n\n• A) Sparse: Describes thinly dispersed or scattered, focusing on distribution.\n\n• B) Scant: Describes barely sufficient or adequate, focusing on amount.\n\n• C) Meager (Correct Answer): Describes something lacking in quantity, quality, or fullness. It acts as the direct antonym for 'PROFUSE'.\n\n• D) Deficient: Describes not having enough of a specified quality or ingredient."
+        options: ["A) Abundant", "B) Meager", "C) Persistent", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'PROFUSE' describes something available or given in extravagant, generous abundance (प्रचुर / अत्यधिक).\n\n• Meager (Correct Answer): Describes something lacking in quantity, quality, or fullness (अल्प / अल्पमात्र).\n\n• Abundant: Describes existing or available in large quantities (प्रचुर). This is a synonym of PROFUSE.\n\n• Persistent: Describes continuing firmly or obstinately in a course of action despite difficulty (लगातार).\n\n• Taciturn: Describes a person reserved or saying very little (कम बोलने वाला)."
     },
     {
         id: "vocab_set1_16",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSCRIMPING",
-        options: ["A) Curtailing", "B) Pinching", "C) Retrenching", "D) Economizing"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'SCRIMPING' refers to spending money or using resources very carefully and frugally to cut down expenses (किफ़ायत करना / कसर निकालना).\n\n• A) Curtailing: Means reducing in extent or quantity; imposing a restriction on.\n\n• B) Pinching: Slang/informal for spending minimal amounts or stealing.\n\n• C) Retrenching: Means reducing costs or spending in response to economic difficulty, usually corporate.\n\n• D) Economizing (Correct Answer): Refers to spending money carefully and reducing unnecessary expenditure. It acts as the exact synonym for 'SCRIMPING'."
+        options: ["A) Squandering", "B) Economizing", "C) Gregarious", "D) Ponderous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SCRIMPING' refers to spending money or using resources very carefully, frugally, or restrictively (किफ़ायत करना / बचत करना).\n\n• Economizing (Correct Answer): Means spending money carefully and reducing unnecessary expenditure (बचत करना / मितव्ययिता).\n\n• Squandering: Means wasting money, time, or resources recklessly (गँवाना). This is the exact opposite of SCRIMPING.\n\n• Gregarious: Describes someone who is fond of company and sociable (मिलनसार).\n\n• Ponderous: Describes something slow, heavy, and clumsy due to weight (भारी-भरकम)."
     },
     {
         id: "vocab_set1_17",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nESPOUSE",
-        options: ["A) Discard", "B) Renounce", "C) Reject", "D) Repudiate"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'ESPOUSE' means to adopt, support, or embrace an idea, cause, or belief (समर्थन करना / अपनाना).\n\n• A) Discard: Means to get rid of something as no longer useful or desirable.\n\n• B) Renounce: Means to formally declare one's abandonment of a claim or right.\n\n• C) Reject (Correct Answer): Means to refuse to accept, agree with, or support something. It acts as the direct antonym for 'ESPOUSE'.\n\n• D) Repudiate: Means to deny the truth or validity of something firmly."
+        options: ["A) Adopt", "B) Reject", "C) Audacious", "D) Meticulous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'ESPOUSE' means to adopt, support, or embrace an idea, cause, or belief (समर्थन करना / अपनाना).\n\n• Reject (Correct Answer): Means to refuse to accept, agree with, or support something (अस्वीकार करना).\n\n• Adopt: Means to choose to follow, support, or accept a cause or belief (अपनाना). This is a synonym of ESPOUSE.\n\n• Audacious: Describes showing a willingness to take bold risks (साहसी).\n\n• Meticulous: Describes showing great attention to detail and careful precision (सूक्ष्म / अति-सावधान)."
     },
     {
         id: "vocab_set1_18",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREFUTE",
-        options: ["A) Rebut", "B) Disprove", "C) Counter", "D) Contradict"],
+        options: ["A) Confirm", "B) Disprove", "C) Loquacious", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'REFUTE' means to prove a statement, theory, or accusation to be wrong or false using evidence (खंडन करना / झूठा साबित करना).\n\n• A) Rebut: Means to claim or prove that evidence is false, which is close but refuting guarantees successful disproof.\n\n• B) Disprove (Correct Answer): Means to prove a statement or accusation to be false. It is the exact synonym for 'REFUTE'.\n\n• C) Counter: Means to speak or act in opposition to something.\n\n• D) Contradict: Means to assert the opposite of a statement without necessarily providing proof."
+        explanation: "• Main Word Meaning: 'REFUTE' means to prove a statement, theory, or accusation to be false or incorrect using evidence (खंडन करना / झूठा साबित करना).\n\n• Disprove (Correct Answer): Means to prove a statement or claim to be false using proof (गलत साबित करना).\n\n• Confirm: Means to establish the truth or correctness of something (पुष्टि करना). This is the exact opposite of REFUTE.\n\n• Loquacious: Describes someone who tends to talk a great deal (बातूनी).\n\n• Fastidious: Describes someone who is very attentive to accuracy and detail (नुकताचीं)."
     },
     {
         id: "vocab_set1_19",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDISOWN",
-        options: ["A) Acknowledge", "B) Adopt", "C) Claim", "D) Retain"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'DISOWN' means to refuse to acknowledge any connection with or responsibility for someone or something (त्यागना / संबंध तोड़ना).\n\n• A) Acknowledge (Correct Answer): Means to accept, admit, or formally recognize the truth or connection with an entity. It serves as the exact antonym for 'DISOWN'.\n\n• B) Adopt: Means to legally take another's child or choose to follow a cause.\n\n• C) Claim: Means to state or assert that something is the case or belongs to oneself.\n\n• D) Retain: Means to continue to have or keep possession of something."
+        options: ["A) Repudiate", "B) Acknowledge", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DISOWN' means to refuse to acknowledge connection with or responsibility for a person or object (त्यागना / संबंध तोड़ना).\n\n• Acknowledge (Correct Answer): Means to accept, admit, or formally recognize connection with something (स्वीकार करना / मान्यता देना).\n\n• Repudiate: Means to refuse to accept or be associated with something (अस्वीकार करना). This is a synonym of DISOWN.\n\n• Disparate: Describes things essentially different in kind and impossible to compare (भिन्न).\n\n• Precocial: Describes showing unusually early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_set1_20",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nBLEMISH",
-        options: ["A) Defect", "B) Flaw", "C) Stain", "D) Scar"],
+        options: ["A) Perfection", "B) Flaw", "C) Cogent", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'BLEMISH' refers to a mark, fault, defect, or imperfection that spoils the visual appearance or quality of something (दाग / धब्बा / दोष).\n\n• A) Defect: Refers to a shortcoming or imperfection in a system or structure.\n\n• B) Flaw (Correct Answer): Refers to a mark, fault, or imperfection that spoils perfection. It serves as the exact synonym for 'BLEMISH'.\n\n• C) Stain: Refers to a colored mark that is difficult to remove.\n\n• D) Scar: Refers to a mark left on the skin after a wound has healed."
+        explanation: "• Main Word Meaning: 'BLEMISH' refers to a mark, fault, or defect that spoils the appearance or moral purity of something (दाग / धब्बा / दोष).\n\n• Flaw (Correct Answer): Refers to a mark, fault, or imperfection that spoils perfection (दोष / त्रुटि).\n\n• Perfection: Refers to the state of being free from faults or defects (पूर्णता). This is the exact opposite of BLEMISH.\n\n• Cogent: Describes an argument or case that is clear, logical, and convincing (प्रभावशाली).\n\n• Resilient: Describes the ability to withstand or recover quickly from difficult conditions (लचीला / जुझारू)."
     },
     {
         id: "vocab_dawdle_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDAWDLE",
-        options: ["A) Linger", "B) Loiter", "C) Procrastinate", "D) Dally"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DAWDLE' means to waste time, move slowly, or linger aimlessly without purpose (समय गँवाना / सुस्ती करना).\n\n• A) Linger: Means to stay in a place longer than necessary because of a reluctance to leave.\n\n• B) Loiter: Means to stand or wait around idly without apparent purpose.\n\n• C) Procrastinate (Correct Answer): Means to delay action, put off tasks, or waste time aimlessly. It serves as the precise synonym for 'DAWDLE'.\n\n• D) Dally: Means to act or move slowly or frivolously."
+        options: ["A) Hasten", "B) Procrastinate", "C) Fastidious", "D) Intrepid"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DAWDLE' means to waste time or move slowly and aimlessly (समय गँवाना / सुस्ती करना).\n\n• Procrastinate (Correct Answer): Means to delay action, put off tasks, or waste time aimlessly (टालमटोल करना / विलंब करना).\n\n• Hasten: Means to move or act quickly (जल्दी करना). This is the exact opposite of DAWDLE.\n\n• Fastidious: Describes someone very attentive to accuracy and details (नुकताचीं).\n\n• Intrepid: Describes someone who is fearless and adventurous (निडर)."
     },
     {
         id: "vocab_fiddle_around_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nFIDDLE AROUND",
-        options: ["A) Loiter", "B) Tamper", "C) Meddle", "D) Trifle"],
+        options: ["A) Loiter", "B) Expedite", "C) Pragmatic", "D) Superfluous"],
         correct: "A",
-        explanation: "• Main Word Meaning: 'FIDDLE AROUND' means to spend time doing aimless, unproductive things or wasting time lazily (समय बर्बाद करना / टालमटोल करना).\n\n• A) Loiter (Correct Answer): Means to stand or wait around idly without apparent purpose. It functions as an exact synonym for 'FIDDLE AROUND'.\n\n• B) Tamper: Means to interfere with something in order to cause damage.\n\n• C) Meddle: Means to interfere in something that is not one's concern.\n\n• D) Trifle: Means to treat something without seriousness or respect."
+        explanation: "• Main Word Meaning: 'FIDDLE AROUND' means to spend time doing aimless, unproductive, or trivial things (समय बर्बाद करना / टालमटोल करना).\n\n• Loiter (Correct Answer): Means to stand or wait around idly without apparent purpose (समय गँवाना / बेकार घूमना).\n\n• Expedite: Means to make an action or process happen sooner or accomplish faster (जल्दी करना / तेज़ी लाना). This is the opposite of FIDDLE AROUND.\n\n• Pragmatic: Describes dealing with things sensibly and realistically (व्यावहारिक).\n\n• Superfluous: Describes something unnecessary or more than needed (अनावश्यक)."
     },
     {
         id: "vocab_amble_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nAMBLE",
-        options: ["A) Saunter", "B) Wander", "C) Meander", "D) Stroll"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'AMBLE' means to walk or move at a slow, relaxed, and unhurried pace (मंथर गति से चलना / टहलना).\n\n• A) Saunter: Means to walk in a slow, relaxed manner, very close but stroll is the primary testing key match.\n\n• B) Wander: Means to walk or move in a leisurely or aimless way without a fixed destination.\n\n• C) Meander: Means to follow a winding course, describing path shape rather than pace.\n\n• D) Stroll (Correct Answer): Means to walk in a leisurely, relaxed manner, acting as the exact synonym for 'AMBLE'."
+        options: ["A) Sprint", "B) Stroll", "C) Soporific", "D) Tenacious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'AMBLE' means to walk or move at a slow, relaxed, and unhurried pace (मंथर गति से चलना / टहलना).\n\n• Stroll (Correct Answer): Means to walk in a leisurely, relaxed manner (टहलना).\n\n• Sprint: Means to run at full speed over a short distance (तेज़ दौड़ना). This is the opposite of AMBLE.\n\n• Soporific: Describes something that induces drowsiness (निद्राजनक).\n\n• Tenacious: Describes holding firm to a position or purpose with great persistence (दृढ़ / हठी)."
     },
     {
         id: "vocab_trifle_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nTRIFLE",
-        options: ["A) Hesitate", "B) Dally", "C) Flirt", "D) Ignore"],
-        correct: "B",
-        explanation: "• Main Word Meaning: 'TRIFLE' means to treat a serious matter casually or waste time foolishly (हलके में लेना / खिलवाड़ करना).\n\n• A) Hesitate: Means to pause before saying or doing something.\n\n• B) Dally (Correct Answer): Means to act or move slowly, or treat a serious matter casually and frivolously. It serves as an exact synonym for 'TRIFLE'.\n\n• C) Flirt: Means to behave as though attracted to someone, but playfully.\n\n• D) Ignore: Means to refuse to take notice of or acknowledge."
+        options: ["A) Dally", "B) Deliberate", "C) Audacious", "D) Altruistic"],
+        correct: "A",
+        explanation: "• Main Word Meaning: 'TRIFLE' means to treat a serious matter casually or waste time foolishly (हलके में लेना / खिलवाड़ करना).\n\n• Dally (Correct Answer): Means to act or move slowly, or treat a serious matter casually (समय गँवाना / खिलवाड़ करना).\n\n• Deliberate: Means done consciously and intentionally with careful thought (विचारपूर्वक). This is the opposite of TRIFLE.\n\n• Audacious: Describes showing bold or reckless risks (साहसी).\n\n• Altruistic: Describes showing selfless concern for the welfare of others (परोपकारी)."
     },
     {
         id: "vocab_stagger_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSTAGGER",
-        options: ["A) Stumble", "B) Totter", "C) Lurch", "D) Waver"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'STAGGER' means to walk or move unsteadily, as if about to fall or lose balance (लड़खड़ाना).\n\n• A) Stumble: Means to trip or momentarily lose one's balance while walking.\n\n• B) Totter: Means to move in a feeble or unsteady way, usually due to old age or weakness.\n\n• C) Lurch (Correct Answer): Means to make an abrupt, unsteady, or uncontrolled movement. It serves as an exact synonym for 'STAGGER'.\n\n• D) Waver: Means to shake or tremble, or become unsteady in decision-making."
+        options: ["A) Lurch", "B) Steady", "C) Loquacious", "D) Fastidious"],
+        correct: "A",
+        explanation: "• Main Word Meaning: 'STAGGER' means to walk or move unsteadily as if about to fall (लड़खड़ाना).\n\n• Lurch (Correct Answer): Means to make an abrupt, unsteady, or uncontrolled movement (लड़खड़ाना).\n\n• Steady: Means firmly fixed, supported, or balanced (स्थिर / संतुलित). This is the exact opposite of STAGGER.\n\n• Loquacious: Describes someone who tends to talk a great deal (बातूनी).\n\n• Fastidious: Describes someone attentive to detail and accuracy (सूक्ष्मदर्शी)."
     },
     {
         id: "vocab_decelerate_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDECELERATE",
-        options: ["A) Retard", "B) Slacken", "C) Delay", "D) Impede"],
+        options: ["A) Accelerate", "B) Slacken", "C) Ubiquitous", "D) Equanimity"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'DECELERATE' means to slow down or reduce speed (गति कम करना).\n\n• A) Retard: Means to delay or hold back progress, usually applied to growth or processes.\n\n• B) Slacken (Correct Answer): Means to reduce speed, tightness, or intensity. It serves as the precise synonym for 'DECELERATE'.\n\n• C) Delay: Means to make something happen later than expected.\n\n• D) Impede: Means to delay or obstruct the progress or movement of."
+        explanation: "• Main Word Meaning: 'DECELERATE' means to slow down or reduce speed (गति कम करना).\n\n• Slacken (Correct Answer): Means to reduce speed, tightness, or intensity (धीमा होना / सुस्त पड़ना).\n\n• Accelerate: Means to increase speed or rate of movement (गति बढ़ाना). This is the exact opposite of DECELERATE.\n\n• Ubiquitous: Describes something present everywhere simultaneously (सर्वव्यापी).\n\n• Equanimity: Refers to mental calmness, composure, and evenness of temper (समता / मानसिक शांति)."
     },
     {
         id: "vocab_dawdle_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDAWDLE",
-        options: ["A) Hasten", "B) Hurry", "C) Rush", "D) Barrel"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'DAWDLE' means to move slowly or waste time lingering aimlessly (समय गँवाना).\n\n• A) Hasten: Means to be quick to do something, which is a general antonym.\n\n• B) Hurry: Means to move or act with speed, a standard contrast.\n\n• C) Rush: Means to deal with urgently or move with speed.\n\n• D) Barrel (Correct Answer): Means to move or travel at high speed in an urgent, powerful manner. It acts as the high-level vocabulary antonym for 'DAWDLE'."
+        options: ["A) Loiter", "B) Barrel", "C) Taciturn", "D) Ponderous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DAWDLE' means to move slowly or waste time lingering aimlessly (समय गँवाना / विलंब करना).\n\n• Barrel (Correct Answer): Means to move or travel at high speed in an urgent, powerful manner (तेज़ी से दौड़ना / झपट्टा मारना).\n\n• Loiter: Means to stand around idly without purpose (बेकार घूमना). This is a synonym of DAWDLE.\n\n• Taciturn: Describes a person who is reserved in speech (कम बोलने वाला).\n\n• Ponderous: Describes something slow and clumsy due to great weight (भारी-भरकम)."
     },
     {
         id: "vocab_exert_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nEXERT",
-        options: ["A) Apply", "B) Strive", "C) Endeavor", "D) Strain"],
+        options: ["A) Slack", "B) Strive", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'EXERT' means to apply oneself greatly or put forth intense physical or mental effort (ज़ोर लगाना / प्रयास करना).\n\n• A) Apply: Means to bring something into operation or use force.\n\n• B) Strive (Correct Answer): Means to make great efforts or push hard to achieve something. It functions as the precise synonym for 'EXERT'.\n\n• C) Endeavor: Means to try hard to do or achieve something.\n\n• D) Strain: Means to make a strenuous and painful effort."
+        explanation: "• Main Word Meaning: 'EXERT' means to apply oneself greatly or put forth intense effort (ज़ोर लगाना / प्रयास करना).\n\n• Strive (Correct Answer): Means to make great efforts or push hard to achieve something (कठिन प्रयास करना).\n\n• Slack: Means to decrease effort or work slowly (सुस्ती बरतना). This is the opposite of EXERT.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing unusually early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_travail_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nTRAVAIL",
-        options: ["A) Labor", "B) Toil", "C) Drudgery", "D) Exertion"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'TRAVAIL' refers to painful, laborious effort or arduous work (कठिन परिश्रम / कष्ट).\n\n• A) Labor: Refers to work, especially hard physical work.\n\n• B) Toil: Refers to working extremely hard or incessantly.\n\n• C) Drudgery (Correct Answer): Refers to hard, menial, painful, or dull labor. It serves as an exact synonym for 'TRAVAIL'.\n\n• D) Exertion: Refers to physical or mental effort."
+        options: ["A) Ease", "B) Drudgery", "C) Soporific", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'TRAVAIL' refers to painful, laborious effort or arduous work (कठिन परिश्रम / कष्ट).\n\n• Drudgery (Correct Answer): Refers to hard, menial, painful, or dull labor (कठिन और नीरस काम).\n\n• Ease: Refers to the absence of difficulty or effort (आसानी / आराम). This is the exact opposite of TRAVAIL.\n\n• Soporific: Describes something that induces drowsiness (निद्राजनक).\n\n• Resilient: Describes the ability to recover quickly from difficult conditions (लचीला)."
     },
     {
         id: "vocab_gregarious_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nGREGARIOUS",
-        options: ["A) Social", "B) Friendly", "C) Companionable", "D) Outgoing"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'GREGARIOUS' describes a person who is fond of company, social, and outgoing (मिलनसार / सुसामाजिक).\n\n• A) Social: Describes relating to society or its organization, a broader general term.\n\n• B) Friendly: Describes behaving in a pleasant and kindly way toward someone.\n\n• C) Companionable (Correct Answer): Describes being friendly, welcoming, and fond of social company. It serves as an exact high-level synonym for 'GREGARIOUS'.\n\n• D) Outgoing: Describes socially confident and atmosphere-focused."
+        options: ["A) Reclusive", "B) Companionable", "C) Insolent", "D) Dilatory"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'GREGARIOUS' describes a person who is fond of company, social, and outgoing (मिलनसार / सुसामाजिक).\n\n• Companionable (Correct Answer): Describes someone who is friendly, welcoming, and fond of social company (मिलनसार).\n\n• Reclusive: Describes someone avoiding social interaction (एकांतवासी). This is the exact opposite of GREGARIOUS.\n\n• Insolent: Describes showing a rude and arrogant lack of respect (अपमानजनक / बदतमीज़).\n\n• Dilatory: Describes being slow to act or intended to cause delay (टालने वाला)."
     },
     {
         id: "vocab_gregarious_ant_1",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nGREGARIOUS",
-        options: ["A) Solitary", "B) Introverted", "C) Reclusive", "D) Reserved"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'GREGARIOUS' describes someone who thrives in social gatherings and loves company (मिलनसार).\n\n• A) Solitary: Describes done or existing alone, focusing on physical state rather than preference.\n\n• B) Introverted: Describes inward-looking temperament, a general psychological contrast.\n\n• C) Reclusive (Correct Answer): Refers to deliberately avoiding social interaction and living in seclusion. It acts as the direct antonym for 'GREGARIOUS'.\n\n• D) Reserved: Describes slow to reveal emotion or opinion."
+        options: ["A) Companionable", "B) Reclusive", "C) Audacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'GREGARIOUS' describes someone who thrives in social gatherings and loves company (मिलनसार).\n\n• Reclusive (Correct Answer): Describes someone deliberately avoiding social interaction and living in seclusion (एकांतप्रिय / वैरागी).\n\n• Companionable: Describes someone fond of social company (मिलनसार). This is a synonym of GREGARIOUS.\n\n• Audacious: Describes taking bold or reckless risks (साहसी).\n\n• Fastidious: Describes someone attentive to detail and hard to please (नुकताचीं)."
     },
     {
         id: "vocab_gregarious_ant_2",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nGREGARIOUS",
-        options: ["A) Detached", "B) Aloof", "C) Distant", "D) Unapproachable"],
+        options: ["A) Cordial", "B) Aloof", "C) Pragmatic", "D) Exigent"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'GREGARIOUS' refers to being socially warm, friendly, and outgoing (मिलनसार).\n\n• A) Detached: Describes separate or disconnected, lacking social emotion.\n\n• B) Aloof (Correct Answer): Describes being emotionally cool, distant, and detached from others. It acts as a strong antonym for 'GREGARIOUS'.\n\n• C) Distant: Describes far away in space or time, or cool in manner.\n\n• D) Unapproachable: Describes difficult or intimidating to meet."
+        explanation: "• Main Word Meaning: 'GREGARIOUS' refers to being socially warm, friendly, and outgoing (मिलनसार).\n\n• Aloof (Correct Answer): Describes someone who is emotionally cool, distant, and detached from others (अलग-थलग / उदासीन).\n\n• Cordial: Describes someone warm and friendly (सौहार्दपूर्ण). This is synonymous with GREGARIOUS.\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक).\n\n• Exigent: Describes demanding immediate attention or urgent action (अत्यावश्यक)."
     },
     {
         id: "vocab_reticent_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nRETICENT",
-        options: ["A) Hesitant", "B) Shy", "C) Taciturn", "D) Reserved"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'RETICENT' describes someone who is disinclined to speak or reveal their thoughts easily (अल्पभाषी / संकोची).\n\n• A) Hesitant: Describes tentative, slow, or unwilling to act.\n\n• B) Shy: Describes nervous or timid in the company of others.\n\n• C) Taciturn: Describes habitually saying little, very close but reserved directly matches reticent in restraint.\n\n• D) Reserved (Correct Answer): Refers to being quiet, hesitant, or disinclined to reveal personal opinions readily. It acts as the exact synonym for 'RETICENT'."
+        options: ["A) Talkative", "B) Reserved", "C) Equanimous", "D) Tenacious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'RETICENT' describes someone who is disinclined to speak or reveal thoughts easily (अल्पभाषी / संकोची).\n\n• Reserved (Correct Answer): Describes someone quiet, hesitant, or disinclined to reveal personal opinions readily (शांत / संकोची).\n\n• Talkative: Describes someone fond of talking (बातूनी). This is the exact opposite of RETICENT.\n\n• Equanimous: Describes being calm and composed under pressure (शांत / समचित्त).\n\n• Tenacious: Describes holding firm to a purpose or position (दृढ़)."
     },
     {
         id: "vocab_taciturn_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nTACITURN",
-        options: ["A) Uncommunicative", "B) Silent", "C) Quiet", "D) Secretive"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'TACITURN' describes a person who is habitually reserved and says very little (कम बोलने वाला / मौन रहना पसंद करने वाला).\n\n• A) Uncommunicative (Correct Answer): Refers to a habitual disinclination to talk or engage in casual conversation. It serves as the exact synonym for 'TACITURN'.\n\n• B) Silent: Describes not making or accompanied by any sound.\n\n• C) Quiet: Describes making little or no noise.\n\n• D) Secretive: Describes inclined to conceal feelings or information."
+        options: ["A) Loquacious", "B) Uncommunicative", "C) Soporific", "D) Audacious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'TACITURN' describes a person who is habitually reserved and says very little (कम बोलने वाला / मौन रहने वाला).\n\n• Uncommunicative (Correct Answer): Describes a habitual disinclination to talk or engage in conversation (अल्पभाषी).\n\n• Loquacious: Describes someone who tends to talk a great deal (बातूनी). This is the exact opposite of TACITURN.\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक).\n\n• Audacious: Describes showing bold or reckless risks (साहसी)."
     },
     {
         id: "vocab_engender_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nENGENDER",
-        options: ["A) Create", "B) Generate", "C) Instigate", "D) Induce"],
+        options: ["A) Quell", "B) Generate", "C) Ponderous", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'ENGENDER' means to produce, cause, or give rise to a feeling, situation, or condition (उत्पन्न करना / पैदा करना).\n\n• A) Create: Means to bring something into existence as a result of one's own actions.\n\n• B) Generate (Correct Answer): Means to produce, cause, or bring about a specific outcome. It acts as the precise synonym for 'ENGENDER'.\n\n• C) Instigate: Means to bring about or initiate an action or event, especially negative ones.\n\n• D) Induce: Means to succeed in persuading or leading someone to do something."
+        explanation: "• Main Word Meaning: 'ENGENDER' means to produce, cause, or give rise to a feeling, situation, or condition (उत्पन्न करना / पैदा करना).\n\n• Generate (Correct Answer): Means to produce, cause, or bring about a specific outcome (उत्पन्न करना).\n\n• Quell: Means to suppress or forcibly put an end to something (शांत करना / दबाना). This is the opposite of ENGENDER.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Fastidious: Describes someone very attentive to accuracy and detail (सूक्ष्मदर्शी)."
     },
     {
         id: "vocab_reprove_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREPROVE",
-        options: ["A) Scold", "B) Rebut", "C) Admonish", "D) Criticize"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'REPROVE' means to scold, reprimand, or express disapproval of someone's bad behavior gently to firmly (डाँटना / फटकारना).\n\n• A) Scold: Means to構 reprimand someone angrily, which is informal compared to reprove.\n\n• B) Rebut: Means to claim or prove that evidence or an accusation is false.\n\n• C) Admonish (Correct Answer): Means to scold, reprimand, or express disapproval of someone's behavior firmly. It serves as the exact synonym for 'REPROVE'.\n\n• D) Criticize: Means to indicate the faults of someone or something in a disapproval manner."
+        options: ["A) Laud", "B) Admonish", "C) Transient", "D) Cogent"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REPROVE' means to scold, reprimand, or express firm disapproval of someone's actions (डाँटना / फटकारना).\n\n• Admonish (Correct Answer): Means to scold, reprimand, or express disapproval firmly (चेतावनी देना / फटकारना).\n\n• Laud: Means to praise highly (सराहना करना). This is the exact opposite of REPROVE.\n\n• Transient: Describes lasting only for a short time (क्षणिक).\n\n• Cogent: Describes an argument that is clear, logical, and convincing (प्रभावशाली)."
     },
     {
         id: "vocab_reprove_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nREPROVE",
-        options: ["A) Praise", "B) Commend", "C) Applaud", "D) Laud"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'REPROVE' means to reprimand or express disapproval of someone's actions (फटकारना).\n\n• A) Praise: Means to express warm approval or admiration, a general contrast.\n\n• B) Commend: Means to praise formally or officially.\n\n• C) Applaud: Means to show approval by clapping hands or expressing enthusiasm.\n\n• D) Laud (Correct Answer): Means to praise, honor, or commend highly. It acts as the direct high-level vocabulary antonym for 'REPROVE'."
+        options: ["A) Castigate", "B) Laud", "C) Reticent", "D) Disparate"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REPROVE' means to reprimand or express disapproval of actions (फटकारना).\n\n• Laud (Correct Answer): Means to praise, honor, or commend highly (प्रशंसा करना / सराहना).\n\n• Castigate: Means to severely reprimand or criticize someone (कड़ी निंदा करना). This is a synonym of REPROVE.\n\n• Reticent: Describes someone reserved or quiet in speech (संकोची).\n\n• Disparate: Describes things essentially different in kind (भिन्न)."
     },
     {
         id: "vocab_venerate_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nVENERATE",
-        options: ["A) Respect", "B) Revere", "C) Worship", "D) Honor"],
+        options: ["A) Blaspheme", "B) Revere", "C) Discursive", "D) Ubiquitous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'VENERATE' means to regard with profound respect, high honor, or deep devotion (आदर करना / पूजा करना).\n\n• A) Respect: Refers to due regard for feelings or rights, which is milder than venerate.\n\n• B) Revere (Correct Answer): Means to regard someone or something with profound respect and devotion. It functions as the exact synonym for 'VENERATE'.\n\n• C) Worship: Refers to showing religious devotion to a deity.\n\n• D) Honor: Means to regard with great respect, very close but revere captures profound sacred awe."
+        explanation: "• Main Word Meaning: 'VENERATE' means to regard with profound respect or deep devotion (आदर करना / सम्मान करना).\n\n• Revere (Correct Answer): Means to regard someone or something with profound respect and devotion (श्रद्धा रखना).\n\n• Blaspheme: Means to speak disrespectfully or offensively toward sacred entities (अनादर करना). This is the opposite of VENERATE.\n\n• Discursive: Describes speech or writing digressing from subject to subject (असंगत).\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी)."
     },
     {
         id: "vocab_extol_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nEXTOL",
-        options: ["A) Acclaim", "B) Glorify", "C) Exalt", "D) Eulogize"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'EXTOL' means to praise enthusiastically and highly in public or formal settings (प्रशंसा करना / सराहना करना).\n\n• A) Acclaim: Means to praise enthusiastically and publicly.\n\n• B) Glorify: Means to praise worshipfully or make something seem better than it is.\n\n• C) Exalt (Correct Answer): Means to hold in high regard or praise enthusiastically. It acts as an exact synonym for 'EXTOL'.\n\n• D) Eulogize: Means to praise highly in speech or writing, especially in a funeral tribute."
+        options: ["A) Disparage", "B) Exalt", "C) Soporific", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'EXTOL' means to praise enthusiastically and highly in public (प्रशंसा करना / सराहना करना).\n\n• Exalt (Correct Answer): Means to hold in high regard or praise enthusiastically (गुणगान करना).\n\n• Disparage: Means to belittle or represent as being of little worth (उपेक्षा करना). This is the exact opposite of EXTOL.\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक).\n\n• Taciturn: Describes a person who is reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_deify_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEIFY",
-        options: ["A) Elevate", "B) Sanctify", "C) Exalt", "D) Idolize"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'DEIFY' means to treat, worship, or revere someone or something as if they were a god (देवता समान मानना / पूजना).\n\n• A) Elevate: Means to raise to a higher position or level.\n\n• B) Sanctify: Means to set apart as or declare holy.\n\n• C) Exalt: Means to hold in very high regard or raise in rank.\n\n• D) Idolize (Correct Answer): Means to admire or worship someone as if they were divine. It serves as the exact synonym for 'DEIFY'."
+        options: ["A) Vilify", "B) Idolize", "C) Precocial", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEIFY' means to treat, worship, or revere someone as if they were a god (देवता समान मानना / पूजना).\n\n• Idolize (Correct Answer): Means to admire or worship someone to an extreme degree (अंधभक्ति करना).\n\n• Vilify: Means to speak or write about someone in an abusively disparaging manner (बदनाम करना). This is the opposite of DEIFY.\n\n• Precocial: Describes showing unusually early development (समय से पहले विकसित).\n\n• Fastidious: Describes someone very attentive to accuracy (नुकताचीं)."
     },
     {
         id: "vocab_venerate_ant_1",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nVENERATE",
-        options: ["A) Despise", "B) Disdain", "C) Blaspheme", "D) Execrate"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'VENERATE' means to show deep respect and sacred honor toward an entity (श्रद्धा रखना).\n\n• A) Despise: Means to feel contempt or deep repugnance for.\n\n• B) Disdain: Means to consider to be unworthy of one's consideration.\n\n• C) Blaspheme (Correct Answer): Means to speak disrespectfully or offensively toward sacred or revered entities. It acts as the exact antonym for 'VENERATE'.\n\n• D) Execrate: Means to feel or express great loathing for."
+        options: ["A) Revere", "B) Blaspheme", "C) Resilient", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'VENERATE' means to show deep respect and sacred honor (श्रद्धा रखना / सम्मान करना).\n\n• Blaspheme (Correct Answer): Means to speak disrespectfully or offensively toward sacred entities or ideas (ईश-निंदा करना / अपमान करना).\n\n• Revere: Means to regard with profound respect (आदर करना). This is a synonym of VENERATE.\n\n• Resilient: Describes the ability to recover quickly from difficulties (लचीला).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_scorn_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSCORN",
-        options: ["A) Contempt", "B) Disdain", "C) Derision", "D) Mockery"],
+        options: ["A) Adoration", "B) Disdain", "C) Audacious", "D) Soporific"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'SCORN' refers to the feeling, attitude, or expression of open contempt and disgust toward someone or something (घृणा / नफ़रत / तिरस्कार).\n\n• A) Contempt: Refers to the feeling that a person or thing is beneath consideration.\n\n• B) Disdain (Correct Answer): Refers to the feeling that someone is unworthy of respect or consideration. It stands as an exact synonym for 'SCORN'.\n\n• C) Derision: Refers to contemptuous ridicule or mockery.\n\n• D) Mockery: Refers to teasing and contemptuous language or behavior."
+        explanation: "• Main Word Meaning: 'SCORN' refers to the expression of open contempt, disgust, or disdain (घृणा / तिरस्कार).\n\n• Disdain (Correct Answer): Refers to the feeling that someone or something is unworthy of respect (अवहेलना / घृणा).\n\n• Adoration: Refers to deep love and respectful admiration (पूजा / अत्यधिक प्रेम). This is the exact opposite of SCORN.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Soporific: Describes something that induces drowsiness (निद्राजनक)."
     },
     {
         id: "vocab_desecrate_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDESECRATE",
-        options: ["A) Defile", "B) Violate", "C) Corrupt", "D) Profane"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'DESECRATE' means to violate, ruin, or treat a sacred place, object, or belief with violent disrespect (अपवित्र करना).\n\n• A) Defile: Means to damage or spoil the purity or appearance of.\n\n• B) Violate: Means to break or fail to comply with a rule or formal agreement.\n\n• C) Corrupt: Means to cause to act dishonestly in return for money or personal gain.\n\n• D) Profane (Correct Answer): Means to treat a sacred place or belief with disrespect or abuse. It functions as the exact synonym for 'DESECRATE'."
+        options: ["A) Sanctify", "B) Profane", "C) Equanimous", "D) Loquacious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DESECRATE' means to treat a sacred place or object with violent disrespect or outrage (अपवित्र करना).\n\n• Profane (Correct Answer): Means to treat a sacred place or belief with disrespect or abuse (अपवित्र करना).\n\n• Sanctify: Means to set apart as holy or declare sacred (पवित्र करना). This is the exact opposite of DESECRATE.\n\n• Equanimous: Describes being calm and composed (शांत).\n\n• Loquacious: Describes someone who is talkative (बातूनी)."
     },
     {
         id: "vocab_affront_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nAFFRONT",
-        options: ["A) Offense", "B) Insult", "C) Sland", "D) Provocation"],
+        options: ["A) Compliment", "B) Insult", "C) Ubiquitous", "D) Ponderous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'AFFRONT' refers to an intentional act, remark, or display of disrespect that offends someone's dignity (अपमान / अनादर).\n\n• A) Offense: Refers to annoyance or resentment brought about by a perceived insult.\n\n• B) Insult (Correct Answer): Refers to an intentional remark or action that causes offense or humiliation. It serves as an exact synonym for 'AFFRONT'.\n\n• C) Slander: Refers to the action or crime of making a false spoken statement damaging to reputation.\n\n• D) Provocation: Refers to action or speech that makes someone annoyed or angry."
+        explanation: "• Main Word Meaning: 'AFFRONT' refers to an intentional act or remark that offends someone's dignity (अपमान / अनादर).\n\n• Insult (Correct Answer): Refers to an intentional remark or action that causes offense or humiliation (अपमान).\n\n• Compliment: Refers to a polite expression of praise or admiration (प्रशंसा). This is the exact opposite of AFFRONT.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम)."
     },
     {
         id: "vocab_quell_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nQUELL",
-        options: ["A) Subdue", "B) Crush", "C) Suppress", "D) Extinguish"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'QUELL' means to forcibly put an end to, subdue, or extinguish a rebellion, disorder, or strong emotion (शांत करना / दबाना).\n\n• A) Subdue: Means to overcome, quiet, or bring under control by force.\n\n• B) Crush: Means to compress or squeeze forceful until ruined.\n\n• C) Suppress (Correct Answer): Means to forcibly put an end to or subdue a disturbance or emotional outbreak. It acts as an exact synonym for 'QUELL'.\n\n• D) Extinguish: Means to cause a fire or light to cease burning."
+        options: ["A) Instigate", "B) Suppress", "C) Fastidious", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'QUELL' means to forcibly put an end to or subdue a rebellion, disorder, or fear (शांत करना / दबाना).\n\n• Suppress (Correct Answer): Means to forcibly put an end to or subdue a disturbance (दबाना / कुचलना).\n\n• Instigate: Means to bring about or initiate an action or disturbance (भड़काना). This is the opposite of QUELL.\n\n• Fastidious: Describes someone very attentive to detail (नुकताचीं).\n\n• Precocial: Describes showing unusually early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_castigate_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCASTIGATE",
-        options: ["A) Reprimand", "B) Chastise", "C) Rebuked", "D) Censure"],
+        options: ["A) Extol", "B) Chastise", "C) Pragmatic", "D) Disparate"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'CASTIGATE' means to criticize, reprimand, or scold someone with extreme severity (कड़ी निंदा करना / सज़ा देना).\n\n• A) Reprimand: Refers to expressing official disapproval.\n\n• B) Chastise (Correct Answer): Means to reprimand or scold someone with extreme severity. It functions as the precise synonym for 'CASTIGATE'.\n\n• C) Rebuke: Means to express sharp, stern disapproval.\n\n• D) Censure: Means to express formal disapproval of someone or something."
+        explanation: "• Main Word Meaning: 'CASTIGATE' means to criticize, reprimand, or punish someone with extreme severity (कड़ी निंदा करना / दंड देना).\n\n• Chastise (Correct Answer): Means to reprimand or scold someone with extreme severity (फटकारना).\n\n• Extol: Means to praise enthusiastically (प्रशंसा करना). This is the exact opposite of CASTIGATE.\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक).\n\n• Disparate: Describes things essentially different in kind (भिन्न)."
     },
     {
         id: "vocab_depravity_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEPRAVITY",
-        options: ["A) Corruption", "B) Vice", "C) Wickedness", "D) Immorality"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DEPRAVITY' refers to moral corruption, wickedness, and perversion of character or behavior (भ्रष्टता / दुष्टता).\n\n• A) Corruption: Refers to dishonest or fraudulent conduct by those in power.\n\n• B) Vice: Refers to immoral or wicked behavior, broader term.\n\n• C) Wickedness (Correct Answer): Refers to the state of being morally corrupt or evil in character. It stands as an exact synonym for 'DEPRAVITY'.\n\n• D) Immorality: Refers to the state or quality of being immoral."
+        options: ["A) Rectitude", "B) Wickedness", "C) Exuberant", "D) Equanimity"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEPRAVITY' refers to moral corruption, wickedness, and evil conduct (भ्रष्टता / दुष्टता).\n\n• Wickedness (Correct Answer): Refers to the state or quality of being morally corrupt or evil (दुष्टता).\n\n• Rectitude: Refers to morally correct behavior and righteousness (ईमानदारी / सदाचार). This is the exact opposite of DEPRAVITY.\n\n• Exuberant: Describes being full of energy, excitement, and cheerfulness (उल्लासपूर्ण).\n\n• Equanimity: Refers to mental calmness and composure (समता)."
     },
     {
         id: "vocab_abjection_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nABJECTION",
-        options: ["A) Wretchedness", "B) Servitude", "C) Misery", "D) Degradation"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'ABJECTION' refers to a state of extreme misery, wretchedness, degradation, or self-humiliation (अधोगति / नीचता).\n\n• A) Wretchedness: Refers to the state of being very unhappy, ill, or in miserable condition.\n\n• B) Servitude: Refers to the state of being a slave or completely subject to someone powerful.\n\n• C) Misery: Refers to a state or feeling of great distress or discomfort.\n\n• D) Degradation (Correct Answer): Refers to the state of being lowered in status or character to a wretched level. It serves as the exact synonym for 'ABJECTION'."
+        options: ["A) Exaltation", "B) Degradation", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'ABJECTION' refers to a state of extreme misery, degradation, or self-humiliation (अधोगति / नीचता).\n\n• Degradation (Correct Answer): Refers to the state of being lowered in status, character, or dignity (पतन / अवनति).\n\n• Exaltation: Refers to the state of being raised high in rank, honor, or praise (उन्नति). This is the exact opposite of ABJECTION.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person who is reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_dissipation_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDISSIPATION",
-        options: ["A) Squandering", "B) Profligacy", "C) Excess", "D) Dissoluteness"],
+        options: ["A) Frugality", "B) Profligacy", "C) Soporific", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'DISSIPATION' refers to overindulgence in sensual pleasures, wasteful living, or squandering of wealth (फ़िजूलख़र्ची / व्यभिचार).\n\n• A) Squandering: Refers to wasting something in a reckless manner.\n\n• B) Profligacy (Correct Answer): Refers to reckless extravagance or immoral, overindulgent living. It acts as an exact synonym for 'DISSIPATION'.\n\n• C) Excess: Refers to an amount of something that is more than necessary.\n\n• D) Dissoluteness: Refers to laxity in morals, close but profligacy encompasses both moral and financial dissipation."
+        explanation: "• Main Word Meaning: 'DISSIPATION' refers to overindulgence in sensual pleasures or wasteful living (फ़िज़ूलख़र्ची / व्यभिचार).\n\n• Profligacy (Correct Answer): Refers to reckless extravagance or immoral, overindulgent living (फ़िज़ूलख़र्ची / बदचलन).\n\n• Frugality: Refers to the quality of being economical and careful with money (मितव्ययिता). This is the exact opposite of DISSIPATION.\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक).\n\n• Resilient: Describes the ability to recover quickly from hardship (लचीला)."
     },
     {
         id: "vocab_perversion_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPERVERSION",
-        options: ["A) Corruption", "B) Distortion", "C) Deviation", "D) Debasement"],
+        options: ["A) Rectitude", "B) Distortion", "C) Ubiquitous", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'PERVERSION' refers to corrupting, twisting, or altering something away from its original or correct state (विकृति / भ्रष्टता).\n\n• A) Corruption: Refers to dishonest behavior, a general term.\n\n• B) Distortion (Correct Answer): Refers to altering or corrupting something away from its natural state. It serves as an exact synonym for 'PERVERSION'.\n\n• C) Deviation: Refers to departing from an established course or accepted standard.\n\n• D) Debasement: Refers to reducing the quality or value of something."
+        explanation: "• Main Word Meaning: 'PERVERSION' refers to corrupting, twisting, or altering something away from its correct state (विकृति / भ्रष्टता).\n\n• Distortion (Correct Answer): Refers to altering or corrupting something away from its natural or true state (विकृति).\n\n• Rectitude: Refers to morally correct behavior and righteousness (ईमानदारी). This is the exact opposite of PERVERSION.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Fastidious: Describes someone very attentive to accuracy (नुकताचीं)."
     },
     {
         id: "vocab_depravity_ant_1",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDEPRAVITY",
-        options: ["A) Morality", "B) Integrity", "C) Rectitude", "D) Virtue"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DEPRAVITY' refers to moral wickedness, corruption, and evil conduct (दुष्टता / भ्रष्टता).\n\n• A) Morality: Refers to principles concerning right and wrong.\n\n• B) Integrity: Refers to the quality of being honest and having strong moral principles.\n\n• C) Rectitude (Correct Answer): Refers to morally correct behavior and uncompromising integrity. It serves as the precise antonym for 'DEPRAVITY'.\n\n• D) Virtue: Refers to behavior showing high moral standards."
+        options: ["A) Wickedness", "B) Rectitude", "C) Discursive", "D) Ponderous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEPRAVITY' refers to moral wickedness and corruption (दुष्टता / भ्रष्टता).\n\n• Rectitude (Correct Answer): Refers to morally correct behavior and uncompromising integrity (सदाचार / ईमानदारी).\n\n• Wickedness: Refers to being morally corrupt (दुष्टता). This is a synonym of DEPRAVITY.\n\n• Discursive: Describes digressing from subject to subject without focus (असंगत).\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम)."
     },
     {
         id: "vocab_depravity_ant_2",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDEPRAVITY",
-        options: ["A) Probity", "B) Uprightness", "C) Goodness", "D) Scrupulosity"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'DEPRAVITY' refers to moral wickedness and perversion (भ्रष्टता).\n\n• A) Probity: Refers to the quality of having strong moral principles; honesty.\n\n• B) Uprightness: Refers to the quality of being honest and morally correct.\n\n• C) Goodness: Refers to the quality of being morally good.\n\n• D) Scrupulosity (Correct Answer): Refers to strict, rigorous care to avoid any moral wrongdoing. It acts as a direct antonym for 'DEPRAVITY'."
+        options: ["A) Profligacy", "B) Scrupulosity", "C) Loquacious", "D) Audacious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEPRAVITY' refers to moral wickedness and perversion (भ्रष्टता).\n\n• Scrupulosity (Correct Answer): Refers to strict, rigorous care to avoid any moral wrongdoing (सत्यनिष्ठा / धर्मपरायणता).\n\n• Profligacy: Refers to reckless extravagance or immorality (व्यभिचार). This is synonymous with DEPRAVITY.\n\n• Loquacious: Describes someone who is talkative (बातूनी).\n\n• Audacious: Describes taking bold risks (साहसी)."
     },
     {
         id: "vocab_incorrigible_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nINCORRIGIBLE",
-        options: ["A) Intractable", "B) Hardened", "C) Irreformable", "D) Unrepentant"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'INCORRIGIBLE' describes a person or habit that cannot be corrected, improved, or reformed due to deep-seated tendencies (असंसोधनीय / जिसे सुधारा न जा सके).\n\n• A) Intractable: Describes hard to control or deal with.\n\n• B) Hardened: Describes possessing fixed or established bad habits.\n\n• C) Irreformable (Correct Answer): Describes someone or something impossible to reform or improve. It serves as the exact synonym for 'INCORRIGIBLE'.\n\n• D) Unrepentant: Describes showing no regret for wrongdoings."
+        options: ["A) Reformable", "B) Irreformable", "C) Pragmatic", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'INCORRIGIBLE' describes a person or habit that cannot be corrected, improved, or reformed (असुधार्य).\n\n• Irreformable (Correct Answer): Describes someone or something impossible to reform or improve (असुधार्य).\n\n• Reformable: Describes something capable of being improved or corrected (सुधार योग्य). This is the exact opposite of INCORRIGIBLE.\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_impenitent_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nIMPENITENT",
-        options: ["A) Obdurate", "B) Remorseless", "C) Callous", "D) Unrepentant"],
+        options: ["A) Remorseful", "B) Remorseless", "C) Taciturn", "D) Soporific"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'IMPENITENT' describes feeling no guilt, regret, or repentance for bad actions (पश्चात्तापहीन / बेशर्म).\n\n• A) Obdurate: Describes stubbornly refusing to change one's opinion or course of action.\n\n• B) Remorseless (Correct Answer): Describes feeling no regret, guilt, or repentance for wrongdoings. It acts as the exact synonym for 'IMPENITENT'.\n\n• C) Callous: Describes showing or having an insensitive and cruel disregard for others.\n\n• D) Unrepentant: Describes showing no regret for one's wrongdoings, very close but remorseless is the primary test key."
+        explanation: "• Main Word Meaning: 'IMPENITENT' describes feeling no guilt, regret, or repentance for bad actions (पश्चात्तापहीन / बेशर्म).\n\n• Remorseless (Correct Answer): Describes feeling no regret, guilt, or repentance for wrongdoings (निर्दयी / बेपरवाह).\n\n• Remorseful: Describes feeling filled with remorse and regret (पश्चात्तापी). This is the exact opposite of IMPENITENT.\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला).\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक)."
     },
     {
         id: "vocab_incorrigible_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nINCORRIGIBLE",
-        options: ["A) Amenable", "B) Compliant", "C) Reformable", "D) Docile"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'INCORRIGIBLE' describes bad habits or character that cannot be corrected or reformed (असुधार्य).\n\n• A) Amenable: Describes open and responsive to suggestion or advice.\n\n• B) Compliant: Describes inclined to agree with others or obey rules.\n\n• C) Reformable (Correct Answer): Means capable of being improved or changed for the better. It acts as the direct antonym for 'INCORRIGIBLE'.\n\n• D) Docile: Describes ready to accept control or instruction; submissive."
+        options: ["A) Irreformable", "B) Reformable", "C) Ubiquitous", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'INCORRIGIBLE' describes bad habits that cannot be corrected or reformed (असुधार्य).\n\n• Reformable (Correct Answer): Describes something capable of being improved or changed for the better (सुधार योग्य).\n\n• Irreformable: Describes something impossible to reform (असुधार्य). This is a synonym of INCORRIGIBLE.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_servile_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSERVILE",
-        options: ["A) Obsequious", "B) Submissive", "C) Sycophantic", "D) Fawning"],
+        options: ["A) Imperious", "B) Submissive", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'SERVILE' describes displaying an excessive willingness to serve, obey, or flatter others (जी-हुज़ूरी करने वाला / दासवत).\n\n• A) Obsequious: Describes obedient or attentive to an excessive or servile degree, focusing on flattery.\n\n• B) Submissive (Correct Answer): Describes an excessive willingness to obey or submit to authority. It stands as an exact synonym for 'SERVILE'.\n\n• C) Sycophantic: Describes behaving in an obsequious way in order to gain advantage.\n\n• D) Fawning: Describes displaying exaggerated flattery or affection."
+        explanation: "• Main Word Meaning: 'SERVILE' describes displaying an excessive willingness to serve, obey, or please others (जी-हुज़ूरी करने वाला / चाटुकार).\n\n• Submissive (Correct Answer): Describes an excessive willingness to obey or submit to authority (आज्ञाकारी / दब्बू).\n\n• Imperious: Describes assuming power in an arrogant or domineering manner (घमंडी). This is the exact opposite of SERVILE.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing unusually early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_slavish_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSLAVISH",
-        options: ["A) Subservient", "B) Imitative", "C) Uncritical", "D) Obsequious"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'SLAVISH' describes showing blind, submissive obedience or fawning imitation without independent thought (अंधभक्त / चापलूसी से भरा).\n\n• A) Subservient: Describes prepared to obey others unquestioningly.\n\n• B) Imitative: Describes copying or following a model.\n\n• C) Uncritical: Describes not expressing criticism or judgment.\n\n• D) Obsequious (Correct Answer): Describes being excessively obedient or flattering to win favor. It serves as an exact synonym for 'SLAVISH'."
+        options: ["A) Assertive", "B) Obsequious", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SLAVISH' describes showing blind, submissive obedience or fawning imitation (चापलूसी से भरा / अंधभक्त).\n\n• Obsequious (Correct Answer): Describes being excessively obedient or flattering to win favor (चाटुकार).\n\n• Assertive: Describes having a confident, forceful, and self-assured personality (आत्मविश्वासी). This is the opposite of SLAVISH.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly from hardship (लचीला)."
     },
     {
         id: "vocab_abject_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nABJECT",
-        options: ["A) Ignoble", "B) Miserable", "C) Wretched", "D) Degrading"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'ABJECT' describes a condition, status, or behavior that is completely wretched, hopeless, or lacking self-respect (अधम / नीच / दयनीय).\n\n• A) Ignoble (Correct Answer): Describes character or conditions that are wretched, degraded, or lacking honor. It acts as the precise synonym for 'ABJECT'.\n\n• B) Miserable: Describes wretchedly unhappy or uncomfortable.\n\n• C) Wretched: Describes in a very unhappy or unfortunate state.\n\n• D) Degrading: Describes causing a loss of self-respect; humiliating."
+        options: ["A) Noble", "B) Ignoble", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'ABJECT' describes a condition or behavior that is wretched, degraded, or lacking self-respect (अधम / नीच).\n\n• Ignoble (Correct Answer): Describes character or conditions that are degraded, dishonorable, or wretched (नीच / अधम).\n\n• Noble: Describes having fine personal qualities or high moral principles (महान / कुलीन). This is the exact opposite of ABJECT.\n\n• Loquacious: Describes someone who is talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_menial_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nMENIAL",
-        options: ["A) Subservient", "B) Lowly", "C) Dignified", "D) Eminent"],
+        options: ["A) Elevated", "B) Lowly", "C) Audacious", "D) Pragmatic"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'MENIAL' describes work, status, or tasks that are humble, degraded, and requiring little skill (तुच्छ / छोटा काम).\n\n• A) Subservient: Describes prepared to obey others unquestioningly, focusing on attitude rather than work status.\n\n• B) Lowly (Correct Answer): Describes work or status that is humble and requiring little skill. It functions as the exact synonym for 'MENIAL'.\n\n• C) Dignified: Describes having or showing a composed or serious manner that is worthy of respect.\n\n• D) Eminent: Describes famous and respected within a particular sphere or profession."
+        explanation: "• Main Word Meaning: 'MENIAL' describes work or tasks that are humble, degraded, and requiring little skill (तुच्छ / छोटा काम).\n\n• Lowly (Correct Answer): Describes work, status, or rank that is humble and simple (मामूली / नीचा).\n\n• Elevated: Describes something situated at a high level or dignified in rank (उच्च / प्रतिष्ठित). This is the opposite of MENIAL.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_sycophant_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSYCOPHANT",
-        options: ["A) Opportunist", "B) Parasite", "C) Flatterer", "D) Henchman"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'SYCOPHANT' refers to a person who acts obsequiously toward powerful people to gain personal advantage (चापलूसी करने वाला / चाटुकार).\n\n• A) Opportunist: Refers to a person who takes advantage of opportunities as they arise, regardless of planning.\n\n• B) Parasite: Refers to an organism or person living off others; while negative, it is not an exact synonym for insincere praise.\n\n• C) Flatterer (Correct Answer): Refers to someone who praises others insincerely for personal gain, acting as the exact synonym for 'SYCOPHANT'.\n\n• D) Henchman: Refers to a faithful follower or political supporter, especially one prepared to engage in crime."
+        options: ["A) Detractor", "B) Flatterer", "C) Taciturn", "D) Soporific"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SYCOPHANT' refers to a person who acts obsequiously toward powerful people to gain personal favor (चाटुकार).\n\n• Flatterer (Correct Answer): Refers to someone who praises others insincerely for personal gain (चाटुकार).\n\n• Detractor: Refers to a person who disparages or criticizes someone (निंदक). This is the opposite of SYCOPHANT.\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला).\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक)."
     },
     {
         id: "vocab_toadyish_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nTOADYISH",
-        options: ["A) Servile", "B) Fawning", "C) Crawling", "D) Sycophantic"],
+        options: ["A) Imperious", "B) Fawning", "C) Ubiquitous", "D) Equanimous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'TOADYISH' describes displaying exaggerated flattery and servility to gain favor from superiors (चापलूसी भरा).\n\n• A) Servile: Describes displaying excessive willingness to serve.\n\n• B) Fawning (Correct Answer): Describes displaying exaggerated flattery or servility to win favor. It serves as the exact synonym for 'TOADYISH'.\n\n• C) Crawling: Describes behaving in a servile or groveling manner.\n\n• D) Sycophantic: Describes behaving in an obsequious way."
+        explanation: "• Main Word Meaning: 'TOADYISH' describes displaying exaggerated flattery, subservience, or servility (चापलूसी भरा).\n\n• Fawning (Correct Answer): Describes displaying exaggerated flattery or servility to win favor (चापलूसी करने वाला).\n\n• Imperious: Describes being domineering and arrogant (शाही / घमंडी). This is the exact opposite of TOADYISH.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_subservient_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSUBSERVIENT",
-        options: ["A) Subordinate", "B) Obedient", "C) Compliant", "D) Deferential"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'SUBSERVIENT' describes being prepared to obey others unquestioningly or acting in a subordinate role (आज्ञाकारी / अधीन).\n\n• A) Subordinate: Describes lower in rank or position.\n\n• B) Obedient: Describes complying or willing to comply with orders or requests.\n\n• C) Compliant (Correct Answer): Describes yielding easily to authority or obeying unquestioningly. It functions as the exact synonym for 'SUBSERVIENT'.\n\n• D) Deferential: Describes showing respect and esteem due to a superior."
+        options: ["A) Domineering", "B) Compliant", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SUBSERVIENT' describes being prepared to obey others unquestioningly or yielding submissively (अधीन / आज्ञाकारी).\n\n• Compliant (Correct Answer): Describes yielding easily to authority or obeying unquestioningly (आज्ञाकारी).\n\n• Domineering: Describes asserting one's will over another arrogantly (रोब जमाने वाला). This is the exact opposite of SUBSERVIENT.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_demure_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEMURE",
-        options: ["A) Reserved", "B) Modest", "C) Coy", "D) Bashful"],
+        options: ["A) Flamboyant", "B) Modest", "C) Ponderous", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'DEMURE' describes someone (especially a woman) who is quiet, reserved, modest, or shy (शांत / शर्मीला / गंभीर).\n\n• A) Reserved: Describes slow to reveal emotion or opinion.\n\n• B) Modest (Correct Answer): Describes being reserved, quiet, or unassuming in behavior. It serves as the exact synonym for 'DEMURE'.\n\n• C) Coy: Describes making a pretense of shyness or modesty that is intended to be alluring.\n\n• D) Bashful: Describes reluctant to draw attention to oneself; shy."
+        explanation: "• Main Word Meaning: 'DEMURE' describes someone who is quiet, reserved, modest, or shy (शांत / विनम्र / शर्मीला).\n\n• Modest (Correct Answer): Describes being reserved, quiet, or unassuming in behavior (विनम्र).\n\n• Flamboyant: Describes tending to attract attention because of exuberance or stylishness (भड़कीला). This is the opposite of DEMURE.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Fastidious: Describes someone attentive to detail (सूक्ष्मदर्शी)."
     },
     {
         id: "vocab_servile_ant_1",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nSERVILE",
-        options: ["A) Assertive", "B) Domineering", "C) Imperious", "D) Authoritative"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'SERVILE' describes showing an excessive willingness to obey and serve others (जी-हुज़ूरी करने वाला).\n\n• A) Assertive: Describes having or showing a confident and forceful personality.\n\n• B) Domineering: Describes asserting one's will over another in an arrogant way.\n\n• C) Imperious (Correct Answer): Describes assuming power and authority in an arrogant, domineering manner. It acts as the precise antonym for 'SERVILE'.\n\n• D) Authoritative: Describes commanding and self-confident."
+        options: ["A) Submissive", "B) Imperious", "C) Loquacious", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SERVILE' describes showing an excessive willingness to obey and serve others (जी-हुज़ूरी करने वाला).\n\n• Imperious (Correct Answer): Describes assuming power and authority in an arrogant, domineering manner (शाही / घमंडी).\n\n• Submissive: Describes being willing to obey authority (दब्बू). This is a synonym of SERVILE.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_supercilious_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSUPERCILIOUS",
-        options: ["A) Arrogant", "B) Disdainful", "C) Patronizing", "D) Haughty"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'SUPERCILIOUS' describes behaving as though one thinks one is superior to others; arrogant and disdainful (घमंडी / घृणात्मक).\n\n• A) Arrogant: Describes having an exaggerated sense of self-importance.\n\n• B) Disdainful: Describes showing contempt or lack of respect.\n\n• C) Patronizing: Describes displaying an offensively condescending manner.\n\n• D) Haughty (Correct Answer): Refers to behaving in an arrogantly superior and disdainful manner. It serves as an exact synonym for 'SUPERCILIOUS'."
+        options: ["A) Humble", "B) Haughty", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SUPERCILIOUS' describes behaving as though one thinks one is superior to others (घमंडी / मग़रूर).\n\n• Haughty (Correct Answer): Describes behaving in an arrogantly superior and disdainful manner (घमंडी).\n\n• Humble: Describes having a modest view of one's importance (विनम्र). This is the exact opposite of SUPERCILIOUS.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_ominous_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nOMINOUS",
-        options: ["A) Threatening", "B) Foreboding", "C) Menacing", "D) Portentous"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'OMINOUS' describes giving the impression that something bad, harmful, or unpleasant is about to happen (अशुभ / डरावना).\n\n• A) Threatening: Describes having a hostile or deliberately frightening quality.\n\n• B) Foreboding: Describes implying that something bad is going to happen.\n\n• C) Menacing (Correct Answer): Describes suggesting the presence of danger or indicating evil is ahead. It acts as the exact synonym for 'OMINOUS'.\n\n• D) Portentous: Describes done in a pompous or overly solemn manner, or ominous."
+        options: ["A) Auspicious", "B) Menacing", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'OMINOUS' describes giving the impression that something bad or evil is about to happen (अशुभ / डरावना).\n\n• Menacing (Correct Answer): Describes suggesting the presence of danger, evil, or threat ahead (भयावह).\n\n• Auspicious: Describes showing signs that future success is likely (शुभ). This is the exact opposite of OMINOUS.\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_baleful_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nBALEFUL",
-        options: ["A) Harmful", "B) Sinister", "C) Malign", "D) Hostile"],
+        options: ["A) Benign", "B) Sinister", "C) Ubiquitous", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'BALEFUL' describes threatening harm, evil, or foreboding destructive consequences (हानिकारक / विनाशकारी).\n\n• A) Harmful: Describes causing or likely to cause harm.\n\n• B) Sinister (Correct Answer): Describes threatening harm, destruction, or evil fortune. It serves as an exact synonym for 'BALEFUL'.\n\n• C) Malign: Describes evil in nature or effect; malevolent.\n\n• D) Hostile: Describes showing or feeling opposition or dislike; unfriendly."
+        explanation: "• Main Word Meaning: 'BALEFUL' describes threatening harm, evil, or destructive consequences (हानिकारक / घातक).\n\n• Sinister (Correct Answer): Describes threatening harm, destruction, or evil fortune (भयावह / अशुभ).\n\n• Benign: Describes being gentle and kindly; not harmful (सौम्य / सौहार्दपूर्ण). This is the exact opposite of BALEFUL.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_inauspicious_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nINAUSPICIOUS",
-        options: ["A) Unfortunate", "B) Unfavorable", "C) Ominous", "D) Unpromising"],
+        options: ["A) Propitious", "B) Unfavorable", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'INAUSPICIOUS' describes showing signs that warn of future difficulty, bad luck, or failure (अशुभ / अवांछनीय).\n\n• A) Unfortunate: Describes having or marked by bad fortune.\n\n• B) Unfavorable (Correct Answer): Describes showing signs that warn of difficulty or bad luck. It functions as the exact synonym for 'INAUSPICIOUS'.\n\n• C) Ominous: Describes giving the impression that something bad is going to happen.\n\n• D) Unpromising: Describes not giving hope of future success."
+        explanation: "• Main Word Meaning: 'INAUSPICIOUS' describes showing signs that warn of future difficulty, failure, or bad luck (अशुभ).\n\n• Unfavorable (Correct Answer): Describes showing signs that warn of difficulty, opposition, or bad luck (अशुभ / प्रतिकूल).\n\n• Propitious: Describes giving a good chance of success (शुभ / अनुकूल). This is the exact opposite of INAUSPICIOUS.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_sinister_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSINISTER",
-        options: ["A) Malevolent", "B) Evil", "C) Threatening", "D) Ominous"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'SINISTER' describes giving the impression that something harmful, evil, or dangerous is about to happen (अशुभ / भयावह).\n\n• A) Malevolent: Describes having or showing a wish to do evil to others.\n\n• B) Evil: Describes profoundly immoral and wicked.\n\n• C) Threatening (Correct Answer): Describes giving the impression that something harmful or dangerous is near. It serves as the exact synonym for 'SINISTER'.\n\n• D) Ominous: Describes giving the impression that something bad is going to happen."
+        options: ["A) Auspicious", "B) Threatening", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SINISTER' describes giving the impression that something harmful or evil is about to happen (अशुभ / भयावह).\n\n• Threatening (Correct Answer): Describes giving the impression that something dangerous or harmful is near (भयावह).\n\n• Auspicious: Describes showing that future success is likely (शुभ). This is the exact opposite of SINISTER.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_ominous_ant_1",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nOMINOUS",
-        options: ["A) Encouraging", "B) Auspicious", "C) Promising", "D) Hopeful"],
+        options: ["A) Menacing", "B) Auspicious", "C) Loquacious", "D) Audacious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'OMINOUS' describes giving an impression of impending evil or danger (अशुभ).\n\n• A) Encouraging: Describes giving someone support or confidence.\n\n• B) Auspicious (Correct Answer): Describes showing that future success or good fortune is likely. It serves as the precise antonym for 'OMINOUS'.\n\n• C) Promising: Describes showing signs of future success.\n\n• D) Hopeful: Describes feeling or inspiring optimism."
+        explanation: "• Main Word Meaning: 'OMINOUS' describes giving an impression of impending evil, threat, or danger (अशुभ).\n\n• Auspicious (Correct Answer): Describes showing that future success or good fortune is likely (शुभ / अनुकूल).\n\n• Menacing: Describes suggesting danger or evil (भयावह). This is a synonym of OMINOUS.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Audacious: Describes taking bold risks (साहसी)."
     },
     {
         id: "vocab_propitious_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPROPITIOUS",
-        options: ["A) Auspicious", "B) Opportunistic", "C) Advantageous", "D) Favorable"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'PROPITIOUS' describes giving or indicating a good chance of success; favorable (शुभ / अनुकूल).\n\n• A) Auspicious: Describes conducive to success; favorable.\n\n• B) Opportunistic: Describes taking immediate advantage of opportunities.\n\n• C) Advantageous: Describes involving or creating favorable circumstances.\n\n• D) Favorable (Correct Answer): Describes giving or indicating a good chance of success. It serves as the exact synonym for 'PROPITIOUS'."
+        options: ["A) Ominous", "B) Favorable", "C) Taciturn", "D) Soporific"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'PROPITIOUS' describes giving or indicating a good chance of success or good fortune (शुभ / अनुकूल).\n\n• Favorable (Correct Answer): Describes giving or indicating a good chance of success (अनुकूल).\n\n• Ominous: Describes giving an impression of bad luck or danger (अशुभ). This is the exact opposite of PROPITIOUS.\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला).\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक)."
     },
     {
         id: "vocab_corruption_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCORRUPTION",
-        options: ["A) Dishonesty", "B) Depravity", "C) Bribery", "D) Fraud"],
+        options: ["A) Integrity", "B) Depravity", "C) Pragmatic", "D) Equanimous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'CORRUPTION' refers to dishonest, fraudulent, or morally bad conduct by those in power (भ्रष्टाचार / अनैतिकता).\n\n• A) Dishonesty: Refers to deceitfulness or lack of integrity.\n\n• B) Depravity (Correct Answer): Refers to moral corruption, wickedness, or perversion. It acts as the exact synonym for 'CORRUPTION'.\n\n• C) Bribery: Refers to giving or receiving unapproved money for favor.\n\n• D) Fraud: Refers to wrongful or criminal deception."
+        explanation: "• Main Word Meaning: 'CORRUPTION' refers to dishonest, fraudulent, or morally bad conduct (भ्रष्टाचार / अनैतिकता).\n\n• Depravity (Correct Answer): Refers to moral corruption, wickedness, or perversion (भ्रष्टता / दुष्टता).\n\n• Integrity: Refers to the quality of being honest with strong moral principles (ईमानदारी / सत्यनिष्ठा). This is the exact opposite of CORRUPTION.\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_debasement_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEBASEMENT",
-        options: ["A) Deterioration", "B) Devaluation", "C) Degradation", "D) Corruption"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DEBASEMENT' refers to the action of reducing the quality, value, status, or moral dignity of something (अवनति / मूल्य में कमी).\n\n• A) Deterioration: Refers to the process of becoming progressively worse.\n\n• B) Devaluation: Refers to the reduction in the official value of a currency.\n\n• C) Degradation (Correct Answer): Refers to the process of lowering in quality, value, status, or moral dignity. It acts as an exact synonym for 'DEBASEMENT'.\n\n• D) Corruption: Refers to dishonest conduct."
+        options: ["A) Elevation", "B) Degradation", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEBASEMENT' refers to reducing the quality, value, or moral dignity of something (अवनति / गिरावट).\n\n• Degradation (Correct Answer): Refers to the process of lowering in quality, value, or moral dignity (पतन / अवनति).\n\n• Elevation: Refers to the action of raising to a higher position or rank (उन्नति). This is the exact opposite of DEBASEMENT.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_decadency_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDECADENCY",
-        options: ["A) Decay", "B) Degeneration", "C) Dissolution", "D) Decline"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'DECADENCY' refers to moral, cultural, or physical deterioration and decay over time (पतन / क्षय).\n\n• A) Decay: Refers to rotting or decomposing.\n\n• B) Degeneration: Refers to the state or process of decline.\n\n• C) Dissolution: Refers to the closing down or dismissal of an assembly.\n\n• D) Decline (Correct Answer): Refers to moral, cultural, or physical deterioration. It functions as the exact synonym for 'DECADENCY'."
+        options: ["A) Flourishing", "B) Decline", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DECADENCY' refers to moral, cultural, or physical deterioration over time (पतन / क्षय).\n\n• Decline (Correct Answer): Refers to moral, cultural, or physical deterioration (पतन / गिरावट).\n\n• Flourishing: Refers to developing rapidly and successfully (समृद्ध होना). This is the exact opposite of DECADENCY.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_degeneracy_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEGENERACY",
-        options: ["A) Depravity", "B) Deterioration", "C) Decadence", "D) Regression"],
+        options: ["A) Improvement", "B) Deterioration", "C) Loquacious", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'DEGENERACY' refers to the state or process of declining to a lower, worse, or corrupted moral condition (भ्रष्टता / गिरावट).\n\n• A) Depravity: Refers to moral corruption.\n\n• B) Deterioration (Correct Answer): Refers to the process of becoming progressively worse in quality or health. It functions as the exact synonym for 'DEGENERACY'.\n\n• C) Decadence: Refers to moral decline.\n\n• D) Regression: Refers to a return to a former or less developed state."
+        explanation: "• Main Word Meaning: 'DEGENERACY' refers to declining to a lower or corrupted moral condition (भ्रष्टता / गिरावट).\n\n• Deterioration (Correct Answer): Refers to the process of becoming progressively worse in quality (गिरावट / पतन).\n\n• Improvement: Refers to the process of making or becoming better (सुधार). This is the exact opposite of DEGENERACY.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (सूक्ष्मदर्शी)."
     },
     {
         id: "vocab_degradation_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEGRADATION",
-        options: ["A) Shame", "B) Disgrace", "C) Humiliation", "D) Dishonor"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DEGRADATION' refers to a reduction in dignity, rank, self-respect, or moral condition (अपमान / बदनामी).\n\n• A) Shame: Refers to a painful feeling of humiliation.\n\n• B) Disgrace: Refers to loss of reputation or respect.\n\n• C) Humiliation (Correct Answer): Refers to a reduction in dignity, respect, or self-esteem. It acts as a precise synonym for 'DEGRADATION'.\n\n• D) Dishonor: Refers to state of shame or disgrace."
+        options: ["A) Honor", "B) Humiliation", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEGRADATION' refers to a reduction in dignity, rank, or self-respect (अपमान / बदनामी / अवनति).\n\n• Humiliation (Correct Answer): Refers to a reduction in dignity, respect, or self-esteem (अपमान).\n\n• Honor: Refers to high respect or great prestige (सम्मान). This is the exact opposite of DEGRADATION.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_goodness_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nGOODNESS",
-        options: ["A) Wickedness", "B) Depravity", "C) Evil", "D) Sinfulness"],
+        options: ["A) Virtue", "B) Depravity", "C) Soporific", "D) Pragmatic"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'GOODNESS' refers to the quality of being morally good, virtuous, or beneficial (सज्जनता / भलाई).\n\n• A) Wickedness: Refers to the quality of being evil or morally wrong.\n\n• B) Depravity (Correct Answer): Refers to moral corruption, wickedness, and evil character. It serves as the precise high-level vocabulary antonym for 'GOODNESS'.\n\n• C) Evil: Refers to profound immorality.\n\n• D) Sinfulness: Refers to state of committing sins."
+        explanation: "• Main Word Meaning: 'GOODNESS' refers to the quality of being morally good or virtuous (सज्जनता / भलाई).\n\n• Depravity (Correct Answer): Refers to moral corruption, wickedness, and evil character (दुष्टता / भ्रष्टता).\n\n• Virtue: Refers to behavior showing high moral standards (गुण / सदाचार). This is synonymous with GOODNESS.\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_virtue_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nVIRTUE",
-        options: ["A) Vice", "B) Sin", "C) Dishonor", "D) Depravity"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'VIRTUE' refers to behavior showing high moral standards and purity of character (गुण / नैतिक श्रेष्ठता).\n\n• A) Vice: Refers to immoral behavior, standard broad antonym.\n\n• B) Sin: Refers to an immoral act against divine law.\n\n• C) Dishonor: Refers to state of shame or loss of respect.\n\n• D) Depravity (Correct Answer): Refers to moral corruption, wickedness, and perversion. It acts as the exact antonym for 'VIRTUE'."
+        options: ["A) Rectitude", "B) Depravity", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'VIRTUE' refers to behavior showing high moral standards (गुण / नैतिक श्रेष्ठता).\n\n• Depravity (Correct Answer): Refers to moral corruption, wickedness, and perversion (दुष्टता / भ्रष्टता).\n\n• Rectitude: Refers to morally correct behavior and righteousness (ईमानदारी). This is synonymous with VIRTUE.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_morality_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nMORALITY",
-        options: ["A) Corruption", "B) Immorality", "C) Wickedness", "D) Dissoluteness"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'MORALITY' refers to principles concerning the distinction between right and wrong behavior (नैतिकता).\n\n• A) Corruption (Correct Answer): Refers to dishonest or immoral behavior that violates ethical codes. It serves as the direct antonym for 'MORALITY'.\n\n• B) Immorality: Refers to state of being immoral, direct general antonym.\n\n• C) Wickedness: Refers to moral evil.\n\n• D) Dissoluteness: Refers to laxity in morals."
+        options: ["A) Integrity", "B) Corruption", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'MORALITY' refers to principles concerning right and wrong behavior (नैतिकता).\n\n• Corruption (Correct Answer): Refers to dishonest or immoral behavior violating ethical codes (भ्रष्टाचार / अनैतिकता).\n\n• Integrity: Refers to the quality of having strong moral principles (सत्यनिष्ठा). This is synonymous with MORALITY.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_righteousness_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nRIGHTEOUSNESS",
-        options: ["A) Iniquity", "B) Sinfulness", "C) Depravity", "D) Unlawfulness"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'RIGHTEOUSNESS' refers to the quality of being morally right, justifiable, and virtuous (सदाचार / न्यायपरायणता).\n\n• A) Iniquity: Refers to immoral or grossly unfair behavior.\n\n• B) Sinfulness: Refers to state of being sinful.\n\n• C) Depravity (Correct Answer): Refers to a state of moral corruption and wickedness, acting as the direct exact antonym for 'RIGHTEOUSNESS'.\n\n• D) Unlawfulness: Refers to state of violating law."
+        options: ["A) Probity", "B) Depravity", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'RIGHTEOUSNESS' refers to the quality of being morally right and virtuous (सदाचार).\n\n• Depravity (Correct Answer): Refers to a state of moral corruption and wickedness (भ्रष्टता / दुष्टता).\n\n• Probity: Refers to the quality of having strong moral principles (ईमानदारी). This is synonymous with RIGHTEOUSNESS.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_hopeless_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nHOPELESS",
-        options: ["A) Desperate", "B) Futile", "C) Irremediable", "D) Incorrigible"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'HOPELESS' describes a situation, person, or habit that cannot be fixed, improved, or saved (निराशाजनक / असहाय).\n\n• A) Desperate: Describes feeling or showing a hopeless sense that a situation is impossible.\n\n• B) Futile: Describes pointess or producing no useful result.\n\n• C) Irremediable: Describes impossible to cure or put right.\n\n• D) Incorrigible (Correct Answer): Describes someone or something impossible to change or reform, effectively rendering the situation beyond hope. It serves as the exact synonym for 'HOPELESS'."
+        options: ["A) Promising", "B) Incorrigible", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'HOPELESS' describes a situation, flaw, or habit that cannot be fixed or improved (निराशाजनक / असहाय).\n\n• Incorrigible (Correct Answer): Describes someone or something impossible to change or reform (असुधार्य).\n\n• Promising: Describes showing signs of future success (आशाजनक). This is the exact opposite of HOPELESS.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_irrecoverable_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nIRRECOVERABLE",
-        options: ["A) Lost", "B) Irretrievable", "C) Permanent", "D) Irreversible"],
+        options: ["A) Restorable", "B) Irretrievable", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'IRRECOVERABLE' describes something that cannot be regained, retrieved, or put right again (अप्राप्य / जिसे वापस न पाया जा सके).\n\n• A) Lost: Describes unable to be found.\n\n• B) Irretrievable (Correct Answer): Describes something impossible to retrieve or recover. It serves as the exact synonym for 'IRRECOVERABLE'.\n\n• C) Permanent: Describes lasting or intended to last indefinitely.\n\n• D) Irreversible: Describes not able to be undone or altered."
+        explanation: "• Main Word Meaning: 'IRRECOVERABLE' describes something that cannot be regained, saved, or retrieved (अप्राप्य).\n\n• Irretrievable (Correct Answer): Describes something impossible to retrieve, recover, or save (अप्राप्य).\n\n• Restorable: Describes something able to be brought back to a former condition (पुनर्प्राप्त योग्य). This is the exact opposite of IRRECOVERABLE.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_incurable_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nINCURABLE",
-        options: ["A) Fatal", "B) Terminal", "C) Irremediable", "D) Untreatable"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'INCURABLE' describes a disease, flaw, or situation that cannot be cured or remedied (असाध्य / जो ठीक न हो सके).\n\n• A) Fatal: Describes causing death.\n\n• B) Terminal: Describes predicted to lead to death.\n\n• C) Irremediable (Correct Answer): Describes something impossible to cure, remedy, or correct, functioning as an exact synonym for 'INCURABLE'.\n\n• D) Untreatable: Describes not capable of being treated."
+        options: ["A) Curable", "B) Irremediable", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'INCURABLE' describes a disease, flaw, or habit that cannot be cured or remedied (असाध्य).\n\n• Irremediable (Correct Answer): Describes something impossible to cure, remedy, or correct (असुधार्य / असाध्य).\n\n• Curable: Describes something capable of being healed (साध्य). This is the exact opposite of INCURABLE.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_irremediable_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nIRREMEDIABLE",
-        options: ["A) Unfixable", "B) Incurable", "C) Irretrievable", "D) Hopeless"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'IRREMEDIABLE' describes a condition or mistake impossible to repair, correct, or remedy (असुधार्य).\n\n• A) Unfixable (Correct Answer): Describes something impossible to repair or remedy, serving as an exact synonym for 'IRREMEDIABLE'.\n\n• B) Incurable: Describes impossible to cure biologically.\n\n• C) Irretrievable: Describes impossible to recover.\n\n• D) Hopeless: Describes feeling without hope."
+        options: ["A) Remediable", "B) Unfixable", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'IRREMEDIABLE' describes a condition impossible to repair, fix, or remedy (असुधार्य).\n\n• Unfixable (Correct Answer): Describes something impossible to repair or remedy (असुधार्य).\n\n• Remediable: Describes something capable of being remedied (उपचार योग्य). This is the exact opposite of IRREMEDIABLE.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_unredeemable_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nUNREDEEMABLE",
-        options: ["A) Worthless", "B) Irredeemable", "C) Lost", "D) Depraved"],
+        options: ["A) Redeemable", "B) Irredeemable", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'UNREDEEMABLE' describes someone or something impossible to save, reclaim, or improve (अपूरणीय / जिसे बचाया न जा सके).\n\n• A) Worthless: Describes having no real value.\n\n• B) Irredeemable (Correct Answer): Describes something impossible to save, correct, or improve, serving as an exact synonym for 'UNREDEEMABLE'.\n\n• C) Lost: Describes no longer possessed or retained.\n\n• D) Depraved: Describes morally corrupt."
+        explanation: "• Main Word Meaning: 'UNREDEEMABLE' describes someone or something impossible to save, correct, or improve (अपूरणीय).\n\n• Irredeemable (Correct Answer): Describes something impossible to save, correct, or improve (अपूरणीय).\n\n• Redeemable: Describes something able to be recovered or saved (सुधार योग्य). This is the exact opposite of UNREDEEMABLE.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_savable_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nSAVABLE",
-        options: ["A) Lost", "B) Doomed", "C) Incorrigible", "D) Hopeless"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'SAVABLE' describes something capable of being saved, rescued, or restored to safety (उद्धार योग्य).\n\n• A) Lost: Describes unable to be found.\n\n• B) Doomed: Describes ill-fated or certain to fail.\n\n• C) Incorrigible (Correct Answer): Describes someone or something impossible to reform, save, or correct. It serves as the precise antonym for 'SAVABLE'.\n\n• D) Hopeless: Describes feeling beyond hope."
+        options: ["A) Restorable", "B) Incorrigible", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SAVABLE' describes something capable of being saved, restored, or reformed (उद्धार योग्य).\n\n• Incorrigible (Correct Answer): Describes something impossible to reform, save, or correct (असुधार्य).\n\n• Restorable: Describes something capable of being restored (पुनर्प्राप्त योग्य). This is synonymous with SAVABLE.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_curable_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nCURABLE",
-        options: ["A) Fatal", "B) Incurable", "C) Terminal", "D) Deadly"],
+        options: ["A) Healable", "B) Incurable", "C) Loquacious", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'CURABLE' describes a medical condition, disease, or flaw capable of being healed or corrected (साध्य).\n\n• A) Fatal: Describes causing death.\n\n• B) Incurable (Correct Answer): Describes a disease or flaw that cannot be cured. It acts as the exact antonym for 'CURABLE'.\n\n• C) Terminal: Describes leading to death.\n\n• D) Deadly: Describes causing death."
+        explanation: "• Main Word Meaning: 'CURABLE' describes a condition or flaw capable of being healed or corrected (साध्य).\n\n• Incurable (Correct Answer): Describes a disease or flaw that cannot be cured (असाध्य).\n\n• Healable: Describes something capable of being healed (उपचार योग्य). This is synonymous with CURABLE.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_arrogant_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nARROGANT",
-        options: ["A) Humble", "B) Servile", "C) Modest", "D) Meek"],
+        options: ["A) Haughty", "B) Servile", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'ARROGANT' describes having or revealing an exaggerated sense of one's own importance or abilities (अभिमानी / घमंडी).\n\n• A) Humble: Describes having or showing a modest view of one's importance, broad antonym.\n\n• B) Servile (Correct Answer): Describes showing an excessive, humble, or submissive willingness to serve others. It acts as the direct high-level antonym for 'ARROGANT'.\n\n• C) Modest: Describes unassuming in estimation of abilities.\n\n• D) Meek: Describes quiet, gentle, and easily imposed upon."
+        explanation: "• Main Word Meaning: 'ARROGANT' describes having an exaggerated sense of one's own importance (अभिमानी / घमंडी).\n\n• Servile (Correct Answer): Describes showing excessive or submissive willingness to serve others (जी-हुज़ूरी करने वाला).\n\n• Haughty: Describes being arrogantly superior (घमंडी). This is synonymous with ARROGANT.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_haughty_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nHAUGHTY",
-        options: ["A) Modest", "B) Humble", "C) Unassuming", "D) Subservient"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'HAUGHTY' describes behaving in an arrogantly superior and disdainful manner toward others (घमंडी / मग़रूर).\n\n• A) Modest: Describes reserved in estimation.\n\n• B) Humble: Describes modest in importance.\n\n• C) Unassuming: Describes not pretentious or arrogant.\n\n• D) Subservient (Correct Answer): Describes being prepared to obey others unquestioningly or yielding submissively. It acts as the direct antonym for 'HAUGHTY'."
+        options: ["A) Supercilious", "B) Subservient", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'HAUGHTY' describes behaving in an arrogantly superior manner (घमंडी / मग़रूर).\n\n• Subservient (Correct Answer): Describes being prepared to obey others unquestioningly or yielding submissively (अधीन / आज्ञाकारी).\n\n• Supercilious: Describes being arrogant and disdainful (घमंडी). This is synonymous with HAUGHTY.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_lordly_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nLORDLY",
-        options: ["A) Lowly", "B) Humble", "C) Abject", "D) Modest"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'LORDLY' describes behaving in a grand, arrogant, or domineering manner suited to a lord (सामंती / रोबीला).\n\n• A) Lowly: Describes low in status or importance.\n\n• B) Humble: Describes modest view.\n\n• C) Abject (Correct Answer): Describes being wretched, degraded, humble, and completely lacking self-pride. It acts as the direct antonym for 'LORDLY'.\n\n• D) Modest: Describes unassuming."
+        options: ["A) Imperious", "B) Abject", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'LORDLY' describes behaving in a grand, arrogant, or domineering manner (सामंती / रोबीला).\n\n• Abject (Correct Answer): Describes being wretched, degraded, humble, and lacking self-pride (अधम / नीच).\n\n• Imperious: Describes being domineering and arrogant (शाही). This is synonymous with LORDLY.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_portentous_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPORTENTOUS",
-        options: ["A) Pompous", "B) Ominous", "C) Solemn", "D) Momentous"],
+        options: ["A) Auspicious", "B) Ominous", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'PORTENTOUS' describes serving as a sign or warning that something momentous or calamitous is about to happen (अशुभ / चेतावनीभरा).\n\n• A) Pompous: Describes affectively grand, solemn, or self-important.\n\n• B) Ominous (Correct Answer): Describes serving as a warning of something evil or disastrous about to happen. It serves as the exact synonym for 'PORTENTOUS'.\n\n• C) Solemn: Describes formal and dignified.\n\n• D) Momentous: Describes of great importance."
+        explanation: "• Main Word Meaning: 'PORTENTOUS' describes serving as a sign that something calamitous or bad is about to happen (अशुभ / चेतावनीभरा).\n\n• Ominous (Correct Answer): Describes warning of something evil or disastrous about to happen (अशुभ).\n\n• Auspicious: Describes showing that future success is likely (शुभ). This is the exact opposite of PORTENTOUS.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_unthreatening_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nUNTHREATENING",
-        options: ["A) Hostile", "B) Aggressive", "C) Menacing", "D) Dangerous"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'UNTHREATENING' describes someone or something safe, calm, and unlikely to cause harm or danger (भयरहित).\n\n• A) Hostile: Describes showing ill will.\n\n• B) Aggressive: Describes ready or likely to attack.\n\n• C) Menacing (Correct Answer): Describes suggesting danger or threatening harm. It acts as the exact antonym for 'UNTHREATENING'.\n\n• D) Dangerous: Describes able to cause harm."
+        options: ["A) Benign", "B) Menacing", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'UNTHREATENING' describes someone or something safe and unlikely to cause harm (भयरहित).\n\n• Menacing (Correct Answer): Describes suggesting danger or threatening harm (भयावह).\n\n• Benign: Describes being gentle and harmless (सौम्य). This is synonymous with UNTHREATENING.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_bright_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nBRIGHT",
-        options: ["A) Gloomy", "B) Dismal", "C) Bleak", "D) Ominous"],
-        correct: "D",
-        explanation: "• Main Word Meaning: In context of future prospects, 'BRIGHT' describes promising good fortune, success, and optimism (आशाजनक).\n\n• A) Gloomy: Describes dark or poorly lit.\n\n• B) Dismal: Describes depressing or dreary.\n\n• C) Bleak: Describes lacking vegetation or hope.\n\n• D) Ominous (Correct Answer): Describes giving the impression that something bad or threatening is going to happen. It acts as the exact antonym for 'BRIGHT' prospects."
+        options: ["A) Auspicious", "B) Ominous", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: In context of future prospects, 'BRIGHT' describes promising good fortune and optimism (आशाजनक / उज्ज्वल).\n\n• Ominous (Correct Answer): Describes giving the impression that something bad or threatening is going to happen (अशुभ).\n\n• Auspicious: Describes being conducive to success (शुभ). This is synonymous with BRIGHT.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_prosperous_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPROSPEROUS",
-        options: ["A) Wealthy", "B) Thriving", "C) Successful", "D) Flourishing"],
+        options: ["A) Destitute", "B) Thriving", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'PROSPEROUS' describes successful, flourishing, and financially booming conditions (समृद्ध / संपन्न).\n\n• A) Wealthy: Describes having a great deal of money.\n\n• B) Thriving (Correct Answer): Describes flourishing and gaining financial or material success. It acts as the precise synonym for 'PROSPEROUS'.\n\n• C) Successful: Describes achieving aim or popularity.\n\n• D) Flourishing: Describes developing rapidly and successfully."
+        explanation: "• Main Word Meaning: 'PROSPEROUS' describes successful, flourishing, and financially booming conditions (समृद्ध / संपन्न).\n\n• Thriving (Correct Answer): Describes flourishing and gaining financial or material success (संपन्न).\n\n• Destitute: Describes being extremely poor (कंगाल). This is the exact opposite of PROSPEROUS.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_garnish_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nGARNISH",
-        options: ["A) Trim", "B) Decorate", "C) Adorn", "D) Ornament"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'GARNISH' means to decorate or embellish something (especially food or items) to enhance appearance (सजाना).\n\n• A) Trim: Means to make neat or decorate along edges.\n\n• B) Decorate: Means to make something look more attractive.\n\n• C) Adorn (Correct Answer): Means to decorate, embellish, or enhance the visual appeal of something. It acts as the exact synonym for 'GARNISH'.\n\n• D) Ornament: Means to make more attractive by adding decorative items."
+        options: ["A) Deface", "B) Adorn", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'GARNISH' means to decorate or embellish something to enhance appearance (सजाना / संवारना).\n\n• Adorn (Correct Answer): Means to decorate, embellish, or enhance visual appeal (अलंकृत करना).\n\n• Deface: Means to spoil or disfigure the external appearance of something (विरूपित करना). This is the exact opposite of GARNISH.\n\n• Soporific: Describes something that induces sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_amplify_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nAMPLIFY",
-        options: ["A) Expand", "B) Intensify", "C) Increase", "D) Magnify"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'AMPLIFY' means to increase the volume, size, strength, or scope of something (बढ़ाना / विस्तार करना).\n\n• A) Expand: Means to become larger in size.\n\n• B) Intensify: Means to become or make more intense.\n\n• C) Increase: Means to become or make greater in amount.\n\n• D) Magnify (Correct Answer): Means to make something larger, louder, or more intense. It serves as the exact synonym for 'AMPLIFY'."
+        options: ["A) Belittle", "B) Magnify", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'AMPLIFY' means to increase the volume, size, strength, or scope of something (बढ़ाना / विस्तार करना).\n\n• Magnify (Correct Answer): Means to make something larger, louder, or more intense (बढ़ाना).\n\n• Belittle: Means to make something seem small or unimportant (कम आँकना). This is the exact opposite of AMPLIFY.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_deck_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDECK",
-        options: ["A) Decorate", "B) Array", "C) Attire", "D) Embellish"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'DECK' means to decorate, furnish, or adorn something visually to make it look attractive (सजाना).\n\n• A) Decorate (Correct Answer): Means to adorn or embellish something visually. It serves as an exact synonym for 'DECK'.\n\n• B) Array: Means to display or range in a particular order.\n\n• C) Attire: Means to clothe in formal garments.\n\n• D) Embellish: Means to make more attractive."
+        options: ["A) Strip", "B) Decorate", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DECK' means to decorate, furnish, or adorn something visually (सजाना / सजावट करना).\n\n• Decorate (Correct Answer): Means to adorn or embellish something visually (सजाना).\n\n• Strip: Means to remove covering or decoration from something (उतारना / नग्न करना). This is the opposite of DECK.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_adorn_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nADORN",
-        options: ["A) Beautify", "B) Embellish", "C) Grace", "D) Deck"],
+        options: ["A) Deface", "B) Embellish", "C) Ponderous", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'ADORN' means to make more beautiful or attractive by adding decorative items or ornaments (सजाना / अलंकृत करना).\n\n• A) Beautify: Means to improve appearance.\n\n• B) Embellish (Correct Answer): Means to make something more beautiful by adding decorative elements. It acts as an exact synonym for 'ADORN'.\n\n• C) Grace: Means to bring honor to by presence.\n\n• D) Deck: Means to decorate."
+        explanation: "• Main Word Meaning: 'ADORN' means to make more beautiful or attractive by adding decorative items (सजाना / अलंकृत करना).\n\n• Embellish (Correct Answer): Means to make something more beautiful by adding decorative elements (सजाना).\n\n• Deface: Means to spoil the external appearance of something (बिगाड़ना). This is the exact opposite of ADORN.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_ornament_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nORNAMENT",
-        options: ["A) Decorate", "B) Garnish", "C) Beautify", "D) Adorn"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'ORNAMENT' means to enhance the visual appeal or aesthetic quality of an object by adding decorations (अलंकृत करना).\n\n• A) Decorate: Means to make attractive.\n\n• B) Garnish: Means to decorate food.\n\n• C) Beautify (Correct Answer): Means to enhance visual appeal by adding pleasing features. It acts as the exact synonym for 'ORNAMENT'.\n\n• D) Adorn: Means to add beauty."
+        options: ["A) Disfigure", "B) Beautify", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'ORNAMENT' means to enhance the visual appeal of an object by decorating it (अलंकृत करना).\n\n• Beautify (Correct Answer): Means to enhance visual appeal by adding pleasing features (सुंदर बनाना).\n\n• Disfigure: Means to spoil the appearance of something (विरूपित करना). This is the exact opposite of ORNAMENT.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_spoil_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nSPOIL",
-        options: ["A) Repair", "B) Improve", "C) Restore", "D) Decorate"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'SPOIL' means to diminish the quality, beauty, or value of something, or to disfigure it (खराब करना / बिगाड़ना).\n\n• A) Repair: Means to restore something damaged to good condition.\n\n• B) Improve: Means to make or become better.\n\n• C) Restore: Means to bring back to original state.\n\n• D) Decorate (Correct Answer): Means to enhance the appearance and aesthetic beauty of something. It serves as the precise antonym for 'SPOIL'."
+        options: ["A) Deface", "B) Decorate", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'SPOIL' means to diminish the quality, appearance, or beauty of something (खराब करना / बिगाड़ना).\n\n• Decorate (Correct Answer): Means to enhance appearance and aesthetic beauty (सजाना).\n\n• Deface: Means to spoil or disfigure appearance (बिगाड़ना). This is a synonym of SPOIL.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_understate_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nUNDERSTATE",
-        options: ["A) Amplify", "B) Exaggerate", "C) Overestimate", "D) Maximize"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'UNDERSTATE' means to describe or present something as smaller, less important, or less intense than it really is (कम करके बताना).\n\n• A) Amplify (Correct Answer): Means to enlarge, increase, or emphasize the magnitude or significance of a statement. It acts as the direct antonym for 'UNDERSTATE'.\n\n• B) Exaggerate: Means to represent as greater than it is.\n\n• C) Overestimate: Means to estimate at too high a value.\n\n• D) Maximize: Means to make as large as possible."
+        options: ["A) Minimize", "B) Amplify", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'UNDERSTATE' means to describe or present something as smaller or less important than it actually is (कम करके बताना).\n\n• Amplify (Correct Answer): Means to enlarge, increase, or emphasize the significance of something (बढ़ाना / विस्तार करना).\n\n• Minimize: Means to represent as small or unimportant (कम करना). This is a synonym of UNDERSTATE.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_lavish_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nLAVISH",
-        options: ["A) Profuse", "B) Extravagant", "C) Bounteous", "D) Sumptuous"],
+        options: ["A) Economical", "B) Extravagant", "C) Ubiquitous", "D) Equanimous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'LAVISH' describes spending money, using resources, or giving items in huge, luxurious, or unrestrained quantities (फ़िज़ूलख़र्च / अतिव्ययी).\n\n• A) Profuse: Describes existing in large amounts.\n\n• B) Extravagant (Correct Answer): Describes spending money far beyond necessity. It serves as an exact synonym for 'LAVISH'.\n\n• C) Bounteous: Describes generously given.\n\n• D) Sumptuous: Describes splendid and expensive-looking."
+        explanation: "• Main Word Meaning: 'LAVISH' describes spending money or using resources in huge, extravagant quantities (फ़िज़ूलख़र्च / अति-व्ययी).\n\n• Extravagant (Correct Answer): Describes spending money far beyond necessity (फ़िज़ूलख़र्च).\n\n• Economical: Describes giving good value or being careful with money (मितव्ययी). This is the exact opposite of LAVISH.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_extravagant_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nEXTRAVAGANT",
-        options: ["A) Excessive", "B) Wasteful", "C) Spendthrift", "D) Imprudent"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'EXTRAVAGANT' describes spending money or using resources far beyond what is necessary or reasonable (अपव्ययी).\n\n• A) Excessive: Describes more than necessary.\n\n• B) Wasteful: Describes using resources carelessly.\n\n• C) Spendthrift (Correct Answer): Refers to someone who spends money in an irresponsible, wasteful manner. It acts as an exact synonym for 'EXTRAVAGANT'.\n\n• D) Imprudent: Describes lacking care or thought."
+        options: ["A) Frugal", "B) Spendthrift", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'EXTRAVAGANT' describes spending money or using resources far beyond necessity (अपव्ययी / फ़िज़ूलख़र्च).\n\n• Spendthrift (Correct Answer): Refers to someone who spends money in an irresponsible manner (फ़िज़ूलख़र्च).\n\n• Frugal: Describes being careful and economical with money (मितव्ययी). This is the exact opposite of EXTRAVAGANT.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_unthrifty_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nUNTHRIFTY",
-        options: ["A) Prodigal", "B) Wasteful", "C) Reckless", "D) Imprudent"],
+        options: ["A) Thrifty", "B) Wasteful", "C) Ponderous", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'UNTHRIFTY' describes being careless, irresponsible, or wasteful with money and resources (लापरवाह / फ़िज़ूलख़र्च).\n\n• A) Prodigal: Describes spending recklessly.\n\n• B) Wasteful (Correct Answer): Describes using money or resources carelessly. It functions as the exact synonym for 'UNTHRIFTY'.\n\n• C) Reckless: Describes without thought of consequences.\n\n• D) Imprudent: Describes lacking wisdom."
+        explanation: "• Main Word Meaning: 'UNTHRIFTY' describes being careless or wasteful with money and resources (लापरवाह / फ़िज़ूलख़र्च).\n\n• Wasteful (Correct Answer): Describes using money or resources carelessly without thrift (फ़िज़ूलख़र्च).\n\n• Thrifty: Describes using money and resources carefully (किफ़ायती). This is the exact opposite of UNTHRIFTY.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_frugal_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nFRUGAL",
-        options: ["A) Wasteful", "B) Prodigal", "C) Extravagant", "D) Lavish"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'FRUGAL' describes being simple, economical, and careful with money and resources (मितव्ययी).\n\n• A) Wasteful: Describes using carelessly.\n\n• B) Prodigal: Describes recklessly wasteful.\n\n• C) Extravagant (Correct Answer): Describes spending money recklessly or in excessive amounts. It serves as the precise antonym for 'FRUGAL'.\n\n• D) Lavish: Describes sumptuously rich."
+        options: ["A) Economical", "B) Extravagant", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'FRUGAL' describes being simple and careful with money and resources (मितव्ययी / किफ़ायती).\n\n• Extravagant (Correct Answer): Describes spending money recklessly or in excessive amounts (फ़िज़ूलख़र्च).\n\n• Economical: Describes being careful and frugal with resources (बचत करने वाला). This is synonymous with FRUGAL.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_thrifty_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nTHRIFTY",
-        options: ["A) Unthrifty", "B) Spendthrift", "C) Extravagant", "D) Wasteful"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'THRIFTY' describes using money and resources carefully and wisely without waste (किफ़ायती).\n\n• A) Unthrifty (Correct Answer): Describes being wasteful or irresponsible with resources. It acts as the direct exact antonym for 'THRIFTY'.\n\n• B) Spendthrift: Refers to a wasteful spender.\n\n• C) Extravagant: Describes excessive spending.\n\n• D) Wasteful: Describes using carelessly."
+        options: ["A) Frugal", "B) Unthrifty", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'THRIFTY' describes using money and resources carefully without waste (किफ़ायती).\n\n• Unthrifty (Correct Answer): Describes being wasteful or irresponsible with resources (फ़िज़ूलख़र्च).\n\n• Frugal: Describes being economical and careful (मितव्ययी). This is synonymous with THRIFTY.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_parsimonious_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPARSIMONIOUS",
-        options: ["A) Miserly", "B) Stingy", "C) Penurious", "D) Niggardly"],
+        options: ["A) Extravagant", "B) Stingy", "C) Soporific", "D) Pragmatic"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'PARSIMONIOUS' describes an extreme unwillingness to spend money or share resources (कंजूस / मक्खीचूस).\n\n• A) Miserly: Describes characteristic of a miser.\n\n• B) Stingy (Correct Answer): Describes an extreme unwillingness to spend money. It serves as an exact synonym for 'PARSIMONIOUS'.\n\n• C) Penurious: Describes poverty-stricken.\n\n• D) Niggardly: Describes ungenerous."
+        explanation: "• Main Word Meaning: 'PARSIMONIOUS' describes extreme unwillingness to spend money or use resources (कंजूस / मक्खीचूस).\n\n• Stingy (Correct Answer): Describes an extreme unwillingness to spend money or share (कंजूस).\n\n• Extravagant: Describes lacking restraint in spending (फ़िज़ूलख़र्च). This is the exact opposite of PARSIMONIOUS.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_negate_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nNEGATE",
-        options: ["A) Invalidate", "B) Cancel", "C) Nullify", "D) Neutralize"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'NEGATE' means to make clause or effect void, invalidate, or deny the existence of something (रद्द करना / अमान्य करना).\n\n• A) Invalidate: Means to make unsound or erroneous.\n\n• B) Cancel: Means to decide that an event will not take place.\n\n• C) Nullify (Correct Answer): Means to make legally void, invalidate, or neutralize effect. It acts as the exact synonym for 'NEGATE'.\n\n• D) Neutralize: Means to render harmless or ineffective."
+        options: ["A) Validate", "B) Nullify", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'NEGATE' means to make void, invalidate, or neutralize the effect of something (रद्द करना / अमान्य करना).\n\n• Nullify (Correct Answer): Means to make legally void, invalidate, or neutralize an effect (रद्द करना).\n\n• Validate: Means to check, prove, or declare accuracy/validity (पुष्टि करना). This is the exact opposite of NEGATE.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_disclaim_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDISCLAIM",
-        options: ["A) Renounce", "B) Deny", "C) Disavow", "D) Repudiate"],
+        options: ["A) Assert", "B) Deny", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'DISCLAIM' means to refuse to acknowledge, accept, or maintain connection with a claim or responsibility (दवा छोड़ना / इनकार करना).\n\n• A) Renounce: Means to formally give up a claim.\n\n• B) Deny (Correct Answer): Means to refuse to acknowledge connection with a claim. It serves as an exact synonym for 'DISCLAIM'.\n\n• C) Disavow: Means to deny responsibility.\n\n• D) Repudiate: Means to refuse to accept truth."
+        explanation: "• Main Word Meaning: 'DISCLAIM' means to refuse to acknowledge or accept a claim, connection, or responsibility (इन्कार करना).\n\n• Deny (Correct Answer): Means to refuse to acknowledge connection with a claim or responsibility (खंडन करना).\n\n• Assert: Means to state a fact or belief confidently (दावा करना). This is the exact opposite of DISCLAIM.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_renounce_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nRENOUNCE",
-        options: ["A) Relinquish", "B) Abdicate", "C) Surrender", "D) Waive"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'RENOUNCE' means to formally declare one's abandonment of a claim, right, or belief (त्यागना / छोड़ देना).\n\n• A) Relinquish (Correct Answer): Means to formally give up, surrender, or abandon a claim or position. It functions as an exact synonym for 'RENOUNCE'.\n\n• B) Abdicate: Means to step down from throne.\n\n• C) Surrender: Means to submit to authority.\n\n• D) Waive: Means to refrain from insisting on a right."
+        options: ["A) Claim", "B) Relinquish", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'RENOUNCE' means to formally declare abandonment of a claim, right, or position (त्यागना / छोड़ देना).\n\n• Relinquish (Correct Answer): Means to formally give up, surrender, or abandon a claim (त्यागना).\n\n• Claim: Means to state or assert that something belongs to oneself (दावा करना). This is the exact opposite of RENOUNCE.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_affirm_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nAFFIRM",
-        options: ["A) Refute", "B) Contradict", "C) Negate", "D) Deny"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'AFFIRM' means to state positively, validate, or confirm the truth of an assertion (पुष्टि करना).\n\n• A) Refute: Means to prove wrong using proof.\n\n• B) Contradict: Means to assert opposite.\n\n• C) Negate: Means to make void.\n\n• D) Deny (Correct Answer): Means to state that an assertion is untrue or refuse acceptance. It serves as the precise antonym for 'AFFIRM'."
+        options: ["A) Assert", "B) Deny", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'AFFIRM' means to state positively, validate, or confirm the truth of something (पुष्टि करना).\n\n• Deny (Correct Answer): Means to state that an assertion is untrue or refuse acceptance (इन्कार करना).\n\n• Assert: Means to state confidently and forcefully (दावा करना). This is synonymous with AFFIRM.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_clubby_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCLUBBY",
-        options: ["A) Friendly", "B) Sociable", "C) Exclusive", "D) Genial"],
+        options: ["A) Aloof", "B) Sociable", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'CLUBBY' describes being friendly, welcoming, and enjoying warm social interactions within a group or club (मिलनसार / समूहप्रिय).\n\n• A) Friendly: Describes pleasant demeanors.\n\n• B) Sociable (Correct Answer): Describes being friendly and enjoying warm social interactions. It acts as an exact synonym for 'CLUBBY'.\n\n• C) Exclusive: Describes restricted to a group.\n\n• D) Genial: Describes friendly and cheerful."
+        explanation: "• Main Word Meaning: 'CLUBBY' describes being friendly, welcoming, and enjoying social interactions within a group (मिलनसार / समूहप्रिय).\n\n• Sociable (Correct Answer): Describes being friendly and enjoying warm social interactions (मिलनसार).\n\n• Aloof: Describes being cool, distant, and detached (अलग-थलग). This is the exact opposite of CLUBBY.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_extroverted_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nEXTROVERTED",
-        options: ["A) Gregarious", "B) Expressive", "C) Outgoing", "D) Sociable"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'EXTROVERTED' describes being socially confident, expressive, and energized by interactions with others (बहिर्मुखी).\n\n• A) Gregarious: Describes fond of company.\n\n• B) Expressive: Describes effectively conveying thought.\n\n• C) Outgoing (Correct Answer): Describes being socially confident, expressive, and interactive. It functions as the precise synonym for 'EXTROVERTED'.\n\n• D) Sociable: Describes enjoying group settings."
+        options: ["A) Introverted", "B) Outgoing", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'EXTROVERTED' describes being socially confident, expressive, and energized by interactions (बहिर्मुखी).\n\n• Outgoing (Correct Answer): Describes being socially confident, expressive, and interactive (मिलनसार / बहिर्मुखी).\n\n• Introverted: Describes being quiet, reserved, and inward-looking (अंतर्मुखी). This is the exact opposite of EXTROVERTED.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_precocial_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nPRECOCIAL",
-        options: ["A) Advanced", "B) Precocious", "C) Mature", "D) Developed"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'PRECOCIAL' describes showing unusually early development, maturity, or skills at a young age (समय से पहले विकसित / अतिप्राकृतिक).\n\n• A) Advanced (Correct Answer): Describes showing unusually early development or skills. In vocabulary, it serves as an exact synonym for 'PRECOCIAL'.\n\n• B) Precocious: Describes having developed certain abilities at earlier age than usual, very close but advanced is standard key match.\n\n• C) Mature: Describes fully developed.\n\n• D) Developed: Describes advanced or elaborate."
+        options: ["A) Backward", "B) Advanced", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'PRECOCIAL' describes showing unusually early development, skills, or maturity (समय से पहले विकसित).\n\n• Advanced (Correct Answer): Describes showing unusually early development or high capability (उन्नत / विकसित).\n\n• Backward: Describes having made less progress than normal (पिछड़ा). This is the exact opposite of PRECOCIAL.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_colonial_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCOLONIAL",
-        options: ["A) Collective", "B) Communal", "C) Grouped", "D) Social"],
+        options: ["A) Solitary", "B) Communal", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: In biological/social contexts, 'COLONIAL' describes living, growing, or functioning together in connected groups or colonies (सामूहिक / संघचारी).\n\n• A) Collective: Describes done by people acting as a group.\n\n• B) Communal (Correct Answer): Describes living, growing, or functioning together in connected groups. It acts as the exact synonym for 'COLONIAL'.\n\n• C) Grouped: Describes placed in a group.\n\n• D) Social: Describes relating to society."
+        explanation: "• Main Word Meaning: In biological and social contexts, 'COLONIAL' describes living or functioning together in connected groups or communities (सामूहिक / संघचारी).\n\n• Communal (Correct Answer): Describes living, growing, or functioning together in connected groups (सामूहिक).\n\n• Solitary: Describes existing or done alone (एकाकी / अकेला). This is the exact opposite of COLONIAL.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_cordial_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCORDIAL",
-        options: ["A) Warm", "B) Friendly", "C) Amicable", "D) Genial"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'CORDIAL' describes being warm, friendly, polite, and pleasant in social settings (हार्दिक / सौहार्दपूर्ण).\n\n• A) Warm: Describes affection.\n\n• B) Friendly: Describes pleasant.\n\n• C) Amicable (Correct Answer): Describes warmth, friendliness, and a pleasant, accommodating manner. It serves as an exact synonym for 'CORDIAL'.\n\n• D) Genial: Describes cheerful."
+        options: ["A) Hostile", "B) Amicable", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'CORDIAL' describes being warm, friendly, and pleasant in social settings (हार्दिक / सौहार्दपूर्ण).\n\n• Amicable (Correct Answer): Describes displaying warmth, friendliness, and a pleasant manner (सौहार्दपूर्ण).\n\n• Hostile: Describes being unfriendly or showing opposition (शत्रुतापूर्ण). This is the exact opposite of CORDIAL.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_affable_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nAFFABLE",
-        options: ["A) Cordial", "B) Pleasant", "C) Amiable", "D) Genial"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'AFFABLE' describes someone who is friendly, good-natured, warm-hearted, and easy to talk to (मिलनसार / सुशील).\n\n• A) Cordial: Describes warm and polite.\n\n• B) Pleasant: Describes agreeable.\n\n• C) Amiable: Describes friendly manner.\n\n• D) Genial (Correct Answer): Describes being friendly, pleasant, and easy to converse with. It functions as the exact synonym for 'AFFABLE'."
+        options: ["A) Aloof", "B) Genial", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'AFFABLE' describes someone who is friendly, good-natured, and easy to talk to (मिलनसार / सुशील).\n\n• Genial (Correct Answer): Describes someone friendly, pleasant, and easy to converse with (सौम्य / मिलनसार).\n\n• Aloof: Describes being cool, distant, and detached (अलग-थलग). This is the exact opposite of AFFABLE.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_amiable_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nAMIABLE",
-        options: ["A) Affable", "B) Pleasant", "C) Genial", "D) Likable"],
+        options: ["A) Unpleasant", "B) Pleasant", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'AMIABLE' describes having or displaying a friendly and pleasant manner (सौम्य / सुशील).\n\n• A) Affable: Describes friendly and easy to talk to.\n\n• B) Pleasant (Correct Answer): Describes having an agreeable, friendly, and warm disposition. It acts as an exact synonym for 'AMIABLE'.\n\n• C) Genial: Describes friendly and cheerful.\n\n• D) Likable: Describes easy to like."
+        explanation: "• Main Word Meaning: 'AMIABLE' describes having or displaying a friendly and pleasant manner (सौम्य / सुशील).\n\n• Pleasant (Correct Answer): Describes an agreeable, friendly, and warm disposition (सुखद / सौम्य).\n\n• Unpleasant: Describes being disagreeable or unfriendly (अप्रिय). This is the exact opposite of AMIABLE.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_introverted_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nINTROVERTED",
-        options: ["A) Outgoing", "B) Gregarious", "C) Extroverted", "D) Sociable"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'INTROVERTED' describes being quiet, reserved, and inward-looking (अंतर्मुखी).\n\n• A) Outgoing: Describes socially confident.\n\n• B) Gregarious: Describes fond of company.\n\n• C) Extroverted (Correct Answer): Describes being outgoing, socially expressive, and energized by group interactions. It functions as the exact antonym for 'INTROVERTED'.\n\n• D) Sociable: Describes enjoying group interaction."
+        options: ["A) Reserved", "B) Extroverted", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'INTROVERTED' describes being quiet, reserved, and inward-looking (अंतर्मुखी).\n\n• Extroverted (Correct Answer): Describes being outgoing, socially expressive, and energized by interactions (बहिर्मुखी).\n\n• Reserved: Describes being slow to reveal emotion or opinion (संकोची). This is synonymous with INTROVERTED.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_induce_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nINDUCE",
-        options: ["A) Cause", "B) Instigate", "C) Persuade", "D) Prompt"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'INDUCE' means to succeed in persuading, bringing about, or encouraging a specific action or state (प्रेरित करना / कारण बनना).\n\n• A) Cause: Means to make something happen.\n\n• B) Instigate: Means to initiate action.\n\n• C) Persuade: Means to convince someone.\n\n• D) Prompt (Correct Answer): Means to bring about, persuade, or give rise to an action or feeling. It acts as an exact synonym for 'INDUCE'."
+        options: ["A) Prevent", "B) Prompt", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'INDUCE' means to succeed in persuading or bringing about an action or condition (प्रेरित करना / कारण बनना).\n\n• Prompt (Correct Answer): Means to bring about, persuade, or give rise to an action (प्रेरित करना).\n\n• Prevent: Means to keep something from happening (रोकना). This is the exact opposite of INDUCE.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_invoke_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nINVOKE",
-        options: ["A) Summon", "B) Cite", "C) Appeal", "D) Solicit"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'INVOKE' means to cite or appeal to an authority, law, or spirit for aid, protection, or evidence (आह्वान करना / सहारा लेना).\n\n• A) Summon (Correct Answer): Means to call upon, appeal to, or cite an authority or spirit for aid. It functions as the precise synonym for 'INVOKE'.\n\n• B) Cite: Means to quote as evidence.\n\n• C) Appeal: Means to make a serious request.\n\n• D) Solicit: Means to ask for or try to obtain."
+        options: ["A) Dismiss", "B) Summon", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'INVOKE' means to cite or appeal to an authority, law, or spirit for assistance or validation (आह्वान करना / सहारा लेना).\n\n• Summon (Correct Answer): Means to call upon, appeal to, or cite an authority for aid (आह्वान करना / बुलाना).\n\n• Dismiss: Means to order or allow to leave, or reject consideration (खारिज करना). This is the opposite of INVOKE.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_spawn_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nSPAWN",
-        options: ["A) Generate", "B) Produce", "C) Create", "D) Originate"],
+        options: ["A) Destroy", "B) Produce", "C) Ponderous", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'SPAWN' means to produce, generate, or bring forth into existence in large numbers (उत्पन्न करना / जन्म देना).\n\n• A) Generate: Means to produce or create.\n\n• B) Produce (Correct Answer): Means to generate, create, or bring forth into existence. It serves as an exact synonym for 'SPAWN'.\n\n• C) Create: Means to bring into existence.\n\n• D) Originate: Means to have specified beginning."
+        explanation: "• Main Word Meaning: 'SPAWN' means to produce, generate, or bring forth into existence (उत्पन्न करना / जन्म देना).\n\n• Produce (Correct Answer): Means to generate, create, or bring forth into existence (उत्पन्न करना).\n\n• Destroy: Means to end the existence of something (नष्ट करना). This is the exact opposite of SPAWN.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_yield_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nYIELD",
-        options: ["A) Provide", "B) Produce", "C) Generate", "D) Return"],
-        correct: "C",
-        explanation: "• Main Word Meaning: In context of production, 'YIELD' means to produce or provide a result, crop, or financial return (उत्पादन करना / पैदावार देना).\n\n• A) Provide: Means to make available.\n\n• B) Produce: Means to make or manufacture.\n\n• C) Generate (Correct Answer): Means to produce, provide, or give forth a result or return. It acts as an exact synonym for 'YIELD'.\n\n• D) Return: Means to yield profit."
+        options: ["A) Consume", "B) Generate", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: In context of production, 'YIELD' means to produce or provide a result, crop, or return (उत्पादन करना / पैदावार देना).\n\n• Generate (Correct Answer): Means to produce, provide, or give forth a result or return (उत्पन्न करना).\n\n• Consume: Means to eat, drink, or use up resources (उपभोग करना). This is the opposite of YIELD.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_impede_ant_ext",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nIMPEDE",
-        options: ["A) Assist", "B) Facilitate", "C) Promote", "D) Expedite"],
+        options: ["A) Obstruct", "B) Facilitate", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'IMPEDE' means to delay, obstruct, or hinder the progress of an action or process (बाधा डालना).\n\n• A) Assist: Means to help someone.\n\n• B) Facilitate (Correct Answer): Means to make an action or process easy, smooth, or free of obstacles. It acts as the direct antonym for 'IMPEDE'.\n\n• C) Promote: Means to support or encourage.\n\n• D) Expedite: Means to make an action happen sooner."
+        explanation: "• Main Word Meaning: 'IMPEDE' means to delay, obstruct, or hinder progress (बाधा डालना / रोकना).\n\n• Facilitate (Correct Answer): Means to make an action or process easy, smooth, or free of obstacles (सुगम बनाना).\n\n• Obstruct: Means to block or hinder progress (बाधा डालना). This is a synonym of IMPEDE.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_rebuke_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREBUKE",
-        options: ["A) Censure", "B) Scold", "C) Admonish", "D) Reprimand"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'REBUKE' means to express sharp, stern disapproval or criticism of someone because of their behavior (फटकारना / डाँटना).\n\n• A) Censure: Means formal disapproval.\n\n• B) Scold: Means to reprimand angrily.\n\n• C) Admonish: Means to warn or reprimand firmly.\n\n• D) Reprimand (Correct Answer): Refers to expressing sharp, stern disapproval to someone. It functions as an exact synonym for 'REBUKE'."
+        options: ["A) Praise", "B) Reprimand", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REBUKE' means to express sharp, stern disapproval or criticism (फटकारना / डाँटना).\n\n• Reprimand (Correct Answer): Means to express sharp, stern disapproval to someone (फटकारना).\n\n• Praise: Means to express warm approval or admiration (प्रशंसा करना). This is the exact opposite of REBUKE.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
     {
         id: "vocab_chide_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCHIDE",
-        options: ["A) Scold", "B) Berate", "C) Upbraid", "D) Reproach"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'CHIDE' means to scold, reprimand, or express mild to firm disapproval to someone (डाँटना / फटकारना).\n\n• A) Scold (Correct Answer): Means to express disapproval or reprimand someone. It acts as the precise synonym for 'CHIDE'.\n\n• B) Berate: Means to scold or condemn vehemently.\n\n• C) Upbraid: Means to find fault with someone.\n\n• D) Reproach: Means to express disappointment."
+        options: ["A) Applaud", "B) Scold", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'CHIDE' means to scold, reprimand, or express disapproval to someone (डाँटना / फटकारना).\n\n• Scold (Correct Answer): Means to express disapproval or reprimand someone firmly (डाँटना).\n\n• Applaud: Means to show approval or praise publicly (सराहना). This is the exact opposite of CHIDE.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_reproach_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREPROACH",
-        options: ["A) Blame", "B) Disapprove", "C) Censure", "D) Criticize"],
+        options: ["A) Commend", "B) Disapprove", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'REPROACH' means to express criticism, fault, or disappointment regarding someone's actions (दोषारोपण करना / तिरस्कार करना).\n\n• A) Blame: Means to feel or declare that someone is responsible for a fault.\n\n• B) Disapprove (Correct Answer): Means to express criticism or fault regarding someone's actions. It serves as an exact synonym for 'REPROACH'.\n\n• C) Censure: Means formal disapproval.\n\n• D) Criticize: Means to indicate faults."
+        explanation: "• Main Word Meaning: 'REPROACH' means to express criticism, fault, or disappointment regarding actions (दोषारोपण करना / तिरस्कार करना).\n\n• Disapprove (Correct Answer): Means to express criticism or fault regarding actions (अस्वीकार करना / निंदा करना).\n\n• Commend: Means to praise formally or enthusiastically (सराहना). This is the exact opposite of REPROACH.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
     {
         id: "vocab_reprimand_syn_ext",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREPRIMAND",
-        options: ["A) Admonition", "B) Censure", "C) Rebuke", "D) Reproof"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'REPRIMAND' refers to a formal, severe expression of disapproval or scolding by someone in authority (फटकार / निंदा).\n\n• A) Admonition: Refers to a firm warning or reprimand.\n\n• B) Censure: Refers to formal expression of severe disapproval.\n\n• C) Rebuke (Correct Answer): Refers to a severe, formal expression of disapproval. It functions as the exact synonym for 'REPRIMAND'.\n\n• D) Reproof: Refers to an expression of blame or disapproval."
+        options: ["A) Commendation", "B) Rebuke", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REPRIMAND' refers to a formal, severe expression of disapproval or criticism (फटकार / निंदा).\n\n• Rebuke (Correct Answer): Refers to a severe, formal expression of disapproval (फटकार).\n\n• Commendation: Refers to formal praise or recommendation (प्रशंसा). This is the exact opposite of REPRIMAND.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
-
-    // ==========================================
-    // 1. ADULATION
-    // ==========================================
     {
         id: "vocab_adulation_syn_1",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nADULATION",
-        options: ["A) Homage", "B) Flattery", "C) Praise", "D) Worship"],
+        options: ["A) Condemnation", "B) Flattery", "C) Loquacious", "D) Fastidious"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'ADULATION' refers to extreme, excessive, or servile admiration and praise (चापलूसी / अति-प्रशंसा).\n\n• A) Homage: Refers to special honor or respect shown publicly.\n\n• B) Flattery (Correct Answer): Refers to excessive, exaggerated, or insincere praise given to gain favor. It serves as an exact synonym for 'ADULATION'.\n\n• C) Praise: Refers to expressing warm approval.\n\n• D) Worship: Refers to religious devotion."
+        explanation: "• Main Word Meaning: 'ADULATION' refers to extreme, excessive, or servile praise and admiration (चापलूसी / अति-प्रशंसा).\n\n• Flattery (Correct Answer): Refers to excessive or insincere praise given to gain favor (चापलूसी).\n\n• Condemnation: Refers to an expression of strong disapproval (निंदा). This is the exact opposite of ADULATION.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
     {
         id: "vocab_adulation_ant_1",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nADULATION",
-        options: ["A) Disparagement", "B) Condemnation", "C) Criticism", "D) Detraction"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'ADULATION' refers to excessive praise, worship, or flattery (चापलूसी).\n\n• A) Disparagement: Refers to speaking of someone in a derogatory manner.\n\n• B) Condemnation: Refers to formal expression of strong disapproval.\n\n• C) Criticism (Correct Answer): Refers to pointing out faults or expressing disapproval. It serves as the direct antonym for 'ADULATION'.\n\n• D) Detraction: Refers to taking away from reputation."
+        options: ["A) Flattery", "B) Criticism", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'ADULATION' refers to excessive praise or flattery (चापलूसी / अति-प्रशंसा).\n\n• Criticism (Correct Answer): Refers to pointing out faults or expressing disapproval (आलोचना / निंदा).\n\n• Flattery: Refers to excessive or insincere praise (चापलूसी). This is synonymous with ADULATION.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_adulation_fitb",
         type: "Fill in the Blank",
         question: "Select the most appropriate option to fill in the blank:\n'The young pop star found it difficult to handle the constant __________ of millions of fans.'",
-        options: ["A) adulation", "B) approval", "C) scrutiny", "D) criticism"],
+        options: ["A) adulation", "B) criticism", "C) soporific", "D) pragmatic"],
         correct: "A",
-        explanation: "• Main Word Meaning: In sentence completion, the context of enthusiastic fans requires a word denoting passionate admiration.\n\n• A) adulation (Correct Answer): Fits perfectly as fans show extreme admiration, worship, and flattery toward celebrity figures.\n\n• B) approval: Means official acceptance, which is too mild for fanatical pop fans.\n\n• C) scrutiny: Means critical observation or examination, which comes from media/critics rather than adoring fans.\n\n• D) criticism: Means pointing out faults, opposing adoring fans."
+        explanation: "• Main Word Meaning: In sentence completion, the context of adoring fans requires a word denoting passionate admiration.\n\n• adulation (Correct Answer): Fits perfectly as fans show extreme admiration, praise, and worship (अति-प्रशंसा).\n\n• criticism: Refers to pointing out faults or expressing disapproval (आलोचना).\n\n• soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
-
-    // ==========================================
-    // 2. IDOLATRY
-    // ==========================================
     {
         id: "vocab_idolatry_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nIDOLATRY",
-        options: ["A) Devotion", "B) Reverence", "C) Scepticism", "D) Toleration"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'IDOLATRY' refers to extreme, blind admiration, love, or spiritual worship of a person or object (मूर्तिपूजा / अन्धभक्ति).\n\n• A) Devotion (Correct Answer): Refers to extreme admiration, love, or spiritual worship given to a person or entity. It acts as an exact synonym for 'IDOLATRY'.\n\n• B) Reverence: Refers to deep respect mixed with awe.\n\n• C) Scepticism: Refers to a doubting, critical attitude, serving as a direct antonym.\n\n• D) Toleration: Refers to allowing something without interference."
+        options: ["A) Scepticism", "B) Devotion", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'IDOLATRY' refers to extreme, blind admiration, reverence, or worship (मूर्तिपूजा / अन्धभक्ति).\n\n• Devotion (Correct Answer): Refers to extreme admiration, love, or spiritual worship (भक्ति / आदर).\n\n• Scepticism: Refers to a doubting or critical attitude (संदेहवाद). This is the exact opposite of IDOLATRY.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_idolatry_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nIDOLATRY",
-        options: ["A) Disbelief", "B) Scepticism", "C) Cynicism", "D) Contempt"],
+        options: ["A) Devotion", "B) Scepticism", "C) Disparate", "D) Precocial"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'IDOLATRY' refers to uncritical, blind worship or reverence (अन्धभक्ति).\n\n• A) Disbelief: Refers to inability or refusal to accept that something is true.\n\n• B) Scepticism (Correct Answer): Refers to a doubting, critical, or questioning attitude toward revered claims or figures. It acts as a precise antonym to blind idolatry.\n\n• C) Cynicism: Refers to an inclination to believe that people are motivated purely by self-interest.\n\n• D) Contempt: Refers to feeling that something is worthless."
+        explanation: "• Main Word Meaning: 'IDOLATRY' refers to uncritical, blind worship or reverence (अन्धभक्ति).\n\n• Scepticism (Correct Answer): Refers to a doubting or questioning attitude toward revered claims (संदेहवाद).\n\n• Devotion: Refers to extreme admiration or worship (भक्ति). This is synonymous with IDOLATRY.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
-
-    // ==========================================
-    // 3. IDOLIZATION
-    // ==========================================
     {
         id: "vocab_idolization_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nIDOLIZATION",
-        options: ["A) Reverence", "B) Admiration", "C) Esteem", "D) Approbation"],
+        options: ["A) Contempt", "B) Admiration", "C) Ponderous", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'IDOLIZATION' refers to admiring, loving, or revering someone to an extreme degree (अंधभक्ति / अत्यधिक आदर).\n\n• A) Reverence: Refers to deep respect mixed with awe.\n\n• B) Admiration (Correct Answer): Refers to regarding someone with high approval, respect, and affection. It acts as a precise synonym for 'IDOLIZATION'.\n\n• C) Esteem: Refers to respect and admiration.\n\n• D) Approbation: Refers to approval or praise."
+        explanation: "• Main Word Meaning: 'IDOLIZATION' refers to admiring or revering someone to an extreme degree (अंधभक्ति / अत्यधिक आदर).\n\n• Admiration (Correct Answer): Refers to regarding someone with high approval, respect, and devotion (प्रशंसा / आदर).\n\n• Contempt: Refers to the feeling that someone is worthless (तिरस्कार). This is the exact opposite of IDOLIZATION.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_idolization_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nIDOLIZATION",
-        options: ["A) Disapproval", "B) Disrepute", "C) Disdain", "D) Contempt"],
-        correct: "D",
-        explanation: "• Main Word Meaning: 'IDOLIZATION' refers to deep, uncritical admiration and respect (अत्यधिक आदर).\n\n• A) Disapproval: Refers to possession of a poor opinion.\n\n• B) Disrepute: Refers to state of being held in low esteem.\n\n• C) Disdain: Refers to feeling unworthy of respect.\n\n• D) Disdain (Correct Answer): Refers to a feeling of contempt or considering someone unworthy of respect. It serves as the direct antonym for 'IDOLIZATION'."
+        options: ["A) Admiration", "B) Contempt", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'IDOLIZATION' refers to deep, uncritical admiration and reverence (अत्यधिक आदर).\n\n• Contempt (Correct Answer): Refers to the feeling that someone is beneath consideration or worthless (तिरस्कार / अवहेलना).\n\n• Admiration: Refers to high approval and respect (आदर). This is synonymous with IDOLIZATION.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
-
-    // ==========================================
-    // 4. DEIFICATION
-    // ==========================================
     {
         id: "vocab_deification_syn_2",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDEIFICATION",
-        options: ["A) Exaltation", "B) Apotheosis", "C) Canonization", "D) Elevation"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'DEIFICATION' refers to the act of elevating a person to god-like status or praising them to the highest degree (देवता का स्थान देना).\n\n• A) Exaltation (Correct Answer): Refers to raising someone to god-like status or praising them highly. It functions as an exact synonym for 'DEIFICATION'.\n\n• B) Apotheosis: Refers to the highest point in development or elevation to divine status, extremely close but exaltation is the standard test key.\n\n• C) Canonization: Refers to officially declaring a dead person a saint.\n\n• D) Elevation: Refers to raising in rank."
+        options: ["A) Degradation", "B) Exaltation", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEIFICATION' refers to elevating a person to god-like status or divine rank (देवता का स्थान देना).\n\n• Exaltation (Correct Answer): Refers to raising someone to god-like status or praising highly (गुणगान / उच्च स्थान).\n\n• Degradation: Refers to lowering someone in honor or dignity (पतन). This is the exact opposite of DEIFICATION.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_deification_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDEIFICATION",
-        options: ["A) Demotion", "B) Debasement", "C) Degradation", "D) Humiliation"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DEIFICATION' refers to raising someone to divine rank and honor (देवता मानना).\n\n• A) Demotion: Refers to lowering in rank or position.\n\n• B) Debasement: Refers to reducing quality or value.\n\n• C) Degradation (Correct Answer): Refers to the act of lowering someone in honor, status, or dignity. It acts as the direct antonym for 'DEIFICATION'.\n\n• D) Humiliation: Refers to causing embarrassment."
+        options: ["A) Exaltation", "B) Degradation", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DEIFICATION' refers to raising someone to divine rank and honor (देवता मानना).\n\n• Degradation (Correct Answer): Refers to the act of lowering someone in honor, status, or dignity (अवनति / पतन).\n\n• Exaltation: Refers to raising to god-like status (गुणगान). This is synonymous with DEIFICATION.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
-
-    // ==========================================
-    // 5. WORSHIP
-    // ==========================================
     {
         id: "vocab_worship_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nWORSHIP",
-        options: ["A) Adoration", "B) Reverence", "C) Homage", "D) Veneration"],
+        options: ["A) Scorn", "B) Reverence", "C) Ubiquitous", "D) Equanimous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'WORSHIP' refers to showing profound reverence, devotion, and religious honor toward a deity or figure (पूजा / आराधना).\n\n• A) Adoration: Refers to deep love and respect.\n\n• B) Reverence (Correct Answer): Refers to deep respect, awe, and religious honor shown toward an authority or deity. It acts as an exact synonym for 'WORSHIP'.\n\n• C) Homage: Refers to public honor.\n\n• D) Veneration: Refers to great respect."
+        explanation: "• Main Word Meaning: 'WORSHIP' refers to showing profound reverence, honor, and devotion (पूजा / आराधना).\n\n• Reverence (Correct Answer): Refers to deep respect, awe, and honor shown toward an entity (श्रद्धा / आदर).\n\n• Scorn: Refers to open contempt or hatred (घृणा). This is the exact opposite of WORSHIP.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_worship_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nWORSHIP",
-        options: ["A) Disdain", "B) Contempt", "C) Scorn", "D) Disrespect"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'WORSHIP' refers to deep sacred honor and devotion (आराधना).\n\n• A) Disdain: Refers to regarding as unworthy.\n\n• B) Contempt: Refers to feeling that something is worthless.\n\n• C) Scorn (Correct Answer): Refers to open contempt or hatred toward someone. It acts as the direct antonym for 'WORSHIP'.\n\n• D) Disrespect: Refers to lack of respect."
+        options: ["A) Reverence", "B) Scorn", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'WORSHIP' refers to deep sacred honor and devotion (आराधना / पूजा).\n\n• Scorn (Correct Answer): Refers to open contempt, hatred, or disdain toward someone (घृणा / तिरस्कार).\n\n• Reverence: Refers to deep respect and awe (श्रद्धा). This is synonymous with WORSHIP.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
-
-    // ==========================================
-    // 6. ADORATION
-    // ==========================================
     {
         id: "vocab_adoration_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nADORATION",
-        options: ["A) Love", "B) Devotion", "C) Fondness", "D) Affection"],
+        options: ["A) Hatred", "B) Devotion", "C) Ponderous", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'ADORATION' refers to deep affection, love, and respectful admiration for someone (पूजा / अत्यधिक प्रेम).\n\n• A) Love: Refers to intense feeling of deep affection, broad term.\n\n• B) Devotion (Correct Answer): Refers to deep affection, love, and spiritual respect. It functions as an exact synonym for 'ADORATION'.\n\n• C) Fondness: Refers to affection or liking.\n\n• D) Affection: Refers to gentle feeling of fondness."
+        explanation: "• Main Word Meaning: 'ADORATION' refers to deep affection, love, and respectful admiration (पूजा / अत्यधिक प्रेम).\n\n• Devotion (Correct Answer): Refers to deep affection, love, and spiritual respect (भक्ति / आदर).\n\n• Hatred: Refers to intense hostility and aversion (नफ़रत). This is the exact opposite of ADORATION.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_adoration_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nADORATION",
-        options: ["A) Antipathy", "B) Animosity", "C) Hatred", "D) Hostility"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'ADORATION' refers to deep love, reverence, and affection (अत्यधिक प्रेम).\n\n• A) Antipathy: Refers to deep-seated feeling of aversion.\n\n• B) Animosity: Refers to strong hostility.\n\n• C) Hatred (Correct Answer): Refers to intense hostility and aversion. It acts as the direct antonym for 'ADORATION'.\n\n• D) Hostility: Refers to unfriendliness or opposition."
+        options: ["A) Devotion", "B) Hatred", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'ADORATION' refers to deep love, reverence, and affection (अत्यधिक प्रेम).\n\n• Hatred (Correct Answer): Refers to intense hostility, aversion, and ill will (नफ़रत / घृणा).\n\n• Devotion: Refers to deep affection and love (भक्ति). This is synonymous with ADORATION.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
-
-    // ==========================================
-    // 7. REVERENCE
-    // ==========================================
     {
         id: "vocab_reverence_syn_2",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nREVERENCE",
-        options: ["A) Awe", "B) Respect", "C) Esteem", "D) Deference"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'REVERENCE' refers to a feeling or attitude of deep respect, awe, and honor toward an authority (श्रद्धा / आदर).\n\n• A) Awe (Correct Answer): Refers to a feeling of reverential respect mixed with wonder toward an authority. It serves as an exact synonym for 'REVERENCE'.\n\n• B) Respect: Refers to due regard.\n\n• C) Esteem: Refers to respect and admiration.\n\n• D) Deference: Refers to polite submission."
+        options: ["A) Disrespect", "B) Awe", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REVERENCE' refers to a feeling of deep respect, awe, and honor (श्रद्धा / आदर).\n\n• Awe (Correct Answer): Refers to a feeling of reverential respect mixed with wonder (श्रद्धा / आश्चर्य).\n\n• Disrespect: Refers to a lack of respect or courtesy (अनादर). This is the exact opposite of REVERENCE.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_reverence_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nREVERENCE",
-        options: ["A) Insolence", "B) Impudence", "C) Disrespect", "D) Irreverence"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'REVERENCE' refers to deep respect, honor, and awe (श्रद्धा).\n\n• A) Insolence: Refers to rude and disrespectful behavior.\n\n• B) Impudence: Refers to quality of being impudent; insolence.\n\n• C) Disrespect (Correct Answer): Refers to lack of respect or courtesy. It serves as the precise antonym for 'REVERENCE'.\n\n• D) Irreverence: Refers to lack of respect for things usually taken seriously, very close but disrespect is the primary test key."
+        options: ["A) Awe", "B) Disrespect", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'REVERENCE' refers to deep respect, honor, and awe (श्रद्धा).\n\n• Disrespect (Correct Answer): Refers to a lack of respect or courtesy (अनादर / अपमान).\n\n• Awe: Refers to reverential respect mixed with wonder (श्रद्धा). This is synonymous with REVERENCE.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
-
-    // ==========================================
-    // 8. VENERATION
-    // ==========================================
     {
         id: "vocab_veneration_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nVENERATION",
-        options: ["A) Homage", "B) Honor", "C) Esteem", "D) Regard"],
+        options: ["A) Contempt", "B) Honor", "C) Ubiquitous", "D) Equanimous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'VENERATION' refers to great respect, high honor, or reverence given to elders or leaders (आदर / सम्मान).\n\n• A) Homage: Refers to special public honor.\n\n• B) Honor (Correct Answer): Refers to showing high respect, prestige, or reverence. It functions as an exact synonym for 'VENERATION'.\n\n• C) Esteem: Refers to respect and admiration.\n\n• D) Regard: Refers to attention to or concern for."
+        explanation: "• Main Word Meaning: 'VENERATION' refers to great respect, high honor, or sacred reverence (आदर / सम्मान).\n\n• Honor (Correct Answer): Refers to showing high respect, prestige, or reverence (सम्मान).\n\n• Contempt: Refers to the feeling that someone is beneath consideration (तिरस्कार). This is the exact opposite of VENERATION.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_veneration_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nVENERATION",
-        options: ["A) Derogation", "B) Disdain", "C) Contempt", "D) Disregard"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'VENERATION' refers to deep respect and sacred honor (सम्मान).\n\n• A) Derogation: Refers to perception that something lacks worth.\n\n• B) Disdain: Refers to regarding as unworthy.\n\n• C) Contempt (Correct Answer): Refers to the feeling that a person is beneath consideration or worthless. It acts as the direct antonym for 'VENERATION'.\n\n• D) Disregard: Refers to paying no attention."
+        options: ["A) Honor", "B) Contempt", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'VENERATION' refers to deep respect and sacred honor (सम्मान).\n\n• Contempt (Correct Answer): Refers to the feeling that a person or thing is worthless (तिरस्कार / अवहेलना).\n\n• Honor: Refers to showing high respect or reverence (सम्मान). This is synonymous with VENERATION.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
-
-    // ==========================================
-    // 9. GLORIFICATION
-    // ==========================================
     {
         id: "vocab_glorification_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nGLORIFICATION",
-        options: ["A) Praise", "B) Exaltation", "C) Laudation", "D) Tribute"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'GLORIFICATION' refers to the act of praising or honoring someone in an exalted manner (महिमा मंडन / प्रशंसा).\n\n• A) Praise (Correct Answer): Refers to expressing warm approval, honor, or commendation. It serves as an exact synonym for 'GLORIFICATION'.\n\n• B) Exaltation: Refers to state of being raised high.\n\n• C) Laudation: Refers to praise; commendation.\n\n• D) Tribute: Refers to act intended to show gratitude."
+        options: ["A) Vilification", "B) Praise", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'GLORIFICATION' refers to praising or honoring someone in an exalted manner (महिमा मंडन / गुणगान).\n\n• Praise (Correct Answer): Refers to expressing warm approval, honor, or commendation (प्रशंसा).\n\n• Vilification: Refers to abusively disparaging someone (बदनामी / निंदा). This is the exact opposite of GLORIFICATION.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_glorification_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nGLORIFICATION",
-        options: ["A) Defamation", "B) Slander", "C) Vilification", "D) Denigration"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'GLORIFICATION' refers to praising and elevating someone's reputation (गुणगान).\n\n• A) Defamation: Refers to damaging good reputation.\n\n• B) Slander: Refers to false spoken statements.\n\n• C) Vilification (Correct Answer): Refers to abusively disparaging or speaking ill of someone. It acts as the direct antonym for 'GLORIFICATION'.\n\n• D) Denigration: Refers to unfair criticism."
+        options: ["A) Praise", "B) Vilification", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'GLORIFICATION' refers to praising and elevating someone's reputation highly (गुणगान).\n\n• Vilification (Correct Answer): Refers to abusively disparaging or speaking ill of someone (बदनामी / निंदा).\n\n• Praise: Refers to expressing warm approval (प्रशंसा). This is synonymous with GLORIFICATION.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
-
-    // ==========================================
-    // 10. CONDEMNATION
-    // ==========================================
     {
         id: "vocab_condemnation_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nCONDEMNATION",
-        options: ["A) Denunciation", "B) Censure", "C) Reproof", "D) Blame"],
+        options: ["A) Approval", "B) Censure", "C) Audacious", "D) Taciturn"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'CONDEMNATION' refers to an expression of strong disapproval, formal criticism, or harsh censure (निंदा / भर्त्सना).\n\n• A) Denunciation: Refers to public condemnation of someone.\n\n• B) Censure (Correct Answer): Refers to formal expression of severe disapproval or criticism. It serves as an exact synonym for 'CONDEMNATION'.\n\n• C) Reproof: Refers to an expression of blame.\n\n• D) Blame: Refers to responsibility for a fault."
+        explanation: "• Main Word Meaning: 'CONDEMNATION' refers to an expression of strong disapproval or criticism (निंदा / भर्त्सना).\n\n• Censure (Correct Answer): Refers to a formal expression of severe disapproval (निंदा / कड़ा विरोध).\n\n• Approval: Refers to feeling or declaring that something is acceptable (स्वीकृति). This is the exact opposite of CONDEMNATION.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_condemnation_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nCONDEMNATION",
-        options: ["A) Endorsement", "B) Acclaim", "C) Approval", "D) Commendation"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'CONDEMNATION' refers to strong disapproval and harsh censure (निंदा).\n\n• A) Endorsement: Refers to public support.\n\n• B) Acclaim: Refers to enthusiastic praise.\n\n• C) Approval (Correct Answer): Refers to the feeling or declaration that something is good and acceptable. It functions as the direct antonym for 'CONDEMNATION'.\n\n• D) Commendation: Refers to formal praise."
+        options: ["A) Censure", "B) Approval", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'CONDEMNATION' refers to strong disapproval and harsh censure (निंदा).\n\n• Approval (Correct Answer): Refers to feeling or declaring that something is good and acceptable (स्वीकृति / अनुमोदन).\n\n• Censure: Refers to formal expression of severe disapproval (निंदा). This is synonymous with CONDEMNATION.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
-
-    // ==========================================
-    // 11. DISREGARD
-    // ==========================================
     {
         id: "vocab_disregard_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDISREGARD",
-        options: ["A) Neglect", "B) Inattention", "C) Indifference", "D) Oversight"],
+        options: ["A) Attention", "B) Inattention", "C) Ubiquitous", "D) Equanimous"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'DISREGARD' means to pay no attention to, ignore, or treat with lack of care (उपेक्षा करना / ध्यान न देना).\n\n• A) Neglect: Refers to failing to care for properly.\n\n• B) Inattention (Correct Answer): Refers to lack of consideration, care, or focus given to an entity. It serves as an exact synonym for 'DISREGARD'.\n\n• C) Indifference: Refers to lack of interest or concern.\n\n• D) Oversight: Refers to an unintentional failure to notice."
+        explanation: "• Main Word Meaning: 'DISREGARD' means to pay no attention to or ignore someone or something (उपेक्षा करना / ध्यान न देना).\n\n• Inattention (Correct Answer): Refers to a lack of consideration, care, or mental focus (असावधानी / उपेक्षा).\n\n• Attention: Refers to notice, care, or mental focus directed toward someone (ध्यान). This is the exact opposite of DISREGARD.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_disregard_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDISREGARD",
-        options: ["A) Care", "B) Consideration", "C) Attention", "D) Heed"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DISREGARD' refers to ignoring or neglecting someone or something (उपेक्षा).\n\n• A) Care: Refers to provision of what is necessary.\n\n• B) Consideration: Refers to careful thought.\n\n• C) Attention (Correct Answer): Refers to notice, care, or mental focus directed toward someone. It acts as the direct antonym for 'DISREGARD'.\n\n• D) Heed: Refers to paying attention to."
+        options: ["A) Inattention", "B) Attention", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DISREGARD' refers to ignoring or neglecting someone or something (उपेक्षा).\n\n• Attention (Correct Answer): Refers to notice, care, or mental focus directed toward someone (ध्यान / परवाह).\n\n• Inattention: Refers to lack of focus or consideration (असावधानी). This is synonymous with DISREGARD.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
-
-    // ==========================================
-    // 12. LOATHING
-    // ==========================================
     {
         id: "vocab_loathing_syn_2",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nLOATHING",
-        options: ["A) Detestation", "B) Abhorrence", "C) Aversion", "D) Revulsion"],
+        options: ["A) Affection", "B) Abhorrence", "C) Ponderous", "D) Resilient"],
         correct: "B",
-        explanation: "• Main Word Meaning: 'LOATHING' refers to a feeling of intense revulsion, disgust, and hatred (घृणा / नफ़रत).\n\n• A) Detestation: Refers to intense hatred.\n\n• B) Abhorrence (Correct Answer): Refers to a feeling of intense revulsion, disgust, and hatred. It functions as an exact synonym for 'LOATHING'.\n\n• C) Aversion: Refers to strong dislike or disinclination.\n\n• D) Revulsion: Refers to sense of disgust."
+        explanation: "• Main Word Meaning: 'LOATHING' refers to a feeling of intense revulsion, disgust, and hatred (घृणा / नफ़रत).\n\n• Abhorrence (Correct Answer): Refers to a feeling of intense revulsion, disgust, and hatred (घृणा).\n\n• Affection: Refers to a gentle feeling of fondness or love (स्नेह / प्रेम). This is the exact opposite of LOATHING.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_loathing_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nLOATHING",
-        options: ["A) Likeness", "B) Fondness", "C) Affection", "D) Admiration"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'LOATHING' refers to intense disgust and hatred (नफ़रत).\n\n• A) Likeness: Refers to fact of being alike.\n\n• B) Fondness: Refers to affection or liking.\n\n• C) Affection (Correct Answer): Refers to a feeling of fondness, warmth, or love. It acts as the direct antonym for 'LOATHING'.\n\n• D) Admiration: Refers to high regard."
+        options: ["A) Abhorrence", "B) Affection", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'LOATHING' refers to intense disgust and hatred (नफ़रत).\n\n• Affection (Correct Answer): Refers to a feeling of fondness, warmth, or love (स्नेह / प्रेम).\n\n• Abhorrence: Refers to intense revulsion and disgust (घृणा). This is synonymous with LOATHING.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     },
-
-    // ==========================================
-    // 13. DISPARAGEMENT
-    // ==========================================
     {
         id: "vocab_disparagement_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDISPARAGEMENT",
-        options: ["A) Derogation", "B) Depreciation", "C) Belittlement", "D) Denigration"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'DISPARAGEMENT' refers to the act of speaking of someone or something in a derogatory, insulting, or belittling manner (उपेक्षा / नीचा दिखाना).\n\n• A) Derogation (Correct Answer): Refers to treating or speaking of someone in a critical, degrading manner. It acts as an exact synonym for 'DISPARAGEMENT'.\n\n• B) Depreciation: Refers to reduction in value.\n\n• C) Belittlement: Refers to making someone seem unimportant.\n\n• D) Denigration: Refers to unfair criticism."
+        options: ["A) Commendation", "B) Derogation", "C) Audacious", "D) Taciturn"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DISPARAGEMENT' refers to speaking of someone in a derogatory or belittling manner (उपेक्षा / नीचा दिखाना).\n\n• Derogation (Correct Answer): Refers to treating or speaking of someone in a critical, degrading manner (मानहानि / नीचा दिखाना).\n\n• Commendation: Refers to formal praise or recommendation (प्रशंसा). This is the exact opposite of DISPARAGEMENT.\n\n• Audacious: Describes taking bold risks (साहसी).\n\n• Taciturn: Describes a person reserved in speech (कम बोलने वाला)."
     },
     {
         id: "vocab_disparagement_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDISPARAGEMENT",
-        options: ["A) Approval", "B) Eulogy", "C) Commendation", "D) Praise"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DISPARAGEMENT' refers to insulting remarks intended to diminish worth (उपेक्षा).\n\n• A) Approval: Refers to acceptance.\n\n• B) Eulogy: Refers to funeral tribute.\n\n• C) Commendation (Correct Answer): Refers to formal praise, approval, or recommendation. It serves as the exact antonym for 'DISPARAGEMENT'.\n\n• D) Praise: Refers to expressing warm approval."
+        options: ["A) Derogation", "B) Commendation", "C) Soporific", "D) Pragmatic"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DISPARAGEMENT' refers to insulting remarks intended to diminish worth (उपेक्षा / नीचा दिखाना).\n\n• Commendation (Correct Answer): Refers to formal praise, approval, or recommendation (प्रशंसा / सराहना).\n\n• Derogation: Refers to critical or degrading speech (मानहानि). This is synonymous with DISPARAGEMENT.\n\n• Soporific: Describes something inducing sleepiness (निद्राजनक).\n\n• Pragmatic: Describes dealing with things sensibly (व्यावहारिक)."
     },
-
-    // ==========================================
-    // 14. DETRACTION
-    // ==========================================
     {
         id: "vocab_detraction_syn",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nDETRACTION",
-        options: ["A) Depreciation", "B) Defamation", "C) Calumny", "D) Slander"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'DETRACTION' refers to the act of taking away from the merit, value, or reputation of a person or action (निंदा / यश कम करना).\n\n• A) Depreciation (Correct Answer): Refers to taking away from the estimated value or reputation of an entity. It serves as an exact synonym for 'DETRACTION'.\n\n• B) Defamation: Refers to damaging good reputation falsely.\n\n• C) Calumny: Refers to false and malicious statements.\n\n• D) Slander: Refers to false spoken statements."
+        options: ["A) Praise", "B) Depreciation", "C) Ubiquitous", "D) Equanimous"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DETRACTION' refers to taking away from the merit or reputation of a person (निंदा / यश कम करना).\n\n• Depreciation (Correct Answer): Refers to taking away from the estimated value, merit, or reputation of something (मूल्य ह्रास / उपेक्षा).\n\n• Praise: Refers to expressing approval or positive recognition (प्रशंसा). This is the exact opposite of DETRACTION.\n\n• Ubiquitous: Describes something present everywhere (सर्वव्यापी).\n\n• Equanimous: Describes being calm and composed (शांत)."
     },
     {
         id: "vocab_detraction_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nDETRACTION",
-        options: ["A) Flattery", "B) Acclaim", "C) Praise", "D) Commendation"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'DETRACTION' refers to taking away from someone's reputation or merit (अपयश).\n\n• A) Flattery: Refers to insincere praise.\n\n• B) Acclaim: Refers to enthusiastic public praise.\n\n• C) Praise (Correct Answer): Refers to expressing approval, honor, or positive recognition. It serves as the precise antonym for 'DETRACTION'.\n\n• D) Commendation: Refers to formal praise."
+        options: ["A) Depreciation", "B) Praise", "C) Disparate", "D) Precocial"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'DETRACTION' refers to taking away from someone's reputation or merit (अपयश / निंदा).\n\n• Praise (Correct Answer): Refers to expressing approval, honor, or positive recognition (प्रशंसा / सराहना).\n\n• Depreciation: Refers to taking away from reputation or value (उपेक्षा). This is synonymous with DETRACTION.\n\n• Disparate: Describes things essentially different in kind (भिन्न).\n\n• Precocial: Describes showing early development (समय से पहले विकसित)."
     },
-
-    // ==========================================
-    // 15. BELITTLEMENT
-    // ==========================================
     {
         id: "vocab_belittlement_syn_2",
         type: "Synonym",
         question: "Select the most appropriate SYNONYM of the given word:\nBELITTLEMENT",
-        options: ["A) Disparagement", "B) Diminution", "C) Derogation", "D) Depreciation"],
-        correct: "A",
-        explanation: "• Main Word Meaning: 'BELITTLEMENT' refers to the act of making a person or achievement seem small, worthless, or unimportant (तुच्छ समझना / नीचा दिखाना).\n\n• A) Disparagement (Correct Answer): Refers to the act of making someone seem small or worthless. It functions as an exact synonym for 'BELITTLEMENT'.\n\n• B) Diminution: Refers to reduction in size or importance.\n\n• C) Derogation: Refers to speaking deprecatingly.\n\n• D) Depreciation: Refers to reduction in value."
+        options: ["A) Exaltation", "B) Disparagement", "C) Ponderous", "D) Resilient"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'BELITTLEMENT' refers to making a person or achievement seem small or worthless (तुच्छ समझना / नीचा दिखाना).\n\n• Disparage (Correct Answer): Refers to the act of making someone or something seem small or worthless (नीचा दिखाना).\n\n• Exaltation: Refers to praising or elevating someone highly (गुणगान). This is the exact opposite of BELITTLEMENT.\n\n• Ponderous: Describes something slow and clumsy due to weight (भारी-भरकम).\n\n• Resilient: Describes the ability to recover quickly (लचीला)."
     },
     {
         id: "vocab_belittlement_ant",
         type: "Antonym",
         question: "Select the most appropriate ANTONYM of the given word:\nBELITTLEMENT",
-        options: ["A) Glorification", "B) Elevation", "C) Exaltation", "D) Praise"],
-        correct: "C",
-        explanation: "• Main Word Meaning: 'BELITTLEMENT' refers to treating someone's achievements as small or worthless (नीचा दिखाना).\n\n• A) Glorification: Refers to praising in exalted manner.\n\n• B) Elevation: Refers to raising in rank.\n\n• C) Exaltation (Correct Answer): Refers to praising, elevating, or honoring someone highly. It functions as the direct antonym for 'BELITTLEMENT'.\n\n• D) Praise: Refers to expressing approval."
+        options: ["A) Disparagement", "B) Exaltation", "C) Loquacious", "D) Fastidious"],
+        correct: "B",
+        explanation: "• Main Word Meaning: 'BELITTLEMENT' refers to treating someone's achievements as small or worthless (नीचा दिखाना).\n\n• Exaltation (Correct Answer): Refers to praising, elevating, or honoring someone highly (गुणगान / प्रशंसा).\n\n• Disparagement: Refers to making someone seem small or worthless (उपेक्षा). This is synonymous with BELITTLEMENT.\n\n• Loquacious: Describes someone talkative (बातूनी).\n\n• Fastidious: Describes someone attentive to detail (नुकताचीं)."
     }
 ];
