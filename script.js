@@ -13,7 +13,7 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-// Local Storage से Question History Management (70% New : 30% Revision)
+// Local Storage for Question History Management (70% New : 30% Revision)
 function getQuestionHistory() {
   return JSON.parse(localStorage.getItem("seen_q_ids") || "[]");
 }
@@ -30,8 +30,10 @@ async function startQuiz() {
     return;
   }
 
-  document.getElementById("result-box").style.display = "none";
-  document.getElementById("quiz-box").style.display = "block";
+  const resultBox = document.getElementById("result-box");
+  const quizBox = document.getElementById("quiz-box");
+  if (resultBox) resultBox.style.display = "none";
+  if (quizBox) quizBox.style.display = "block";
 
   let processedVocab = questions.map((q, idx) => ({
     ...q,
@@ -57,7 +59,7 @@ async function startQuiz() {
 
   let combinedVocab = [...selectedNew, ...selectedOld];
 
-  // Safety check to ensure we have enough vocab questions
+  // Safety fallback if pools are short
   if (combinedVocab.length < targetVocabCount) {
     let remainingNeeded = targetVocabCount - combinedVocab.length;
     let fallbackPool = processedVocab.filter(
@@ -70,7 +72,7 @@ async function startQuiz() {
 
   combinedVocab = shuffleArray(combinedVocab);
 
-  // Save IDs to history
+  // Save current vocabulary session IDs to history
   let currentSessionIds = combinedVocab.map((q) => q.id);
   saveToQuestionHistory(currentSessionIds);
 
@@ -105,14 +107,14 @@ async function startQuiz() {
     console.error("Cloze test load failure:", e);
   }
 
-  // Combine Vocab and Cloze Questions
+  // Interleave Cloze questions inside Vocabulary questions
   let tempQuestions = [
     ...combinedVocab.slice(0, 10),
     ...clozeQuestions,
     ...combinedVocab.slice(10),
   ];
 
-  // STRICT 30 QUESTION ENFORCER:
+  // STRICT 30 QUESTION ENFORCER
   if (tempQuestions.length < 30) {
     let needed = 30 - tempQuestions.length;
     let extraVocab = processedVocab.filter(
@@ -136,49 +138,61 @@ function showQuestion() {
   const q = quizQuestions[currentQuestionIndex];
 
   const progress = document.getElementById("q-progress");
-  if (progress)
-    progress.innerText = `Question ${currentQuestionIndex + 1}/${
-      quizQuestions.length
-    }`;
+  if (progress) {
+    progress.innerText = `Question ${currentQuestionIndex + 1}/${quizQuestions.length}`;
+  }
 
   const qTypeHeader = document.getElementById("q-type");
-  if (qTypeHeader) qTypeHeader.innerText = q.type || "SSC CGL Practice";
+  if (qTypeHeader) {
+    qTypeHeader.innerText = q.type || "SSC CGL Practice";
+  }
 
   const passageBox = document.getElementById("cloze-passage-box");
   const passageText = document.getElementById("cloze-passage-text");
-  if (q.passage) {
+  if (q.passage && passageBox && passageText) {
     passageText.innerText = q.passage;
+    passageText.style.whiteSpace = "pre-line";
     passageBox.style.display = "block";
-  } else {
+  } else if (passageBox) {
     passageBox.style.display = "none";
   }
 
-  document.getElementById("q-text").innerText = q.question;
+  const qText = document.getElementById("q-text");
+  if (qText) qText.innerText = q.question;
 
   const optionsContainer = document.getElementById("options-container");
-  optionsContainer.innerHTML = "";
+  if (optionsContainer) {
+    optionsContainer.innerHTML = "";
 
-  q.options.forEach((option) => {
-    const btn = document.createElement("button");
-    btn.className = "option-btn";
-    btn.innerText = option;
+    q.options.forEach((option) => {
+      const btn = document.createElement("button");
+      btn.className = "option-btn";
+      btn.innerText = option;
 
-    let match = option.match(/\(?([A-D])\)?/i);
-    let optionLetter = match
-      ? match[1].toUpperCase()
-      : option.trim().charAt(0).toUpperCase();
+      let match = option.match(/\(?([A-D])\)?/i);
+      let optionLetter = match
+        ? match[1].toUpperCase()
+        : option.trim().charAt(0).toUpperCase();
 
-    btn.onclick = () => selectOption(btn, optionLetter);
-    optionsContainer.appendChild(btn);
-  });
+      btn.onclick = () => selectOption(btn, optionLetter);
+      optionsContainer.appendChild(btn);
+    });
+  }
+
+  const expBox = document.getElementById("explanation-container");
+  const expText = document.getElementById("explanation-text");
 
   const savedAnswer = userAnswers[currentQuestionIndex];
-  if (savedAnswer) {
+  if (savedAnswer !== undefined && savedAnswer !== null && savedAnswer !== "") {
     hasAnswered = true;
-    document.getElementById("next-button").style.display = "block";
-    document.getElementById("skip-button").style.display = "none";
+    const nextBtn = document.getElementById("next-button");
+    const skipBtn = document.getElementById("skip-button");
+    if (nextBtn) nextBtn.style.display = "block";
+    if (skipBtn) skipBtn.style.display = "none";
 
-    const buttons = optionsContainer.getElementsByClassName("option-btn");
+    const buttons = optionsContainer
+      ? optionsContainer.getElementsByClassName("option-btn")
+      : [];
     for (let btn of buttons) {
       btn.disabled = true;
       let match = btn.innerText.match(/\(?([A-D])\)?/i);
@@ -195,22 +209,24 @@ function showQuestion() {
         btn.classList.add("wrong");
       }
     }
-    if (document.getElementById("explanation-container")) {
-      document.getElementById("explanation-text").innerText =
-        q.explanation || "";
-      document.getElementById("explanation-container").style.display = "block";
+    if (expBox && expText) {
+      expText.innerText = q.explanation || "";
+      expText.style.whiteSpace = "pre-line";
+      expBox.style.display = "block";
     }
   } else {
     hasAnswered = false;
-    document.getElementById("next-button").style.display = "none";
-    document.getElementById("skip-button").style.display = "block";
-    if (document.getElementById("explanation-container")) {
-      document.getElementById("explanation-container").style.display = "none";
-    }
+    const nextBtn = document.getElementById("next-button");
+    const skipBtn = document.getElementById("skip-button");
+    if (nextBtn) nextBtn.style.display = "none";
+    if (skipBtn) skipBtn.style.display = "block";
+    if (expBox) expBox.style.display = "none";
   }
 
-  document.getElementById("prev-button").style.display =
-    currentQuestionIndex > 0 ? "block" : "none";
+  const prevBtn = document.getElementById("prev-button");
+  if (prevBtn) {
+    prevBtn.style.display = currentQuestionIndex > 0 ? "block" : "none";
+  }
 }
 
 function selectOption(selectedButton, selectedLetter) {
@@ -220,7 +236,9 @@ function selectOption(selectedButton, selectedLetter) {
 
   const q = quizQuestions[currentQuestionIndex];
   const optionsContainer = document.getElementById("options-container");
-  const buttons = optionsContainer.getElementsByClassName("option-btn");
+  const buttons = optionsContainer
+    ? optionsContainer.getElementsByClassName("option-btn")
+    : [];
 
   for (let btn of buttons) {
     btn.disabled = true;
@@ -239,16 +257,19 @@ function selectOption(selectedButton, selectedLetter) {
     selectedButton.classList.add("wrong");
   }
 
-  if (document.getElementById("explanation-text")) {
-    document.getElementById("explanation-text").innerText =
-      q.explanation || "No explanation provided.";
-  }
-  if (document.getElementById("explanation-container")) {
-    document.getElementById("explanation-container").style.display = "block";
-  }
+  const expBox = document.getElementById("explanation-container");
+  const expText = document.getElementById("explanation-text");
 
-  document.getElementById("skip-button").style.display = "none";
-  document.getElementById("next-button").style.display = "block";
+  if (expText) {
+    expText.innerText = q.explanation || "No explanation provided.";
+    expText.style.whiteSpace = "pre-line";
+  }
+  if (expBox) expBox.style.display = "block";
+
+  const nextBtn = document.getElementById("next-button");
+  const skipBtn = document.getElementById("skip-button");
+  if (skipBtn) skipBtn.style.display = "none";
+  if (nextBtn) nextBtn.style.display = "block";
 }
 
 function loadNextQuestion() {
@@ -256,14 +277,17 @@ function loadNextQuestion() {
   if (currentQuestionIndex < quizQuestions.length) {
     showQuestion();
   } else {
-    document.getElementById("prev-button").style.display = "none";
+    const prevBtn = document.getElementById("prev-button");
+    if (prevBtn) prevBtn.style.display = "none";
     showResults();
   }
 }
 
 function showResults() {
-  document.getElementById("quiz-box").style.display = "none";
-  document.getElementById("result-box").style.display = "block";
+  const quizBox = document.getElementById("quiz-box");
+  const resultBox = document.getElementById("result-box");
+  if (quizBox) quizBox.style.display = "none";
+  if (resultBox) resultBox.style.display = "block";
 
   let totalQuestions = quizQuestions.length;
   let attempted = 0,
@@ -286,21 +310,20 @@ function showResults() {
   }
 
   const totalMarks = totalQuestions * 2;
-  document.getElementById(
-    "final-score"
-  ).innerText = `${score} / ${totalMarks}`;
+  const finalScoreEl = document.getElementById("final-score");
+  if (finalScoreEl) finalScoreEl.innerText = `${score} / ${totalMarks}`;
 
   const pct = score > 0 ? Math.round((score / totalMarks) * 100) : 0;
-  document.getElementById(
-    "accuracy-text"
-  ).innerText = `Accuracy Rate: ${pct}%`;
+  const accuracyEl = document.getElementById("accuracy-text");
+  if (accuracyEl) accuracyEl.innerText = `Accuracy Rate: ${pct}%`;
 
   let feedback = "";
   if (pct === 100) feedback = "Gajab bhai Gajab😮.";
   else if (pct >= 70) feedback = "Hein Edi layak hoiyo tu👍🏻";
   else feedback = "Kyu nahi ho rhi padhai🤨🙄";
 
-  document.getElementById("feedback-text").innerText = feedback;
+  const feedbackEl = document.getElementById("feedback-text");
+  if (feedbackEl) feedbackEl.innerText = feedback;
 
   if (document.getElementById("stat-total"))
     document.getElementById("stat-total").innerText = totalQuestions;
@@ -314,7 +337,7 @@ function showResults() {
   const reviewSection = document.getElementById("review-section");
   if (reviewSection) {
     reviewSection.innerHTML =
-      '<h3 style="margin-top:20px; color:#333;">Review Questions</h3>';
+      '<h3 style="margin-top:20px; color:#333;">Review Questions & Full Option Analysis</h3>';
 
     quizQuestions.forEach((q, index) => {
       let userAnsLetter = userAnswers[index];
@@ -322,6 +345,9 @@ function showResults() {
         userResultText = "",
         correctOptionText = "",
         userOptionText = "";
+
+      let optionsBreakdownHTML =
+        '<div style="margin-top: 10px; font-size: 0.88rem; background: #ffffff; padding: 10px; border-radius: 6px; border: 1px solid #e2e8f0; color: #2d3748;"><strong>🔍 All Options Breakdown:</strong><ul style="margin: 5px 0 0 0; padding-left: 20px; list-style-type: none;">';
 
       q.options.forEach((optStr) => {
         let match = optStr.match(/\(?([A-D])\)?/i);
@@ -332,7 +358,23 @@ function showResults() {
         if (letter === q.correct.toUpperCase()) correctOptionText = optStr;
         if (userAnsLetter && letter === userAnsLetter.toUpperCase())
           userOptionText = optStr;
+
+        let isCorrectOpt = letter === q.correct.toUpperCase();
+        let isUserOpt = userAnsLetter && letter === userAnsLetter.toUpperCase();
+
+        let optStyle = isCorrectOpt
+          ? "color: #27ae60; font-weight: bold;"
+          : isUserOpt
+          ? "color: #c0392b; font-weight: bold;"
+          : "color: #4a5568;";
+
+        let tag = "";
+        if (isCorrectOpt) tag += " ✔️ (Correct Answer)";
+        if (isUserOpt && !isCorrectOpt) tag += " ❌ (Your Choice)";
+
+        optionsBreakdownHTML += `<li style="${optStyle}; margin-bottom: 3px;">${optStr}${tag}</li>`;
       });
+      optionsBreakdownHTML += "</ul></div>";
 
       if (!userAnsLetter) {
         statusClass = "review-skipped";
@@ -348,32 +390,36 @@ function showResults() {
       let passageHTML = "";
       if (q.passage) {
         passageHTML = `
-                    <div style="background: #edf2f7; border-left: 4px solid #3182ce; padding: 10px 12px; margin: 8px 0; border-radius: 4px; font-size: 0.9rem; color: #2d3748; line-height: 1.5;">
-                        <strong>📖 Cloze Passage:</strong><br>${q.passage}
-                    </div>
-                `;
+          <div style="background: #edf2f7; border-left: 4px solid #3182ce; padding: 10px 12px; margin: 8px 0; border-radius: 4px; font-size: 0.9rem; color: #2d3748; line-height: 1.5; white-space: pre-line;">
+              <strong>📖 Cloze Passage:</strong><br>${q.passage}
+          </div>
+        `;
       }
 
+      let formattedExplanation = (q.explanation || "No explanation provided.")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
       reviewSection.innerHTML += `
-                <div class="review-card ${statusClass}" style="text-align: left; margin: 15px 0; padding: 15px; border-radius: 8px; border-left: 6px solid #ccc; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <div style="font-size:0.8rem; font-weight:bold; color:#718096; text-transform:uppercase;">${
-                      q.type || "Question"
-                    }</div>
-                    ${passageHTML}
-                    <p style="font-weight: 600; margin: 5px 0 8px 0; color: #2d3748;">Q${
-                      index + 1
-                    }. ${q.question}</p>
-                    <div style="font-size: 0.95rem; margin-bottom: 5px;">${userResultText}</div>
-                    <div style="font-size: 0.95rem; color: #2c3e50; font-weight: 600; margin-bottom: 8px;">
-                        Correct Answer: <span style="color: #27ae60;">${correctOptionText}</span>
-                    </div>
-                    <div style="font-size: 0.9rem; background: #f7fafc; padding: 10px; border-radius: 6px; border-left: 3px solid #3182ce;">
-                        <strong>💡 Explanation:</strong> ${
-                          q.explanation || "No explanation provided."
-                        }
-                    </div>
-                </div>
-            `;
+        <div class="review-card ${statusClass}" style="text-align: left; margin: 15px 0; padding: 15px; border-radius: 8px; border-left: 6px solid #ccc; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <div style="font-size:0.8rem; font-weight:bold; color:#718096; text-transform:uppercase;">${
+              q.type || "Question"
+            }</div>
+            ${passageHTML}
+            <p style="font-weight: 600; margin: 5px 0 8px 0; color: #2d3748; white-space: pre-line;">Q${
+              index + 1
+            }. ${q.question}</p>
+            <div style="font-size: 0.95rem; margin-bottom: 5px;">${userResultText}</div>
+            <div style="font-size: 0.95rem; color: #2c3e50; font-weight: 600; margin-bottom: 8px;">
+                Correct Answer: <span style="color: #27ae60;">${correctOptionText}</span>
+            </div>
+            ${optionsBreakdownHTML}
+            <div style="font-size: 0.9rem; background: #f7fafc; padding: 12px; margin-top: 10px; border-radius: 6px; border-left: 3px solid #3182ce; color: #2d3748; white-space: pre-line; line-height: 1.6;">
+                <strong>💡 Detailed Explanation:</strong><br>${formattedExplanation}
+            </div>
+        </div>
+      `;
     });
   }
 }
@@ -383,8 +429,9 @@ function restartQuiz() {
 }
 
 function skipQuestion() {
-  if (userAnswers[currentQuestionIndex] === undefined)
+  if (userAnswers[currentQuestionIndex] === undefined) {
     userAnswers[currentQuestionIndex] = "";
+  }
   if (currentQuestionIndex < quizQuestions.length - 1) loadNextQuestion();
   else showResults();
 }

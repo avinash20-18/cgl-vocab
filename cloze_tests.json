@@ -7,31 +7,31 @@
         "blankNo": 1,
         "options": ["A) honorable", "B) louche", "C) commendable", "D) spiritual"],
         "correct": "B",
-        "explanation": "'Louche' refers to disreputable or questionable activities."
+        "explanation": "• A) honorable: Refers to actions deserving respect and high moral standing. This directly contradicts the passage, which discusses public disgrace and illegal leaks.\n\n• B) louche (Correct Answer): Describes someone or something that is disreputable, shady, or dubious in character. It perfectly fits illegal activities that cause a politician to fall into disgrace.\n\n• C) commendable: Means deserving praise or approval, which is completely opposite to the context of unethical scandal.\n\n• D) spiritual: Relates to religious or transcendental matters, which has no logical connection to illegal politician leaks."
       },
       {
         "blankNo": 2,
         "options": ["A) despicable", "B) admirable", "C) decent", "D) triumphant"],
         "correct": "A",
-        "explanation": "'Despicable' means deserving hatred or intense dislike."
+        "explanation": "• A) despicable (Correct Answer): Means deserving intense hatred and contempt. The public was shocked by his total lack of ethics, viewing his actions as utterly despicable.\n\n• B) admirable: Means inspiring respect or approval, which contradicts public outrage over unethical behavior.\n\n• C) decent: Refers to conforming with acceptable standards of respectable behavior, opposite of what is described.\n\n• D) triumphant: Means feeling or showing great happiness after a victory, which is irrelevant to disgraceful actions."
       },
       {
         "blankNo": 3,
         "options": ["A) espouse", "B) avow", "C) repudiate", "D) adorn"],
         "correct": "C",
-        "explanation": "'Repudiate' means to reject or deny the truth or validity of something."
+        "explanation": "• A) espouse: Means to adopt, support, or embrace a cause/belief. A politician would not embrace claims made against himself.\n\n• B) avow: Means to assert or confess openly, which contradicts the phrase 'Instead of apologizing'.\n\n• C) repudiate (Correct Answer): Means to refuse to accept or to deny the truth/validity of something. Instead of apologizing, he rejected and denied the claims.\n\n• D) adorn: Means to make more attractive or decorate, which makes no sense in relation to legal claims."
       },
       {
         "blankNo": 4,
         "options": ["A) deface", "B) blemish", "C) belittle", "D) embellish"],
         "correct": "D",
-        "explanation": "'Embellish' means to make something sound or look better than it is."
+        "explanation": "• A) deface: Means to spoil or damage the appearance of something. A defense team would never damage their client's image.\n\n• B) blemish: Means to spoil the appearance or quality of something, opposite of what a defense team aims to do.\n\n• C) belittle: Means to make someone or something seem unimportant, which is grammatically and contextually incorrect here.\n\n• D) embellish (Correct Answer): Means to make something sound or look better than it actually is by adding details. The legal team tried to embellish his innocent image."
       },
       {
         "blankNo": 5,
         "options": ["A) corroborate", "B) recant", "C) disavow", "D) abdicate"],
         "correct": "A",
-        "explanation": "'Corroborate' means to confirm or support with evidence."
+        "explanation": "• A) corroborate (Correct Answer): Means to confirm or give support to a statement or finding with clear evidence. The prosecutor confirmed his involvement with solid proof.\n\n• B) recant: Means to publicly withdraw a statement, which applies to a witness, not a prosecutor presenting evidence.\n\n• C) disavow: Means to deny responsibility or support for something, which is the opposite of proving involvement.\n\n• D) abdicate: Means to formally renounce one's throne or fail to fulfill a duty, which is irrelevant here."
       }
     ]
   },
@@ -43,31 +43,31 @@
         "blankNo": 1,
         "options": ["A) deface", "B) belittle", "C) recant", "D) embellish"],
         "correct": "D",
-        "explanation": "'Embellish' fits here as it means to make something seem more exaggerated."
+        "explanation": "• A) deface: Means to ruin or spoil the appearance of something. A politician would not ruin his own achievements.\n\n• B) belittle: Means to dismiss something as unimportant. The minister wanted to highlight, not dismiss, his achievements.\n\n• C) recant: Means to publicly withdraw an opinion, which does not fit public speeches boasting about achievements.\n\n• D) embellish (Correct Answer): Means to exaggerate or decorate something to make it sound far more impressive. He exaggerated his achievements to portray himself as a savior."
       },
       {
         "blankNo": 2,
         "options": ["A) profligate", "B) frugal", "C) thrifty", "D) parsimonious"],
         "correct": "A",
-        "explanation": "'Profligate' fits the context of someone who wastefully squanders money."
+        "explanation": "• A) profligate (Correct Answer): Refers to someone who is recklessly extravagant or wasteful with resources/money. This directly matches 'squandered public wealth on personal luxuries'.\n\n• B) frugal: Means careful and economical with money, which is the exact opposite of wasting public funds.\n\n• C) thrifty: Refers to using money carefully and wisely, contradicting the minister's wasteful habits.\n\n• D) parsimonious: Means extremely unwilling to spend money; stingy, which contradicts spending lavishly on luxuries."
       },
       {
         "blankNo": 3,
         "options": ["A) espouse", "B) repudiate", "C) avow", "D) caparison"],
         "correct": "B",
-        "explanation": "'Repudiate' means to deny or reject allegations."
+        "explanation": "• A) espouse: Means to support or adopt an idea. A minister accused of corruption would not support the allegations.\n\n• B) repudiate (Correct Answer): Means to reject, deny, or refuse to accept allegations as true. Calling them baseless indicates he repudiated them.\n\n• C) avow: Means to confess or declare openly, which contradicts calling the allegations baseless.\n\n• D) caparison: Refers to putting an ornamental covering on a horse, which is completely irrelevant."
       },
       {
         "blankNo": 4,
         "options": ["A) disavow", "B) blemish", "C) corroborate", "D) abdicate"],
         "correct": "C",
-        "explanation": "'Corroborate' means to support or confirm a claim with evidence."
+        "explanation": "• A) disavow: Means to deny knowledge of or responsibility for something. The legal team was trying to support his claims, not deny them.\n\n• B) blemish: Means to spoil or stain something, which a defense team would avoid.\n\n• C) corroborate (Correct Answer): Means to support or confirm a statement with evidence. The legal team used false documents to corroborate his claims.\n\n• D) abdicate: Means to formally step down from power, which does not fit the legal defense context."
       },
       {
         "blankNo": 5,
         "options": ["A) negate", "B) recant", "C) disclaim", "D) affirm"],
         "correct": "D",
-        "explanation": "'Affirm' means to establish or prove something as true and valid."
+        "explanation": "• A) negate: Means to make something ineffective or invalidate it. Audit reports proving guilt would not negate it.\n\n• B) recant: Means to withdraw a former statement, which applies to speakers rather than audit documents.\n\n• C) disclaim: Means to deny connection with something, which does not fit audit findings.\n\n• D) affirm (Correct Answer): Means to confirm, validate, or state as a fact. The official audit reports affirmed his guilt beyond doubt."
       }
     ]
   },
@@ -79,31 +79,31 @@
         "blankNo": 1,
         "options": ["A) hasten", "B) dawdle", "C) barrel", "D) rush"],
         "correct": "B",
-        "explanation": "'Dawdle' means to waste time or delay moving."
+        "explanation": "• A) hasten: Means to hurry or accelerate, which contradicts wasting precious work hours.\n\n• B) dawdle (Correct Answer): Means to waste time or move slowly and aimlessly. It perfectly aligns with wasting precious work hours.\n\n• C) barrel: Means to move at a high speed in an uncontrolled manner, opposite to idling around.\n\n• D) rush: Means to act or move with urgent speed, which does not mean idling or wasting time."
       },
       {
         "blankNo": 2,
         "options": ["A) extol", "B) reprove", "C) laud", "D) revere"],
         "correct": "B",
-        "explanation": "'Reprove' means to reprimand or express disapproval."
+        "explanation": "• A) extol: Means to praise enthusiastically, which a manager would not do for a lack of discipline.\n\n• B) reprove (Correct Answer): Means to reprimand, scold, or express firm disapproval to someone for bad behavior.\n\n• C) laud: Means to praise highly, which contradicts strict disciplinary action.\n\n• D) revere: Means to feel deep respect or admiration for someone, which is irrelevant here."
       },
       {
         "blankNo": 3,
         "options": ["A) engender", "B) quell", "C) stifle", "D) repress"],
         "correct": "A",
-        "explanation": "'Engender' means to cause or give rise to a feeling or situation."
+        "explanation": "• A) engender (Correct Answer): Means to cause, produce, or give rise to a feeling, situation, or condition. Careless behavior engenders (creates) doubt.\n\n• B) quell: Means to put an end to or suppress something (like fear or a rebellion), opposite of creating doubt.\n\n• C) stifle: Means to smother or prevent something from growing, opposite of generating doubt.\n\n• D) repress: Means to subdue or restrain by force, which does not fit generating doubts."
       },
       {
         "blankNo": 4,
         "options": ["A) trifle", "B) amble", "C) stagger", "D) exert"],
         "correct": "D",
-        "explanation": "'Exert' means to apply or put in effort."
+        "explanation": "• A) trifle: Means to treat something without seriousness or respect, contradicting putting in work.\n\n• B) amble: Means to walk at a slow, relaxed pace, which does not fit working hard.\n\n• C) stagger: Means to walk unsteadily as if about to fall, irrelevant to work effort.\n\n• D) exert (Correct Answer): Means to apply or bring to bear a force, influence, or effort. 'Exert maximum effort' is a standard collocation."
       },
       {
         "blankNo": 5,
         "options": ["A) gregarious", "B) companionable", "C) aloof", "D) cordial"],
         "correct": "C",
-        "explanation": "'Aloof' refers to being cool, distant, or unconcerned."
+        "explanation": "• A) gregarious: Means fond of company; sociable, which does not convey lack of commitment to work.\n\n• B) companionable: Means friendly and agreeable, which is a positive social trait.\n\n• C) aloof (Correct Answer): Refers to being cool, distant, unconcerned, or detached. Behaving in an aloof manner towards work targets means showing a lack of care.\n\n• D) cordial: Means warm and friendly, which is positive and irrelevant to work neglect."
       }
     ]
   },
@@ -115,31 +115,31 @@
         "blankNo": 1,
         "options": ["A) taciturn", "B) reclusive", "C) reticent", "D) gregarious"],
         "correct": "D",
-        "explanation": "'Gregarious' means fond of company and sociable."
+        "explanation": "• A) taciturn: Means reserved or uncommunicative in speech; saying little, opposite of making people feel welcome.\n\n• B) reclusive: Means avoiding the company of other people; solitary, which contradicts hosting social gatherings.\n\n• C) reticent: Means not revealing one's thoughts or feelings readily, which contradicts a welcoming host.\n\n• D) gregarious (Correct Answer): Means fond of company and highly sociable. A gregarious leader naturally makes everyone feel welcome."
       },
       {
         "blankNo": 2,
         "options": ["A) venerate", "B) desecrate", "C) defame", "D) scorn"],
         "correct": "A",
-        "explanation": "'Venerate' means to regard with great respect or revere."
+        "explanation": "• A) venerate (Correct Answer): Means to regard with great respect; revere. People venerate a leader dedicated to lifelong public service.\n\n• B) desecrate: Means to treat a sacred place or thing with violent disrespect, which is completely negative.\n\n• C) defame: Means to damage the good reputation of someone, contradicting public respect.\n\n• D) scorn: Means to feel or express contempt or disdain for someone, opposite of admiration."
       },
       {
         "blankNo": 3,
         "options": ["A) castigate", "B) extol", "C) reproach", "D) chide"],
         "correct": "B",
-        "explanation": "'Extol' means to praise enthusiastically and publicly."
+        "explanation": "• A) castigate: Means to reprimand or criticize someone severely, contradicting positive coverage.\n\n• B) extol (Correct Answer): Means to praise enthusiastically and publicly. Newspapers extol noble actions on front pages.\n\n• C) reproach: Means to express disapproval or disappointment, opposite of praise.\n\n• D) chide: Means to scold or rebuke gently, which does not fit front-page praise."
       },
       {
         "blankNo": 4,
         "options": ["A) deify", "B) exalt", "C) desecrate", "D) glorify"],
         "correct": "C",
-        "explanation": "'Desecrate' means to treat something sacred with disrespect."
+        "explanation": "• A) deify: Means to worship or treat someone like a god, which critics would not do to sacred traditions.\n\n• B) exalt: Means to hold someone or something in very high regard, opposite of undermining work.\n\n• C) desecrate (Correct Answer): Means to treat something sacred with disrespect or outrage. Critics attempted to desecrate traditions to cause trouble.\n\n• D) glorify: Means to praise or worship, which contradicts the intention of hostile critics."
       },
       {
         "blankNo": 5,
         "options": ["A) induce", "B) quell", "C) invoke", "D) generate"],
         "correct": "B",
-        "explanation": "'Quell' means to put an end to or suppress something."
+        "explanation": "• A) induce: Means to bring about or give rise to, which would mean causing disruption rather than stopping it.\n\n• B) quell (Correct Answer): Means to put an end to or suppress a disturbance. The public quelled all efforts to disrupt peace.\n\n• C) invoke: Means to cite or appeal to someone/something as an authority, which makes no sense here.\n\n• D) generate: Means to cause or produce, which contradicts stopping peace disruption."
       }
     ]
   },
@@ -151,31 +151,31 @@
         "blankNo": 1,
         "options": ["A) reticent", "B) frugality", "C) prodigal", "D) taciturn"],
         "correct": "C",
-        "explanation": "'Prodigal' describes a wasteful and spending-heavy lifestyle."
+        "explanation": "• A) reticent: Means reserved or quiet, which does not describe a lifestyle of spending vast fortunes.\n\n• B) frugality: A noun meaning economy or thriftiness, whereas an adjective is required to modify 'lifestyle'.\n\n• C) prodigal (Correct Answer): An adjective meaning recklessly wasteful or extravagant. A king spending fortunes on extravagant feasts has a prodigal lifestyle.\n\n• D) taciturn: Means untalkative or reserved, irrelevant to spending habits."
       },
       {
         "blankNo": 2,
         "options": ["A) embellish", "B) deface", "C) belittle", "D) blemish"],
         "correct": "A",
-        "explanation": "'Embellish' means to decorate or beautify the palace."
+        "explanation": "• A) embellish (Correct Answer): Means to make something more attractive by adding decorative details. Lavish decorations were used to embellish the palace.\n\n• B) deface: Means to spoil the surface or appearance of something, opposite of decorating.\n\n• C) belittle: Means to make something seem small or unimportant, which does not fit decorating a palace.\n\n• D) blemish: Means to spoil or flaw the appearance of something, opposite of embellishing."
       },
       {
         "blankNo": 3,
         "options": ["A) extol", "B) deify", "C) reprove", "D) sanction"],
         "correct": "C",
-        "explanation": "'Reprove' means to reprimand or express disapproval."
+        "explanation": "• A) extol: Means to praise highly, which wise advisers would not do for wasteful spending.\n\n• B) deify: Means to treat like a deity, which is irrelevant to responding to bad spending.\n\n• C) reprove (Correct Answer): Means to reprimand or express disapproval. Advisers would reprove his wasteful habits.\n\n• D) sanction: Means to give official permission or approval for an action, opposite of disapproval."
       },
       {
         "blankNo": 4,
         "options": ["A) hasten", "B) dawdle", "C) exert", "D) barrel"],
         "correct": "B",
-        "explanation": "'Dawdle' means to waste time aimlessly."
+        "explanation": "• A) hasten: Means to move or act quickly, which contradicts spending time lazily.\n\n• B) dawdle (Correct Answer): Means to waste time or move slowly in idle pursuits instead of attending to duties.\n\n• C) exert: Means to make a physical or mental effort, opposite of idle pursuits.\n\n• D) barrel: Means to move extremely fast, which does not fit wasting time idly."
       },
       {
         "blankNo": 5,
         "options": ["A) repudiate", "B) corroborate", "C) avow", "D) espouse"],
         "correct": "A",
-        "explanation": "'Repudiate' means to reject or refuse to acknowledge advice."
+        "explanation": "• A) repudiate (Correct Answer): Means to refuse to accept, reject, or disown. Rejecting advice from wise elders caused widespread discontent.\n\n• B) corroborate: Means to confirm with evidence, which does not make sense regarding advice.\n\n• C) avow: Means to declare openly or confess, contradicting ignoring advice.\n\n• D) espouse: Means to adopt or support a belief/cause, which is the opposite of rejecting critical advice."
       }
     ]
   },
@@ -187,25 +187,25 @@
         "blankNo": 1,
         "options": ["A) reclusive", "B) gregarious", "C) taciturn", "D) reticent"],
         "correct": "B",
-        "explanation": "'Gregarious' describes someone fond of company and social gatherings."
+        "explanation": "• A) reclusive: Means seeking solitude, which contradicts enjoying large social gatherings.\n\n• B) gregarious (Correct Answer): Means fond of company and highly sociable, contrasting directly with an introverted brother.\n\n• C) taciturn: Means quiet and uncommunicative, opposite of social.\n\n• D) reticent: Means reserved or reluctant to speak, contradicting sociability."
       },
       {
         "blankNo": 2,
         "options": ["A) sinister", "B) baleful", "C) affable", "D) ominous"],
         "correct": "C",
-        "explanation": "'Affable' means friendly and easy to talk to."
+        "explanation": "• A) sinister: Means giving the impression that something harmful is happening, irrelevant to being soft-spoken.\n\n• B) baleful: Means threatening harm or deadly, which contradicts a gentle personality.\n\n• C) affable (Correct Answer): Means friendly, good-natured, and easy to talk to, contrasting with appearing distant or aloof.\n\n• D) ominous: Means giving the impression that something bad is going to happen, irrelevant here."
       },
       {
         "blankNo": 3,
         "options": ["A) refute", "B) disown", "C) disclaim", "D) corroborate"],
         "correct": "D",
-        "explanation": "'Corroborate' means to support or confirm claims with evidence."
+        "explanation": "• A) refute: Means to prove a statement to be wrong, opposite of supporting a colleague.\n\n• B) disown: Means to refuse to acknowledge, opposite of standing by someone.\n\n• C) disclaim: Means to deny responsibility for something, opposite of backing claims.\n\n• D) corroborate (Correct Answer): Means to confirm or support a statement/claim with evidence. Solid evidence was used to corroborate his claims."
       },
       {
         "blankNo": 4,
         "options": ["A) engender", "B) quell", "C) crush", "D) impede"],
         "correct": "A",
-        "explanation": "'Engender' means to produce, cause, or give rise to trust."
+        "explanation": "• A) engender (Correct Answer): Means to cause, produce, or give rise to a feeling or condition. The team's support engendered deep trust.\n\n• B) quell: Means to suppress or put an end to, opposite of building trust.\n\n• C) crush: Means to destroy completely, opposite of inspiring respect.\n\n• D) impede: Means to delay or prevent progress, opposite of fostering trust."
       }
     ]
   },
@@ -217,570 +217,625 @@
         "blankNo": 1,
         "options": ["A) venerated", "B) castigated", "C) defaced", "D) reproached"],
         "correct": "A",
-        "explanation": "'Venerated' means held in deep respect or revered."
+        "explanation": "• A) venerated (Correct Answer): Means held in deep respect or revered. Scholars venerated the philosopher for his profound wisdom.\n\n• B) castigated: Means severely criticized, contradicting praise for wisdom.\n\n• C) defaced: Means spoiled in appearance, physically irrelevant to a philosopher.\n\n• D) reproached: Means scolded or criticized, contradicting widespread admiration."
       },
       {
         "blankNo": 2,
         "options": ["A) revere", "B) blaspheme", "C) laud", "D) exalt"],
         "correct": "B",
-        "explanation": "'Blaspheme' fits the context of critics attacking sacred/philosophical work."
+        "explanation": "• A) revere: Means to feel deep respect, which hostile critics would not do.\n\n• B) blaspheme (Correct Answer): Means to speak disrespectfully or sacrilegiously about religious/philosophical ideas. Critics attempted to blaspheme his teachings.\n\n• C) laud: Means to praise highly, opposite of hostile criticism.\n\n• D) exalt: Means to raise in rank or praise, opposite of attacking ideas."
       },
       {
         "blankNo": 3,
         "options": ["A) embellish", "B) amplify", "C) defame", "D) caparison"],
         "correct": "C",
-        "explanation": "'Defame' means to damage someone's good reputation."
+        "explanation": "• A) embellish: Means to decorate or exaggerate positively, opposite of attacking reputation.\n\n• B) amplify: Means to increase volume or strength, irrelevant to reputation attacks.\n\n• C) defame (Correct Answer): Means to damage the good reputation of someone with false statements.\n\n• D) caparison: Means to deck out in rich attire, completely irrelevant."
       },
       {
         "blankNo": 4,
         "options": ["A) repudiate", "B) disavow", "C) recant", "D) espouse"],
         "correct": "D",
-        "explanation": "'Espouse' means to support or adopt a belief/idea."
+        "explanation": "• A) repudiate: Means to reject or refuse to acknowledge, opposite of loyal followers.\n\n• B) disavow: Means to deny responsibility for, opposite of holding onto beliefs.\n\n• C) recant: Means to formally withdraw one's beliefs, opposite of continued support.\n\n• D) espouse (Correct Answer): Means to adopt, support, or embrace a belief or cause. His followers continued to espouse his core ideas."
       }
     ]
   },
   {
     "id": "cloze_8",
-    "title": "SSC CGL Practice Passage 8 (Environmental Conservation)",
     "passage": "The ongoing degradation of natural ecosystems poses a serious threat to global biodiversity. Human activities, such as deforestation and industrial expansion, have ____(1)____ natural habitats, forcing many species to the brink of extinction. Environmentalists argue that urgent measures must be taken to ____(2)____ the damage before it becomes irreversible. Governments across the world need to implement stricter regulations to ____(3)____ industrial pollution and promote sustainable practices. Without a ____(4)____ effort from both policymakers and citizens, the delicate balance of our planet's ecosystem will be permanently ____(5)____.",
     "questions": [
       {
-        "number": 1,
+        "blankNo": 1,
         "options": ["A) augmented", "B) foster", "C) depleted", "D) cherished"],
         "correct": "C",
-        "explanation": "'Depleted' means reduced in quantity or damaged, which fits the destruction of natural habitats."
+        "explanation": "• A) augmented: Means increased or enlarged, contradicting habitat destruction.\n\n• B) foster: Means to encourage or promote development, opposite of destruction.\n\n• C) depleted (Correct Answer): Means severely reduced, exhausted, or worn out. Deforestation has depleted natural habitats.\n\n• D) cherished: Means protected and loved deeply, opposite of causing extinction."
       },
       {
-        "number": 2,
+        "blankNo": 2,
         "options": ["A) aggravate", "B) mitigate", "C) intensify", "D) escalate"],
         "correct": "B",
-        "explanation": "'Mitigate' means to make less severe or serious, appropriate for controlling environmental damage."
+        "explanation": "• A) aggravate: Means to make a problem or injury worse, opposite of urgent conservation.\n\n• B) mitigate (Correct Answer): Means to make less severe, serious, or painful. Environmentalists want to mitigate environmental damage.\n\n• C) intensify: Means to make stronger or more acute, opposite of damage control.\n\n• D) escalate: Means to increase rapidly or make more intense, opposite of mitigation."
       },
       {
-        "number": 3,
+        "blankNo": 3,
         "options": ["A) curb", "B) foster", "C) promote", "D) incite"],
         "correct": "A",
-        "explanation": "'Curb' means to restrain or keep in check, which fits restricting industrial pollution."
+        "explanation": "• A) curb (Correct Answer): Means to restrain, check, or keep in control. Regulations are needed to curb industrial pollution.\n\n• B) foster: Means to encourage growth, opposite of stopping pollution.\n\n• C) promote: Means to support or encourage, opposite of reducing pollution.\n\n• D) incite: Means to stir up or encourage bad behavior, irrelevant here."
       },
       {
-        "number": 4,
+        "blankNo": 4,
         "options": ["A) sporadic", "B) half-hearted", "C) passive", "D) concerted"],
         "correct": "D",
-        "explanation": "'Concerted' means jointly arranged or carried out with determination."
+        "explanation": "• A) sporadic: Means occurring at irregular intervals or scattered, insufficient for environmental rescue.\n\n• B) half-hearted: Means showing a lack of enthusiasm or determination, insufficient here.\n\n• C) passive: Means accepting what happens without active response, opposite of effort.\n\n• D) concerted (Correct Answer): Means jointly arranged or carried out with strong determination. A concerted effort by all is required."
       },
       {
-        "number": 5,
+        "blankNo": 5,
         "options": ["A) restored", "B) preserved", "C) disrupted", "D) stabilized"],
         "correct": "C",
-        "explanation": "'Disrupted' means interrupted or thrown into disorder, matching the impact on ecosystems."
+        "explanation": "• A) restored: Means brought back to original condition, which is a positive outcome.\n\n• B) preserved: Means maintained in original state, opposite of permanent damage.\n\n• C) disrupted (Correct Answer): Means thrown into disorder or permanently damaged. The ecosystem will be permanently disrupted.\n\n• D) stabilized: Means made steady and secure, opposite of ecological collapse."
       }
     ]
   },
   {
     "id": "cloze_9",
-    "title": "SSC CGL Practice Passage 9 (Economic Resilience)",
     "passage": "In the face of global economic uncertainty, developing nations must focus on building internal economic resilience. A stable financial system requires policies that ____(1)____ innovation while maintaining fiscal discipline. High inflation rates can ____(2)____ the purchasing power of the average citizen, leading to widespread dissatisfaction. Therefore, central banks must act ____(3)____ to regulate interest rates and control currency valuation. Furthermore, investing in infrastructure and education can ____(4)____ long-term economic growth, ensuring that the nation remains ____(5)____ against external market shocks.",
     "questions": [
       {
-        "number": 1,
+        "blankNo": 1,
         "options": ["A) hinder", "B) impede", "C) suppress", "D) foster"],
         "correct": "D",
-        "explanation": "'Foster' means to encourage or promote the development of something positive like innovation."
+        "explanation": "• A) hinder: Means to make it difficult for someone/something to do something, opposite of good policy.\n\n• B) impede: Means to delay or block progress, opposite of supporting innovation.\n\n• C) suppress: Means to forcibly put an end to, opposite of encouraging innovation.\n\n• D) foster (Correct Answer): Means to encourage or promote the development of something desirable. Good policies foster innovation."
       },
       {
-        "number": 2,
+        "blankNo": 2,
         "options": ["A) erode", "B) elevate", "C) enhance", "D) bolster"],
         "correct": "A",
-        "explanation": "'Erode' means to gradually wear away or destroy purchasing power."
+        "explanation": "• A) erode (Correct Answer): Means to gradually wear away or destroy. High inflation erodes purchasing power.\n\n• B) elevate: Means to raise to a higher position, opposite of inflation's negative effect.\n\n• C) enhance: Means to intensify, increase, or improve quality, opposite of destroying purchasing power.\n\n• D) bolster: Means to support or strengthen, opposite of erosion."
       },
       {
-        "number": 3,
+        "blankNo": 3,
         "options": ["A) recklessly", "B) prudently", "C) hastily", "D) carelessly"],
         "correct": "B",
-        "explanation": "'Prudently' means acting with or showing care and thought for the future."
+        "explanation": "• A) recklessly: Means without regard to the consequences, dangerous for central banking.\n\n• B) prudently (Correct Answer): Means acting with or showing care and wisdom for the future. Central banks must act prudently.\n\n• C) hastily: Means with excessive speed or urgency, leading to errors.\n\n• D) carelessly: Means without taking proper care, opposite of good governance."
       },
       {
-        "number": 4,
+        "blankNo": 4,
         "options": ["A) stymie", "B) stimulate", "C) obstruct", "D) curtail"],
         "correct": "B",
-        "explanation": "'Stimulate' means to encourage economic growth."
+        "explanation": "• A) stymie: Means to prevent or hinder the progress of, opposite of investment goals.\n\n• B) stimulate (Correct Answer): Means to encourage or spark interest/growth. Infrastructure investments stimulate economic growth.\n\n• C) obstruct: Means to block or get in the way of, opposite of stimulating growth.\n\n• D) curtail: Means to reduce in extent or quantity, opposite of promoting growth."
       },
       {
-        "number": 5,
+        "blankNo": 5,
         "options": ["A) vulnerable", "B) fragile", "C) resilient", "D) susceptible"],
         "correct": "C",
-        "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions."
+        "explanation": "• A) vulnerable: Means exposed to the possibility of being attacked or harmed, opposite of goal.\n\n• B) fragile: Means easily broken or damaged, opposite of economic strength.\n\n• C) resilient (Correct Answer): Means able to withstand or recover quickly from difficult conditions. Nations aim to stay resilient against shocks.\n\n• D) susceptible: Means likely or liable to be influenced or harmed, opposite of resilience."
       }
     ]
   },
   {
     "id": "cloze_10",
-    "title": "SSC CGL Practice Passage 10 (Vocabulary & Persuasion)",
     "passage": "To (1)__________ someone into accepting a proposal often requires subtle persuasion rather than force. However, when individuals resort to (2)__________ actions or public character assassination, it damages trust severely. Maintaining (3)__________ during difficult times shows true strength of character. While some topics may seem too (4)__________ for a general audience to grasp, presenting them in a clear and structured manner helps bridge the gap.",
     "questions": [
       {
-        "number": 1,
+        "blankNo": 1,
         "options": ["A) coerce", "B) cajole", "C) compel", "D) intimidate"],
         "correct": "B",
-        "explanation": "'Cajole' means to persuade someone gently using flattery or sweet talk."
+        "explanation": "• A) coerce: Means to persuade someone using force or threats, which contradicts 'subtle persuasion rather than force'.\n\n• B) cajole (Correct Answer): Means to persuade someone to do something by sustained coaxing, flattery, or gentle encouragement.\n\n• C) compel: Means to force or drive someone to do something, opposite of gentle persuasion.\n\n• D) intimidate: Means to frighten someone into doing something, opposite of subtle coaxing."
       },
       {
-        "number": 2,
+        "blankNo": 2,
         "options": ["A) laudable", "B) decisive", "C) defamatory", "D) empathetic"],
         "correct": "C",
-        "explanation": "'Defamatory' refers to actions or statements that harm someone's reputation."
+        "explanation": "• A) laudable: Means deserving praise, which contradicts damaging trust severely.\n\n• B) decisive: Means settling an issue convincingly, irrelevant to character attacks.\n\n• C) defamatory (Correct Answer): Refers to harmful statements or actions that damage someone's reputation. Defamatory actions severely harm trust.\n\n• D) empathetic: Means showing an ability to understand feelings, opposite of public character attacks."
       },
       {
-        "number": 3,
+        "blankNo": 3,
         "options": ["A) impatience", "B) hostility", "C) arrogance", "D) forbearance"],
         "correct": "D",
-        "explanation": "'Forbearance' means showing patience, self-control, and restraint."
+        "explanation": "• A) impatience: Means irritability or restlessness, which shows weakness rather than strength.\n\n• B) hostility: Means unfriendliness or opposition, which is a negative trait.\n\n• C) arrogance: Means having an exaggerated sense of importance, which is negative.\n\n• D) forbearance (Correct Answer): Means patient self-control, restraint, and tolerance. Maintaining forbearance during tough times shows true character."
       },
       {
-        "number": 4,
+        "blankNo": 4,
         "options": ["A) abstruse", "B) lucid", "C) apparent", "D) evident"],
         "correct": "A",
-        "explanation": "'Abstruse' means obscure or difficult to understand."
+        "explanation": "• A) abstruse (Correct Answer): Means obscure, esoteric, or difficult to understand. Topics that are abstruse require clear presentation.\n\n• B) lucid: Means expressed clearly and easy to understand, opposite of needing a gap bridged.\n\n• C) apparent: Means clearly visible or understood, opposite of obscure.\n\n• D) evident: Means plain or obvious, opposite of hard to grasp."
       }
     ]
   },
   {
     "id": "cloze_11",
-    "title": "SSC CGL Practice Passage 11 (Nature & Reputation)",
     "passage": "The artist captured the (1)__________ beauty of the morning mist in his painting, making it look almost heavenly. However, his personal life was marred by controversies, rendering his reputation quite (2)__________. Despite the harsh criticism, his artwork retained its (3)__________ detail, leaving viewers mesmerized. Over the years, constant stress threatened to (4)__________ his creative energy, but he continued to paint until his final days.",
     "questions": [
       {
-        "number": 1,
+        "blankNo": 1,
         "options": ["A) corporeal", "B) ponderous", "C) substantial", "D) ethereal"],
         "correct": "D",
-        "explanation": "'Ethereal' means extremely delicate, light, and airy in a way that seems heavenly."
+        "explanation": "• A) corporeal: Means relating to a person's body or physical form, opposite of heavenly mist.\n\n• B) ponderous: Means slow and clumsy because of great weight, opposite of delicate beauty.\n\n• C) substantial: Means of considerable importance, size, or worth, which does not fit heavenly delicacy.\n\n• D) ethereal (Correct Answer): Means extremely delicate and light in a way that seems too perfect for this world; heavenly."
       },
       {
-        "number": 2,
+        "blankNo": 2,
         "options": ["A) infamous", "B) reputable", "C) honorable", "D) commendable"],
         "correct": "A",
-        "explanation": "'Infamous' refers to being well known for something bad or negative."
+        "explanation": "• A) infamous (Correct Answer): Means well known for some bad quality or deed. Personal life controversies rendered his reputation infamous.\n\n• B) reputable: Means having a good reputation, contradicting personal controversies.\n\n• C) honorable: Means bringing or deserving honor, opposite of scandalous.\n\n• D) commendable: Means deserving praise, opposite of controversial."
       },
       {
-        "number": 3,
+        "blankNo": 3,
         "options": ["A) vague", "B) vivid", "C) obscure", "D) hazy"],
         "correct": "B",
-        "explanation": "'Vivid' means producing clear, detailed, and intense images."
+        "explanation": "• A) vague: Means thinking or communicating in an unfocused way, opposite of mesmerising detail.\n\n• B) vivid (Correct Answer): Means producing powerful, detailed, and clear feelings or images in the mind.\n\n• C) obscure: Means not discovered or known about, opposite of clear detail.\n\n• D) hazy: Means vague or unclear, opposite of detailed painting."
       },
       {
-        "number": 4,
+        "blankNo": 4,
         "options": ["A) augment", "B) renew", "C) deplete", "D) strengthen"],
         "correct": "C",
-        "explanation": "'Deplete' means to reduce or exhaust resources to a low level."
+        "explanation": "• A) augment: Means to make something greater by adding to it, opposite of stress damage.\n\n• B) renew: Means to re-establish or resume, opposite of draining energy.\n\n• C) deplete (Correct Answer): Means to use up the supply or resources of; drain. Stress threatened to deplete his creative energy.\n\n• D) strengthen: Means to make physically or mentally stronger, opposite of threat."
       }
     ]
   },
   {
     "id": "cloze_12",
-    "title": "SSC CGL Practice Passage 12 (Levity & Gravity)",
     "passage": "During the formal meeting, introducing any (1)______ was considered completely inappropriate. However, the manager tried to ease the tension with a bit of (2)______, though it was met with cold silence. Everyone expected complete (3)______ given the critical nature of the discussion. Instead, his constant (4)______ annoyed the senior board members, who emphasized the true (5)______ of the matter.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) gravity", "(B) flippancy", "(C) solemnity", "(D) seriousness"],
+        "blankNo": 1,
+        "options": ["A) gravity", "B) flippancy", "C) solemnity", "D) seriousness"],
         "correct": "B",
-        "explanation": "'Flippancy' means lack of seriousness or respect."
+        "explanation": "• A) gravity: Means extreme importance or seriousness, which IS appropriate in formal meetings.\n\n• B) flippancy (Correct Answer): Means lack of respect or seriousness; frivolousness. Flippancy was considered inappropriate.\n\n• C) solemnity: Means the state of being serious and dignified, which is appropriate.\n\n• D) seriousness: Means the quality of being solemn, which is appropriate."
       },
       {
-        "number": 2,
-        "options": ["(A) gravity", "(B) soberness", "(C) solemnness", "(D) levity"],
+        "blankNo": 2,
+        "options": ["A) gravity", "B) soberness", "C) solemnness", "D) levity"],
         "correct": "D",
-        "explanation": "'Levity' means light-heartedness or humor."
+        "explanation": "• A) gravity: Means seriousness, which does not ease tension with humor.\n\n• B) soberness: Means state of being serious or calm, does not mean lightheartedness.\n\n• C) solemnness: Means state of being formal and serious, does not ease tension.\n\n• D) levity (Correct Answer): Means humor or frivolity, especially the treatment of a serious matter with humor."
       },
       {
-        "number": 3,
-        "options": ["(A) solemnity", "(B) silliness", "(C) flightiness", "(D) frivolity"],
+        "blankNo": 3,
+        "options": ["A) solemnity", "B) silliness", "C) flightiness", "D) frivolity"],
         "correct": "A",
-        "explanation": "'Solemnity' means being formal, serious, or dignified."
+        "explanation": "• A) solemnity (Correct Answer): Means formal, dignified seriousness. Everyone expected solemnity during critical discussions.\n\n• B) silliness: Means foolish behavior, opposite of expectations in a formal meeting.\n\n• C) flightiness: Means fickle or irresponsible behavior, opposite of expected conduct.\n\n• D) frivolity: Means lack of seriousness, opposite of expected conduct."
       },
       {
-        "number": 4,
-        "options": ["(A) soberness", "(B) frivolity", "(C) earnestness", "(D) dignity"],
+        "blankNo": 4,
+        "options": ["A) soberness", "B) frivolity", "C) earnestness", "D) dignity"],
         "correct": "B",
-        "explanation": "'Frivolity' means behavior lacking seriousness (तुच्छता)."
+        "explanation": "• A) soberness: Means seriousness, which board members would appreciate, not be annoyed by.\n\n• B) frivolity (Correct Answer): Means lack of seriousness or lighthearted behavior. Frivolity annoyed the board members.\n\n• C) earnestness: Means sincere and intense conviction, which is a positive trait.\n\n• D) dignity: Means state of being worthy of honor/respect, positive trait."
       },
       {
-        "number": 5,
-        "options": ["(A) frothiness", "(B) gaiety", "(C) gravity", "(D) festivity"],
+        "blankNo": 5,
+        "options": ["A) frothiness", "B) gaiety", "C) gravity", "D) festivity"],
         "correct": "C",
-        "explanation": "'Gravity' refers to the seriousness or immense importance of the situation."
+        "explanation": "• A) frothiness: Means lack of substance or lightness, opposite of matter's importance.\n\n• B) gaiety: Means state of being cheerful and lighthearted, inappropriate for critical matters.\n\n• C) gravity (Correct Answer): Means extreme importance or seriousness. Board members emphasized the true gravity of the matter.\n\n• D) festivity: Means joyous celebration, irrelevant to a serious board meeting."
       }
     ]
   },
   {
     "id": "cloze_13",
-    "title": "SSC CGL Practice Passage 13 (Amiable & Duplicity)",
     "passage": "The new manager had an extremely (1)______ personality, making everyone feel comfortable and welcome. However, behind his (2)______ demeanor lay a hidden motive of (3)______. While he appeared to be honest, his constant (4)______ was eventually exposed by senior partners who demanded complete (5)______ in all business dealings.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) hostile", "(B) amiable", "(C) disagreeable", "(D) ungenial"],
+        "blankNo": 1,
+        "options": ["A) hostile", "B) amiable", "C) disagreeable", "D) ungenial"],
         "correct": "B",
-        "explanation": "'Amiable' means friendly and pleasant."
+        "explanation": "• A) hostile: Means aggressive or unfriendly, opposite of making people feel comfortable.\n\n• B) amiable (Correct Answer): Means having or displaying a friendly and pleasant manner.\n\n• C) disagreeable: Means unpleasant or unfriendly, opposite of welcoming.\n\n• D) ungenial: Means not friendly or pleasant, opposite of welcoming."
       },
       {
-        "number": 2,
-        "options": ["(A) harsh", "(B) ill-tempered", "(C) genial", "(D) severe"],
+        "blankNo": 2,
+        "options": ["A) harsh", "B) ill-tempered", "C) genial", "D) severe"],
         "correct": "C",
-        "explanation": "'Genial' means cheerful, warm, and friendly in manner."
+        "explanation": "• A) harsh: Means unpleasantly rough or cruel, opposite of welcoming mask.\n\n• B) ill-tempered: Means easily bothered or angered, opposite of friendly front.\n\n• C) genial (Correct Answer): Means friendly and cheerful. Behind his genial (warm) demeanor lay hidden motives.\n\n• D) severe: Means strict and harsh, opposite of cheerful exterior."
       },
       {
-        "number": 3,
-        "options": ["(A) good faith", "(B) sincerity", "(C) reliability", "(D) duplicity"],
+        "blankNo": 3,
+        "options": ["A) good faith", "B) sincerity", "C) reliability", "D) duplicity"],
         "correct": "D",
-        "explanation": "'Duplicity' refers to deceitfulness or double-dealing."
+        "explanation": "• A) good faith: Means honesty or sincerity of intention, opposite of hidden bad motives.\n\n• B) sincerity: Means free from pretense or deceit, opposite of trickery.\n\n• C) reliability: Means quality of being trustworthy, opposite of hidden deceit.\n\n• D) duplicity (Correct Answer): Means deceitfulness or double-dealing. Behind his smile lay duplicity."
       },
       {
-        "number": 4,
-        "options": ["(A) deceitfulness", "(B) virtuousness", "(C) guilelessness", "(D) openness"],
+        "blankNo": 4,
+        "options": ["A) deceitfulness", "B) virtuousness", "C) guilelessness", "D) openness"],
         "correct": "A",
-        "explanation": "'Deceitfulness' means intentionally misleading others."
+        "explanation": "• A) deceitfulness (Correct Answer): Means the action or practice of deceiving someone. His constant deceitfulness was exposed.\n\n• B) virtuousness: Means having high moral standards, opposite of what was exposed.\n\n• C) guilelessness: Means innocent and without deception, opposite of deceit.\n\n• D) openness: Means frankness and honesty, opposite of hidden schemes."
       },
       {
-        "number": 5,
-        "options": ["(A) cozenage", "(B) sincerity", "(C) craftiness", "(D) guile"],
+        "blankNo": 5,
+        "options": ["A) cozenage", "B) sincerity", "C) craftiness", "D) guile"],
         "correct": "B",
-        "explanation": "'Sincerity' means being genuine, truthful, and honest."
+        "explanation": "• A) cozenage: Means trickery or deception, which senior partners would reject, not demand.\n\n• B) sincerity (Correct Answer): Means the quality of being free from pretense or deceit. Partners demanded complete sincerity.\n\n• C) craftiness: Means cleverness at achieving one's aims by indirect means, negative trait.\n\n• D) guile: Means sly or cunning intelligence, negative trait."
       }
     ]
   },
   {
     "id": "cloze_14",
-    "title": "SSC CGL Practice Passage 14 (Discursive & Oblivion)",
     "passage": "The professor's lecture was so (1)______ that students struggled to follow his main point as he kept moving between topics. His (2)______ style of speaking distracted the audience, causing many to fall into a state of total (3)______. Despite his complete (4)______ of the time limit, the supervisor stepped in to demand a more (5)______ and focused presentation.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) logical", "(B) coherent", "(C) discursive", "(D) concise"],
+        "blankNo": 1,
+        "options": ["A) logical", "B) coherent", "C) discursive", "D) concise"],
         "correct": "C",
-        "explanation": "'Discursive' means moving from subject to subject without clear focus."
+        "explanation": "• A) logical: Means clear and reasoning, opposite of moving aimlessly between topics.\n\n• B) coherent: Means logical and consistent, opposite of confused jumpy speech.\n\n• C) discursive (Correct Answer): Means digressing from subject to subject without focus. Moving between topics makes a lecture discursive.\n\n• D) concise: Means giving a lot of information clearly in few words, opposite of rambling."
       },
       {
-        "number": 2,
-        "options": ["(A) straightforward", "(B) rambling", "(C) focused", "(D) consistent"],
+        "blankNo": 2,
+        "options": ["A) straightforward", "B) rambling", "C) focused", "D) consistent"],
         "correct": "B",
-        "explanation": "'Rambling' means lengthily wandering in speech or writing."
+        "explanation": "• A) straightforward: Means uncomplicated and easy to understand, opposite of confusing.\n\n• B) rambling (Correct Answer): Means lengthily wandering in speech or writing. A rambling style distracts listeners.\n\n• C) focused: Means paying clear attention to one thing, opposite of losing point.\n\n• D) consistent: Means acting or done in the same way over time, opposite of jumpy."
       },
       {
-        "number": 3,
-        "options": ["(A) oblivion", "(B) alertness", "(C) cognizance", "(D) remembrance"],
+        "blankNo": 3,
+        "options": ["A) oblivion", "B) alertness", "C) cognizance", "D) remembrance"],
         "correct": "A",
-        "explanation": "'Oblivion' refers to the state of being unaware or forgotten."
+        "explanation": "• A) oblivion (Correct Answer): Means the state of being unaware or unconscious of what is happening. Boring lectures cause students to fall into oblivion.\n\n• B) alertness: Means state of active attention, opposite of losing interest.\n\n• C) cognizance: Means knowledge or awareness, opposite of tuning out.\n\n• D) remembrance: Means the action of remembering something, irrelevant here."
       },
       {
-        "number": 4,
-        "options": ["(A) consciousness", "(B) recall", "(C) alertness", "(D) ignorance"],
+        "blankNo": 4,
+        "options": ["A) consciousness", "B) recall", "C) alertness", "D) ignorance"],
         "correct": "D",
-        "explanation": "'Ignorance' means lack of knowledge or awareness."
+        "explanation": "• A) consciousness: Means state of being aware of one's surroundings, opposite of ignoring time.\n\n• B) recall: Means bringing a fact back into mind, irrelevant here.\n\n• C) alertness: Means quick to perceive, opposite of losing track of time.\n\n• D) ignorance (Correct Answer): Means lack of knowledge or awareness. His complete ignorance (unawareness) of the time limit required intervention."
       },
       {
-        "number": 5,
-        "options": ["(A) coherent", "(B) desultory", "(C) excursive", "(D) maundering"],
+        "blankNo": 5,
+        "options": ["A) coherent", "B) desultory", "C) excursive", "D) maundering"],
         "correct": "A",
-        "explanation": "'Coherent' means logical, well-organized, and easy to understand."
+        "explanation": "• A) coherent (Correct Answer): Means logical, well-organized, and clear. Supervisor demanded a coherent presentation.\n\n• B) desultory: Means lacking a plan, purpose, or enthusiasm, opposite of desired focus.\n\n• C) excursive: Means tending to digress, opposite of focused.\n\n• D) maundering: Means talking in a confused or rambling way, opposite of coherent."
       }
     ]
   },
   {
     "id": "cloze_15",
-    "title": "SSC CGL Practice Passage 15 (Homogeneous & Disparate)",
     "passage": "The population of the isolated island remained remarkably (1)______ for centuries, as all residents shared identical customs. However, modern trade brought (2)______ cultural groups with completely distinct traditions. Although their backgrounds were originally (3)______, the community maintained a (4)______ environment through mutual trust and (5)______ agreements.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) disparate", "(B) homogeneous", "(C) diverse", "(D) distinct"],
+        "blankNo": 1,
+        "options": ["A) disparate", "B) homogeneous", "C) diverse", "D) distinct"],
         "correct": "B",
-        "explanation": "'Homogeneous' means composed of parts or elements of the same kind."
+        "explanation": "• A) disparate: Means essentially different in kind, opposite of identical customs.\n\n• B) homogeneous (Correct Answer): Means consisting of parts or people that are all of the same kind. Sharing identical customs makes a population homogeneous.\n\n• C) diverse: Means showing a great deal of variety, opposite of identical.\n\n• D) distinct: Means recognizably different, opposite of uniform customs."
       },
       {
-        "number": 2,
-        "options": ["(A) unchanging", "(B) resemblant", "(C) connate", "(D) diverse"],
+        "blankNo": 2,
+        "options": ["A) unchanging", "B) resemblant", "C) connate", "D) diverse"],
         "correct": "D",
-        "explanation": "'Diverse' means showing a great deal of variety or difference."
+        "explanation": "• A) unchanging: Means remaining the same, opposite of bringing new distinct groups.\n\n• B) resemblant: Means similar to something, opposite of distinct traditions.\n\n• C) connate: Means existing from birth, irrelevant here.\n\n• D) diverse (Correct Answer): Means showing a great deal of variety or difference. Modern trade brought diverse groups."
       },
       {
-        "number": 3,
-        "options": ["(A) disparate", "(B) cognate", "(C) congeneric", "(D) uniform"],
+        "blankNo": 3,
+        "options": ["A) disparate", "B) cognate", "C) congeneric", "D) uniform"],
         "correct": "A",
-        "explanation": "'Disparate' means essentially different or dissimilar."
+        "explanation": "• A) disparate (Correct Answer): Means essentially different in kind; impossible to compare. Diverse backgrounds are disparate.\n\n• B) cognate: Means related or connected, opposite of distinct roots.\n\n• C) congeneric: Means belonging to the same genus or group, opposite of disparate.\n\n• D) uniform: Means remaining the same in all cases, opposite of diverse backgrounds."
       },
       {
-        "number": 4,
-        "options": ["(A) unamiable", "(B) cordial", "(C) ill-tempered", "(D) unpleasant"],
+        "blankNo": 4,
+        "options": ["A) unamiable", "B) cordial", "C) ill-tempered", "D) unpleasant"],
         "correct": "B",
-        "explanation": "'Cordial' means warm, friendly, and polite."
+        "explanation": "• A) unamiable: Means unfriendly, opposite of mutual trust environment.\n\n• B) cordial (Correct Answer): Means warm and friendly. Trust helps maintain a cordial environment.\n\n• C) ill-tempered: Means irritable, opposite of peaceful co-existence.\n\n• D) unpleasant: Means causing discomfort, opposite of good community living."
       },
       {
-        "number": 5,
-        "options": ["(A) hostile", "(B) contentious", "(C) amicable", "(D) bitter"],
+        "blankNo": 5,
+        "options": ["A) hostile", "B) contentious", "C) amicable", "D) bitter"],
         "correct": "C",
-        "explanation": "'Amicable' means characterized by friendliness and absence of discord."
+        "explanation": "• A) hostile: Means aggressive or unfriendly, opposite of mutual agreements.\n\n• B) contentious: Means causing or likely to cause an argument, opposite of peace.\n\n• C) amicable (Correct Answer): Means characterized by friendliness and absence of discord. Amicable agreements resolve differences.\n\n• D) bitter: Means angry and resentful, opposite of trust."
       }
     ]
   },
-  
   {
     "id": "cloze_16",
-    "title": "SSC CGL Practice Passage 16 (Health & Famine)",
     "passage": "The prolonged famine caused thousands of villagers to severely (1)______ over a period of six months. Relief workers were heartbroken to see children looking completely (2)______, with their ribs visibly protruding. The elderly appeared so pale and weak that they had a (3)______ expression on their faces. Many of the (4)______ animals on the farms lacked even the energy to stand. Fortunately, emergency aid arrived in time to help the victims gradually regain a (5)______ weight and recover their vitality.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) flourish", "(B) emaciate", "(C) expand", "(D) strengthen"],
+        "blankNo": 1,
+        "options": ["A) flourish", "B) emaciate", "C) expand", "D) strengthen"],
         "correct": "B",
-        "explanation": "'Emaciate' means to become abnormally thin and weak due to lack of food."
+        "explanation": "• A) flourish: Means grow or develop in a healthy way, opposite of famine effect.\n\n• B) emaciate (Correct Answer): Means to become abnormally thin or weak due to illness or lack of food. Prolonged famine causes people to emaciate.\n\n• C) expand: Means become larger, opposite of starvation.\n\n• D) strengthen: Means make physically stronger, opposite of famine impact."
       },
       {
-        "number": 2,
-        "options": ["(A) robust", "(B) plump", "(C) skeletal", "(D) energetic"],
+        "blankNo": 2,
+        "options": ["A) robust", "B) plump", "C) skeletal", "D) energetic"],
         "correct": "C",
-        "explanation": "'Skeletal' means extremely thin, resembling a skeleton."
+        "explanation": "• A) robust: Means strong and healthy, opposite of protruding ribs.\n\n• B) plump: Means having a full rounded shape, opposite of starved.\n\n• C) skeletal (Correct Answer): Means extremely thin like a skeleton. Protruding ribs make children look skeletal.\n\n• D) energetic: Means showing or involving great activity, opposite of starved weakness."
       },
       {
-        "number": 3,
-        "options": ["(A) cadaverous", "(B) blooming", "(C) radiant", "(D) joyful"],
+        "blankNo": 3,
+        "options": ["A) cadaverous", "B) blooming", "C) radiant", "D) joyful"],
         "correct": "A",
-        "explanation": "'Cadaverous' refers to an extremely thin and deathly pale appearance."
+        "explanation": "• A) cadaverous (Correct Answer): Means pale, thin, or bony like a corpse. Starved elderly people look cadaverous.\n\n• B) blooming: Means flourishing and healthy, opposite of pale weakness.\n\n• C) radiant: Means shining brightly or showing health, opposite of cadaverous.\n\n• D) joyful: Means feeling great happiness, inappropriate for famine victims."
       },
       {
-        "number": 4,
-        "options": ["(A) pampered", "(B) underfed", "(C) bloated", "(D) thriving"],
+        "blankNo": 4,
+        "options": ["A) pampered", "B) underfed", "C) bloated", "D) thriving"],
         "correct": "B",
-        "explanation": "'Underfed' means not provided with sufficient food to stay healthy."
+        "explanation": "• A) pampered: Means treated with excessive care, opposite of farm animals in famine.\n\n• B) underfed (Correct Answer): Means provided with insufficient food. Underfed animals lack energy to stand.\n\n• C) bloated: Means swollen with fluid or gas, opposite of starved.\n\n• D) thriving: Means prosperous and healthy, opposite of famine suffering."
       },
       {
-        "number": 5,
-        "options": ["(A) wasted", "(B) scraggy", "(C) haggard", "(D) healthy"],
+        "blankNo": 5,
+        "options": ["A) wasted", "B) scraggy", "C) haggard", "D) healthy"],
         "correct": "D",
-        "explanation": "'Healthy' refers to normal weight, strength, and vitality after recovery."
+        "explanation": "• A) wasted: Means weak and feeble, opposite of recovery goal.\n\n• B) scraggy: Means thin and bony, opposite of gaining good weight.\n\n• C) haggard: Means looking exhausted, opposite of regaining vitality.\n\n• D) healthy (Correct Answer): Means in good physical condition. Emergency aid helped victims regain a healthy weight."
       }
     ]
   },
   {
     "id": "cloze_17",
-    "title": "SSC CGL Practice Passage 17 (Lifestyle & Transformation)",
     "passage": "After months of nonstop travel and restless night shifts, the journalist developed a visibly (1)______ look on his face. Continuous neglect of his diet caused his once muscular frame to become loose and (2)______. Realizing the harmful effects of his sedentary lifestyle, he decided to make drastic changes. He replaced unhygienic meals with a balanced diet and began regular exercise. Over time, his body (3)______ solid muscle mass, eliminating his former (4)______ appearance. Instead of looking frail, he transformed into a (5)______ and energetic individual.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) refreshed", "(B) haggard", "(C) pristine", "(D) buoyant"],
+        "blankNo": 1,
+        "options": ["A) refreshed", "B) haggard", "C) pristine", "D) buoyant"],
         "correct": "B",
-        "explanation": "'Haggard' means looking tired, worn out, and thin from fatigue."
+        "explanation": "• A) refreshed: Means feeling rested and energetic, opposite of night shift exhaustion.\n\n• B) haggard (Correct Answer): Means looking exhausted and unwell from fatigue or worry. Night shifts caused a haggard look.\n\n• C) pristine: Means in original pure condition, irrelevant to fatigue.\n\n• D) buoyant: Means cheerful and optimistic, opposite of physical exhaustion."
       },
       {
-        "number": 2,
-        "options": ["(A) flabby", "(B) firm", "(C) robust", "(D) athletic"],
+        "blankNo": 2,
+        "options": ["A) flabby", "B) firm", "C) robust", "D) athletic"],
         "correct": "A",
-        "explanation": "'Flabby' means soft and loose flesh due to lack of exercise."
+        "explanation": "• A) flabby (Correct Answer): Means soft, loose, and fleshy due to lack of exercise. Muscular frame turned flabby.\n\n• B) firm: Means solid and compact, opposite of diet neglect.\n\n• C) robust: Means strong and healthy, opposite of flabby.\n\n• D) athletic: Means physically fit and strong, opposite of loose muscle."
       },
       {
-        "number": 3,
-        "options": ["(A) depleted", "(B) lost", "(C) gained", "(D) wasted"],
+        "blankNo": 3,
+        "options": ["A) depleted", "B) lost", "C) gained", "D) wasted"],
         "correct": "C",
-        "explanation": "'Gained' means increased in weight, size, or muscle strength."
+        "explanation": "• A) depleted: Means diminished in quantity, opposite of building muscle.\n\n• B) lost: Means no longer possessed, opposite of workout results.\n\n• C) gained (Correct Answer): Means obtained or increased. Regular exercise helped him gain muscle mass.\n\n• D) wasted: Means weakened or lost, opposite of gaining mass."
       },
       {
-        "number": 4,
-        "options": ["(A) scraggy", "(B) rotund", "(C) obese", "(D) plump"],
+        "blankNo": 4,
+        "options": ["A) scraggy", "B) rotund", "C) obese", "D) plump"],
         "correct": "A",
-        "explanation": "'Scraggy' refers to a thin, rough, or unkempt physical appearance."
+        "explanation": "• A) scraggy (Correct Answer): Means thin, bony, or unkempt. Building muscle eliminated his former scraggy look.\n\n• B) rotund: Means round or plump, which does not match a frail description.\n\n• C) obese: Means dangerously overweight, opposite of looking frail.\n\n• D) plump: Means pleasantly fat, opposite of frail appearance."
       },
       {
-        "number": 5,
-        "options": ["(A) starved", "(B) emaciated", "(C) gaunt", "(D) healthy"],
+        "blankNo": 5,
+        "options": ["A) starved", "B) emaciated", "C) gaunt", "D) healthy"],
         "correct": "D",
-        "explanation": "'Healthy' means being in good physical condition and well-nourished."
+        "explanation": "• A) starved: Means suffering from severe hunger, opposite of transformation.\n\n• B) emaciated: Means abnormally thin, opposite of muscular transformation.\n\n• C) gaunt: Means lean and haggard due to suffering, opposite of fit.\n\n• D) healthy (Correct Answer): Means in good physical health. He transformed into a healthy, energetic individual."
       }
     ]
-  }
-  ,
+  },
   {
     "id": "cloze_18",
-    "title": "SSC CGL Practice Passage 18 (Criticism & Public Image)",
     "passage": "In the world of politics, rival candidates often try to (1)______ each other's achievements during election campaigns. Instead of presenting constructive plans, they frequently resort to personal attacks to (2)______ their opponents' reputations. Such hostile behavior only serves to bring (3)______ to the democratic process. However, unbiased media outlets refuse to (4)______ candidates unfairly and insist on presenting facts. When leaders act with integrity, citizens gladly (5)______ their efforts to bring real progress.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) extol", "(B) glorify", "(C) disparage", "(D) exalt"],
+        "blankNo": 1,
+        "options": ["A) extol", "B) glorify", "C) disparage", "D) exalt"],
         "correct": "C",
-        "explanation": "'Disparage' means to speak about someone or something in a way that shows lack of respect."
+        "explanation": "• A) extol: Means praise highly, which rival political candidates rarely do.\n\n• B) glorify: Means praise worshipfully, opposite of campaign rivalries.\n\n• C) disparage (Correct Answer): Means to regard or represent as being of little worth. Rivals try to disparage achievements.\n\n• D) exalt: Means raise in rank or praise, opposite of attacking rivals."
       },
       {
-        "number": 2,
-        "options": ["(A) defame", "(B) ratify", "(C) applaud", "(D) elucidate"],
+        "blankNo": 2,
+        "options": ["A) defame", "B) ratify", "C) applaud", "D) elucidate"],
         "correct": "A",
-        "explanation": "'Defame' means to damage someone's reputation by making unfair or false statements."
+        "explanation": "• A) defame (Correct Answer): Means damage the good reputation of someone. Personal attacks aim to defame opponents.\n\n• B) ratify: Means give formal consent to, irrelevant to character attacks.\n\n• C) applaud: Means praise publicly, opposite of personal attacks.\n\n• D) elucidate: Means make clear, irrelevant to slander."
       },
       {
-        "number": 3,
-        "options": ["(A) acclaim", "(B) disgrace", "(C) augmentation", "(D) addendum"],
+        "blankNo": 3,
+        "options": ["A) acclaim", "B) disgrace", "C) augmentation", "D) addendum"],
         "correct": "B",
-        "explanation": "'Disgrace' refers to bringing shame or dishonor upon something."
+        "explanation": "• A) acclaim: Means enthusiastic praise, opposite of hostile behavior outcome.\n\n• B) disgrace (Correct Answer): Means loss of reputation or respect as the result of a dishonorable action. Hostile politics brings disgrace.\n\n• C) augmentation: Means action of making greater, irrelevant here.\n\n• D) addendum: Means an item of additional material, irrelevant here."
       },
       {
-        "number": 4,
-        "options": ["(A) laud", "(B) vilipend", "(C) validate", "(D) endorse"],
+        "blankNo": 4,
+        "options": ["A) laud", "B) vilipend", "C) validate", "D) endorse"],
         "correct": "B",
-        "explanation": "'Vilipend' means to regard or treat with contempt and disparage."
+        "explanation": "• A) laud: Means praise highly, opposite of unfair media bias.\n\n• B) vilipend (Correct Answer): Means regard or treat with contempt; disparage. Unbiased media refuses to vilipend candidates unfairly.\n\n• C) validate: Means prove or declare valid, positive action.\n\n• D) endorse: Means declare public approval of, positive action."
       },
       {
-        "number": 5,
-        "options": ["(A) decry", "(B) malign", "(C) censure", "(D) applaud"],
+        "blankNo": 5,
+        "options": ["A) decry", "B) malign", "C) censure", "D) applaud"],
         "correct": "D",
-        "explanation": "'Applaud' means to express strong praise or approval."
+        "explanation": "• A) decry: Means publicly denounce, opposite of supporting good leaders.\n\n• B) malign: Means speak about someone in a spitefully critical manner, negative.\n\n• C) censure: Means express severe disapproval of, negative.\n\n• D) applaud (Correct Answer): Means show approval or praise. Citizens gladly applaud leaders who act with integrity."
       }
     ]
   },
   {
     "id": "cloze_19",
-    "title": "SSC CGL Practice Passage 19 (Legal Reforms & Legislation)",
     "passage": "The supreme judicial body stepped in to (1)______ an outdated law that violated constitutional rights. Human rights advocates had long argued that parliament should (2)______ such discriminatory practices entirely. After months of debate, lawmakers voted to (3)______ a comprehensive reform bill that protects individual freedom. Legal experts were quick to (4)______ the new legislation, calling it a landmark decision. This step helped (5)______ public confidence in the judicial process.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) enact", "(B) establish", "(C) nullify", "(D) legislate"],
+        "blankNo": 1,
+        "options": ["A) enact", "B) establish", "C) nullify", "D) legislate"],
         "correct": "C",
-        "explanation": "'Nullify' means to make something legally invalid or cancel it out."
+        "explanation": "• A) enact: Means make a bill into law, opposite of striking down a bad law.\n\n• B) establish: Means set up on a firm basis, opposite of canceling an outdated law.\n\n• C) nullify (Correct Answer): Means to make legally null and void; invalidate. The court stepped in to nullify the law.\n\n• D) legislate: Means make or enact laws, opposite of striking down an illegal law."
       },
       {
-        "number": 2,
-        "options": ["(A) abrogate", "(B) endorse", "(C) ratify", "(D) validate"],
+        "blankNo": 2,
+        "options": ["A) abrogate", "B) endorse", "C) ratify", "D) validate"],
         "correct": "A",
-        "explanation": "'Abrogate' means to formally repeal or abolish a law or treaty."
+        "explanation": "• A) abrogate (Correct Answer): Means repeal or do away with a law or formal agreement. Advocates wanted to abrogate discriminatory practices.\n\n• B) endorse: Means declare public approval of, opposite of stopping bad practice.\n\n• C) ratify: Means give formal consent to, opposite of abolishing.\n\n• D) validate: Means make or declare legally valid, opposite of repealing."
       },
       {
-        "number": 3,
-        "options": ["(A) rescind", "(B) quash", "(C) vacate", "(D) enact"],
+        "blankNo": 3,
+        "options": ["A) rescind", "B) quash", "C) vacate", "D) enact"],
         "correct": "D",
-        "explanation": "'Enact' means to make a bill into law or make official."
+        "explanation": "• A) rescind: Means revoke, cancel, or repeal a law, opposite of passing reform.\n\n• B) quash: Means reject or void, opposite of voting in favor of reform.\n\n• C) vacate: Means cancel or annul a judgment, opposite of enacting new laws.\n\n• D) enact (Correct Answer): Means make a bill into official law. Lawmakers voted to enact a reform bill."
       },
       {
-        "number": 4,
-        "options": ["(A) censure", "(B) endorse", "(C) decry", "(D) malign"],
+        "blankNo": 4,
+        "options": ["A) censure", "B) endorse", "C) decry", "D) malign"],
         "correct": "B",
-        "explanation": "'Endorse' means to formally approve, support, or uphold something."
+        "explanation": "• A) censure: Means express severe disapproval of, opposite of praising landmark law.\n\n• B) endorse (Correct Answer): Means declare public approval or support of. Legal experts endorsed the legislation.\n\n• C) decry: Means publicly denounce, opposite of approving landmark decisions.\n\n• D) malign: Means speak ill of, opposite of welcoming reform."
       },
       {
-        "number": 5,
-        "options": ["(A) establish", "(B) abate", "(C) annul", "(D) rescind"],
+        "blankNo": 5,
+        "options": ["A) establish", "B) abate", "C) annul", "D) rescind"],
         "correct": "A",
-        "explanation": "'Establish' means to set up or firmly bring something into existence."
+        "explanation": "• A) establish (Correct Answer): Means set up or firmly build (confidence). This step helped establish public confidence.\n\n• B) abate: Means become less intense or widespread, opposite of building trust.\n\n• C) annul: Means declare invalid, opposite of creating confidence.\n\n• D) rescind: Means revoke or cancel, opposite of establishing trust."
       }
     ]
   },
   {
     "id": "cloze_20",
-    "title": "SSC CGL Practice Passage 20 (Education & Clarity)",
     "passage": "During the seminar, the professor attempted to (1)______ a complex scientific theory that had baffled students for weeks. Rather than using obscure technical terms that might (2)______ the listeners, she used practical real-world examples to (3)______ her core points. Her structured approach helped to (4)______ the mystery surrounding the topic entirely. By the end of the session, every student could easily (5)______ the practical applications of the theory.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) obfuscate", "(B) elucidate", "(C) cloud", "(D) befog"],
+        "blankNo": 1,
+        "options": ["A) obfuscate", "B) elucidate", "C) cloud", "D) befog"],
         "correct": "B",
-        "explanation": "'Elucidate' means to make something clear and easy to understand."
+        "explanation": "• A) obfuscate: Means deliberately make obscure or unclear, opposite of explaining.\n\n• B) elucidate (Correct Answer): Means make something clear; explain. The professor attempted to elucidate a baffled topic.\n\n• C) cloud: Means make unclear or confused, opposite of explaining.\n\n• D) befog: Means confuse or obscure, opposite of clarifying."
       },
       {
-        "number": 2,
-        "options": ["(A) clarify", "(B) illustrate", "(C) confound", "(D) expound"],
+        "blankNo": 2,
+        "options": ["A) clarify", "B) illustrate", "C) confound", "D) expound"],
         "correct": "C",
-        "explanation": "'Confound' means to cause surprise or confusion in someone."
+        "explanation": "• A) clarify: Means make less confused and more comprehensible, positive.\n\n• B) illustrate: Means explain or make clear using examples, positive.\n\n• C) confound (Correct Answer): Means cause surprise or confusion in someone. Obscure terms would confound listeners.\n\n• D) expound: Means present and explain a theory in detail, positive."
       },
       {
-        "number": 3,
-        "options": ["(A) illuminate", "(B) obscure", "(C) denigrate", "(D) nullify"],
+        "blankNo": 3,
+        "options": ["A) illuminate", "B) obscure", "C) denigrate", "D) nullify"],
         "correct": "A",
-        "explanation": "'Illuminate' means to clarify or help explain an idea clearly."
+        "explanation": "• A) illuminate (Correct Answer): Means help to explain or make something clear. Real-world examples illuminated her points.\n\n• B) obscure: Means keep from being seen or conceal, opposite of explaining.\n\n• C) denigrate: Means criticize unfairly, irrelevant to scientific explanation.\n\n• D) nullify: Means make legally null and void, irrelevant here."
       },
       {
-        "number": 4,
-        "options": ["(A) cloud", "(B) unriddle", "(C) befog", "(D) disparage"],
+        "blankNo": 4,
+        "options": ["A) cloud", "B) unriddle", "C) befog", "D) disparage"],
         "correct": "B",
-        "explanation": "'Unriddle' means to solve or explain something puzzling."
+        "explanation": "• A) cloud: Means make uncertain or unclear, opposite of solving a mystery.\n\n• B) unriddle (Correct Answer): Means solve or explain a mystery or puzzle. Structured teaching helped unriddle the mystery.\n\n• C) befog: Means confuse or make obscure, opposite of solving.\n\n• D) disparage: Means regard as being of little worth, irrelevant to mysteries."
       },
       {
-        "number": 5,
-        "options": ["(A) interpret", "(B) abrogate", "(C) censure", "(D) quash"],
+        "blankNo": 5,
+        "options": ["A) interpret", "B) abrogate", "C) censure", "D) quash"],
         "correct": "A",
-        "explanation": "'Interpret' means to explain or properly understand the meaning of something."
+        "explanation": "• A) interpret (Correct Answer): Means explain or understand the meaning of information. Students could easily interpret applications.\n\n• B) abrogate: Means repeal or do away with, irrelevant to understanding concepts.\n\n• C) censure: Means express severe disapproval of, irrelevant to learning.\n\n• D) quash: Means reject or void, irrelevant to comprehension."
       }
     ]
   },
   {
     "id": "cloze_21",
-    "title": "SSC CGL Practice Passage 21 (Economic Growth & Resources)",
     "passage": "The recent decade witnessed a rapid (1)______ of technology companies across urban centers. This sudden market (2)______ generated thousands of employment opportunities for skilled workers. Consequently, financial experts noted a significant (3)______ in consumer spending throughout the region. However, analysts warned that the unbridled consumption could lead to the rapid (4)______ of natural resources. To prevent a severe economic (5)______, green policies must be adopted immediately.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) depletion", "(B) abatement", "(C) proliferation", "(D) decrement"],
+        "blankNo": 1,
+        "options": ["A) depletion", "B) abatement", "C) proliferation", "D) decrement"],
         "correct": "C",
-        "explanation": "'Proliferation' means rapid increase in numbers or widespread growth."
+        "explanation": "• A) depletion: Means reduction in number or quantity, opposite of rapid tech boom.\n\n• B) abatement: Means ending or reduction of something, opposite of growth.\n\n• C) proliferation (Correct Answer): Means rapid increase in numbers or a large amount. Tech company proliferation created jobs.\n\n• D) decrement: Means an instance of reduction or decrease, opposite of growth."
       },
       {
-        "number": 2,
-        "options": ["(A) expansion", "(B) decline", "(C) reduction", "(D) abatement"],
+        "blankNo": 2,
+        "options": ["A) expansion", "B) decline", "C) reduction", "D) abatement"],
         "correct": "A",
-        "explanation": "'Expansion' refers to the process of becoming larger or growing."
+        "explanation": "• A) expansion (Correct Answer): Means the action of becoming larger or more extensive. Market expansion generated employment.\n\n• B) decline: Means a gradual continuous loss, opposite of job creation.\n\n• C) reduction: Means action of making smaller, opposite of market growth.\n\n• D) abatement: Means reduction of intensity, opposite of economic boom."
       },
       {
-        "number": 3,
-        "options": ["(A) decrement", "(B) uptick", "(C) depletion", "(D) abatement"],
+        "blankNo": 3,
+        "options": ["A) decrement", "B) uptick", "C) depletion", "D) abatement"],
         "correct": "B",
-        "explanation": "'Uptick' means a small or noticeable increase/upward trend."
+        "explanation": "• A) decrement: Means decrease, opposite of spending surge.\n\n• B) uptick (Correct Answer): Means a small or noticeable increase. Experts noted a significant uptick in consumer spending.\n\n• C) depletion: Means exhaustion of resources, opposite of financial spending.\n\n• D) abatement: Means reduction, opposite of consumer boom."
       },
       {
-        "number": 4,
-        "options": ["(A) augmentation", "(B) accrual", "(C) accretion", "(D) depletion"],
+        "blankNo": 4,
+        "options": ["A) augmentation", "B) accrual", "C) accretion", "D) depletion"],
         "correct": "D",
-        "explanation": "'Depletion' means reduction in the number, quantity, or supply of resources."
+        "explanation": "• A) augmentation: Means action of making greater, opposite of resource destruction.\n\n• B) accrual: Means accumulation of additional items, opposite of resource loss.\n\n• C) accretion: Means growth or increase by gradual addition, opposite of destruction.\n\n• D) depletion (Correct Answer): Means reduction in quantity or exhaustion of supply. Unbridled consumption leads to resource depletion."
       },
       {
-        "number": 5,
-        "options": ["(A) increment", "(B) decline", "(C) addition", "(D) augmentation"],
+        "blankNo": 5,
+        "options": ["A) increment", "B) decline", "C) addition", "D) augmentation"],
         "correct": "B",
-        "explanation": "'Decline' refers to a continuous loss or downward trend in stability."
+        "explanation": "• A) increment: Means an increase or addition, opposite of economic slump.\n\n• B) decline (Correct Answer): Means a continuous downward trend or deterioration. Green policies prevent economic decline.\n\n• C) addition: Means adding something to something else, irrelevant here.\n\n• D) augmentation: Means making something greater, opposite of economic crisis."
       }
     ]
   },
   {
     "id": "cloze_22",
-    "title": "SSC CGL Practice Passage 22 (Corporate Integrity & Audit)",
     "passage": "The corporate firm came under fire after auditors exposed an attempt to (1)______ official financial reports. Senior executives had tried to (2)______ the audit committee's findings with misleading spreadsheets. Rather than choosing to (3)______ the heroic efforts of honest whistleblowers, management attempted to (4)______ them publicly. In response, regulatory agencies moved quickly to (5)______ the firm's operational license until a thorough investigation was completed.",
     "questions": [
       {
-        "number": 1,
-        "options": ["(A) elucidate", "(B) expound", "(C) obfuscate", "(D) clarify"],
+        "blankNo": 1,
+        "options": ["A) elucidate", "B) expound", "C) obfuscate", "D) clarify"],
         "correct": "C",
-        "explanation": "'Obfuscate' means to deliberately render something unclear or confusing."
+        "explanation": "• A) elucidate: Means make clear, opposite of corporate fraud.\n\n• B) expound: Means explain in detail, opposite of hiding truth.\n\n• C) obfuscate (Correct Answer): Means deliberately make obscure, unclear, or confusing. Fraudsters obfuscate financial reports.\n\n• D) clarify: Means make clear or easy to understand, opposite of scam."
       },
       {
-        "number": 2,
-        "options": ["(A) befog", "(B) illuminate", "(C) ratify", "(D) validate"],
+        "blankNo": 2,
+        "options": ["A) befog", "B) illuminate", "C) ratify", "D) validate"],
         "correct": "A",
-        "explanation": "'Befog' means to confuse or make obscure and vague."
+        "explanation": "• A) befog (Correct Answer): Means confuse or make obscure. Misleading spreadsheets were used to befog audit findings.\n\n• B) illuminate: Means clarify or make understand, opposite of deception.\n\n• C) ratify: Means give formal consent, opposite of deceiving auditors.\n\n• D) validate: Means prove or declare valid, opposite of misleading."
       },
       {
-        "number": 3,
-        "options": ["(A) vilipend", "(B) extol", "(C) malign", "(D) censure"],
+        "blankNo": 3,
+        "options": ["A) vilipend", "B) extol", "C) malign", "D) censure"],
         "correct": "B",
-        "explanation": "'Extol' means to praise highly or enthusiastically."
+        "explanation": "• A) vilipend: Means treat with contempt, which corrupt managers did instead of praising.\n\n• B) extol (Correct Answer): Means praise highly. Management chose NOT to extol the whistleblowers' heroic efforts.\n\n• C) malign: Means speak ill of, which is what corrupt management actually did.\n\n• D) censure: Means express severe disapproval, which management chose to do."
       },
       {
-        "number": 4,
-        "options": ["(A) applaud", "(B) laud", "(C) exalt", "(D) denigrate"],
+        "blankNo": 4,
+        "options": ["A) applaud", "B) laud", "C) exalt", "D) denigrate"],
         "correct": "D",
-        "explanation": "'Denigrate' means to criticize unfairly or disparage someone's character."
+        "explanation": "• A) applaud: Means praise, opposite of retaliating against whistleblowers.\n\n• B) laud: Means praise highly, opposite of public attack.\n\n• C) exalt: Means raise high in rank or praise, opposite of attacking.\n\n• D) denigrate (Correct Answer): Means criticize unfairly or disparage character. Corrupt management attempted to denigrate whistleblowers."
       },
       {
-        "number": 5,
-        "options": ["(A) rescind", "(B) ratify", "(C) endorse", "(D) establish"],
+        "blankNo": 5,
+        "options": ["A) rescind", "B) ratify", "C) endorse", "D) establish"],
         "correct": "A",
-        "explanation": "'Rescind' means to officially revoke, cancel, or repeal an agreement or license."
+        "explanation": "• A) rescind (Correct Answer): Means officially revoke, cancel, or repeal a law or license. Regulatory bodies move to rescind operational licenses during severe fraud.\n\n• B) ratify: Means give formal approval to, opposite of penalizing a firm.\n\n• C) endorse: Means declare public support for, opposite of punitive measures.\n\n• D) establish: Means set up on a firm basis, opposite of revoking licenses."
+      }
+    ]
+  },
+  {
+    "id": "cloze_21",
+    "passage": "In the realm of public life, famous personalities often face extreme reactions from their audience. While some fans express overwhelming (1)___ by placing celebrities on elevated pedestals, others view such extreme (2)___ with deep concern. Critics warn that blind adoration can blur reality, turning ordinary humans into figures of near-divine status. On the other hand, the internet age has also seen a rise in public (3)___, where individuals face harsh online mobbing and public censure. Rather than treating public figures with extreme praise or constant (4)___, society should aim for a balanced perspective that offers genuine (5)___ for their actual skills without resorting to unreal glorification.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["(A) disparagement", "(B) adulation", "(C) loathing", "(D) condemnation"],
+        "correct": "B",
+        "explanation": "• (A) disparagement: Refers to speaking deprecatingly or belittling someone, which contradicts fans placing celebrities on pedestals.\n\n• (B) adulation (Correct Answer): Refers to excessive praise, admiration, or flattery. It fits contextually as fans show extreme adoration.\n\n• (C) loathing: Means intense hatred or disgust, which is the opposite of fan admiration.\n\n• (D) condemnation: Refers to severe public disapproval or criticism, contextually inaccurate here."
+      },
+      {
+        "blankNo": 2,
+        "options": ["(A) idolization", "(B) detraction", "(C) disregard", "(D) belittlement"],
+        "correct": "A",
+        "explanation": "• (A) idolization (Correct Answer): Refers to treating someone with extreme admiration or devotion. It logically follows 'blind adoration' in the passage.\n\n• (B) detraction: Means taking away value or reputation from someone's standing, opposing admiration.\n\n• (C) disregard: Means total lack of attention or consideration, which contradicts idolizing figures.\n\n• (D) belittlement: Means making someone seem small or worthless, contextually wrong."
+      },
+      {
+        "blankNo": 3,
+        "options": ["(A) veneration", "(B) deification", "(C) condemnation", "(D) adoration"],
+        "correct": "C",
+        "explanation": "• (A) veneration: Refers to showing deep respect and honor, which contradicts online mobbing.\n\n• (B) deification: Refers to elevating someone to god-like status, opposing harsh criticism.\n\n• (C) condemnation (Correct Answer): Refers to severe public disapproval or censure. It matches the context of online mobbing.\n\n• (D) adoration: Means deep love and reverence, directly contrasting public censure."
+      },
+      {
+        "blankNo": 4,
+        "options": ["(A) disparagement", "(B) worship", "(C) reverence", "(D) glorification"],
+        "correct": "A",
+        "explanation": "• (A) disparagement (Correct Answer): Refers to speaking ill of or belittling someone. It serves as the negative contrast to 'extreme praise'.\n\n• (B) worship: Means showing deep devotion or reverence, which aligns with praise rather than contrasting it.\n\n• (C) reverence: Refers to profound respect, which does not fit the negative contrast required.\n\n• (D) glorification: Means praising or honoring someone excessively, matching praise rather than contrasting it."
+      },
+      {
+        "blankNo": 5,
+        "options": ["(A) loathing", "(B) disrespect", "(C) reverence", "(D) detraction"],
+        "correct": "C",
+        "explanation": "• (A) loathing: Refers to intense hatred, which is inappropriate for recognizing genuine skills.\n\n• (B) disrespect: Refers to lack of politeness or regard, opposing healthy recognition.\n\n• (C) reverence (Correct Answer): Refers to deep respect and appreciation shown toward genuine talents and character.\n\n• (D) detraction: Means taking away merit or reputation, contextually incorrect."
+      }
+    ]
+  },
+  {
+    "id": "cloze_22",
+    "passage": "Constructive criticism is an essential part of personal growth, but constant (1)___ can severely damage an individual's self-esteem. When feedback turns into continuous (2)___, employees lose their motivation and confidence. Managers who routinely show complete (3)___ for their team's hard work foster an environment filled with resentment and (4)___. Healthy organizations understand that true leadership requires mutual respect and (5)___, rather than reducing employees' contributions to insignificance.",
+    "questions": [
+      {
+        "blankNo": 1,
+        "options": ["(A) veneration", "(B) belittlement", "(C) glorification", "(D) adoration"],
+        "correct": "B",
+        "explanation": "• (A) veneration: Means showing high respect, which builds confidence rather than damaging self-esteem.\n\n• (B) belittlement (Correct Answer): Refers to making someone feel small, worthless, or unimportant, which damages self-esteem.\n\n• (C) glorification: Refers to praising excessively, opposing negative feedback.\n\n• (D) adoration: Refers to deep love and respect, contextually opposite."
+      },
+      {
+        "blankNo": 2,
+        "options": ["(A) detraction", "(B) worship", "(C) exaltation", "(D) idolatry"],
+        "correct": "A",
+        "explanation": "• (A) detraction (Correct Answer): Refers to the act of taking away merit or reputation, matching continuous negative feedback.\n\n• (B) worship: Refers to showing extreme reverence, contextually incorrect for workplace criticism.\n\n• (C) exaltation: Means raising someone in honor or status, opposing workplace harassment.\n\n• (D) idolatry: Refers to blind worship or devotion, contextually irrelevant."
+      },
+      {
+        "blankNo": 3,
+        "options": ["(A) deference", "(B) awe", "(C) disregard", "(D) esteem"],
+        "correct": "C",
+        "explanation": "• (A) deference: Refers to polite submission and respect, opposing toxic leadership.\n\n• (B) awe: Refers to reverential respect, which does not fit unappreciative managers.\n\n• (C) disregard (Correct Answer): Refers to complete lack of attention, care, or consideration for employees' efforts.\n\n• (D) esteem: Refers to high regard and respect, opposing workplace neglect."
+      },
+      {
+        "blankNo": 4,
+        "options": ["(A) devotion", "(B) loathing", "(C) homage", "(D) acclaim"],
+        "correct": "B",
+        "explanation": "• (A) devotion: Refers to strong love and loyalty, contradicting resentment.\n\n• (B) loathing (Correct Answer): Refers to intense dislike or disgust, pairing naturally with workplace resentment.\n\n• (C) homage: Refers to special honor shown publicly, contextually wrong.\n\n• (D) acclaim: Means enthusiastic public approval, opposing workplace tension."
+      },
+      {
+        "blankNo": 5,
+        "options": ["(A) censure", "(B) vilification", "(C) veneration", "(D) disparagement"],
+        "correct": "C",
+        "explanation": "• (A) censure: Refers to harsh criticism or formal disapproval, opposing healthy leadership.\n\n• (B) vilification: Means abusively disparaging someone, contextually incorrect.\n\n• (C) veneration (Correct Answer): Refers to showing deep respect and honor, pairing with 'mutual respect'.\n\n• (D) disparagement: Means speaking deprecatingly about someone, opposing positive workplace culture."
       }
     ]
   }

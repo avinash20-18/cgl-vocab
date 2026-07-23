@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSC CGL Exam Vocab Platform</title>
+    
     <!-- Console warning avoiding icon declaration -->
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Scripts deferred in correct execution order -->
     <script src="words.js" defer></script>
     <script src="script.js" defer></script>
 </head>
@@ -15,6 +18,7 @@
 <body>
 
     <div class="quiz-container">
+        
         <!-- 1. QUIZ SCREEN -->
         <div id="quiz-box">
             <div class="header">
@@ -29,11 +33,11 @@
             </div>
 
             <div class="question-box">
-                <div class="question-text" id="q-text">Loading questions...</div>
+                <div class="question-text" id="q-text" aria-live="polite">Loading questions...</div>
                 <div class="options-list" id="options-container"></div>
             </div>
 
-            <div class="explanation-box" id="explanation-container" style="display: none;">
+            <div class="explanation-box" id="explanation-container" style="display: none;" aria-live="polite">
                 <strong>Explanation:</strong> <span id="explanation-text"></span>
             </div>
 
@@ -71,10 +75,15 @@
                 </div>
             </div>
 
+            <!-- Detailed Question-by-Question Review -->
             <div id="review-section" class="review-container"></div>
 
-            <button class="restart-btn" onclick="restartQuiz()">Attempt Again</button>
+            <div class="result-actions" style="margin-top: 20px; display: flex; gap: 10px; justify-content: center;">
+                <button class="restart-btn" onclick="restartQuiz()">Attempt Again</button>
+                <button class="quiz-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆️ Scroll to Top</button>
+            </div>
         </div>
+
     </div>
 
 </body>

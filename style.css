@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7f9;
@@ -55,11 +59,13 @@ body {
     color: #2d3748;
     border: 1px solid #e9ecef;
     border-left-width: 5px;
+    white-space: pre-line;
 }
 
 .cloze-passage-container p {
     margin: 8px 0 0 0;
     color: #4a5568;
+    white-space: pre-line;
 }
 
 .question-box {
@@ -144,6 +150,7 @@ body {
     color: #212529;
 }
 
+.quiz-btn,
 #skip-button,
 #prev-button,
 #next-button,
@@ -180,6 +187,7 @@ body {
     border-color: #1e7e34;
 }
 
+.quiz-btn:active,
 #skip-button:active,
 #prev-button:active,
 #next-button:active,
@@ -187,6 +195,7 @@ body {
     transform: scale(0.98);
 }
 
+/* Live Question Explanation Box */
 .explanation-box {
     margin-top: 20px;
     padding: 15px;
@@ -195,7 +204,10 @@ body {
     background-color: #fff9db;
     color: #664d03;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
+    white-space: pre-line; /* Multi-line option breakdowns (\n) enable */
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 /* Result Screen Styles */
@@ -215,11 +227,17 @@ body {
     border: 1px solid #007bff;
     color: white;
     width: 100%;
-    margin-top: 25px;
 }
 
 .restart-btn:hover {
     background-color: #0069d9;
+}
+
+.result-actions {
+    margin-top: 25px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
 }
 
 /* Dashboard Analytics Grid */
@@ -282,12 +300,17 @@ body {
 
 /* Review Section */
 .review-container {
-    max-height: 380px;
+    max-height: 420px;
     overflow-y: auto;
     margin-top: 25px;
     padding-right: 8px;
     border-top: 1px solid #eee;
     text-align: left;
+}
+
+.review-container ul {
+    list-style-type: none;
+    padding-left: 5px;
 }
 
 .review-container::-webkit-scrollbar {
@@ -357,6 +380,10 @@ body {
         width: 100%;
         padding: 14px 0;
         text-align: center;
+    }
+
+    .result-actions {
+        flex-direction: column;
     }
 
     .analysis-container {
